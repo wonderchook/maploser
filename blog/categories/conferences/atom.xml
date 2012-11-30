@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: conferences | Kate Chapman - Maploser]]></title>
-  <link href="http://wonderchook.github.com/maploser/blog/categories/conferences/atom.xml" rel="self"/>
-  <link href="http://wonderchook.github.com/maploser/"/>
-  <updated>2012-11-30T16:01:26+08:00</updated>
-  <id>http://wonderchook.github.com/maploser/</id>
+  <link href="http://maploser.com/blog/categories/conferences/atom.xml" rel="self"/>
+  <link href="http://maploser.com/"/>
+  <updated>2012-11-30T16:45:51+08:00</updated>
+  <id>http://maploser.com/</id>
   <author>
     <name><![CDATA[Kate Chapman]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[FOSS4G-NA Join Us, Contribute, Submit a Talk]]></title>
-    <link href="http://wonderchook.github.com/maploser/blog/2012/02/27/foss4g-na-join-us-contribute-submit-a-talk/"/>
+    <link href="http://maploser.com/blog/2012/02/27/foss4g-na-join-us-contribute-submit-a-talk/"/>
     <updated>2012-02-27T10:54:02+08:00</updated>
-    <id>http://wonderchook.github.com/maploser/blog/2012/02/27/foss4g-na-join-us-contribute-submit-a-talk</id>
+    <id>http://maploser.com/blog/2012/02/27/foss4g-na-join-us-contribute-submit-a-talk</id>
     <content type="html"><![CDATA[<p><img src="http://www.maploser.com/wp-content/uploads/2012/02/FOSS4G-NA-1.png" alt="FOSS4G NA 1" /></p>
 
 <p>There are many events in the Washington D.C. area related to geo. One is coming up which is sure to be educational and fun,Â <a href="http://foss4g-na.org/">FOSS4G North America</a>. FOSS4G-NAÂ is taking place April 10th-12th at the Walter E. Washington Convention Center in Washington D.C.Â Confession I'm on the program committee, but I'm not just saying you should go because of that. FOSS4G this year was in the United States in Denver, Colorado, it was the first year I attended and I both learned a lot and met others in the community I didn't yet know. If you didn't make it out to Denver you should definitely attend and if you did I doubt I have to convince you.</p>
@@ -38,9 +38,9 @@
   
   <entry>
     <title type="html"><![CDATA[Events of the Past/Future]]></title>
-    <link href="http://wonderchook.github.com/maploser/blog/2009/04/05/events-of-the-pastfuture/"/>
+    <link href="http://maploser.com/blog/2009/04/05/events-of-the-pastfuture/"/>
     <updated>2009-04-05T17:34:23+08:00</updated>
-    <id>http://wonderchook.github.com/maploser/blog/2009/04/05/events-of-the-pastfuture</id>
+    <id>http://maploser.com/blog/2009/04/05/events-of-the-pastfuture</id>
     <content type="html"><![CDATA[<p>I'm making an effort to go to more events lately, below are MapLoser approved events I have attended or will attend.</p>
 
 <p>This past week in addition to the OSM Baltimore Mapping party I also attended <a href="http://socialmatchbox.com/wp/">Social Matchbox DC,</a> which is a start-upÂ entrepreneurÂ type of event. Â When ever I'm around start-up types all I can think is "I need an idea I can be that passionate about." Â Of course sometimes to others it might appear as unbridledÂ enthusiasmÂ but if you don't believe in your idea who else is going to?</p>

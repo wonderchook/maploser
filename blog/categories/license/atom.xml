@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: license | Kate Chapman - Maploser]]></title>
-  <link href="http://wonderchook.github.com/maploser/blog/categories/license/atom.xml" rel="self"/>
-  <link href="http://wonderchook.github.com/maploser/"/>
-  <updated>2012-11-30T16:01:26+08:00</updated>
-  <id>http://wonderchook.github.com/maploser/</id>
+  <link href="http://maploser.com/blog/categories/license/atom.xml" rel="self"/>
+  <link href="http://maploser.com/"/>
+  <updated>2012-11-30T16:45:51+08:00</updated>
+  <id>http://maploser.com/</id>
   <author>
     <name><![CDATA[Kate Chapman]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[ODbL, What the Heck Can You Do with It?]]></title>
-    <link href="http://wonderchook.github.com/maploser/blog/2012/03/04/odbl-what-the-heck-can-you-do-with-it/"/>
+    <link href="http://maploser.com/blog/2012/03/04/odbl-what-the-heck-can-you-do-with-it/"/>
     <updated>2012-03-04T04:01:30+08:00</updated>
-    <id>http://wonderchook.github.com/maploser/blog/2012/03/04/odbl-what-the-heck-can-you-do-with-it</id>
+    <id>http://maploser.com/blog/2012/03/04/odbl-what-the-heck-can-you-do-with-it</id>
     <content type="html"><![CDATA[<p><em>disclaimer: I am not a lawyer, I've never pretended to be a lawyer and I'm not qualified to give legal advice. This is myÂ interpretationÂ of what the ODbL license means for usage in OpenStreetMap and what I am going to follow unless someone tells me otherwise.</em></p>
 
 <h2>Background</h2>
@@ -123,9 +123,9 @@
   
   <entry>
     <title type="html"><![CDATA[Imagery Pre-disaster Let's Do Better]]></title>
-    <link href="http://wonderchook.github.com/maploser/blog/2011/07/06/imagery-pre-disaster-lets-do-better/"/>
+    <link href="http://maploser.com/blog/2011/07/06/imagery-pre-disaster-lets-do-better/"/>
     <updated>2011-07-06T23:57:20+08:00</updated>
-    <id>http://wonderchook.github.com/maploser/blog/2011/07/06/imagery-pre-disaster-lets-do-better</id>
+    <id>http://maploser.com/blog/2011/07/06/imagery-pre-disaster-lets-do-better</id>
     <content type="html"><![CDATA[<p>This week is the first expert meeting regarding Space Based Technology and Crowd-Sourcing being hosted by UN-SPIDER.  I am not attending, but from the Twitter stream (#spidercrowd) it appears there has been a lively discussion on using satellite information and crowd-sourcing for disaster response.  What I believe is often missing from these types of conversations is preparedness.  Maybe it is presumptuous of me to discuss preparedness when imagery isn't available freely every time for every disaster.</p>
 
 <p>I'm typing this email from Padang, Indonesia in Western Sumatra.  Yesterday I hosted a workshop at the <a href="http://www.unand.ac.id/">University of Andalas</a> to teach them about OpenStreetMap as part of the Humanitarian OpenStreetMap Team's project in Indonesia.  This is the fifth workshop I've done at a University in Indonesia. Things went well, much like all of the other workshops I've given.  Students were excited and picked up the tools very quickly.  The one difference?  Available imagery.</p>

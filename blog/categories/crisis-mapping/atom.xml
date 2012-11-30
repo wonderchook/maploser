@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: Crisis Mapping | Kate Chapman - Maploser]]></title>
-  <link href="http://wonderchook.github.com/maploser/blog/categories/crisis-mapping/atom.xml" rel="self"/>
-  <link href="http://wonderchook.github.com/maploser/"/>
-  <updated>2012-11-30T16:01:26+08:00</updated>
-  <id>http://wonderchook.github.com/maploser/</id>
+  <link href="http://maploser.com/blog/categories/crisis-mapping/atom.xml" rel="self"/>
+  <link href="http://maploser.com/"/>
+  <updated>2012-11-30T16:45:51+08:00</updated>
+  <id>http://maploser.com/</id>
   <author>
     <name><![CDATA[Kate Chapman]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Crowd funding Satellite Imagery]]></title>
-    <link href="http://wonderchook.github.com/maploser/blog/2012/03/18/crowd-funding-satellite-imagery/"/>
+    <link href="http://maploser.com/blog/2012/03/18/crowd-funding-satellite-imagery/"/>
     <updated>2012-03-18T03:59:22+08:00</updated>
-    <id>http://wonderchook.github.com/maploser/blog/2012/03/18/crowd-funding-satellite-imagery</id>
+    <id>http://maploser.com/blog/2012/03/18/crowd-funding-satellite-imagery</id>
     <content type="html"><![CDATA[<p>I have discussed the need for <a href="http://www.maploser.com/2011/07/06/imagery-pre-disaster-lets-do-better/">access to satellite information</a>Â for <a href="http://www.maploser.com/2010/11/16/openstreetmap-and-crisis-response-why-it-is-sometimes-about-the-license/">crisis response often</a>. When there is a large scale disaster imagery tends to become available relatively quickly, but in cases of smaller events or mapping for preparedness this is not always the case. In my work in Indonesia over the past year we have been fortunate to be able to purchase imagery of <a href="http://tasks.hotosm.org/job/9">Padang City</a>Â (OpenStreetMap login required)Â and additionally Microsoft has updated much of the imagery available through Bing Maps. This access has been enabled by the purchasing power of large organizations, AusAID and Microsoft respectively. Work continues to use similarly sized organizations to increase access in other areas, but the process is slow and there is no guarantee imagery will be available everywhere, every time. Yet. Currently theÂ digitizationÂ of the imagery is performed by the crowd, what about enabling them to assist in the purchase?</p>
 
 <h2>Lack of Physical or Financial Access</h2>
@@ -49,9 +49,9 @@
   
   <entry>
     <title type="html"><![CDATA[Book Sprints for Humanitarian Response]]></title>
-    <link href="http://wonderchook.github.com/maploser/blog/2011/10/23/book-sprints-for-humanitarian-response/"/>
+    <link href="http://maploser.com/blog/2011/10/23/book-sprints-for-humanitarian-response/"/>
     <updated>2011-10-23T02:52:56+08:00</updated>
-    <id>http://wonderchook.github.com/maploser/blog/2011/10/23/book-sprints-for-humanitarian-response</id>
+    <id>http://maploser.com/blog/2011/10/23/book-sprints-for-humanitarian-response</id>
     <content type="html"><![CDATA[<p>Over the past week I've been at Google in Mountain View working on a book sprint for OpenStreetMap.  I had no idea when the week started that we were going to write a book in a week, nor that it was possible to do that.  I also wasn't familiar with <a href="http://flossmanuals.net/">FLOSS Manuals</a> which operates under the premise that not only should software be open and free but the documentation should be as well.</p>
 
 <p>The premise of the week was to bring individuals from open-source projects together as well as others specializing in documentation in as well to help.  A combination of an unconference and then intensive documentation writing ensued.  The OpenStreetMap group included Ian Dees, Shaun McDonald and myself from the project.  We additionally had Anne Goldenberg, Anne Gentle, Tomi Toivio and NÃ³irÃ­n Plunkett.  Having so many people from outside OpenStreetMap was extremely valuable.  They were able to help us be far more clear about the materials and see past assumptions we may have made about topics.  At the end we had a published book, which <a href="http://www.lulu.com/product/paperback/openstreetmap/18173430">can be purchased from Lulu.com</a>. Having a completed work at the end of the sprint was a great feeling.  Often after hackathons that is missing for me and it ends up feeling like we just flogged ourselves with some code for a set period of time.</p>
@@ -66,9 +66,9 @@
   
   <entry>
     <title type="html"><![CDATA[Disaster 2.0, Innovation in the Disaster Response Space]]></title>
-    <link href="http://wonderchook.github.com/maploser/blog/2011/03/29/disaster-2-0-innovation-in-the-disaster-response-space/"/>
+    <link href="http://maploser.com/blog/2011/03/29/disaster-2-0-innovation-in-the-disaster-response-space/"/>
     <updated>2011-03-29T03:23:12+08:00</updated>
-    <id>http://wonderchook.github.com/maploser/blog/2011/03/29/disaster-2-0-innovation-in-the-disaster-response-space</id>
+    <id>http://maploser.com/blog/2011/03/29/disaster-2-0-innovation-in-the-disaster-response-space</id>
     <content type="html"><![CDATA[<p>Today the United Nations released their report "Disaster Relief 2.0: The Future of Information Sharing in Humanitarian Emergencies." Â Two members of the <a href="http://hot.openstreetmap.org">Humanitarian OpenStreetMap Team</a> were interviewed for this report, myself and Nicolas Chavent. Â  Also of course many other from friend and partner organizations were interviewed as well.</p>
 
 <p>For anyone interested in open data or new methods of crisis response I recommend you read the <a href="http://issuu.com/unfoundation/docs/disaster_relief20_report">whole report</a>. Â For others, well a seventy-two page report might seem like a bit much so what might be key is the <a href="http://www.unfoundation.org/assets/pdf/disaster-relief-2-findings-1.pdf">recommendations</a>. Â Key is the idea that information communities (called V&amp;TC in the report) came together after the earthquake in Haiti to help. Â Much of this revolved around the sharing and collection of data. Â The value of this type of activity to make a difference was clearly shown. Â The real question though is how do you make this happen again? Â And how can this fit into a framework that makes sense from the perspective of the large organizations as well as the informal communities.</p>
@@ -89,9 +89,9 @@
   
   <entry>
     <title type="html"><![CDATA[OpenStreetMap in the First Month After the Haiti Quake]]></title>
-    <link href="http://wonderchook.github.com/maploser/blog/2010/09/06/openstreetmap-in-the-first-month-after-the-haiti-quake/"/>
+    <link href="http://maploser.com/blog/2010/09/06/openstreetmap-in-the-first-month-after-the-haiti-quake/"/>
     <updated>2010-09-06T10:39:39+08:00</updated>
-    <id>http://wonderchook.github.com/maploser/blog/2010/09/06/openstreetmap-in-the-first-month-after-the-haiti-quake</id>
+    <id>http://maploser.com/blog/2010/09/06/openstreetmap-in-the-first-month-after-the-haiti-quake</id>
     <content type="html"><![CDATA[<p>There is no question the collaboration of the OpenStreetMap community in the month following the earthquake in Haiti was amazing.  People from all over the world traced satellite imagery and imported data to create comprehensive street data for Port-au-Prince and the rest of the earthquake affected parts of the country.  After reading <a href="http://www.ethanzuckerman.com/blog/2010/09/02/crisis-commons-and-the-challenges-of-distributed-disaster-response/">this Ethan Zuckerman blog post</a>, I wanted to do some analysis of who exactly made the map. Was it primarily the already existing <a href="http://www.openstreetmap.org">OpenStreetMap</a> community?  Or was it those who didn't want to just text message their ten dollars and actually wanted to do something to help and OpenStreetMap became a venue for that?  This new group would mostly individuals coming from <a href="http://crisiscommons.org/">CrisisCommons</a> during the many CrisisCamps that occurred during this time.  I've always stated that it was the already existing OpenStreetMap community that did the majority of the map, but I was going on gut instinct, not actual statistics and facts.</p>
 
 <p>What was lacking to provide facts and statistics was an analysis of the edits that occurred in the first month in Haiti.  Ian Dees was nice enough to download the daily edits from January 12th through Feburary 11th for me and put them in a SQLite database.  If you wish to do your own analysis that database is available <a href="http://www.maploser.com/edits.sqlite">here</a>.  I did all of my analysis in SQLite with queries, except for the graphs you see, which were created in OpenOffice.  It should also be noted that editing a node within the context of my analysis means either creating, deleting or changing a node.  A node for those not fluent in OSM terminology is essentially a point.  Multiple nodes strung together create lines and a series of nodes that connect back to each other create polygons.  So here is a somewhat belated but I believe necessary analysis.</p>
@@ -116,9 +116,9 @@
   
   <entry>
     <title type="html"><![CDATA[Humanitarian OpenStreetMap Team Mission 3 to Haiti - Day 1]]></title>
-    <link href="http://wonderchook.github.com/maploser/blog/2010/06/14/humanitarian-openstreetmap-team-mission-3-to-haiti-day-1/"/>
+    <link href="http://maploser.com/blog/2010/06/14/humanitarian-openstreetmap-team-mission-3-to-haiti-day-1/"/>
     <updated>2010-06-14T17:41:02+08:00</updated>
-    <id>http://wonderchook.github.com/maploser/blog/2010/06/14/humanitarian-openstreetmap-team-mission-3-to-haiti-day-1</id>
+    <id>http://maploser.com/blog/2010/06/14/humanitarian-openstreetmap-team-mission-3-to-haiti-day-1</id>
     <content type="html"><![CDATA[<p>Today I'm off on a 2 and a half week trip with the <a href="http://wiki.openstreetmap.org/wiki/Humanitarian_OSM_Team">Humanitarian OpenStreetMap Team</a> in Haiti. After the earthquake in January OpenStreetMap proved to be an invaluable basemap of Haiti.  Initially all of the edits were occurring remotely from all over the world.  The community within OSM created various extracts of the data used by GIS Analysts, USARS teams and many others working on the ground and from afar.  The amazing collaboration during that time has been captured in various blog posts and<a href="http://www.youtube.com/watch?v=fJvR84UX5RI"> conference talks.
 </a>
 Now that actions have switched from immediate emergency to rebuilding and cleanup the goals of the Humanitarian OpenStreetMap team have changed some as well.  Our focus is on capacity building and training those working on the ground.  Through intensive all day training sessions we lead groups from data collection with GPS and Walking Papers to editing within JOSM (Java OpenStreetMap Editor).  Following up on two previous missions that included mapping within Port-au-Prince and Jacmel our intent is to continue moving outward into other cities within Haiti.  Now that hurricane season is upon us building this mapping capacity is more important than ever.</p>

@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: Map Commentary | Kate Chapman - Maploser]]></title>
-  <link href="http://wonderchook.github.com/maploser/blog/categories/map-commentary/atom.xml" rel="self"/>
-  <link href="http://wonderchook.github.com/maploser/"/>
-  <updated>2012-11-30T16:01:26+08:00</updated>
-  <id>http://wonderchook.github.com/maploser/</id>
+  <link href="http://maploser.com/blog/categories/map-commentary/atom.xml" rel="self"/>
+  <link href="http://maploser.com/"/>
+  <updated>2012-11-30T16:45:51+08:00</updated>
+  <id>http://maploser.com/</id>
   <author>
     <name><![CDATA[Kate Chapman]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Update from Google Map on my Problem]]></title>
-    <link href="http://wonderchook.github.com/maploser/blog/2009/12/01/update-from-google-map-on-my-problem/"/>
+    <link href="http://maploser.com/blog/2009/12/01/update-from-google-map-on-my-problem/"/>
     <updated>2009-12-01T06:10:29+08:00</updated>
-    <id>http://wonderchook.github.com/maploser/blog/2009/12/01/update-from-google-map-on-my-problem</id>
+    <id>http://maploser.com/blog/2009/12/01/update-from-google-map-on-my-problem</id>
     <content type="html"><![CDATA[<p>Today I received notification that the problem I reported on Google Maps was corrected.Â  You can now route through White's Ferry between Leesburg and Martinsburg, MD.Â  Below is the response I received:</p>
 
 <p>Google Maps has been updated to correct the problem you reported. You can see the update here, and if you still see a problem, please tell us more about the issue:
@@ -38,9 +38,9 @@ The Google Maps team</p>
   
   <entry>
     <title type="html"><![CDATA[Routing with the new Google Maps Data]]></title>
-    <link href="http://wonderchook.github.com/maploser/blog/2009/10/08/routing-with-the-new-google-maps-data/"/>
+    <link href="http://maploser.com/blog/2009/10/08/routing-with-the-new-google-maps-data/"/>
     <updated>2009-10-08T18:19:19+08:00</updated>
-    <id>http://wonderchook.github.com/maploser/blog/2009/10/08/routing-with-the-new-google-maps-data</id>
+    <id>http://maploser.com/blog/2009/10/08/routing-with-the-new-google-maps-data</id>
     <content type="html"><![CDATA[<p>I spent some time look around Google Maps since they stopped using Teleatlas in the United States this week. Â Essentially I poked around looking for errors that are usually in the street vendor data. Â Mostly these are minor errors such as a single line segment misspelled. Â  The problems usually appear to have originated with the original <a href="http://www.census.gov/geo/www/tiger/">TIGER</a> street data and never been repaired.</p>
 
 <p>For the areas I'm familiar with the data looks good. Â There has been lots of conjecture as to where all the data was sourced. Â I suspect at least in L<a href="http://www.loudoun.gov/">oudoun County</a> where I live the source is the local government, that is unless the occasional segment errors were fixed by Google. Â The one error I did find was an edge case within the routing.</p>
@@ -57,9 +57,9 @@ The Google Maps team</p>
   
   <entry>
     <title type="html"><![CDATA[Gecoding Fact or Fiction?]]></title>
-    <link href="http://wonderchook.github.com/maploser/blog/2009/04/08/gecoding-fact-or-fiction/"/>
+    <link href="http://maploser.com/blog/2009/04/08/gecoding-fact-or-fiction/"/>
     <updated>2009-04-08T05:36:52+08:00</updated>
-    <id>http://wonderchook.github.com/maploser/blog/2009/04/08/gecoding-fact-or-fiction</id>
+    <id>http://maploser.com/blog/2009/04/08/gecoding-fact-or-fiction</id>
     <content type="html"><![CDATA[<p>This week the <a href="http://www.latimes.com/news/local/la-me-geocoding-errors5-2009apr05,1,6184660.story">L.A. Times reported</a> a geocoding glitch that displayed crimes that could not be mapped defaulting close to city hall. To GIS industry folks something like this happening may not be a surprise.Â  According to Wikipedia "<strong>Geocoding</strong> is the process of finding associated <a href="http://en.wikipedia.org/wiki/Geographic_coordinates">geographic coordinates</a> (often expressed as <a href="http://en.wikipedia.org/wiki/Latitude">latitude</a> and <a href="http://en.wikipedia.org/wiki/Longitude">longitude</a>) from other geographic data, such as <a href="http://en.wikipedia.org/wiki/Street_address">street addresses</a>, or <a href="http://en.wikipedia.org/wiki/Zip_codes">zip codes</a> (<a href="http://en.wikipedia.org/wiki/Postal_codes">postal codes</a>). "Â  To take that to a more generic level you could really say "earth" and put a dot on a map and call that geocoding.Â  Whenever data is placed on a map a certain level of skepticism is required.</p>
 
 <p>Though it is true that placing data accurately on a map is an import part of GIS, but I think there is an equally as important aspect.Â  That aspect is if the application is not going to provide only street level geocoding or better then the application needs to notify the user.Â  I entered â€œ123 Somewhere that I made up Los Angeles, 90001â€ into multiple online mapping application and records the results.
@@ -101,9 +101,9 @@ Virtual Earth</a> defaults this address to ZIP code centroid and does state â�
   
   <entry>
     <title type="html"><![CDATA[Mapping of the Recovery]]></title>
-    <link href="http://wonderchook.github.com/maploser/blog/2009/02/18/mapping-of-the-recovery/"/>
+    <link href="http://maploser.com/blog/2009/02/18/mapping-of-the-recovery/"/>
     <updated>2009-02-18T07:35:27+08:00</updated>
-    <id>http://wonderchook.github.com/maploser/blog/2009/02/18/mapping-of-the-recovery</id>
+    <id>http://maploser.com/blog/2009/02/18/mapping-of-the-recovery</id>
     <content type="html"><![CDATA[<p>While visiting <a href="http://www.recovery.gov">Recovery.gov</a> I noticed there was a thematic map displaying Estimated Job Creation. The <a href="http://www.recovery.gov/?q=content/estimated-job-effect">Estimated Job Effect</a> map looks like a fairly innocuous map. Until I point out that the U.S. Government has outsourced this map to <a href="http://www.fusioncharts.com/maps/">India</a>. I find it somewhat ironic that the U.S. government has outsourced the display of estimated job growth in the U.S. due to the stimulus. Perhaps there should be a tiny map of India added to account for the $499 roughly that would have been spent on the licensing of Fusion Maps.</p>
 
 <p>Proof is in the page source here:</p>

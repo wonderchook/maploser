@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: TDD | Kate Chapman - Maploser]]></title>
-  <link href="http://wonderchook.github.com/maploser/blog/categories/tdd/atom.xml" rel="self"/>
-  <link href="http://wonderchook.github.com/maploser/"/>
-  <updated>2012-11-30T16:01:26+08:00</updated>
-  <id>http://wonderchook.github.com/maploser/</id>
+  <link href="http://maploser.com/blog/categories/tdd/atom.xml" rel="self"/>
+  <link href="http://maploser.com/"/>
+  <updated>2012-11-30T16:45:51+08:00</updated>
+  <id>http://maploser.com/</id>
   <author>
     <name><![CDATA[Kate Chapman]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Further Adventures in Rails Testing]]></title>
-    <link href="http://wonderchook.github.com/maploser/blog/2009/09/27/further-adventures-in-rails-testinghudsonmicr/"/>
+    <link href="http://maploser.com/blog/2009/09/27/further-adventures-in-rails-testinghudsonmicr/"/>
     <updated>2009-09-27T20:21:54+08:00</updated>
-    <id>http://wonderchook.github.com/maploser/blog/2009/09/27/further-adventures-in-rails-testinghudsonmicr</id>
+    <id>http://maploser.com/blog/2009/09/27/further-adventures-in-rails-testinghudsonmicr</id>
     <content type="html"><![CDATA[<p>Yesterday I went to "<a href="http://www.meetup.com/rubyhacknight/calendar/11340056/">Hack Day 'Effective Testing for Rails Projects'</a>" at <a href="http://www.viget.com/">Viget Labs</a> in Falls Church. Â After Ruby DCamp I decided I was severely lacking in testing skills as a developer and I'm trying to do something to remedy that. Â With the promise of "building a simple Rails application and a pair-programming environment" as well as "demonstrating effective testing techniques" I was sold.</p>
 
 <p>I come from a Quality Assurance background so I am used to testing software as it is written. Â Just in the past week have I felt like I am beginning to grasp testing software while it is written. Â The live coding at Hack Day helped further that. Â  The example application we used was "<a href="http://github.com/mig/outtolunch">Out To Lunch</a>," which is a simple app that utilizes the <a href="http://www.yelp.com/developers/documentation">Yelp API</a> to search for locations to eat and then will tell you where to eat lunch each day.</p>

@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Kate Chapman - Maploser]]></title>
-  <link href="http://wonderchook.github.com/maploser/atom.xml" rel="self"/>
-  <link href="http://wonderchook.github.com/maploser/"/>
-  <updated>2012-11-30T16:01:26+08:00</updated>
-  <id>http://wonderchook.github.com/maploser/</id>
+  <link href="http://maploser.com/atom.xml" rel="self"/>
+  <link href="http://maploser.com/"/>
+  <updated>2012-11-30T16:45:51+08:00</updated>
+  <id>http://maploser.com/</id>
   <author>
     <name><![CDATA[Kate Chapman]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[My Shuttleworth Application]]></title>
-    <link href="http://wonderchook.github.com/maploser/blog/2012/05/01/my-shuttleworth-application/"/>
+    <link href="http://maploser.com/blog/2012/05/01/my-shuttleworth-application/"/>
     <updated>2012-05-01T12:17:15+08:00</updated>
-    <id>http://wonderchook.github.com/maploser/blog/2012/05/01/my-shuttleworth-application</id>
+    <id>http://maploser.com/blog/2012/05/01/my-shuttleworth-application</id>
     <content type="html"><![CDATA[<p>The <a href="http://www.shuttleworthfoundation.org/">Shuttleworth Foundation</a> provides one year grants to individuals so they can focus fully on a project for one year. Â This focus allows those individuals to move their projects forward and make significant progress. Â I am applying for a fellowship, as well as continuing to follow my personal guideline of posting everything openly whenever possible. The application process requires submission of a video, <a href="http://www.maploser.com/wp-content/uploads/2012/05/kate_chapman-resume.pdf">a CV</a> and to answer 4 questions about how things are currently and what one wants to do to create change. Find the answers to the questions and the video below, I&#8217;ve also uploaded a <a href="http://www.maploser.com/wp-content/uploads/2012/05/kate_chapman-resume.pdf">PDF copy of my resume</a>.</p>
 
 <p>The hard thing about posting this openly for me was the video. It is the first video of its kind that I&#8217;ve ever made completely on my own.</p>
@@ -101,9 +101,9 @@
   
   <entry>
     <title type="html"><![CDATA[All I Want for OpenStreetMap is Simple.]]></title>
-    <link href="http://wonderchook.github.com/maploser/blog/2012/03/30/all-i-want-for-openstreetmap-is-simple/"/>
+    <link href="http://maploser.com/blog/2012/03/30/all-i-want-for-openstreetmap-is-simple/"/>
     <updated>2012-03-30T03:32:36+08:00</updated>
-    <id>http://wonderchook.github.com/maploser/blog/2012/03/30/all-i-want-for-openstreetmap-is-simple</id>
+    <id>http://maploser.com/blog/2012/03/30/all-i-want-for-openstreetmap-is-simple</id>
     <content type="html"><![CDATA[<p>When I heard DevelopmentSeed put in a proposal for the Knight News Challenge to make <a href="http://newschallenge.tumblr.com/post/19450699629/new-contribution-tools-for-openstreetmap">simple contribution tools for OpenStreetMap</a> I was elated. I&#8217;ve long admired DevSeed for their beautiful maps and innovative uses of new technology. Â They are already well involved in OpenStreetMap through support of Mapnik, attendance at development sprints and use of OpenStreetMap information in MapBox. I think there is a real opportunity here to improve the ability of average people to contribute to and utilize OpenStreetMap. Â What is the key? Â Make the tools simple and the cycle to use the data just as easy as contributing.</p>
 
 <p>The Humanitarian OpenStreetMap Team probably spends more time than any other group in OpenStreetMap teaching the technology to non-technical users. Our work in Haiti and Indonesia has been with local people who are not programmers, nor GIS analysts. It can be a real struggle to ensure people can both enter data easily as well as utilize the information they have input. There are many great tools that help with this process, but it is far from smooth. Let&#8217;s look at the entire OpenStreetMap contribution cycle.</p>
@@ -150,9 +150,9 @@
   
   <entry>
     <title type="html"><![CDATA[Democratizing Spatial]]></title>
-    <link href="http://wonderchook.github.com/maploser/blog/2012/03/23/democratizing-spatial/"/>
+    <link href="http://maploser.com/blog/2012/03/23/democratizing-spatial/"/>
     <updated>2012-03-23T19:02:53+08:00</updated>
-    <id>http://wonderchook.github.com/maploser/blog/2012/03/23/democratizing-spatial</id>
+    <id>http://maploser.com/blog/2012/03/23/democratizing-spatial</id>
     <content type="html"><![CDATA[<p><em>note: this post was written as my position paper for the<a href="http://vespucci.org/programme"> 2012 VespucciÂ InstituteÂ </a>. It seemed a shame to bother writing something and just a couple people read it</em></p>
 
 <p>The power of providing spatial information to inform decision makers is without question. I believe the real question is â€œWho are decision makers?â€ I believe simply â€œeveryone.â€</p>
@@ -188,9 +188,9 @@
   
   <entry>
     <title type="html"><![CDATA[Crowd funding Satellite Imagery]]></title>
-    <link href="http://wonderchook.github.com/maploser/blog/2012/03/18/crowd-funding-satellite-imagery/"/>
+    <link href="http://maploser.com/blog/2012/03/18/crowd-funding-satellite-imagery/"/>
     <updated>2012-03-18T03:59:22+08:00</updated>
-    <id>http://wonderchook.github.com/maploser/blog/2012/03/18/crowd-funding-satellite-imagery</id>
+    <id>http://maploser.com/blog/2012/03/18/crowd-funding-satellite-imagery</id>
     <content type="html"><![CDATA[<p>I have discussed the need for <a href="http://www.maploser.com/2011/07/06/imagery-pre-disaster-lets-do-better/">access to satellite information</a>Â for <a href="http://www.maploser.com/2010/11/16/openstreetmap-and-crisis-response-why-it-is-sometimes-about-the-license/">crisis response often</a>. When there is a large scale disaster imagery tends to become available relatively quickly, but in cases of smaller events or mapping for preparedness this is not always the case. In my work in Indonesia over the past year we have been fortunate to be able to purchase imagery of <a href="http://tasks.hotosm.org/job/9">Padang City</a>Â (OpenStreetMap login required)Â and additionally Microsoft has updated much of the imagery available through Bing Maps. This access has been enabled by the purchasing power of large organizations, AusAID and Microsoft respectively. Work continues to use similarly sized organizations to increase access in other areas, but the process is slow and there is no guarantee imagery will be available everywhere, every time. Yet. Currently theÂ digitizationÂ of the imagery is performed by the crowd, what about enabling them to assist in the purchase?</p>
 
 <h2>Lack of Physical or Financial Access</h2>
@@ -222,9 +222,9 @@
   
   <entry>
     <title type="html"><![CDATA[ODbL, What the Heck Can You Do with It?]]></title>
-    <link href="http://wonderchook.github.com/maploser/blog/2012/03/04/odbl-what-the-heck-can-you-do-with-it/"/>
+    <link href="http://maploser.com/blog/2012/03/04/odbl-what-the-heck-can-you-do-with-it/"/>
     <updated>2012-03-04T04:01:30+08:00</updated>
-    <id>http://wonderchook.github.com/maploser/blog/2012/03/04/odbl-what-the-heck-can-you-do-with-it</id>
+    <id>http://maploser.com/blog/2012/03/04/odbl-what-the-heck-can-you-do-with-it</id>
     <content type="html"><![CDATA[<p><em>disclaimer: I am not a lawyer, I&#8217;ve never pretended to be a lawyer and I&#8217;m not qualified to give legal advice. This is myÂ interpretationÂ of what the ODbL license means for usage in OpenStreetMap and what I am going to follow unless someone tells me otherwise.</em></p>
 
 <h2>Background</h2>
@@ -330,9 +330,9 @@
   
   <entry>
     <title type="html"><![CDATA[FOSS4G-NA Join Us, Contribute, Submit a Talk]]></title>
-    <link href="http://wonderchook.github.com/maploser/blog/2012/02/27/foss4g-na-join-us-contribute-submit-a-talk/"/>
+    <link href="http://maploser.com/blog/2012/02/27/foss4g-na-join-us-contribute-submit-a-talk/"/>
     <updated>2012-02-27T10:54:02+08:00</updated>
-    <id>http://wonderchook.github.com/maploser/blog/2012/02/27/foss4g-na-join-us-contribute-submit-a-talk</id>
+    <id>http://maploser.com/blog/2012/02/27/foss4g-na-join-us-contribute-submit-a-talk</id>
     <content type="html"><![CDATA[<p><img src="http://www.maploser.com/wp-content/uploads/2012/02/FOSS4G-NA-1.png" alt="FOSS4G NA 1" /></p>
 
 <p>There are many events in the Washington D.C. area related to geo. One is coming up which is sure to be educational and fun,Â <a href="http://foss4g-na.org/">FOSS4G North America</a>. FOSS4G-NAÂ is taking place April 10th-12th at the Walter E. Washington Convention Center in Washington D.C.Â Confession I&#8217;m on the program committee, but I&#8217;m not just saying you should go because of that. FOSS4G this year was in the United States in Denver, Colorado, it was the first year I attended and I both learned a lot and met others in the community I didn&#8217;t yet know. If you didn&#8217;t make it out to Denver you should definitely attend and if you did I doubt I have to convince you.</p>
@@ -353,9 +353,9 @@
   
   <entry>
     <title type="html"><![CDATA[#pwyw for #geonerd Help, the Pay What You Want Experiment]]></title>
-    <link href="http://wonderchook.github.com/maploser/blog/2012/02/21/pwyw-for-geonerd-help-the-pay-what-you-want-experiment/"/>
+    <link href="http://maploser.com/blog/2012/02/21/pwyw-for-geonerd-help-the-pay-what-you-want-experiment/"/>
     <updated>2012-02-21T15:52:02+08:00</updated>
-    <id>http://wonderchook.github.com/maploser/blog/2012/02/21/pwyw-for-geonerd-help-the-pay-what-you-want-experiment</id>
+    <id>http://maploser.com/blog/2012/02/21/pwyw-for-geonerd-help-the-pay-what-you-want-experiment</id>
     <content type="html"><![CDATA[<p>I&#8217;ve begun blogging at wonderchook.com for anything non-geo related. Today I announced a &#8220;pay what you want&#8221; experiment. The idea is you can schedule my time to help with something and if you appreciate the help you can &#8220;pay what you want.&#8221; The reason for the experiment is I have my flexibility in my schedule since I consult for the <a href="http://hot.openstreetmap.org">Humanitarian OpenStreetMap Team</a>, so I have time to test out wacky ideas.</p>
 
 <h2>The Experiment</h2>
@@ -374,9 +374,9 @@
   
   <entry>
     <title type="html"><![CDATA[Imagery Processing...Lessons Learned?]]></title>
-    <link href="http://wonderchook.github.com/maploser/blog/2011/12/11/imagery-processing-lessons-learned/"/>
+    <link href="http://maploser.com/blog/2011/12/11/imagery-processing-lessons-learned/"/>
     <updated>2011-12-11T11:25:05+08:00</updated>
-    <id>http://wonderchook.github.com/maploser/blog/2011/12/11/imagery-processing-lessons-learned</id>
+    <id>http://maploser.com/blog/2011/12/11/imagery-processing-lessons-learned</id>
     <content type="html"><![CDATA[<p><strong>Confession: </strong>When I studed Geography at George Mason University I only took one class that had anything to do with imagery of any type.  Focused around manual interpretation of imagery mostly though we did use ERDAS Imagine once, for a lab.</p>
 
 <p>I could have taken more classes on remote sensing, but I didn&#8217;t.  My focus was more on cartography and statistical analysis.</p>
@@ -421,9 +421,9 @@
   
   <entry>
     <title type="html"><![CDATA[Book Sprints for Humanitarian Response]]></title>
-    <link href="http://wonderchook.github.com/maploser/blog/2011/10/23/book-sprints-for-humanitarian-response/"/>
+    <link href="http://maploser.com/blog/2011/10/23/book-sprints-for-humanitarian-response/"/>
     <updated>2011-10-23T02:52:56+08:00</updated>
-    <id>http://wonderchook.github.com/maploser/blog/2011/10/23/book-sprints-for-humanitarian-response</id>
+    <id>http://maploser.com/blog/2011/10/23/book-sprints-for-humanitarian-response</id>
     <content type="html"><![CDATA[<p>Over the past week I&#8217;ve been at Google in Mountain View working on a book sprint for OpenStreetMap.  I had no idea when the week started that we were going to write a book in a week, nor that it was possible to do that.  I also wasn&#8217;t familiar with <a href="http://flossmanuals.net/">FLOSS Manuals</a> which operates under the premise that not only should software be open and free but the documentation should be as well.</p>
 
 <p>The premise of the week was to bring individuals from open-source projects together as well as others specializing in documentation in as well to help.  A combination of an unconference and then intensive documentation writing ensued.  The OpenStreetMap group included Ian Dees, Shaun McDonald and myself from the project.  We additionally had Anne Goldenberg, Anne Gentle, Tomi Toivio and NÃ³irÃ­n Plunkett.  Having so many people from outside OpenStreetMap was extremely valuable.  They were able to help us be far more clear about the materials and see past assumptions we may have made about topics.  At the end we had a published book, which <a href="http://www.lulu.com/product/paperback/openstreetmap/18173430">can be purchased from Lulu.com</a>. Having a completed work at the end of the sprint was a great feeling.  Often after hackathons that is missing for me and it ends up feeling like we just flogged ourselves with some code for a set period of time.</p>
@@ -438,9 +438,9 @@
   
   <entry>
     <title type="html"><![CDATA[Imagery Pre-disaster Let's Do Better]]></title>
-    <link href="http://wonderchook.github.com/maploser/blog/2011/07/06/imagery-pre-disaster-lets-do-better/"/>
+    <link href="http://maploser.com/blog/2011/07/06/imagery-pre-disaster-lets-do-better/"/>
     <updated>2011-07-06T23:57:20+08:00</updated>
-    <id>http://wonderchook.github.com/maploser/blog/2011/07/06/imagery-pre-disaster-lets-do-better</id>
+    <id>http://maploser.com/blog/2011/07/06/imagery-pre-disaster-lets-do-better</id>
     <content type="html"><![CDATA[<p>This week is the first expert meeting regarding Space Based Technology and Crowd-Sourcing being hosted by UN-SPIDER.  I am not attending, but from the Twitter stream (#spidercrowd) it appears there has been a lively discussion on using satellite information and crowd-sourcing for disaster response.  What I believe is often missing from these types of conversations is preparedness.  Maybe it is presumptuous of me to discuss preparedness when imagery isn&#8217;t available freely every time for every disaster.</p>
 
 <p>I&#8217;m typing this email from Padang, Indonesia in Western Sumatra.  Yesterday I hosted a workshop at the <a href="http://www.unand.ac.id/">University of Andalas</a> to teach them about OpenStreetMap as part of the Humanitarian OpenStreetMap Team&#8217;s project in Indonesia.  This is the fifth workshop I&#8217;ve done at a University in Indonesia. Things went well, much like all of the other workshops I&#8217;ve given.  Students were excited and picked up the tools very quickly.  The one difference?  Available imagery.</p>
@@ -455,9 +455,9 @@
   
   <entry>
     <title type="html"><![CDATA[Off to Join the Circus!]]></title>
-    <link href="http://wonderchook.github.com/maploser/blog/2011/06/27/off-to-join-the-circus/"/>
+    <link href="http://maploser.com/blog/2011/06/27/off-to-join-the-circus/"/>
     <updated>2011-06-27T13:09:58+08:00</updated>
-    <id>http://wonderchook.github.com/maploser/blog/2011/06/27/off-to-join-the-circus</id>
+    <id>http://maploser.com/blog/2011/06/27/off-to-join-the-circus</id>
     <content type="html"><![CDATA[<p>Well not really off to join the circus, most of you probably already know about my employment change. I&#8217;m now working for the <a href="http://hot.openstreetmap.org">Humanitarian OpenStreetMap Team</a>.  I always referred to working on OpenStreetMap projects full-time as &#8220;running off to join the OpenStreetMap.&#8221;   That isn&#8217;t to say people haven&#8217;t done it previous, I think it is just is something many would love to do and few have figured out how to.  Much like joining the circus, though you trade in your clown nose for a GPS.  Or at least it can take a bit of a leap of faith in someways.</p>
 
 <p>Anyway I ended my full-time employment at GeoIQ on May 16th and began transitioning over to working for HOT.   I loved working for GeoIQ, my coworkers were wonderful and I really believe in the technology that was being built.  However last year after going to Haiti and working remotely on other projects HOT was helping on, I really found a calling.  Working on things for HOT is yet to have felt like work and I hope it never does.  After the transitioning my real first day of only working for HOT was about June 15th.  That day I attended a meeting in New York City with other members from the Volunteer Technical Communities and the United Nations (OCHA to be specific).  I thought this was a good kick-off to my new position, because it is one of my goals for myself.  To be able to help coordinate with large organizations and other tech response groups so we can all be more effective.   I also hope to do some fundraising for HOT so we can coordinate better when disasters do happen.  There is a need to have infrastructure, software to better assist with mapping as well as individuals to help coordinate.  This items don&#8217;t always translate into the need for funding, but I think there are going to be situations where it will.</p>
@@ -470,9 +470,9 @@
   
   <entry>
     <title type="html"><![CDATA[WhereCampDC Videos are Up!]]></title>
-    <link href="http://wonderchook.github.com/maploser/blog/2011/06/24/wherecampdc-videos-are-up/"/>
+    <link href="http://maploser.com/blog/2011/06/24/wherecampdc-videos-are-up/"/>
     <updated>2011-06-24T12:11:19+08:00</updated>
-    <id>http://wonderchook.github.com/maploser/blog/2011/06/24/wherecampdc-videos-are-up</id>
+    <id>http://maploser.com/blog/2011/06/24/wherecampdc-videos-are-up</id>
     <content type="html"><![CDATA[<p>Though I was involved in the planning of <a href="http://www.wherecampdc.org/">WhereCampDC</a>, I missed the actual event for the most part. Â Instead I spent the week in Fiesole, Italy at the <a href="http://vespucci.org/">VespucciÂ Institute</a> (I&#8217;m sure all of you are now crying for me that missed WhereCampDC). Â At least there is <a href="http://www.wherecampdc.org/2011/04/friday-ignite-spatial/">video taken of the Ignite Spatial talks held at National Geographic</a>.</p>
 
 <p>The combination of the strong geo community in DC plus a great crowd traveling in for the event made the talks really exceptional. Â I was really excited to see<a href="http://sproke.blogspot.com/"> Sophia Parafina&#8217;s</a> talk &#8220;WMS is Dead.&#8221; Just the title stirs up controversy among the geonerds, controversy is always a good aspect to an ignite talk.</p>
@@ -487,9 +487,9 @@
   
   <entry>
     <title type="html"><![CDATA[Disaster 2.0, Innovation in the Disaster Response Space]]></title>
-    <link href="http://wonderchook.github.com/maploser/blog/2011/03/29/disaster-2-0-innovation-in-the-disaster-response-space/"/>
+    <link href="http://maploser.com/blog/2011/03/29/disaster-2-0-innovation-in-the-disaster-response-space/"/>
     <updated>2011-03-29T03:23:12+08:00</updated>
-    <id>http://wonderchook.github.com/maploser/blog/2011/03/29/disaster-2-0-innovation-in-the-disaster-response-space</id>
+    <id>http://maploser.com/blog/2011/03/29/disaster-2-0-innovation-in-the-disaster-response-space</id>
     <content type="html"><![CDATA[<p>Today the United Nations released their report &#8220;Disaster Relief 2.0: The Future of Information Sharing in Humanitarian Emergencies.&#8221; Â Two members of the <a href="http://hot.openstreetmap.org">Humanitarian OpenStreetMap Team</a> were interviewed for this report, myself and Nicolas Chavent. Â  Also of course many other from friend and partner organizations were interviewed as well.</p>
 
 <p>For anyone interested in open data or new methods of crisis response I recommend you read the <a href="http://issuu.com/unfoundation/docs/disaster_relief20_report">whole report</a>. Â For others, well a seventy-two page report might seem like a bit much so what might be key is the <a href="http://www.unfoundation.org/assets/pdf/disaster-relief-2-findings-1.pdf">recommendations</a>. Â Key is the idea that information communities (called V&amp;TC in the report) came together after the earthquake in Haiti to help. Â Much of this revolved around the sharing and collection of data. Â The value of this type of activity to make a difference was clearly shown. Â The real question though is how do you make this happen again? Â And how can this fit into a framework that makes sense from the perspective of the large organizations as well as the informal communities.</p>
@@ -510,9 +510,9 @@
   
   <entry>
     <title type="html"><![CDATA[Quick Japan Editing Stats for OpenStreetMap]]></title>
-    <link href="http://wonderchook.github.com/maploser/blog/2011/03/17/quick-japan-editing-stats-for-openstreetmap/"/>
+    <link href="http://maploser.com/blog/2011/03/17/quick-japan-editing-stats-for-openstreetmap/"/>
     <updated>2011-03-17T05:37:13+08:00</updated>
-    <id>http://wonderchook.github.com/maploser/blog/2011/03/17/quick-japan-editing-stats-for-openstreetmap</id>
+    <id>http://maploser.com/blog/2011/03/17/quick-japan-editing-stats-for-openstreetmap</id>
     <content type="html"><![CDATA[<p>I was putting together some really quick editing stats about Japan post earthquake/tsunami. Â I realized I should probably share them with the larger community rather than keep them to myself.</p>
 
 <p>218 different individuals have editing in Japan in OpenStreetMap. Â Those editors have edited 389,431 nodes (this includes adding/removing/changing) . Â This has all happened through 1,409 editing sessions.</p>
@@ -529,9 +529,9 @@
   
   <entry>
     <title type="html"><![CDATA[Authoritating Data - What Makes Some Data Authoritative?]]></title>
-    <link href="http://wonderchook.github.com/maploser/blog/2011/02/16/authoritating-data/"/>
+    <link href="http://maploser.com/blog/2011/02/16/authoritating-data/"/>
     <updated>2011-02-16T05:01:24+08:00</updated>
-    <id>http://wonderchook.github.com/maploser/blog/2011/02/16/authoritating-data</id>
+    <id>http://maploser.com/blog/2011/02/16/authoritating-data</id>
     <content type="html"><![CDATA[<p>As I <a href="http://blog.fortiusone.com/2011/02/14/our-trip-to-redlands-gis-week/">wrote about</a> in the <a href="http://fortiusone.com/">FortiusOne</a> blog, last week was <a href="http://redlandsgisweek.org/">Redlands GIS Week</a>. Â My post there concentrated more on the future of crowd-sourced geographic data in crisis response and ways to more quickly turn that data into information. Â That is something that I&#8217;ve spent quite of bit of time thinking about through my work on <a href="http://geocommons.com/">GeoCommon</a>s, as well as my work with the <a href="http://hot.openstreetmap.org/weblog/">Humanitarian OpenStreetMap Team</a>. Â I spent so much time thinking about enabling crowd-sourcing of information and teaching people to edit in <a href="http://www.openstreetmap.org/">OpenStreetMap</a> that something I&#8217;ve never thought much about is the stamping of data to make it authoritative. Â During a break-out group at GIS Week we were supposed to discuss &#8216;the Issues with VGI.&#8221; Â Nothing really new to me as far as issues came out of the discussion, one realization did occur was I have previously made data authoritative or authoritating it as I have started saying tongue in cheek.</p>
 
 <p>I think part of the reason I&#8217;ve never really thought about this is that to me data is either authoritative or it is not, but that isn&#8217;t what determines how I use it. Â One of the previous jobs I had was doing data quality assurance, during that time I found many errors in that is considered authoritative data. Â Because of this previous job I have a lot of experience evaluating data. Â Everyone should do some evaluation of data before they use it, but it really depends on the type and the source how much they actually need to do. Â In thinking about this evaluation I began to think about the process of when we &#8220;qa&#8217;d&#8221; data before it was delivered to customers. Â Essentially that QA process was making dataÂ authoritative. Â What we were actually doing to create the data was not much different from the crowd-source efforts of many groups today though.</p>
@@ -544,9 +544,9 @@
   
   <entry>
     <title type="html"><![CDATA[Visiting the University of Texas Map Room]]></title>
-    <link href="http://wonderchook.github.com/maploser/blog/2010/12/30/visiting-university-of-texas-map-room/"/>
+    <link href="http://maploser.com/blog/2010/12/30/visiting-university-of-texas-map-room/"/>
     <updated>2010-12-30T18:26:57+08:00</updated>
-    <id>http://wonderchook.github.com/maploser/blog/2010/12/30/visiting-university-of-texas-map-room</id>
+    <id>http://maploser.com/blog/2010/12/30/visiting-university-of-texas-map-room</id>
     <content type="html"><![CDATA[<p>This week, I&#8217;m visiting my GeoGlitterDomination partner <a href="http://twitter.com/theaclay">Thea Clay</a> in Texas. We&#8217;ve been doing a variety of Texas related things such as eating barbecue and touring the Alamo.  It goes without saying that we&#8217;ve also been mapping as we go.  One thing we did that was both Texas and geonerd, was we visited the <a href="http://www.lib.utexas.edu/maps/">University of Texas Map Room</a>.  In the basement of one of libraries there is a huge paper map collection.  Rows and rows of maps ranging from world maps to maps of individual cities.  Many of these maps have been scanned and made available online, but it was awesome to see the original paper maps.  There were old Russian maps of Afghanistan from the early 80s, world maps from all types of snapshots in time and a collection of rows and rows of USGS topomaps to highlight a couple favorites.</p>
 
 <p>One of the things I made sure to look at was the maps of Haiti there.  We looked through the original paper copies of the old U.S. Defense Mapping Agency maps which were used to add the original road names to <a href="http://www.openstreetmap.org">OpenStreetMap</a> immediately after the earthquake.  At the time we used the scanned maps which are still available <a href="http://www.lib.utexas.edu/maps/haiti.html">here</a>, but within all the rows of drawers in the map room were the originals.  Another map in the drawer I found to be interesting was a Texaco road map from the 1970s of Haiti which marked all the major roads as well as the Texaco stations there.  The library <a href="http://www.lib.utexas.edu/maps/faq.html#4.html">can&#8217;t scan copyrighted maps</a> which is why you don&#8217;t see this map online (I did snap a picture of it).</p>
@@ -559,9 +559,9 @@
   
   <entry>
     <title type="html"><![CDATA[State of the Map in the U.S. This Year]]></title>
-    <link href="http://wonderchook.github.com/maploser/blog/2010/12/14/state-of-the-map-in-the-u-s-this-year/"/>
+    <link href="http://maploser.com/blog/2010/12/14/state-of-the-map-in-the-u-s-this-year/"/>
     <updated>2010-12-14T02:12:16+08:00</updated>
-    <id>http://wonderchook.github.com/maploser/blog/2010/12/14/state-of-the-map-in-the-u-s-this-year</id>
+    <id>http://maploser.com/blog/2010/12/14/state-of-the-map-in-the-u-s-this-year</id>
     <content type="html"><![CDATA[<p>This year I had the privilege of both attending my first <a href="http://stateofthemap.org/">State of the Map Conference</a> and hosting the first <a href="http://www.sotm.us/">State of the Map U.S. Conference</a>. For those unaware State of the Map is the annual meeting of the OpenStreetMap Community.  This year it took place in Girona, Spain over three days.  The first day is a business day and the second two are community days.  Big announcements this year on the business day included Mapquest stating they had a million dollar budget to increase mapping in the United States and Bing maps making OpenStreetMap tiles an option in their system.  What I was most excited about was the opportunity for HOT to meet together in person for the first time.  Who knows what excitement the following year will bring.</p>
 
 <p>For this coming year I get the best of both worlds since the big State of the Map is taking place in Denver, Colorado.  We aren&#8217;t going to do a U.S. State of the Map since two conferences in one year seems like a bit much.  The event is September 9th-11th and it promises to be an awesome event.  It is abutting <a href="http://2011.foss4g.org/">FOSS4G</a> as well, which means there will be a full week of various types of geonerding.   This is a great opportunity for those who have participated in OpenStreetMap in North America.   The cost of traveling to Europe has been prohibitive for many in the past, so hopefully this will get more of us together as well as joining us more closely with the rest of the larger OpenStreetMap community.</p>
@@ -572,9 +572,9 @@
   
   <entry>
     <title type="html"><![CDATA[WhereCamp5280 Here We Come!]]></title>
-    <link href="http://wonderchook.github.com/maploser/blog/2010/11/18/wherecamp5280-here-we-come/"/>
+    <link href="http://maploser.com/blog/2010/11/18/wherecamp5280-here-we-come/"/>
     <updated>2010-11-18T17:47:35+08:00</updated>
-    <id>http://wonderchook.github.com/maploser/blog/2010/11/18/wherecamp5280-here-we-come</id>
+    <id>http://maploser.com/blog/2010/11/18/wherecamp5280-here-we-come</id>
     <content type="html"><![CDATA[<p>On Monday night some of FortiusOne was having drinks with <a href="http://geothought.blogspot.com/">Peter Batty</a>, we were sad to be missing WhereCamp5280 this week though.  However in a last minute flash of geonerd brilliance <a href="http://highearthorbit.com/">Andrew Turner</a> booked himself and I last minute flights to Denver for <a href="http://www.wherecamp5280.org">WhereCamp5280</a>.  The second year of this unconference of all things location and geo I&#8217;m excited to see what sessions people propose this year.  Last year there were talks on everything from <a href="http://couchdb.apache.org/">CouchDB</a> by my now coworker <a href="http://twitter.com/cwhelm">Chris Helm</a> to <a href="http://www.openstreetmap.org">OpenStreetMap</a> to traditional GIS.  This year there appears to be many more people coming from out of town so I expect even more excitement.  Supermayor coconspirators <a href="http://www.mweisman.com/">Michael Wiseman</a> and <a href="http://www.spatiallyadjusted.com/">James Fee</a> as well as fellow <a href="https://twitter.com/timeline/search?q=geoglitterdomination">GeoGlitterDomination</a> expert <a href="http://twitter.com/theaclay">Thea Clay</a> are attending just to name a few.</p>
 
 <p>Things kick off with a <a href="http://wc5280hack.pbworks.com/w/page/31710459/WhereCamp-5280-Unofficial-Programmers-meetup">hackday today</a>. I&#8217;m hoping to continue work on pushing more social media streams into GeoCommons for temporal analysis, though if previous events are any indication it is entirely possible someone will have a shiny other project I&#8217;ll get distracted by.  Tomorrow is the regular unconference which I expect a similar mix of academic geography, open source and traditional GIS, though perhaps with a bit more neogeography mixed in this year.  I won&#8217;t be attending the Saturday event but there is <a href="http://www.meetup.com/OSM-Colorado/calendar/14925674/">ski mapping party</a> as well.   Overall I&#8217;m excited for a fun couple of days of geohacking and discussion!</p>
@@ -583,9 +583,9 @@
   
   <entry>
     <title type="html"><![CDATA[Talk: Humanitarian OpenStreetMap Team in Haiti]]></title>
-    <link href="http://wonderchook.github.com/maploser/blog/2010/11/18/talk-humanitarian-openstreetmap-team-in-haiti/"/>
+    <link href="http://maploser.com/blog/2010/11/18/talk-humanitarian-openstreetmap-team-in-haiti/"/>
     <updated>2010-11-18T05:37:47+08:00</updated>
-    <id>http://wonderchook.github.com/maploser/blog/2010/11/18/talk-humanitarian-openstreetmap-team-in-haiti</id>
+    <id>http://maploser.com/blog/2010/11/18/talk-humanitarian-openstreetmap-team-in-haiti</id>
     <content type="html"><![CDATA[<p>Back in the beginning of October I attended the <a href="http://www.crisismappers.net/page/iccm-2010-haiti-and-beyond">International Conference on Crisis Mapping</a>.  The first day of the event was open to the public and included many ignite talks on a variety of topics related to crisis response.  I gave a talk titled &#8220;Humanitarian OpenStreetMap Team in Haiti: from Crisis to Capacity Building.&#8221;  I highlighted how HOT has been working to transfer the maintenance of the Haiti portion of the map to Haiti as well as some ways the data is currently being used.</p>
 
 <p>See for yourself:</p>
@@ -594,9 +594,9 @@
   
   <entry>
     <title type="html"><![CDATA[OpenStreetMap and Crisis Response Why it is Often About the License]]></title>
-    <link href="http://wonderchook.github.com/maploser/blog/2010/11/17/openstreetmap-and-crisis-response-why-it-is-sometimes-about-the-license/"/>
+    <link href="http://maploser.com/blog/2010/11/17/openstreetmap-and-crisis-response-why-it-is-sometimes-about-the-license/"/>
     <updated>2010-11-17T03:11:52+08:00</updated>
-    <id>http://wonderchook.github.com/maploser/blog/2010/11/17/openstreetmap-and-crisis-response-why-it-is-sometimes-about-the-license</id>
+    <id>http://maploser.com/blog/2010/11/17/openstreetmap-and-crisis-response-why-it-is-sometimes-about-the-license</id>
     <content type="html"><![CDATA[<p>I had the privilege of being on a panel at Civil Society 2.0 organized by the State Department a couple weeks ago.  The event got me thinking further about the relationship between OpenStreetMap and crisis response, I didn&#8217;t manage to organize my thoughts into a blog post until now though.</p>
 
 <p>OpenStreetMap and other crowdsourcing groups such as <a href="http://ushahidi.com/">Ushahidi</a> and <a href="http://crisiscommons.org/">CrisisCommons</a> got a lot of attention this year after the earthquake in Haiti.  OpenStreetMap has a different goal than these other groups, the goal can be summed as &#8220;create a free map of the entire world&#8221;.  That aim though is key, it isn&#8217;t &#8220;to create a free map for crisis response&#8221; or to &#8220;support humanitarian work with a free map.&#8221;  This difference in ambition can sometimes cause confusion between those joining the OSM community because they want to help with crisis response.</p>

@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: Mash-up | Kate Chapman - Maploser]]></title>
-  <link href="http://wonderchook.github.com/maploser/blog/categories/mash-up/atom.xml" rel="self"/>
-  <link href="http://wonderchook.github.com/maploser/"/>
-  <updated>2012-11-30T16:01:26+08:00</updated>
-  <id>http://wonderchook.github.com/maploser/</id>
+  <link href="http://maploser.com/blog/categories/mash-up/atom.xml" rel="self"/>
+  <link href="http://maploser.com/"/>
+  <updated>2012-11-30T16:45:51+08:00</updated>
+  <id>http://maploser.com/</id>
   <author>
     <name><![CDATA[Kate Chapman]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Am I at WhereCamp5280?]]></title>
-    <link href="http://wonderchook.github.com/maploser/blog/2009/08/10/am-i-at-wherecamp5280/"/>
+    <link href="http://maploser.com/blog/2009/08/10/am-i-at-wherecamp5280/"/>
     <updated>2009-08-10T03:21:33+08:00</updated>
-    <id>http://wonderchook.github.com/maploser/blog/2009/08/10/am-i-at-wherecamp5280</id>
+    <id>http://maploser.com/blog/2009/08/10/am-i-at-wherecamp5280</id>
     <content type="html"><![CDATA[<p>So this week I'm off to <a href="http://www.wherecamp5280.org/">WhereCamp5280</a>. Â In honor of this I forked Andrew Turner's "<a href="http://github.com/ajturner/atwhere">Am I at Where?</a>" github repository and made a <a href="http://github.com/wonderchook/atwhere">new repo</a> specifically for WhereCamp5280.</p>
 
 <p>You can play with the results <a href="http://www.maploser.com/at5280/">here</a>. Â This was my first time playing around with my iPhone and its in browser geo-location capabilities. Â I really should use this for an legitimate application rather than a geonerd meme. Â I have a couple ideas floating around and will try to implement one soon.</p>
@@ -26,9 +26,9 @@
   
   <entry>
     <title type="html"><![CDATA[Twitter/Latitude Location Updater]]></title>
-    <link href="http://wonderchook.github.com/maploser/blog/2009/05/05/twitterlatitude-location-updater/"/>
+    <link href="http://maploser.com/blog/2009/05/05/twitterlatitude-location-updater/"/>
     <updated>2009-05-05T06:15:46+08:00</updated>
-    <id>http://wonderchook.github.com/maploser/blog/2009/05/05/twitterlatitude-location-updater</id>
+    <id>http://maploser.com/blog/2009/05/05/twitterlatitude-location-updater</id>
     <content type="html"><![CDATA[<p>Today Google opened up the <a href="http://www.google.com/latitude/apps/badge">Latitude</a> feed so you can get your Latitude location in a KML or JSON feed. Â I have been working on a longer term project to create a Twitter updater service but to play with the Latitude feed I wrote a quick Ruby script. Â With the json and twitter gems it was barely any work at all. Â </p>
 
 <p>The steps are essentially grab your Latitude info in JSON, extract out the latitude and longitude, authenticate with Twitter and then update your location in your profile. Â The magic code is below. Â  To make it work with your Twitter and Latitude accounts just substitute your Latitude feed URL and insert your Twitter username/password pair. Â You can look-up the appropriate URL <a href="http://www.google.com/latitude/apps/badge">here</a>.</p>
@@ -58,9 +58,9 @@ base.update_profile('location=' + where)
   
   <entry>
     <title type="html"><![CDATA[Additions to WKTweet.com]]></title>
-    <link href="http://wonderchook.github.com/maploser/blog/2009/02/15/additions-to-wktweetcom/"/>
+    <link href="http://maploser.com/blog/2009/02/15/additions-to-wktweetcom/"/>
     <updated>2009-02-15T09:38:01+08:00</updated>
-    <id>http://wonderchook.github.com/maploser/blog/2009/02/15/additions-to-wktweetcom</id>
+    <id>http://maploser.com/blog/2009/02/15/additions-to-wktweetcom</id>
     <content type="html"><![CDATA[<p>Today I added the ever so important ability to show the points you plot on WKTweet.Â  I ran into some simple XML issues that meant it took some time.Â Â  This first was that "&lt;?xml version="1.0" encoding="utf-8"?>" was required in order for the KML to display in Google Maps or Google Earth.Â  I'm pretty sure I ran into this problem before, but sadly I had forgotten about it.</p>
 
 <p>I also added the ability to get the lat lon from a Twitterrific post where the user had selected "Add Map Link to Tweet".Â  I accomplished that through creating a WebRequest to the tinyurl that Twitterrific posts and then getting the lat &amp; lon from the query string.Â  Below are the functions I used to do it I also use a Location class which is essentially a place holder for points.</p>
@@ -91,9 +91,9 @@ private Location GetLocationFromURL(string URL)
   
   <entry>
     <title type="html"><![CDATA[New Project  WKTweet.com]]></title>
-    <link href="http://wonderchook.github.com/maploser/blog/2009/02/09/new-project/"/>
+    <link href="http://maploser.com/blog/2009/02/09/new-project/"/>
     <updated>2009-02-09T07:19:13+08:00</updated>
-    <id>http://wonderchook.github.com/maploser/blog/2009/02/09/new-project</id>
+    <id>http://maploser.com/blog/2009/02/09/new-project</id>
     <content type="html"><![CDATA[<p>Today I created a web client to add Well-Known Text to Twitter.Â  It involved a lot of javascript and can be seen <a href="http://www.wktweet.com">here</a>.Â  Originally I had just planned to look for "POINT(" in a search to map everything but it quickly became apparent that wouldn't work.Â  I've added a hashtag #WKT to each of the tweets from the website to make mapping easier.Â  My next mission it to actually map everything.</p>
 
 <p>For an overview of WKT I suggest the <a href="http://en.wikipedia.org/wiki/Well-known_text">Wikipedia article</a>.Â  Also if you want to follow developments of this project follow <a href="http://twitter.com/wktweet">WKTweet on Twitter</a>.</p>
@@ -102,9 +102,9 @@ private Location GetLocationFromURL(string URL)
   
   <entry>
     <title type="html"><![CDATA[Barackobots KML Link Up]]></title>
-    <link href="http://wonderchook.github.com/maploser/blog/2009/01/18/barackobots-kml-link-up/"/>
+    <link href="http://maploser.com/blog/2009/01/18/barackobots-kml-link-up/"/>
     <updated>2009-01-18T09:50:14+08:00</updated>
-    <id>http://wonderchook.github.com/maploser/blog/2009/01/18/barackobots-kml-link-up</id>
+    <id>http://maploser.com/blog/2009/01/18/barackobots-kml-link-up</id>
     <content type="html"><![CDATA[<p>So I spent some time today doing a mashup using Twitter/Google Maps/Google Earth.</p>
 
 <p>Essentially I'm using twitterific to post my location by using the 'Add Link to Map' function and wrote some code to get the latitude and longitude out of that link which is just a Google Maps link to a location.Â  Then I'm feeding it all back out as XML.</p>

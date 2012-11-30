@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: hot | Kate Chapman - Maploser]]></title>
-  <link href="http://wonderchook.github.com/maploser/blog/categories/hot/atom.xml" rel="self"/>
-  <link href="http://wonderchook.github.com/maploser/"/>
-  <updated>2012-11-30T16:01:26+08:00</updated>
-  <id>http://wonderchook.github.com/maploser/</id>
+  <link href="http://maploser.com/blog/categories/hot/atom.xml" rel="self"/>
+  <link href="http://maploser.com/"/>
+  <updated>2012-11-30T16:45:51+08:00</updated>
+  <id>http://maploser.com/</id>
   <author>
     <name><![CDATA[Kate Chapman]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Imagery Pre-disaster Let's Do Better]]></title>
-    <link href="http://wonderchook.github.com/maploser/blog/2011/07/06/imagery-pre-disaster-lets-do-better/"/>
+    <link href="http://maploser.com/blog/2011/07/06/imagery-pre-disaster-lets-do-better/"/>
     <updated>2011-07-06T23:57:20+08:00</updated>
-    <id>http://wonderchook.github.com/maploser/blog/2011/07/06/imagery-pre-disaster-lets-do-better</id>
+    <id>http://maploser.com/blog/2011/07/06/imagery-pre-disaster-lets-do-better</id>
     <content type="html"><![CDATA[<p>This week is the first expert meeting regarding Space Based Technology and Crowd-Sourcing being hosted by UN-SPIDER.  I am not attending, but from the Twitter stream (#spidercrowd) it appears there has been a lively discussion on using satellite information and crowd-sourcing for disaster response.  What I believe is often missing from these types of conversations is preparedness.  Maybe it is presumptuous of me to discuss preparedness when imagery isn't available freely every time for every disaster.</p>
 
 <p>I'm typing this email from Padang, Indonesia in Western Sumatra.  Yesterday I hosted a workshop at the <a href="http://www.unand.ac.id/">University of Andalas</a> to teach them about OpenStreetMap as part of the Humanitarian OpenStreetMap Team's project in Indonesia.  This is the fifth workshop I've done at a University in Indonesia. Things went well, much like all of the other workshops I've given.  Students were excited and picked up the tools very quickly.  The one difference?  Available imagery.</p>
@@ -32,9 +32,9 @@
   
   <entry>
     <title type="html"><![CDATA[Off to Join the Circus!]]></title>
-    <link href="http://wonderchook.github.com/maploser/blog/2011/06/27/off-to-join-the-circus/"/>
+    <link href="http://maploser.com/blog/2011/06/27/off-to-join-the-circus/"/>
     <updated>2011-06-27T13:09:58+08:00</updated>
-    <id>http://wonderchook.github.com/maploser/blog/2011/06/27/off-to-join-the-circus</id>
+    <id>http://maploser.com/blog/2011/06/27/off-to-join-the-circus</id>
     <content type="html"><![CDATA[<p>Well not really off to join the circus, most of you probably already know about my employment change. I'm now working for the <a href="http://hot.openstreetmap.org">Humanitarian OpenStreetMap Team</a>.  I always referred to working on OpenStreetMap projects full-time as "running off to join the OpenStreetMap."   That isn't to say people haven't done it previous, I think it is just is something many would love to do and few have figured out how to.  Much like joining the circus, though you trade in your clown nose for a GPS.  Or at least it can take a bit of a leap of faith in someways.</p>
 
 <p>Anyway I ended my full-time employment at GeoIQ on May 16th and began transitioning over to working for HOT.   I loved working for GeoIQ, my coworkers were wonderful and I really believe in the technology that was being built.  However last year after going to Haiti and working remotely on other projects HOT was helping on, I really found a calling.  Working on things for HOT is yet to have felt like work and I hope it never does.  After the transitioning my real first day of only working for HOT was about June 15th.  That day I attended a meeting in New York City with other members from the Volunteer Technical Communities and the United Nations (OCHA to be specific).  I thought this was a good kick-off to my new position, because it is one of my goals for myself.  To be able to help coordinate with large organizations and other tech response groups so we can all be more effective.   I also hope to do some fundraising for HOT so we can coordinate better when disasters do happen.  There is a need to have infrastructure, software to better assist with mapping as well as individuals to help coordinate.  This items don't always translate into the need for funding, but I think there are going to be situations where it will.</p>
@@ -47,9 +47,9 @@
   
   <entry>
     <title type="html"><![CDATA[Disaster 2.0, Innovation in the Disaster Response Space]]></title>
-    <link href="http://wonderchook.github.com/maploser/blog/2011/03/29/disaster-2-0-innovation-in-the-disaster-response-space/"/>
+    <link href="http://maploser.com/blog/2011/03/29/disaster-2-0-innovation-in-the-disaster-response-space/"/>
     <updated>2011-03-29T03:23:12+08:00</updated>
-    <id>http://wonderchook.github.com/maploser/blog/2011/03/29/disaster-2-0-innovation-in-the-disaster-response-space</id>
+    <id>http://maploser.com/blog/2011/03/29/disaster-2-0-innovation-in-the-disaster-response-space</id>
     <content type="html"><![CDATA[<p>Today the United Nations released their report "Disaster Relief 2.0: The Future of Information Sharing in Humanitarian Emergencies." Â Two members of the <a href="http://hot.openstreetmap.org">Humanitarian OpenStreetMap Team</a> were interviewed for this report, myself and Nicolas Chavent. Â  Also of course many other from friend and partner organizations were interviewed as well.</p>
 
 <p>For anyone interested in open data or new methods of crisis response I recommend you read the <a href="http://issuu.com/unfoundation/docs/disaster_relief20_report">whole report</a>. Â For others, well a seventy-two page report might seem like a bit much so what might be key is the <a href="http://www.unfoundation.org/assets/pdf/disaster-relief-2-findings-1.pdf">recommendations</a>. Â Key is the idea that information communities (called V&amp;TC in the report) came together after the earthquake in Haiti to help. Â Much of this revolved around the sharing and collection of data. Â The value of this type of activity to make a difference was clearly shown. Â The real question though is how do you make this happen again? Â And how can this fit into a framework that makes sense from the perspective of the large organizations as well as the informal communities.</p>
@@ -70,9 +70,9 @@
   
   <entry>
     <title type="html"><![CDATA[Quick Japan Editing Stats for OpenStreetMap]]></title>
-    <link href="http://wonderchook.github.com/maploser/blog/2011/03/17/quick-japan-editing-stats-for-openstreetmap/"/>
+    <link href="http://maploser.com/blog/2011/03/17/quick-japan-editing-stats-for-openstreetmap/"/>
     <updated>2011-03-17T05:37:13+08:00</updated>
-    <id>http://wonderchook.github.com/maploser/blog/2011/03/17/quick-japan-editing-stats-for-openstreetmap</id>
+    <id>http://maploser.com/blog/2011/03/17/quick-japan-editing-stats-for-openstreetmap</id>
     <content type="html"><![CDATA[<p>I was putting together some really quick editing stats about Japan post earthquake/tsunami. Â I realized I should probably share them with the larger community rather than keep them to myself.</p>
 
 <p>218 different individuals have editing in Japan in OpenStreetMap. Â Those editors have edited 389,431 nodes (this includes adding/removing/changing) . Â This has all happened through 1,409 editing sessions.</p>
@@ -89,9 +89,9 @@
   
   <entry>
     <title type="html"><![CDATA[Talk: Humanitarian OpenStreetMap Team in Haiti]]></title>
-    <link href="http://wonderchook.github.com/maploser/blog/2010/11/18/talk-humanitarian-openstreetmap-team-in-haiti/"/>
+    <link href="http://maploser.com/blog/2010/11/18/talk-humanitarian-openstreetmap-team-in-haiti/"/>
     <updated>2010-11-18T05:37:47+08:00</updated>
-    <id>http://wonderchook.github.com/maploser/blog/2010/11/18/talk-humanitarian-openstreetmap-team-in-haiti</id>
+    <id>http://maploser.com/blog/2010/11/18/talk-humanitarian-openstreetmap-team-in-haiti</id>
     <content type="html"><![CDATA[<p>Back in the beginning of October I attended the <a href="http://www.crisismappers.net/page/iccm-2010-haiti-and-beyond">International Conference on Crisis Mapping</a>.  The first day of the event was open to the public and included many ignite talks on a variety of topics related to crisis response.  I gave a talk titled "Humanitarian OpenStreetMap Team in Haiti: from Crisis to Capacity Building."  I highlighted how HOT has been working to transfer the maintenance of the Haiti portion of the map to Haiti as well as some ways the data is currently being used.</p>
 
 <p>See for yourself:</p>

@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: experiment | Kate Chapman - Maploser]]></title>
-  <link href="http://wonderchook.github.com/maploser/blog/categories/experiment/atom.xml" rel="self"/>
-  <link href="http://wonderchook.github.com/maploser/"/>
-  <updated>2012-11-30T16:01:26+08:00</updated>
-  <id>http://wonderchook.github.com/maploser/</id>
+  <link href="http://maploser.com/blog/categories/experiment/atom.xml" rel="self"/>
+  <link href="http://maploser.com/"/>
+  <updated>2012-11-30T16:45:51+08:00</updated>
+  <id>http://maploser.com/</id>
   <author>
     <name><![CDATA[Kate Chapman]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[#pwyw for #geonerd Help, the Pay What You Want Experiment]]></title>
-    <link href="http://wonderchook.github.com/maploser/blog/2012/02/21/pwyw-for-geonerd-help-the-pay-what-you-want-experiment/"/>
+    <link href="http://maploser.com/blog/2012/02/21/pwyw-for-geonerd-help-the-pay-what-you-want-experiment/"/>
     <updated>2012-02-21T15:52:02+08:00</updated>
-    <id>http://wonderchook.github.com/maploser/blog/2012/02/21/pwyw-for-geonerd-help-the-pay-what-you-want-experiment</id>
+    <id>http://maploser.com/blog/2012/02/21/pwyw-for-geonerd-help-the-pay-what-you-want-experiment</id>
     <content type="html"><![CDATA[<p>I've begun blogging at wonderchook.com for anything non-geo related. Today I announced a "pay what you want" experiment. The idea is you can schedule my time to help with something and if you appreciate the help you can "pay what you want." The reason for the experiment is I have my flexibility in my schedule since I consult for the <a href="http://hot.openstreetmap.org">Humanitarian OpenStreetMap Team</a>, so I have time to test out wacky ideas.</p>
 
 <h2>The Experiment</h2>

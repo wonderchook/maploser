@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: GIS Reference | Kate Chapman - Maploser]]></title>
-  <link href="http://wonderchook.github.com/maploser/blog/categories/gis-reference/atom.xml" rel="self"/>
-  <link href="http://wonderchook.github.com/maploser/"/>
-  <updated>2012-11-30T16:01:26+08:00</updated>
-  <id>http://wonderchook.github.com/maploser/</id>
+  <link href="http://maploser.com/blog/categories/gis-reference/atom.xml" rel="self"/>
+  <link href="http://maploser.com/"/>
+  <updated>2012-11-30T16:45:51+08:00</updated>
+  <id>http://maploser.com/</id>
   <author>
     <name><![CDATA[Kate Chapman]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Imagery Processing...Lessons Learned?]]></title>
-    <link href="http://wonderchook.github.com/maploser/blog/2011/12/11/imagery-processing-lessons-learned/"/>
+    <link href="http://maploser.com/blog/2011/12/11/imagery-processing-lessons-learned/"/>
     <updated>2011-12-11T11:25:05+08:00</updated>
-    <id>http://wonderchook.github.com/maploser/blog/2011/12/11/imagery-processing-lessons-learned</id>
+    <id>http://maploser.com/blog/2011/12/11/imagery-processing-lessons-learned</id>
     <content type="html"><![CDATA[<p><strong>Confession: </strong>When I studed Geography at George Mason University I only took one class that had anything to do with imagery of any type.  Focused around manual interpretation of imagery mostly though we did use ERDAS Imagine once, for a lab.</p>
 
 <p>I could have taken more classes on remote sensing, but I didn't.  My focus was more on cartography and statistical analysis.</p>
@@ -62,9 +62,9 @@
   
   <entry>
     <title type="html"><![CDATA[Map Projections: A Working Manual Available Online]]></title>
-    <link href="http://wonderchook.github.com/maploser/blog/2009/04/15/map-projections-a-working-manual-available-online/"/>
+    <link href="http://maploser.com/blog/2009/04/15/map-projections-a-working-manual-available-online/"/>
     <updated>2009-04-15T04:15:47+08:00</updated>
-    <id>http://wonderchook.github.com/maploser/blog/2009/04/15/map-projections-a-working-manual-available-online</id>
+    <id>http://maploser.com/blog/2009/04/15/map-projections-a-working-manual-available-online</id>
     <content type="html"><![CDATA[<p>When I was on my quest to find <a href="http://pubs.er.usgs.gov/usgspubs/pp/pp1395">Map Projections: A Working Manual</a>Â I felt lucky to find a copy of it in my coworker's office. Â A month later I discovered another coworker also had a copy of it. Â Now I have discovered it is available online from the USGS in PDF. Â Unfortunately it appears to be a scanned of a copy of the book from 1987 and not searchable, but this is far better than not having access to the book at all. Â </p>
 
 <p>So if you wish to follow along with my previous post about converting <a href="http://www.maploser.com/?p=56">coordinates to Miller</a>Â you can easily by downloading the reference materials from the USGS.</p>

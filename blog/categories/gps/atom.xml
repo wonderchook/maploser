@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: GPS | Kate Chapman - Maploser]]></title>
-  <link href="http://wonderchook.github.com/maploser/blog/categories/gps/atom.xml" rel="self"/>
-  <link href="http://wonderchook.github.com/maploser/"/>
-  <updated>2012-11-30T16:01:26+08:00</updated>
-  <id>http://wonderchook.github.com/maploser/</id>
+  <link href="http://maploser.com/blog/categories/gps/atom.xml" rel="self"/>
+  <link href="http://maploser.com/"/>
+  <updated>2012-11-30T16:45:51+08:00</updated>
+  <id>http://maploser.com/</id>
   <author>
     <name><![CDATA[Kate Chapman]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Mapping the Zoo!]]></title>
-    <link href="http://wonderchook.github.com/maploser/blog/2009/09/05/mapping-the-zoo/"/>
+    <link href="http://maploser.com/blog/2009/09/05/mapping-the-zoo/"/>
     <updated>2009-09-05T16:27:55+08:00</updated>
-    <id>http://wonderchook.github.com/maploser/blog/2009/09/05/mapping-the-zoo</id>
+    <id>http://maploser.com/blog/2009/09/05/mapping-the-zoo</id>
     <content type="html"><![CDATA[<p>On September 12th <a href="http://groups.google.com/group/mappingdc">MappingDC</a> is going to join the <a href="http://www.openstreetmap.com">OpenStreetMap</a> meme of mapping zoos in great detail. Â A good example of this is the Dresden Zoo.</p>
 
 <p>[caption id="attachment_145" align="aligncenter" width="368" caption="OpenStreetMap contributors and Wikimedia Commons"]<a href="http://upload.wikimedia.org/wikipedia/commons/2/2c/Dresden-Zoo-openstreetmap.png"><img src="http://www.maploser.com/wp-content/uploads/2009/09/Dresden-Zoo-openstreetmap-1024x558.png" alt="OpenStreetMap contributors and Wikimedia Commons" /></a>[/caption]</p>
@@ -36,9 +36,9 @@
   
   <entry>
     <title type="html"><![CDATA[D.C. OpenStreetMap Mapping Party]]></title>
-    <link href="http://wonderchook.github.com/maploser/blog/2009/06/06/dc-openstreetmap-mapping-party/"/>
+    <link href="http://maploser.com/blog/2009/06/06/dc-openstreetmap-mapping-party/"/>
     <updated>2009-06-06T14:46:40+08:00</updated>
-    <id>http://wonderchook.github.com/maploser/blog/2009/06/06/dc-openstreetmap-mapping-party</id>
+    <id>http://maploser.com/blog/2009/06/06/dc-openstreetmap-mapping-party</id>
     <content type="html"><![CDATA[<p>One of the projects I contribute to is the OpenStreetMap project.Â  OSM is similar to Wikipedia but is for geographic data, it is editable by anyone and can be used with attribution by anyone.Â  One of the ways that people are introduced to OpenStreetMap is through mapping parties and I am helping organize one on June 20th in Washington D.C.</p>
 
 <p>The event will start at 9 a.m. And wrap up around 4 p.m.Â  Feel free to stop by at anytime, some people will stay all day but it isn't required.Â  We are meeting at <a href="http://www.hacdc.org/">HacDC</a> (1525 Newton St NW, Washington DC 20010)Â  Russ Nelson from <a href="http://www.cloudmade.com">CloudMade</a> will be there and give some background on the project as well as provide GPS units so you can collect data.Â  Everyone will go off and map and return to learn how to edit and upload data.Â  We also will be trying out <a href="http://walking-papers.org/">Walking Papers </a> which allows you to print out a map displaying OSM data and bring it with you into the field.Â  The idea being then that you mark-up the map and when you come back the map is scanned and can be overlayed for digitzing in Potlatch an OpenStreetMap online editor.Â  A printer and scanner will be provided for those that want to try this approach.</p>
@@ -53,9 +53,9 @@
   
   <entry>
     <title type="html"><![CDATA[Using a Columbus v900 as a tethered GPS with OSX]]></title>
-    <link href="http://wonderchook.github.com/maploser/blog/2009/05/17/using-columbus-v900-a-tethered-gps-with-osx/"/>
+    <link href="http://maploser.com/blog/2009/05/17/using-columbus-v900-a-tethered-gps-with-osx/"/>
     <updated>2009-05-17T05:38:56+08:00</updated>
-    <id>http://wonderchook.github.com/maploser/blog/2009/05/17/using-columbus-v900-a-tethered-gps-with-osx</id>
+    <id>http://maploser.com/blog/2009/05/17/using-columbus-v900-a-tethered-gps-with-osx</id>
     <content type="html"><![CDATA[<p>At the Baltimore <a href="http://www.openstreetmap.org/">OpenStreetMap</a> Mapping party Russ from CloudMade showed us a small GPS the Columbus v900.  <a href="http://community.cloudmade.com/blog/2009/03/16/columbus-v-900-review/">Here</a> is a link to his review of the device. Â  I had been using my iPhone to contribute to OSM, but found it problematic if I need to do something else with my phone while I was mapping. Â I ordered the v900, liking the low price and the many features.  Up until this point I've mostly used the way point feature, but intended to eventually hook it up to my laptop.</p>
 
 <p>Hooking the device up to my laptop running OSX was relatively easy.  To make things work you need to download <a href="http://www.grandhighwizard.net/gps2gex.html">gps2ge</a> and <a href="http://www.grandhighwizard.net/gpsdx.html">GPSd</a>.   GPSd is an easy dmg install, you just have to follow the typical wizard install instructions.  Gps2ge is a tar file and to get it working you just have to unpack it and drag the file into your applications folder.</p>
@@ -78,9 +78,9 @@
   
   <entry>
     <title type="html"><![CDATA[Baltimore OSM Party]]></title>
-    <link href="http://wonderchook.github.com/maploser/blog/2009/04/05/baltimore-osm-party/"/>
+    <link href="http://maploser.com/blog/2009/04/05/baltimore-osm-party/"/>
     <updated>2009-04-05T03:07:23+08:00</updated>
-    <id>http://wonderchook.github.com/maploser/blog/2009/04/05/baltimore-osm-party</id>
+    <id>http://maploser.com/blog/2009/04/05/baltimore-osm-party</id>
     <content type="html"><![CDATA[<p>Â Today I attended an <a href="http://www.openstreetmap.org">OpenStreetMap</a> party organized by <a href="http://www.cloudmade.com">CloudMade</a>.  I had previously contributed to OSM some, but I had never attended a mapping party.  It was great to meet other people who were interested as well as learn a little bit better how to use <a href="http://josm.openstreetmap.de/">JOSM</a> to edit.  Previously I had primarily utilized OpenStreetMap's web interface for editing, but JOSM seems to be the way to go.  It was much faster to edit locally rather than through the web, which isn't a surprise.  Previously I hadn't liked JOSM, but I just didn't have the workflow down.</p>
 
 <p>During my data collection I worked with a math teacher from the Baltimore area.  It was good to work with someone who was local because I would have had a hard time knowing where to start.  We were a great team, because she was familiar with the area and I was familiar with the use of GPS.

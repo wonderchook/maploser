@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: augmented reality | Kate Chapman - Maploser]]></title>
-  <link href="http://wonderchook.github.com/maploser/blog/categories/augmented-reality/atom.xml" rel="self"/>
-  <link href="http://wonderchook.github.com/maploser/"/>
-  <updated>2012-11-30T16:01:26+08:00</updated>
-  <id>http://wonderchook.github.com/maploser/</id>
+  <link href="http://maploser.com/blog/categories/augmented-reality/atom.xml" rel="self"/>
+  <link href="http://maploser.com/"/>
+  <updated>2012-11-30T16:45:51+08:00</updated>
+  <id>http://maploser.com/</id>
   <author>
     <name><![CDATA[Kate Chapman]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Layar for the iPhone]]></title>
-    <link href="http://wonderchook.github.com/maploser/blog/2009/10/15/layar-for-the-iphone/"/>
+    <link href="http://maploser.com/blog/2009/10/15/layar-for-the-iphone/"/>
     <updated>2009-10-15T03:38:05+08:00</updated>
-    <id>http://wonderchook.github.com/maploser/blog/2009/10/15/layar-for-the-iphone</id>
+    <id>http://maploser.com/blog/2009/10/15/layar-for-the-iphone</id>
     <content type="html"><![CDATA[<p>Today <a href="http://layar.com/">Layar</a> became available for the iPhone.Â  Previous to this Layar was the only application that made me truly jealous of those that had Android devices.Â  Described as a "Layar Reality Browser" I think that it is a major step in transferring augmented reality from a toy into a useful tool.Â  Utilizing GPS and compass it overlays information on top of reality, allowing you to point your phone in a direction and get different types of information depending on the layer selected.</p>
 
 <p>Previous to today the augmented reality applications available in the App Store for the iPhone were pretty simplistic.Â  These applications also followed the typical pattern within the App Store of provide as few features as you possibly can for 99 cents and hope that you can sell multiple very similar applications.Â  This was accomplished in augmented reality by providing access to only one dataset usually.Â  Most of these applications appear to implement <a href="http://github.com/zac/iphonearkit/">ARkit</a> which is an Open Source Library for Augmented Reality, <a href="http://www.youtube.com/watch?v=xtCC3mjxnuk">this video</a> is a fairly good representation of this toolkit.Â  Nothing against ARkit itself, it is great that someone developed it, it is available  and open source.Â  I think the intent should be for people to expand upon and improve it, not just slap their data in there are sell it for whatever they can get.</p>

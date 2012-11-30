@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: Ruby | Kate Chapman - Maploser]]></title>
-  <link href="http://wonderchook.github.com/maploser/blog/categories/ruby/atom.xml" rel="self"/>
-  <link href="http://wonderchook.github.com/maploser/"/>
-  <updated>2012-11-30T16:01:26+08:00</updated>
-  <id>http://wonderchook.github.com/maploser/</id>
+  <link href="http://maploser.com/blog/categories/ruby/atom.xml" rel="self"/>
+  <link href="http://maploser.com/"/>
+  <updated>2012-11-30T16:45:51+08:00</updated>
+  <id>http://maploser.com/</id>
   <author>
     <name><![CDATA[Kate Chapman]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Further Adventures in Rails Testing]]></title>
-    <link href="http://wonderchook.github.com/maploser/blog/2009/09/27/further-adventures-in-rails-testinghudsonmicr/"/>
+    <link href="http://maploser.com/blog/2009/09/27/further-adventures-in-rails-testinghudsonmicr/"/>
     <updated>2009-09-27T20:21:54+08:00</updated>
-    <id>http://wonderchook.github.com/maploser/blog/2009/09/27/further-adventures-in-rails-testinghudsonmicr</id>
+    <id>http://maploser.com/blog/2009/09/27/further-adventures-in-rails-testinghudsonmicr</id>
     <content type="html"><![CDATA[<p>Yesterday I went to "<a href="http://www.meetup.com/rubyhacknight/calendar/11340056/">Hack Day 'Effective Testing for Rails Projects'</a>" at <a href="http://www.viget.com/">Viget Labs</a> in Falls Church. Â After Ruby DCamp I decided I was severely lacking in testing skills as a developer and I'm trying to do something to remedy that. Â With the promise of "building a simple Rails application and a pair-programming environment" as well as "demonstrating effective testing techniques" I was sold.</p>
 
 <p>I come from a Quality Assurance background so I am used to testing software as it is written. Â Just in the past week have I felt like I am beginning to grasp testing software while it is written. Â The live coding at Hack Day helped further that. Â  The example application we used was "<a href="http://github.com/mig/outtolunch">Out To Lunch</a>," which is a simple app that utilizes the <a href="http://www.yelp.com/developers/documentation">Yelp API</a> to search for locations to eat and then will tell you where to eat lunch each day.</p>
@@ -32,9 +32,9 @@
   
   <entry>
     <title type="html"><![CDATA[Ruby DCamp Day Two]]></title>
-    <link href="http://wonderchook.github.com/maploser/blog/2009/09/20/ruby-dcamp-day-2/"/>
+    <link href="http://maploser.com/blog/2009/09/20/ruby-dcamp-day-2/"/>
     <updated>2009-09-20T16:59:46+08:00</updated>
-    <id>http://wonderchook.github.com/maploser/blog/2009/09/20/ruby-dcamp-day-2</id>
+    <id>http://maploser.com/blog/2009/09/20/ruby-dcamp-day-2</id>
     <content type="html"><![CDATA[<p>In the past I've had a history of only posting about the first day of a barcamp.Â  This is my attempt to buck that trend.</p>
 
 <p>The second day of <a href="http://www.rubydcamp.org/">Ruby DCamp</a> was just as awesome as the first.Â  For visual proof of how great it was there is the <a href="http://www.flickr.com/search/?q=rubydcamp">rubydcamp tag on flickr</a>. There is something special about making an unconference truly self sustained, it takes the "hallway conversation" to the next level and it becomes the "stabbing meat with sticks to feed 30 people conversation."Â  That is what happens when you help make kabobs for lunch the second day.Â  I'm sure there were also great "drag the grill between the pavillion and the camp site conversations" and "carry enough firewood for the evening conversation."Â  These aren't normally geek conversation environments and I think it adds a great new dimension to the unconference.Â  Or in this case "Ruby Woodstock" as <a href="http://evan.tiggerpalace.com/">Evan Light</a> refered to it at some point.Â  I hope to see more barcamp's follow this trend.Â  Thanks to Evan and everyone who made Ruby DCamp a great experience.</p>
@@ -45,9 +45,9 @@
   
   <entry>
     <title type="html"><![CDATA[Ruby DCamp Day One]]></title>
-    <link href="http://wonderchook.github.com/maploser/blog/2009/09/19/ruby-dcamp-day-one/"/>
+    <link href="http://maploser.com/blog/2009/09/19/ruby-dcamp-day-one/"/>
     <updated>2009-09-19T06:11:21+08:00</updated>
-    <id>http://wonderchook.github.com/maploser/blog/2009/09/19/ruby-dcamp-day-one</id>
+    <id>http://maploser.com/blog/2009/09/19/ruby-dcamp-day-one</id>
     <content type="html"><![CDATA[<p>This is really a non-geo post, but I currently do a lot of geo-related programming in Ruby.</p>
 
 <p><a href="http://rubydcamp.org/">Ruby DCamp</a> is the first unconference/barcamp I've attended where we actually camped.  I've been to barcamps such as <a href="http://wherecamp.pbworks.com/">WhereCamp</a> that had a history of camping, but happened to be unable to the year I attended. Â So far I think hosting the event in a part has been brilliant. Â There has been wireless access, but since it is provided by peoples' broadband cards the request has been to be kind.</p>
@@ -64,9 +64,9 @@
   
   <entry>
     <title type="html"><![CDATA[Twitter/Latitude Location Updater]]></title>
-    <link href="http://wonderchook.github.com/maploser/blog/2009/05/05/twitterlatitude-location-updater/"/>
+    <link href="http://maploser.com/blog/2009/05/05/twitterlatitude-location-updater/"/>
     <updated>2009-05-05T06:15:46+08:00</updated>
-    <id>http://wonderchook.github.com/maploser/blog/2009/05/05/twitterlatitude-location-updater</id>
+    <id>http://maploser.com/blog/2009/05/05/twitterlatitude-location-updater</id>
     <content type="html"><![CDATA[<p>Today Google opened up the <a href="http://www.google.com/latitude/apps/badge">Latitude</a> feed so you can get your Latitude location in a KML or JSON feed. Â I have been working on a longer term project to create a Twitter updater service but to play with the Latitude feed I wrote a quick Ruby script. Â With the json and twitter gems it was barely any work at all. Â </p>
 
 <p>The steps are essentially grab your Latitude info in JSON, extract out the latitude and longitude, authenticate with Twitter and then update your location in your profile. Â The magic code is below. Â  To make it work with your Twitter and Latitude accounts just substitute your Latitude feed URL and insert your Twitter username/password pair. Â You can look-up the appropriate URL <a href="http://www.google.com/latitude/apps/badge">here</a>.</p>

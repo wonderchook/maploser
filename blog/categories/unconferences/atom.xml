@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: unconferences | Kate Chapman - Maploser]]></title>
-  <link href="http://wonderchook.github.com/maploser/blog/categories/unconferences/atom.xml" rel="self"/>
-  <link href="http://wonderchook.github.com/maploser/"/>
-  <updated>2012-11-30T16:01:26+08:00</updated>
-  <id>http://wonderchook.github.com/maploser/</id>
+  <link href="http://maploser.com/blog/categories/unconferences/atom.xml" rel="self"/>
+  <link href="http://maploser.com/"/>
+  <updated>2012-11-30T16:45:51+08:00</updated>
+  <id>http://maploser.com/</id>
   <author>
     <name><![CDATA[Kate Chapman]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[WhereCampDC Videos are Up!]]></title>
-    <link href="http://wonderchook.github.com/maploser/blog/2011/06/24/wherecampdc-videos-are-up/"/>
+    <link href="http://maploser.com/blog/2011/06/24/wherecampdc-videos-are-up/"/>
     <updated>2011-06-24T12:11:19+08:00</updated>
-    <id>http://wonderchook.github.com/maploser/blog/2011/06/24/wherecampdc-videos-are-up</id>
+    <id>http://maploser.com/blog/2011/06/24/wherecampdc-videos-are-up</id>
     <content type="html"><![CDATA[<p>Though I was involved in the planning of <a href="http://www.wherecampdc.org/">WhereCampDC</a>, I missed the actual event for the most part. Â Instead I spent the week in Fiesole, Italy at the <a href="http://vespucci.org/">VespucciÂ Institute</a> (I'm sure all of you are now crying for me that missed WhereCampDC). Â At least there is <a href="http://www.wherecampdc.org/2011/04/friday-ignite-spatial/">video taken of the Ignite Spatial talks held at National Geographic</a>.</p>
 
 <p>The combination of the strong geo community in DC plus a great crowd traveling in for the event made the talks really exceptional. Â I was really excited to see<a href="http://sproke.blogspot.com/"> Sophia Parafina's</a> talk "WMS is Dead." Just the title stirs up controversy among the geonerds, controversy is always a good aspect to an ignite talk.</p>
@@ -32,9 +32,9 @@
   
   <entry>
     <title type="html"><![CDATA[WhereCamp5280 Here We Come!]]></title>
-    <link href="http://wonderchook.github.com/maploser/blog/2010/11/18/wherecamp5280-here-we-come/"/>
+    <link href="http://maploser.com/blog/2010/11/18/wherecamp5280-here-we-come/"/>
     <updated>2010-11-18T17:47:35+08:00</updated>
-    <id>http://wonderchook.github.com/maploser/blog/2010/11/18/wherecamp5280-here-we-come</id>
+    <id>http://maploser.com/blog/2010/11/18/wherecamp5280-here-we-come</id>
     <content type="html"><![CDATA[<p>On Monday night some of FortiusOne was having drinks with <a href="http://geothought.blogspot.com/">Peter Batty</a>, we were sad to be missing WhereCamp5280 this week though.  However in a last minute flash of geonerd brilliance <a href="http://highearthorbit.com/">Andrew Turner</a> booked himself and I last minute flights to Denver for <a href="http://www.wherecamp5280.org">WhereCamp5280</a>.  The second year of this unconference of all things location and geo I'm excited to see what sessions people propose this year.  Last year there were talks on everything from <a href="http://couchdb.apache.org/">CouchDB</a> by my now coworker <a href="http://twitter.com/cwhelm">Chris Helm</a> to <a href="http://www.openstreetmap.org">OpenStreetMap</a> to traditional GIS.  This year there appears to be many more people coming from out of town so I expect even more excitement.  Supermayor coconspirators <a href="http://www.mweisman.com/">Michael Wiseman</a> and <a href="http://www.spatiallyadjusted.com/">James Fee</a> as well as fellow <a href="https://twitter.com/timeline/search?q=geoglitterdomination">GeoGlitterDomination</a> expert <a href="http://twitter.com/theaclay">Thea Clay</a> are attending just to name a few.</p>
 
 <p>Things kick off with a <a href="http://wc5280hack.pbworks.com/w/page/31710459/WhereCamp-5280-Unofficial-Programmers-meetup">hackday today</a>. I'm hoping to continue work on pushing more social media streams into GeoCommons for temporal analysis, though if previous events are any indication it is entirely possible someone will have a shiny other project I'll get distracted by.  Tomorrow is the regular unconference which I expect a similar mix of academic geography, open source and traditional GIS, though perhaps with a bit more neogeography mixed in this year.  I won't be attending the Saturday event but there is <a href="http://www.meetup.com/OSM-Colorado/calendar/14925674/">ski mapping party</a> as well.   Overall I'm excited for a fun couple of days of geohacking and discussion!</p>
@@ -43,9 +43,9 @@
   
   <entry>
     <title type="html"><![CDATA[WhereCampPDX Locative Games Day]]></title>
-    <link href="http://wonderchook.github.com/maploser/blog/2009/10/06/wherecamppdx-locative-games-day/"/>
+    <link href="http://maploser.com/blog/2009/10/06/wherecamppdx-locative-games-day/"/>
     <updated>2009-10-06T05:43:05+08:00</updated>
-    <id>http://wonderchook.github.com/maploser/blog/2009/10/06/wherecamppdx-locative-games-day</id>
+    <id>http://maploser.com/blog/2009/10/06/wherecamppdx-locative-games-day</id>
     <content type="html"><![CDATA[<p>Sunday at <a href="http://www.wherecamppdx.org/">WhereCampPDX</a> was Locative Games. I played <a href="http://pacmanhattan.com/">PacManhattan</a> and did some geocaching. Â I had heard of PacManhattan before, but playing is believing. Â Essentially it is PacMan, but played in the real world with real people as both PacMan and the ghosts. Â All of the ghosts wore rain ponchos to look more ghostlike. Â Below is me playing Clyde.</p>
 
 <p>[caption id="" align="aligncenter" width="614" caption="Image Courtesy of Spinnerin's Flickr Stream"]<a href="http://www.flickr.com/photos/ame/3983241192/"><img src="http://farm3.static.flickr.com/2582/3983241192_46ff8e3005_b.jpg" alt="Kate wearing a poncho playing Cylde the Ghost" /></a>[/caption]</p>
@@ -62,9 +62,9 @@
   
   <entry>
     <title type="html"><![CDATA[WhereCampPDX Unconference Session Day Summary]]></title>
-    <link href="http://wonderchook.github.com/maploser/blog/2009/10/04/wherecamppdx-unconference-day-summary/"/>
+    <link href="http://maploser.com/blog/2009/10/04/wherecamppdx-unconference-day-summary/"/>
     <updated>2009-10-04T18:08:56+08:00</updated>
-    <id>http://wonderchook.github.com/maploser/blog/2009/10/04/wherecamppdx-unconference-day-summary</id>
+    <id>http://maploser.com/blog/2009/10/04/wherecamppdx-unconference-day-summary</id>
     <content type="html"><![CDATA[<p>Yesterday was the unconference session portion of <a href="http://www.wherecamppdx.org/">WhereCampPDX</a>. Â Meaning that there were sessions. Â I lead a discussion on <a href="http://www.osm.org">OpenStreetMap</a> in the United States. Â It was the first time people have worded questions to me in the form of "What does the OpenStreetMap think about...." Â Getting across the free flowing community was somewhat difficult to explain for some reason, even with the Wikipedia parallel. Â A lot of interesting ideas came out of the session though, such as new renders for people that live or spend a lot of time outside. Â A potential rending of places with external outlets, water and places to sleep for example. Â There was also some interest in getting a two way data flow between government and OSM. Â In Washington D.C. we have been discussing how that model could potentially work and it appears that other governments might forward once there are some sample models out there.</p>
 
 <p>In addition to leading a session I also attended an assortment of sessions:</p>
@@ -92,9 +92,9 @@
   
   <entry>
     <title type="html"><![CDATA[Ruby DCamp Day Two]]></title>
-    <link href="http://wonderchook.github.com/maploser/blog/2009/09/20/ruby-dcamp-day-2/"/>
+    <link href="http://maploser.com/blog/2009/09/20/ruby-dcamp-day-2/"/>
     <updated>2009-09-20T16:59:46+08:00</updated>
-    <id>http://wonderchook.github.com/maploser/blog/2009/09/20/ruby-dcamp-day-2</id>
+    <id>http://maploser.com/blog/2009/09/20/ruby-dcamp-day-2</id>
     <content type="html"><![CDATA[<p>In the past I've had a history of only posting about the first day of a barcamp.Â  This is my attempt to buck that trend.</p>
 
 <p>The second day of <a href="http://www.rubydcamp.org/">Ruby DCamp</a> was just as awesome as the first.Â  For visual proof of how great it was there is the <a href="http://www.flickr.com/search/?q=rubydcamp">rubydcamp tag on flickr</a>. There is something special about making an unconference truly self sustained, it takes the "hallway conversation" to the next level and it becomes the "stabbing meat with sticks to feed 30 people conversation."Â  That is what happens when you help make kabobs for lunch the second day.Â  I'm sure there were also great "drag the grill between the pavillion and the camp site conversations" and "carry enough firewood for the evening conversation."Â  These aren't normally geek conversation environments and I think it adds a great new dimension to the unconference.Â  Or in this case "Ruby Woodstock" as <a href="http://evan.tiggerpalace.com/">Evan Light</a> refered to it at some point.Â  I hope to see more barcamp's follow this trend.Â  Thanks to Evan and everyone who made Ruby DCamp a great experience.</p>

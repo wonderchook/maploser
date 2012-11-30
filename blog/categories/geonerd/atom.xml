@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: geonerd | Kate Chapman - Maploser]]></title>
-  <link href="http://wonderchook.github.com/maploser/blog/categories/geonerd/atom.xml" rel="self"/>
-  <link href="http://wonderchook.github.com/maploser/"/>
-  <updated>2012-11-30T16:01:26+08:00</updated>
-  <id>http://wonderchook.github.com/maploser/</id>
+  <link href="http://maploser.com/blog/categories/geonerd/atom.xml" rel="self"/>
+  <link href="http://maploser.com/"/>
+  <updated>2012-11-30T16:45:51+08:00</updated>
+  <id>http://maploser.com/</id>
   <author>
     <name><![CDATA[Kate Chapman]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[WhereCampDC Videos are Up!]]></title>
-    <link href="http://wonderchook.github.com/maploser/blog/2011/06/24/wherecampdc-videos-are-up/"/>
+    <link href="http://maploser.com/blog/2011/06/24/wherecampdc-videos-are-up/"/>
     <updated>2011-06-24T12:11:19+08:00</updated>
-    <id>http://wonderchook.github.com/maploser/blog/2011/06/24/wherecampdc-videos-are-up</id>
+    <id>http://maploser.com/blog/2011/06/24/wherecampdc-videos-are-up</id>
     <content type="html"><![CDATA[<p>Though I was involved in the planning of <a href="http://www.wherecampdc.org/">WhereCampDC</a>, I missed the actual event for the most part. Â Instead I spent the week in Fiesole, Italy at the <a href="http://vespucci.org/">VespucciÂ Institute</a> (I'm sure all of you are now crying for me that missed WhereCampDC). Â At least there is <a href="http://www.wherecampdc.org/2011/04/friday-ignite-spatial/">video taken of the Ignite Spatial talks held at National Geographic</a>.</p>
 
 <p>The combination of the strong geo community in DC plus a great crowd traveling in for the event made the talks really exceptional. Â I was really excited to see<a href="http://sproke.blogspot.com/"> Sophia Parafina's</a> talk "WMS is Dead." Just the title stirs up controversy among the geonerds, controversy is always a good aspect to an ignite talk.</p>
@@ -32,9 +32,9 @@
   
   <entry>
     <title type="html"><![CDATA[Visiting the University of Texas Map Room]]></title>
-    <link href="http://wonderchook.github.com/maploser/blog/2010/12/30/visiting-university-of-texas-map-room/"/>
+    <link href="http://maploser.com/blog/2010/12/30/visiting-university-of-texas-map-room/"/>
     <updated>2010-12-30T18:26:57+08:00</updated>
-    <id>http://wonderchook.github.com/maploser/blog/2010/12/30/visiting-university-of-texas-map-room</id>
+    <id>http://maploser.com/blog/2010/12/30/visiting-university-of-texas-map-room</id>
     <content type="html"><![CDATA[<p>This week, I'm visiting my GeoGlitterDomination partner <a href="http://twitter.com/theaclay">Thea Clay</a> in Texas. We've been doing a variety of Texas related things such as eating barbecue and touring the Alamo.  It goes without saying that we've also been mapping as we go.  One thing we did that was both Texas and geonerd, was we visited the <a href="http://www.lib.utexas.edu/maps/">University of Texas Map Room</a>.  In the basement of one of libraries there is a huge paper map collection.  Rows and rows of maps ranging from world maps to maps of individual cities.  Many of these maps have been scanned and made available online, but it was awesome to see the original paper maps.  There were old Russian maps of Afghanistan from the early 80s, world maps from all types of snapshots in time and a collection of rows and rows of USGS topomaps to highlight a couple favorites.</p>
 
 <p>One of the things I made sure to look at was the maps of Haiti there.  We looked through the original paper copies of the old U.S. Defense Mapping Agency maps which were used to add the original road names to <a href="http://www.openstreetmap.org">OpenStreetMap</a> immediately after the earthquake.  At the time we used the scanned maps which are still available <a href="http://www.lib.utexas.edu/maps/haiti.html">here</a>, but within all the rows of drawers in the map room were the originals.  Another map in the drawer I found to be interesting was a Texaco road map from the 1970s of Haiti which marked all the major roads as well as the Texaco stations there.  The library <a href="http://www.lib.utexas.edu/maps/faq.html#4.html">can't scan copyrighted maps</a> which is why you don't see this map online (I did snap a picture of it).</p>

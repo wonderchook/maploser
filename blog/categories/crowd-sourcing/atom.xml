@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: crowd-sourcing | Kate Chapman - Maploser]]></title>
-  <link href="http://wonderchook.github.com/maploser/blog/categories/crowd-sourcing/atom.xml" rel="self"/>
-  <link href="http://wonderchook.github.com/maploser/"/>
-  <updated>2012-11-30T16:01:26+08:00</updated>
-  <id>http://wonderchook.github.com/maploser/</id>
+  <link href="http://maploser.com/blog/categories/crowd-sourcing/atom.xml" rel="self"/>
+  <link href="http://maploser.com/"/>
+  <updated>2012-11-30T16:45:51+08:00</updated>
+  <id>http://maploser.com/</id>
   <author>
     <name><![CDATA[Kate Chapman]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Crowd funding Satellite Imagery]]></title>
-    <link href="http://wonderchook.github.com/maploser/blog/2012/03/18/crowd-funding-satellite-imagery/"/>
+    <link href="http://maploser.com/blog/2012/03/18/crowd-funding-satellite-imagery/"/>
     <updated>2012-03-18T03:59:22+08:00</updated>
-    <id>http://wonderchook.github.com/maploser/blog/2012/03/18/crowd-funding-satellite-imagery</id>
+    <id>http://maploser.com/blog/2012/03/18/crowd-funding-satellite-imagery</id>
     <content type="html"><![CDATA[<p>I have discussed the need for <a href="http://www.maploser.com/2011/07/06/imagery-pre-disaster-lets-do-better/">access to satellite information</a>Â for <a href="http://www.maploser.com/2010/11/16/openstreetmap-and-crisis-response-why-it-is-sometimes-about-the-license/">crisis response often</a>. When there is a large scale disaster imagery tends to become available relatively quickly, but in cases of smaller events or mapping for preparedness this is not always the case. In my work in Indonesia over the past year we have been fortunate to be able to purchase imagery of <a href="http://tasks.hotosm.org/job/9">Padang City</a>Â (OpenStreetMap login required)Â and additionally Microsoft has updated much of the imagery available through Bing Maps. This access has been enabled by the purchasing power of large organizations, AusAID and Microsoft respectively. Work continues to use similarly sized organizations to increase access in other areas, but the process is slow and there is no guarantee imagery will be available everywhere, every time. Yet. Currently theÂ digitizationÂ of the imagery is performed by the crowd, what about enabling them to assist in the purchase?</p>
 
 <h2>Lack of Physical or Financial Access</h2>
@@ -49,9 +49,9 @@
   
   <entry>
     <title type="html"><![CDATA[Authoritating Data - What Makes Some Data Authoritative?]]></title>
-    <link href="http://wonderchook.github.com/maploser/blog/2011/02/16/authoritating-data/"/>
+    <link href="http://maploser.com/blog/2011/02/16/authoritating-data/"/>
     <updated>2011-02-16T05:01:24+08:00</updated>
-    <id>http://wonderchook.github.com/maploser/blog/2011/02/16/authoritating-data</id>
+    <id>http://maploser.com/blog/2011/02/16/authoritating-data</id>
     <content type="html"><![CDATA[<p>As I <a href="http://blog.fortiusone.com/2011/02/14/our-trip-to-redlands-gis-week/">wrote about</a> in the <a href="http://fortiusone.com/">FortiusOne</a> blog, last week was <a href="http://redlandsgisweek.org/">Redlands GIS Week</a>. Â My post there concentrated more on the future of crowd-sourced geographic data in crisis response and ways to more quickly turn that data into information. Â That is something that I've spent quite of bit of time thinking about through my work on <a href="http://geocommons.com/">GeoCommon</a>s, as well as my work with the <a href="http://hot.openstreetmap.org/weblog/">Humanitarian OpenStreetMap Team</a>. Â I spent so much time thinking about enabling crowd-sourcing of information and teaching people to edit in <a href="http://www.openstreetmap.org/">OpenStreetMap</a> that something I've never thought much about is the stamping of data to make it authoritative. Â During a break-out group at GIS Week we were supposed to discuss 'the Issues with VGI." Â Nothing really new to me as far as issues came out of the discussion, one realization did occur was I have previously made data authoritative or authoritating it as I have started saying tongue in cheek.</p>
 
 <p>I think part of the reason I've never really thought about this is that to me data is either authoritative or it is not, but that isn't what determines how I use it. Â One of the previous jobs I had was doing data quality assurance, during that time I found many errors in that is considered authoritative data. Â Because of this previous job I have a lot of experience evaluating data. Â Everyone should do some evaluation of data before they use it, but it really depends on the type and the source how much they actually need to do. Â In thinking about this evaluation I began to think about the process of when we "qa'd" data before it was delivered to customers. Â Essentially that QA process was making dataÂ authoritative. Â What we were actually doing to create the data was not much different from the crowd-source efforts of many groups today though.</p>

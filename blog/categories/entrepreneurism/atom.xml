@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: entrepreneurism | Kate Chapman - Maploser]]></title>
-  <link href="http://wonderchook.github.com/maploser/blog/categories/entrepreneurism/atom.xml" rel="self"/>
-  <link href="http://wonderchook.github.com/maploser/"/>
-  <updated>2012-11-30T16:01:26+08:00</updated>
-  <id>http://wonderchook.github.com/maploser/</id>
+  <link href="http://maploser.com/blog/categories/entrepreneurism/atom.xml" rel="self"/>
+  <link href="http://maploser.com/"/>
+  <updated>2012-11-30T16:45:51+08:00</updated>
+  <id>http://maploser.com/</id>
   <author>
     <name><![CDATA[Kate Chapman]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[D.C. OpenStreetMap Mapping Party]]></title>
-    <link href="http://wonderchook.github.com/maploser/blog/2009/06/06/dc-openstreetmap-mapping-party/"/>
+    <link href="http://maploser.com/blog/2009/06/06/dc-openstreetmap-mapping-party/"/>
     <updated>2009-06-06T14:46:40+08:00</updated>
-    <id>http://wonderchook.github.com/maploser/blog/2009/06/06/dc-openstreetmap-mapping-party</id>
+    <id>http://maploser.com/blog/2009/06/06/dc-openstreetmap-mapping-party</id>
     <content type="html"><![CDATA[<p>One of the projects I contribute to is the OpenStreetMap project.Â  OSM is similar to Wikipedia but is for geographic data, it is editable by anyone and can be used with attribution by anyone.Â  One of the ways that people are introduced to OpenStreetMap is through mapping parties and I am helping organize one on June 20th in Washington D.C.</p>
 
 <p>The event will start at 9 a.m. And wrap up around 4 p.m.Â  Feel free to stop by at anytime, some people will stay all day but it isn't required.Â  We are meeting at <a href="http://www.hacdc.org/">HacDC</a> (1525 Newton St NW, Washington DC 20010)Â  Russ Nelson from <a href="http://www.cloudmade.com">CloudMade</a> will be there and give some background on the project as well as provide GPS units so you can collect data.Â  Everyone will go off and map and return to learn how to edit and upload data.Â  We also will be trying out <a href="http://walking-papers.org/">Walking Papers </a> which allows you to print out a map displaying OSM data and bring it with you into the field.Â  The idea being then that you mark-up the map and when you come back the map is scanned and can be overlayed for digitzing in Potlatch an OpenStreetMap online editor.Â  A printer and scanner will be provided for those that want to try this approach.</p>
@@ -32,9 +32,9 @@
   
   <entry>
     <title type="html"><![CDATA[Events of the Past/Future]]></title>
-    <link href="http://wonderchook.github.com/maploser/blog/2009/04/05/events-of-the-pastfuture/"/>
+    <link href="http://maploser.com/blog/2009/04/05/events-of-the-pastfuture/"/>
     <updated>2009-04-05T17:34:23+08:00</updated>
-    <id>http://wonderchook.github.com/maploser/blog/2009/04/05/events-of-the-pastfuture</id>
+    <id>http://maploser.com/blog/2009/04/05/events-of-the-pastfuture</id>
     <content type="html"><![CDATA[<p>I'm making an effort to go to more events lately, below are MapLoser approved events I have attended or will attend.</p>
 
 <p>This past week in addition to the OSM Baltimore Mapping party I also attended <a href="http://socialmatchbox.com/wp/">Social Matchbox DC,</a> which is a start-upÂ entrepreneurÂ type of event. Â When ever I'm around start-up types all I can think is "I need an idea I can be that passionate about." Â Of course sometimes to others it might appear as unbridledÂ enthusiasmÂ but if you don't believe in your idea who else is going to?</p>

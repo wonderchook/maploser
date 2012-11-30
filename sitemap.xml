@@ -1,311 +1,261 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
     <url>
-        <loc>http://wonderchook.github.com/maploser/blog/2009/01/18/barackobots-kml-link-up/</loc>
+        <loc>http://maploser.com/blog/2009/01/18/barackobots-kml-link-up/</loc>
         <lastmod>2012-11-30T15:30:14+08:00</lastmod>
     </url>
     <url>
-        <loc>http://wonderchook.github.com/maploser/blog/2009/02/09/new-project/</loc>
+        <loc>http://maploser.com/blog/2009/02/09/new-project/</loc>
         <lastmod>2012-11-30T15:30:14+08:00</lastmod>
     </url>
     <url>
-        <loc>http://wonderchook.github.com/maploser/blog/2009/02/15/additions-to-wktweetcom/</loc>
+        <loc>http://maploser.com/blog/2009/02/15/additions-to-wktweetcom/</loc>
         <lastmod>2012-11-30T15:30:14+08:00</lastmod>
     </url>
     <url>
-        <loc>http://wonderchook.github.com/maploser/blog/2009/02/18/mapping-of-the-recovery/</loc>
+        <loc>http://maploser.com/blog/2009/02/18/mapping-of-the-recovery/</loc>
         <lastmod>2012-11-30T15:30:14+08:00</lastmod>
     </url>
     <url>
         <loc>
-            http://wonderchook.github.com/maploser/blog/2009/03/16/converting-unprojected-bounding-box-to-the-miller-projection/
+            http://maploser.com/blog/2009/03/16/converting-unprojected-bounding-box-to-the-miller-projection/
         </loc>
         <lastmod>2012-11-30T15:30:14+08:00</lastmod>
     </url>
     <url>
-        <loc>http://wonderchook.github.com/maploser/blog/2009/04/05/baltimore-osm-party/</loc>
+        <loc>http://maploser.com/blog/2009/04/05/baltimore-osm-party/</loc>
+        <lastmod>2012-11-30T15:30:14+08:00</lastmod>
+    </url>
+    <url>
+        <loc>http://maploser.com/blog/2009/04/05/events-of-the-pastfuture/</loc>
+        <lastmod>2012-11-30T15:30:14+08:00</lastmod>
+    </url>
+    <url>
+        <loc>http://maploser.com/blog/2009/04/08/gecoding-fact-or-fiction/</loc>
         <lastmod>2012-11-30T15:30:14+08:00</lastmod>
     </url>
     <url>
         <loc>
-            http://wonderchook.github.com/maploser/blog/2009/04/05/events-of-the-pastfuture/
+            http://maploser.com/blog/2009/04/15/map-projections-a-working-manual-available-online/
         </loc>
         <lastmod>2012-11-30T15:30:14+08:00</lastmod>
     </url>
     <url>
+        <loc>http://maploser.com/blog/2009/05/04/my-personal-map/</loc>
+        <lastmod>2012-11-30T15:30:14+08:00</lastmod>
+    </url>
+    <url>
+        <loc>http://maploser.com/blog/2009/05/05/twitterlatitude-location-updater/</loc>
+        <lastmod>2012-11-30T15:30:14+08:00</lastmod>
+    </url>
+    <url>
         <loc>
-            http://wonderchook.github.com/maploser/blog/2009/04/08/gecoding-fact-or-fiction/
+            http://maploser.com/blog/2009/05/17/using-columbus-v900-a-tethered-gps-with-osx/
         </loc>
         <lastmod>2012-11-30T15:30:14+08:00</lastmod>
     </url>
     <url>
+        <loc>http://maploser.com/blog/2009/05/29/osm-badge-proposal/</loc>
+        <lastmod>2012-11-30T15:30:14+08:00</lastmod>
+    </url>
+    <url>
+        <loc>http://maploser.com/blog/2009/06/06/dc-openstreetmap-mapping-party/</loc>
+        <lastmod>2012-11-30T15:30:14+08:00</lastmod>
+    </url>
+    <url>
+        <loc>http://maploser.com/blog/2009/08/10/am-i-at-wherecamp5280/</loc>
+        <lastmod>2012-11-30T15:30:14+08:00</lastmod>
+    </url>
+    <url>
+        <loc>http://maploser.com/blog/2009/08/15/wherecamp5280-day-one-highlights/</loc>
+        <lastmod>2012-11-30T15:30:14+08:00</lastmod>
+    </url>
+    <url>
+        <loc>http://maploser.com/blog/2009/09/05/mapping-the-zoo/</loc>
+        <lastmod>2012-11-30T15:30:14+08:00</lastmod>
+    </url>
+    <url>
+        <loc>http://maploser.com/blog/2009/09/19/ruby-dcamp-day-one/</loc>
+        <lastmod>2012-11-30T15:30:14+08:00</lastmod>
+    </url>
+    <url>
+        <loc>http://maploser.com/blog/2009/09/20/ruby-dcamp-day-2/</loc>
+        <lastmod>2012-11-30T15:30:14+08:00</lastmod>
+    </url>
+    <url>
+        <loc>http://maploser.com/blog/2009/09/22/mappingdc-osm-editing-tips-and-tricks/</loc>
+        <lastmod>2012-11-30T15:30:14+08:00</lastmod>
+    </url>
+    <url>
         <loc>
-            http://wonderchook.github.com/maploser/blog/2009/04/15/map-projections-a-working-manual-available-online/
+            http://maploser.com/blog/2009/09/27/further-adventures-in-rails-testinghudsonmicr/
         </loc>
         <lastmod>2012-11-30T15:30:14+08:00</lastmod>
     </url>
     <url>
-        <loc>http://wonderchook.github.com/maploser/blog/2009/05/04/my-personal-map/</loc>
+        <loc>http://maploser.com/blog/2009/10/01/geonerds-in-the-wave/</loc>
+        <lastmod>2012-11-30T15:30:14+08:00</lastmod>
+    </url>
+    <url>
+        <loc>http://maploser.com/blog/2009/10/04/wherecamppdx-unconference-day-summary/</loc>
+        <lastmod>2012-11-30T15:30:14+08:00</lastmod>
+    </url>
+    <url>
+        <loc>http://maploser.com/blog/2009/10/06/wherecamppdx-locative-games-day/</loc>
         <lastmod>2012-11-30T15:30:14+08:00</lastmod>
     </url>
     <url>
         <loc>
-            http://wonderchook.github.com/maploser/blog/2009/05/05/twitterlatitude-location-updater/
+            http://maploser.com/blog/2009/10/07/action-script-on-the-iphone-good-news-for-geonerds/
         </loc>
         <lastmod>2012-11-30T15:30:14+08:00</lastmod>
     </url>
     <url>
-        <loc>
-            http://wonderchook.github.com/maploser/blog/2009/05/17/using-columbus-v900-a-tethered-gps-with-osx/
-        </loc>
+        <loc>http://maploser.com/blog/2009/10/08/routing-with-the-new-google-maps-data/</loc>
         <lastmod>2012-11-30T15:30:14+08:00</lastmod>
     </url>
     <url>
-        <loc>http://wonderchook.github.com/maploser/blog/2009/05/29/osm-badge-proposal/</loc>
+        <loc>http://maploser.com/blog/2009/10/11/update-to-my-google-maps-error-report/</loc>
         <lastmod>2012-11-30T15:30:14+08:00</lastmod>
     </url>
     <url>
-        <loc>
-            http://wonderchook.github.com/maploser/blog/2009/06/06/dc-openstreetmap-mapping-party/
-        </loc>
+        <loc>http://maploser.com/blog/2009/10/15/layar-for-the-iphone/</loc>
         <lastmod>2012-11-30T15:30:14+08:00</lastmod>
     </url>
     <url>
-        <loc>http://wonderchook.github.com/maploser/blog/2009/08/10/am-i-at-wherecamp5280/</loc>
+        <loc>http://maploser.com/blog/2009/12/01/update-from-google-map-on-my-problem/</loc>
         <lastmod>2012-11-30T15:30:14+08:00</lastmod>
     </url>
     <url>
-        <loc>
-            http://wonderchook.github.com/maploser/blog/2009/08/15/wherecamp5280-day-one-highlights/
-        </loc>
+        <loc>http://maploser.com/blog/2010/01/23/crisiscampcrisiscommons-movement/</loc>
         <lastmod>2012-11-30T15:30:14+08:00</lastmod>
     </url>
     <url>
-        <loc>http://wonderchook.github.com/maploser/blog/2009/09/05/mapping-the-zoo/</loc>
-        <lastmod>2012-11-30T15:30:14+08:00</lastmod>
-    </url>
-    <url>
-        <loc>http://wonderchook.github.com/maploser/blog/2009/09/19/ruby-dcamp-day-one/</loc>
-        <lastmod>2012-11-30T15:30:14+08:00</lastmod>
-    </url>
-    <url>
-        <loc>http://wonderchook.github.com/maploser/blog/2009/09/20/ruby-dcamp-day-2/</loc>
+        <loc>http://maploser.com/blog/2010/02/10/talking-mappingdc-at-ignite-dc/</loc>
         <lastmod>2012-11-30T15:30:14+08:00</lastmod>
     </url>
     <url>
         <loc>
-            http://wonderchook.github.com/maploser/blog/2009/09/22/mappingdc-osm-editing-tips-and-tricks/
-        </loc>
-        <lastmod>2012-11-30T15:30:14+08:00</lastmod>
-    </url>
-    <url>
-        <loc>
-            http://wonderchook.github.com/maploser/blog/2009/09/27/further-adventures-in-rails-testinghudsonmicr/
-        </loc>
-        <lastmod>2012-11-30T15:30:14+08:00</lastmod>
-    </url>
-    <url>
-        <loc>http://wonderchook.github.com/maploser/blog/2009/10/01/geonerds-in-the-wave/</loc>
-        <lastmod>2012-11-30T15:30:14+08:00</lastmod>
-    </url>
-    <url>
-        <loc>
-            http://wonderchook.github.com/maploser/blog/2009/10/04/wherecamppdx-unconference-day-summary/
-        </loc>
-        <lastmod>2012-11-30T15:30:14+08:00</lastmod>
-    </url>
-    <url>
-        <loc>
-            http://wonderchook.github.com/maploser/blog/2009/10/06/wherecamppdx-locative-games-day/
-        </loc>
-        <lastmod>2012-11-30T15:30:14+08:00</lastmod>
-    </url>
-    <url>
-        <loc>
-            http://wonderchook.github.com/maploser/blog/2009/10/07/action-script-on-the-iphone-good-news-for-geonerds/
-        </loc>
-        <lastmod>2012-11-30T15:30:14+08:00</lastmod>
-    </url>
-    <url>
-        <loc>
-            http://wonderchook.github.com/maploser/blog/2009/10/08/routing-with-the-new-google-maps-data/
-        </loc>
-        <lastmod>2012-11-30T15:30:14+08:00</lastmod>
-    </url>
-    <url>
-        <loc>
-            http://wonderchook.github.com/maploser/blog/2009/10/11/update-to-my-google-maps-error-report/
-        </loc>
-        <lastmod>2012-11-30T15:30:14+08:00</lastmod>
-    </url>
-    <url>
-        <loc>http://wonderchook.github.com/maploser/blog/2009/10/15/layar-for-the-iphone/</loc>
-        <lastmod>2012-11-30T15:30:14+08:00</lastmod>
-    </url>
-    <url>
-        <loc>
-            http://wonderchook.github.com/maploser/blog/2009/12/01/update-from-google-map-on-my-problem/
+            http://maploser.com/blog/2010/06/14/humanitarian-openstreetmap-team-mission-3-to-haiti-day-1/
         </loc>
         <lastmod>2012-11-30T15:30:14+08:00</lastmod>
     </url>
     <url>
         <loc>
-            http://wonderchook.github.com/maploser/blog/2010/01/23/crisiscampcrisiscommons-movement/
+            http://maploser.com/blog/2010/09/06/openstreetmap-in-the-first-month-after-the-haiti-quake/
         </loc>
         <lastmod>2012-11-30T15:30:14+08:00</lastmod>
     </url>
     <url>
         <loc>
-            http://wonderchook.github.com/maploser/blog/2010/02/10/talking-mappingdc-at-ignite-dc/
+            http://maploser.com/blog/2010/10/18/importing-roads-in-afghanistan-for-openstreetmap/
         </loc>
         <lastmod>2012-11-30T15:30:14+08:00</lastmod>
     </url>
     <url>
         <loc>
-            http://wonderchook.github.com/maploser/blog/2010/06/14/humanitarian-openstreetmap-team-mission-3-to-haiti-day-1/
+            http://maploser.com/blog/2010/11/17/openstreetmap-and-crisis-response-why-it-is-sometimes-about-the-license/
         </loc>
         <lastmod>2012-11-30T15:30:14+08:00</lastmod>
     </url>
     <url>
         <loc>
-            http://wonderchook.github.com/maploser/blog/2010/09/06/openstreetmap-in-the-first-month-after-the-haiti-quake/
+            http://maploser.com/blog/2010/11/18/talk-humanitarian-openstreetmap-team-in-haiti/
+        </loc>
+        <lastmod>2012-11-30T15:30:14+08:00</lastmod>
+    </url>
+    <url>
+        <loc>http://maploser.com/blog/2010/11/18/wherecamp5280-here-we-come/</loc>
+        <lastmod>2012-11-30T15:30:14+08:00</lastmod>
+    </url>
+    <url>
+        <loc>http://maploser.com/blog/2010/12/14/state-of-the-map-in-the-u-s-this-year/</loc>
+        <lastmod>2012-11-30T15:30:14+08:00</lastmod>
+    </url>
+    <url>
+        <loc>http://maploser.com/blog/2010/12/30/visiting-university-of-texas-map-room/</loc>
+        <lastmod>2012-11-30T15:30:14+08:00</lastmod>
+    </url>
+    <url>
+        <loc>http://maploser.com/blog/2011/02/16/authoritating-data/</loc>
+        <lastmod>2012-11-30T15:30:14+08:00</lastmod>
+    </url>
+    <url>
+        <loc>
+            http://maploser.com/blog/2011/03/17/quick-japan-editing-stats-for-openstreetmap/
         </loc>
         <lastmod>2012-11-30T15:30:14+08:00</lastmod>
     </url>
     <url>
         <loc>
-            http://wonderchook.github.com/maploser/blog/2010/10/18/importing-roads-in-afghanistan-for-openstreetmap/
+            http://maploser.com/blog/2011/03/29/disaster-2-0-innovation-in-the-disaster-response-space/
         </loc>
+        <lastmod>2012-11-30T15:30:14+08:00</lastmod>
+    </url>
+    <url>
+        <loc>http://maploser.com/blog/2011/06/24/wherecampdc-videos-are-up/</loc>
+        <lastmod>2012-11-30T15:30:14+08:00</lastmod>
+    </url>
+    <url>
+        <loc>http://maploser.com/blog/2011/06/27/off-to-join-the-circus/</loc>
+        <lastmod>2012-11-30T15:30:14+08:00</lastmod>
+    </url>
+    <url>
+        <loc>http://maploser.com/blog/2011/07/06/imagery-pre-disaster-lets-do-better/</loc>
+        <lastmod>2012-11-30T15:30:14+08:00</lastmod>
+    </url>
+    <url>
+        <loc>http://maploser.com/blog/2011/10/23/book-sprints-for-humanitarian-response/</loc>
+        <lastmod>2012-11-30T15:30:14+08:00</lastmod>
+    </url>
+    <url>
+        <loc>http://maploser.com/blog/2011/12/11/imagery-processing-lessons-learned/</loc>
         <lastmod>2012-11-30T15:30:14+08:00</lastmod>
     </url>
     <url>
         <loc>
-            http://wonderchook.github.com/maploser/blog/2010/11/17/openstreetmap-and-crisis-response-why-it-is-sometimes-about-the-license/
+            http://maploser.com/blog/2012/02/21/pwyw-for-geonerd-help-the-pay-what-you-want-experiment/
         </loc>
         <lastmod>2012-11-30T15:30:14+08:00</lastmod>
     </url>
     <url>
-        <loc>
-            http://wonderchook.github.com/maploser/blog/2010/11/18/talk-humanitarian-openstreetmap-team-in-haiti/
-        </loc>
+        <loc>http://maploser.com/blog/2012/02/27/foss4g-na-join-us-contribute-submit-a-talk/</loc>
         <lastmod>2012-11-30T15:30:14+08:00</lastmod>
     </url>
     <url>
-        <loc>
-            http://wonderchook.github.com/maploser/blog/2010/11/18/wherecamp5280-here-we-come/
-        </loc>
+        <loc>http://maploser.com/blog/2012/03/04/odbl-what-the-heck-can-you-do-with-it/</loc>
         <lastmod>2012-11-30T15:30:14+08:00</lastmod>
     </url>
     <url>
-        <loc>
-            http://wonderchook.github.com/maploser/blog/2010/12/14/state-of-the-map-in-the-u-s-this-year/
-        </loc>
+        <loc>http://maploser.com/blog/2012/03/18/crowd-funding-satellite-imagery/</loc>
         <lastmod>2012-11-30T15:30:14+08:00</lastmod>
     </url>
     <url>
-        <loc>
-            http://wonderchook.github.com/maploser/blog/2010/12/30/visiting-university-of-texas-map-room/
-        </loc>
+        <loc>http://maploser.com/blog/2012/03/23/democratizing-spatial/</loc>
         <lastmod>2012-11-30T15:30:14+08:00</lastmod>
     </url>
     <url>
-        <loc>http://wonderchook.github.com/maploser/blog/2011/02/16/authoritating-data/</loc>
+        <loc>http://maploser.com/blog/2012/03/30/all-i-want-for-openstreetmap-is-simple/</loc>
         <lastmod>2012-11-30T15:30:14+08:00</lastmod>
     </url>
     <url>
-        <loc>
-            http://wonderchook.github.com/maploser/blog/2011/03/17/quick-japan-editing-stats-for-openstreetmap/
-        </loc>
+        <loc>http://maploser.com/blog/2012/05/01/my-shuttleworth-application/</loc>
         <lastmod>2012-11-30T15:30:14+08:00</lastmod>
     </url>
     <url>
-        <loc>
-            http://wonderchook.github.com/maploser/blog/2011/03/29/disaster-2-0-innovation-in-the-disaster-response-space/
-        </loc>
+        <loc>http://maploser.com/about/</loc>
         <lastmod>2012-11-30T15:30:14+08:00</lastmod>
     </url>
     <url>
-        <loc>
-            http://wonderchook.github.com/maploser/blog/2011/06/24/wherecampdc-videos-are-up/
-        </loc>
+        <loc>http://maploser.com/blog/archives/</loc>
         <lastmod>2012-11-30T15:30:14+08:00</lastmod>
     </url>
     <url>
-        <loc>http://wonderchook.github.com/maploser/blog/2011/06/27/off-to-join-the-circus/</loc>
+        <loc>http://maploser.com/contact/</loc>
         <lastmod>2012-11-30T15:30:14+08:00</lastmod>
     </url>
     <url>
-        <loc>
-            http://wonderchook.github.com/maploser/blog/2011/07/06/imagery-pre-disaster-lets-do-better/
-        </loc>
-        <lastmod>2012-11-30T15:30:14+08:00</lastmod>
-    </url>
-    <url>
-        <loc>
-            http://wonderchook.github.com/maploser/blog/2011/10/23/book-sprints-for-humanitarian-response/
-        </loc>
-        <lastmod>2012-11-30T15:30:14+08:00</lastmod>
-    </url>
-    <url>
-        <loc>
-            http://wonderchook.github.com/maploser/blog/2011/12/11/imagery-processing-lessons-learned/
-        </loc>
-        <lastmod>2012-11-30T15:30:14+08:00</lastmod>
-    </url>
-    <url>
-        <loc>
-            http://wonderchook.github.com/maploser/blog/2012/02/21/pwyw-for-geonerd-help-the-pay-what-you-want-experiment/
-        </loc>
-        <lastmod>2012-11-30T15:30:14+08:00</lastmod>
-    </url>
-    <url>
-        <loc>
-            http://wonderchook.github.com/maploser/blog/2012/02/27/foss4g-na-join-us-contribute-submit-a-talk/
-        </loc>
-        <lastmod>2012-11-30T15:30:14+08:00</lastmod>
-    </url>
-    <url>
-        <loc>
-            http://wonderchook.github.com/maploser/blog/2012/03/04/odbl-what-the-heck-can-you-do-with-it/
-        </loc>
-        <lastmod>2012-11-30T15:30:14+08:00</lastmod>
-    </url>
-    <url>
-        <loc>
-            http://wonderchook.github.com/maploser/blog/2012/03/18/crowd-funding-satellite-imagery/
-        </loc>
-        <lastmod>2012-11-30T15:30:14+08:00</lastmod>
-    </url>
-    <url>
-        <loc>http://wonderchook.github.com/maploser/blog/2012/03/23/democratizing-spatial/</loc>
-        <lastmod>2012-11-30T15:30:14+08:00</lastmod>
-    </url>
-    <url>
-        <loc>
-            http://wonderchook.github.com/maploser/blog/2012/03/30/all-i-want-for-openstreetmap-is-simple/
-        </loc>
-        <lastmod>2012-11-30T15:30:14+08:00</lastmod>
-    </url>
-    <url>
-        <loc>
-            http://wonderchook.github.com/maploser/blog/2012/05/01/my-shuttleworth-application/
-        </loc>
-        <lastmod>2012-11-30T15:30:14+08:00</lastmod>
-    </url>
-    <url>
-        <loc>http://wonderchook.github.com/maploser/about/</loc>
-        <lastmod>2012-11-30T15:30:14+08:00</lastmod>
-    </url>
-    <url>
-        <loc>http://wonderchook.github.com/maploser/blog/archives/</loc>
-        <lastmod>2012-11-30T15:30:14+08:00</lastmod>
-    </url>
-    <url>
-        <loc>http://wonderchook.github.com/maploser/contact/</loc>
-        <lastmod>2012-11-30T15:30:14+08:00</lastmod>
-    </url>
-    <url>
-        <loc>http://wonderchook.github.com/maploser/</loc>
+        <loc>http://maploser.com/</loc>
         <lastmod>2012-11-30T15:30:14+08:00</lastmod>
     </url>
 </urlset>

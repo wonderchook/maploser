@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: routing | Kate Chapman - Maploser]]></title>
-  <link href="http://wonderchook.github.com/maploser/blog/categories/routing/atom.xml" rel="self"/>
-  <link href="http://wonderchook.github.com/maploser/"/>
-  <updated>2012-11-30T16:01:26+08:00</updated>
-  <id>http://wonderchook.github.com/maploser/</id>
+  <link href="http://maploser.com/blog/categories/routing/atom.xml" rel="self"/>
+  <link href="http://maploser.com/"/>
+  <updated>2012-11-30T16:45:51+08:00</updated>
+  <id>http://maploser.com/</id>
   <author>
     <name><![CDATA[Kate Chapman]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Update to my Google Maps Error Report]]></title>
-    <link href="http://wonderchook.github.com/maploser/blog/2009/10/11/update-to-my-google-maps-error-report/"/>
+    <link href="http://maploser.com/blog/2009/10/11/update-to-my-google-maps-error-report/"/>
     <updated>2009-10-11T05:17:14+08:00</updated>
-    <id>http://wonderchook.github.com/maploser/blog/2009/10/11/update-to-my-google-maps-error-report</id>
+    <id>http://maploser.com/blog/2009/10/11/update-to-my-google-maps-error-report</id>
     <content type="html"><![CDATA[<p>I received notification from Google today that I was right. Â We'll see when the update actually occurs:</p>
 
 <p>Hi Kate,
@@ -38,9 +38,9 @@ The Google Maps team</p>
   
   <entry>
     <title type="html"><![CDATA[Routing with the new Google Maps Data]]></title>
-    <link href="http://wonderchook.github.com/maploser/blog/2009/10/08/routing-with-the-new-google-maps-data/"/>
+    <link href="http://maploser.com/blog/2009/10/08/routing-with-the-new-google-maps-data/"/>
     <updated>2009-10-08T18:19:19+08:00</updated>
-    <id>http://wonderchook.github.com/maploser/blog/2009/10/08/routing-with-the-new-google-maps-data</id>
+    <id>http://maploser.com/blog/2009/10/08/routing-with-the-new-google-maps-data</id>
     <content type="html"><![CDATA[<p>I spent some time look around Google Maps since they stopped using Teleatlas in the United States this week. Â Essentially I poked around looking for errors that are usually in the street vendor data. Â Mostly these are minor errors such as a single line segment misspelled. Â  The problems usually appear to have originated with the original <a href="http://www.census.gov/geo/www/tiger/">TIGER</a> street data and never been repaired.</p>
 
 <p>For the areas I'm familiar with the data looks good. Â There has been lots of conjecture as to where all the data was sourced. Â I suspect at least in L<a href="http://www.loudoun.gov/">oudoun County</a> where I live the source is the local government, that is unless the occasional segment errors were fixed by Google. Â The one error I did find was an edge case within the routing.</p>

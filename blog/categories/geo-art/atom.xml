@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: Geo-art | Kate Chapman - Maploser]]></title>
-  <link href="http://wonderchook.github.com/maploser/blog/categories/geo-art/atom.xml" rel="self"/>
-  <link href="http://wonderchook.github.com/maploser/"/>
-  <updated>2012-11-30T16:01:26+08:00</updated>
-  <id>http://wonderchook.github.com/maploser/</id>
+  <link href="http://maploser.com/blog/categories/geo-art/atom.xml" rel="self"/>
+  <link href="http://maploser.com/"/>
+  <updated>2012-11-30T16:45:51+08:00</updated>
+  <id>http://maploser.com/</id>
   <author>
     <name><![CDATA[Kate Chapman]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[My Personal Map]]></title>
-    <link href="http://wonderchook.github.com/maploser/blog/2009/05/04/my-personal-map/"/>
+    <link href="http://maploser.com/blog/2009/05/04/my-personal-map/"/>
     <updated>2009-05-04T03:48:14+08:00</updated>
-    <id>http://wonderchook.github.com/maploser/blog/2009/05/04/my-personal-map</id>
+    <id>http://maploser.com/blog/2009/05/04/my-personal-map</id>
     <content type="html"><![CDATA[<p>As I got into my car today I began to input my friend's address so GPS and Google Maps could guide me there.Â  I've been to this individual's house countless times and really should know how to get there.Â  I decided I was going to navigate there without the GPS and if I got lost I could always look it up.</p>
 
 <p>While driving without the GPS I started to think about if using navigation tools all the times actually makes it harder for us to navigate without them.Â  Personally I have no sense of direction, if I don't look at a map of an area I never form a mental map.Â  Unfortunately that means there are many situations where I can get from Point A to Point B to Point C, but if need to go from Point A to Point C there is no hope.Â  I've lived in the Northern Virginia area for the better part of 18 years and worked as a cartographer/GIS Programmer/GPS Technician for a roughly 8 years of it.Â  I figured I have a fairly good mental map.Â  To test this I decided to make a hand drawn map of my location.Â  Drawing a map of my area was inspired by the <a href="http://www.handmaps.org/">Hand Drawn Map Association</a>.</p>

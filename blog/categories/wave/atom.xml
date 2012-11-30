@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: Wave | Kate Chapman - Maploser]]></title>
-  <link href="http://wonderchook.github.com/maploser/blog/categories/wave/atom.xml" rel="self"/>
-  <link href="http://wonderchook.github.com/maploser/"/>
-  <updated>2012-11-30T16:01:26+08:00</updated>
-  <id>http://wonderchook.github.com/maploser/</id>
+  <link href="http://maploser.com/blog/categories/wave/atom.xml" rel="self"/>
+  <link href="http://maploser.com/"/>
+  <updated>2012-11-30T16:45:51+08:00</updated>
+  <id>http://maploser.com/</id>
   <author>
     <name><![CDATA[Kate Chapman]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[GeoNerds in the Wave]]></title>
-    <link href="http://wonderchook.github.com/maploser/blog/2009/10/01/geonerds-in-the-wave/"/>
+    <link href="http://maploser.com/blog/2009/10/01/geonerds-in-the-wave/"/>
     <updated>2009-10-01T08:04:30+08:00</updated>
-    <id>http://wonderchook.github.com/maploser/blog/2009/10/01/geonerds-in-the-wave</id>
+    <id>http://maploser.com/blog/2009/10/01/geonerds-in-the-wave</id>
     <content type="html"><![CDATA[<p>Yesterday Google released Wave to <a href="http://googleblog.blogspot.com/2009/09/surfs-up-wednesday-google-wave-update.html">100,000 people to preview</a>. Â Previously I had sandbox access, but was looking forward to widerspread release so I would have more people to play with in the waves.</p>
 
 <p>This first thing I did was to create a public geonerd wave.</p>

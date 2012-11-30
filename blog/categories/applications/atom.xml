@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: applications | Kate Chapman - Maploser]]></title>
-  <link href="http://wonderchook.github.com/maploser/blog/categories/applications/atom.xml" rel="self"/>
-  <link href="http://wonderchook.github.com/maploser/"/>
-  <updated>2012-11-30T16:01:26+08:00</updated>
-  <id>http://wonderchook.github.com/maploser/</id>
+  <link href="http://maploser.com/blog/categories/applications/atom.xml" rel="self"/>
+  <link href="http://maploser.com/"/>
+  <updated>2012-11-30T16:45:51+08:00</updated>
+  <id>http://maploser.com/</id>
   <author>
     <name><![CDATA[Kate Chapman]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[My Shuttleworth Application]]></title>
-    <link href="http://wonderchook.github.com/maploser/blog/2012/05/01/my-shuttleworth-application/"/>
+    <link href="http://maploser.com/blog/2012/05/01/my-shuttleworth-application/"/>
     <updated>2012-05-01T12:17:15+08:00</updated>
-    <id>http://wonderchook.github.com/maploser/blog/2012/05/01/my-shuttleworth-application</id>
+    <id>http://maploser.com/blog/2012/05/01/my-shuttleworth-application</id>
     <content type="html"><![CDATA[<p>The <a href="http://www.shuttleworthfoundation.org/">Shuttleworth Foundation</a> provides one year grants to individuals so they can focus fully on a project for one year. Â This focus allows those individuals to move their projects forward and make significant progress. Â I am applying for a fellowship, as well as continuing to follow my personal guideline of posting everything openly whenever possible. The application process requires submission of a video, <a href="http://www.maploser.com/wp-content/uploads/2012/05/kate_chapman-resume.pdf">a CV</a> and to answer 4 questions about how things are currently and what one wants to do to create change. Find the answers to the questions and the video below, I've also uploaded a <a href="http://www.maploser.com/wp-content/uploads/2012/05/kate_chapman-resume.pdf">PDF copy of my resume</a>.</p>
 
 <p>The hard thing about posting this openly for me was the video. It is the first video of its kind that I've ever made completely on my own.</p>
@@ -101,9 +101,9 @@
   
   <entry>
     <title type="html"><![CDATA[Democratizing Spatial]]></title>
-    <link href="http://wonderchook.github.com/maploser/blog/2012/03/23/democratizing-spatial/"/>
+    <link href="http://maploser.com/blog/2012/03/23/democratizing-spatial/"/>
     <updated>2012-03-23T19:02:53+08:00</updated>
-    <id>http://wonderchook.github.com/maploser/blog/2012/03/23/democratizing-spatial</id>
+    <id>http://maploser.com/blog/2012/03/23/democratizing-spatial</id>
     <content type="html"><![CDATA[<p><em>note: this post was written as my position paper for the<a href="http://vespucci.org/programme"> 2012 VespucciÂ InstituteÂ </a>. It seemed a shame to bother writing something and just a couple people read it</em></p>
 
 <p>The power of providing spatial information to inform decision makers is without question. I believe the real question is â€œWho are decision makers?â€ I believe simply â€œeveryone.â€</p>
