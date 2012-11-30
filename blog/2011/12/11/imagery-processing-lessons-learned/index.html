@@ -1,0 +1,257 @@
+
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>Imagery Processing...Lessons Learned? - Kate Chapman - Maploser</title>
+  <meta name="author" content="Kate Chapman">
+
+  
+  <meta name="description" content="Confession: When I studed Geography at George Mason University I only took one class that had anything to do with imagery of any type. Focused around &hellip;">
+  
+
+  <!-- http://t.co/dKP3o1e -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <link rel="canonical" href="http://wonderchook.github.com/maploser/blog/2011/12/11/imagery-processing-lessons-learned/">
+  <link href="/maploser/favicon.png" rel="icon">
+  <link href="/maploser/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <script src="/maploser/javascripts/modernizr-2.0.js"></script>
+  <script src="/maploser/javascripts/ender.js"></script>
+  <script src="/maploser/javascripts/octopress.js" type="text/javascript"></script>
+  <link href="/maploser/atom.xml" rel="alternate" title="Kate Chapman - Maploser" type="application/atom+xml">
+  <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
+<link href="http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+<link href="http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+
+  
+
+</head>
+
+<body   >
+  <header role="banner"><hgroup>
+  <h1><a href="/maploser/">Kate Chapman - Maploser</a></h1>
+  
+    <h2>On a quest to find out where.</h2>
+  
+</hgroup>
+
+</header>
+  <nav role="navigation"><ul class="subscription" data-subscription="rss">
+  <li><a href="/maploser/atom.xml" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
+  
+</ul>
+  
+<form action="http://google.com/search" method="get">
+  <fieldset role="search">
+    <input type="hidden" name="q" value="site:wonderchook.github.com/maploser" />
+    <input class="search" type="text" name="q" results="0" placeholder="Search"/>
+  </fieldset>
+</form>
+  
+<ul class="main-navigation">
+  <li><a href="/maploser/">Blog</a></li>
+  <li><a href="/maploser/blog/archives">Archives</a></li>
+</ul>
+
+</nav>
+  <div id="main">
+    <div id="content">
+      <div>
+<article class="hentry" role="article">
+  
+  <header>
+    
+      <h1 class="entry-title">Imagery Processing...Lessons Learned?</h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2011-12-11T11:25:05+08:00" pubdate data-updated="true">Dec 11<span>th</span>, 2011</time>
+        
+      </p>
+    
+  </header>
+
+
+<div class="entry-content"><p><strong>Confession: </strong>When I studed Geography at George Mason University I only took one class that had anything to do with imagery of any type.  Focused around manual interpretation of imagery mostly though we did use ERDAS Imagine once, for a lab.</p>
+
+<p>I could have taken more classes on remote sensing, but I didn&#8217;t.  My focus was more on cartography and statistical analysis.</p>
+
+<p>Anyway, recently <a href="http://hot.openstreetmap.org">HOT</a> bought some imagery. I naively thought that I could just run it through gdal2tiles.py and go skipping down the road to digitizing.  Well, I was wrong.</p>
+
+<p>I received a lot of advice on what to do with the imagery.  For example changing it from 16 bit to 8 bit.  Which I tried, oddly it worked on one image and not the other.  This turns out was just dumb luck that the stretch was almost right when you did that.  Other suggestions involved reordering the bands and things such as that.  I tried a bunch of different things, none of them worked.</p>
+
+<p>I did discover that if I applied a standard deviation stretch to the imagery in QGIS then it looked right.  There wasn&#8217;t a way to save this stretch though directly to the GeoTIFF. I did a bunch of searching to see if there was a manual way to do this and I came across this post on using <a href="http://www.osgeo.org/pipermail/gdal-dev/2011-June/029004.html">VRTs to add the minimum and maximum of the bands</a>.</p>
+
+<p>So here is my pretty manual way of doing things.  Yes I could have done some automation but I figured it was just a couple images.</p>
+
+<p>First I download the image and open it in QGIS.  Then I right clicked on the layer and selected properties.  In the properties dialog I selected &#8220;use standard deviation&#8221; and he &#8220;apply.&#8221;  The image should now look like natural color.</p>
+
+<p><img src="http://www.maploser.com/wp-content/uploads/2011/12/standard_dev.png" alt="Properties Panel QGIS" /></p>
+
+<p>Next I copied the Red, Green and Blue min/max values. Â Now with the correct values the key is to feed them in GDAL correctly. Here you are building a VRT or Virtual Format. Â So the actual processing doesn&#8217;t take place, you are describing it though.</p>
+
+<p>First step is to stretch each band individually:</p>
+
+<p>gdal_translate -b 1 -scale min max -ot Byte -of VRT your_image.tif 1.vrt</p>
+
+<p>gdal_translate -b 2 -scale min max -ot Byte -of VRT your_image.tif 2.vrt</p>
+
+<p>gdal_translate -b 3 -scale min max -ot Byte -of VRT your_image.tif 3.vrt</p>
+
+<p>Next put the bands back together (virtually):</p>
+
+<p>gdalbuildvrt -separate b123.vrt b1.vrt b2.vrt b3.vrt</p>
+
+<p>Now actually create your GeoTiff</p>
+
+<p>gdal_translate -of gtiff b123.vrt my_beautiful_tif.tif</p>
+
+<p>After that you can tile your tif or do anything else you might want to do with it. In my case I ran gdal2tiles.py</p>
+
+<p>gdal2tiles.py my_beautiful_tif.tif</p>
+
+<p>I suspect there may be a better way of doing things than this. Â Though after a lot of researching I didn&#8217;t find one. Â So this is the process that works for me. Â Any suggestions? Â Please, please, please leave them in the comments!</p>
+</div>
+
+
+  <footer>
+    <p class="meta">
+      
+  
+
+<span class="byline author vcard">Posted by <span class="fn">Kate Chapman</span></span>
+
+      
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2011-12-11T11:25:05+08:00" pubdate data-updated="true">Dec 11<span>th</span>, 2011</time>
+      
+
+<span class="categories">
+  
+    <a class='category' href='/maploser/blog/categories/gis-reference/'>GIS Reference</a>
+  
+</span>
+
+
+    </p>
+    
+      <div class="sharing">
+  
+  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://wonderchook.github.com/maploser/blog/2011/12/11/imagery-processing-lessons-learned/" data-via="" data-counturl="http://wonderchook.github.com/maploser/blog/2011/12/11/imagery-processing-lessons-learned/" >Tweet</a>
+  
+  
+  
+</div>
+
+    
+    <p class="meta">
+      
+        <a class="basic-alignment left" href="/maploser/blog/2011/10/23/book-sprints-for-humanitarian-response/" title="Previous Post: Book Sprints for Humanitarian Response">&laquo; Book Sprints for Humanitarian Response</a>
+      
+      
+        <a class="basic-alignment right" href="/maploser/blog/2012/02/21/pwyw-for-geonerd-help-the-pay-what-you-want-experiment/" title="Next Post: #pwyw for #geonerd Help, the Pay What You Want Experiment">#pwyw for #geonerd Help, the Pay What You Want Experiment &raquo;</a>
+      
+    </p>
+  </footer>
+</article>
+
+</div>
+
+<aside class="sidebar">
+  
+    <section>
+  <h1>Recent Posts</h1>
+  <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/maploser/blog/2012/05/01/my-shuttleworth-application/">My Shuttleworth Application</a>
+      </li>
+    
+      <li class="post">
+        <a href="/maploser/blog/2012/03/30/all-i-want-for-openstreetmap-is-simple/">All I Want for OpenStreetMap is Simple.</a>
+      </li>
+    
+      <li class="post">
+        <a href="/maploser/blog/2012/03/23/democratizing-spatial/">Democratizing Spatial</a>
+      </li>
+    
+      <li class="post">
+        <a href="/maploser/blog/2012/03/18/crowd-funding-satellite-imagery/">Crowd funding Satellite Imagery</a>
+      </li>
+    
+      <li class="post">
+        <a href="/maploser/blog/2012/03/04/odbl-what-the-heck-can-you-do-with-it/">ODbL, What the Heck Can You Do with It?</a>
+      </li>
+    
+  </ul>
+</section>
+
+
+
+
+
+
+  
+</aside>
+
+
+    </div>
+  </div>
+  <footer role="contentinfo"><p>
+  Copyright &copy; 2012 - Kate Chapman -
+  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
+</p>
+
+</footer>
+  
+
+
+
+
+
+
+
+  <script type="text/javascript">
+    (function(){
+      var twitterWidgets = document.createElement('script');
+      twitterWidgets.type = 'text/javascript';
+      twitterWidgets.async = true;
+      twitterWidgets.src = 'http://platform.twitter.com/widgets.js';
+      document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
+    })();
+  </script>
+
+
+
+
+
+</body>
+</html>

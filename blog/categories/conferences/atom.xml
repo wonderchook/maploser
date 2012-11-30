@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: conferences | Kate Chapman - Maploser]]></title>
+  <link href="http://wonderchook.github.com/maploser/blog/categories/conferences/atom.xml" rel="self"/>
+  <link href="http://wonderchook.github.com/maploser/"/>
+  <updated>2012-11-30T16:01:26+08:00</updated>
+  <id>http://wonderchook.github.com/maploser/</id>
+  <author>
+    <name><![CDATA[Kate Chapman]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[FOSS4G-NA Join Us, Contribute, Submit a Talk]]></title>
+    <link href="http://wonderchook.github.com/maploser/blog/2012/02/27/foss4g-na-join-us-contribute-submit-a-talk/"/>
+    <updated>2012-02-27T10:54:02+08:00</updated>
+    <id>http://wonderchook.github.com/maploser/blog/2012/02/27/foss4g-na-join-us-contribute-submit-a-talk</id>
+    <content type="html"><![CDATA[<p><img src="http://www.maploser.com/wp-content/uploads/2012/02/FOSS4G-NA-1.png" alt="FOSS4G NA 1" /></p>
+
+<p>There are many events in the Washington D.C. area related to geo. One is coming up which is sure to be educational and fun,Â <a href="http://foss4g-na.org/">FOSS4G North America</a>. FOSS4G-NAÂ is taking place April 10th-12th at the Walter E. Washington Convention Center in Washington D.C.Â Confession I'm on the program committee, but I'm not just saying you should go because of that. FOSS4G this year was in the United States in Denver, Colorado, it was the first year I attended and I both learned a lot and met others in the community I didn't yet know. If you didn't make it out to Denver you should definitely attend and if you did I doubt I have to convince you.</p>
+
+<h2>Attending</h2>
+
+<p>I've been heavily involved in FOSS4G related geo for about three years. Before that I worked for a company that used to say "what do you mean you can find an open-source solution for X." That was more out of cheapness than actually wanted to be part of any community though. If you work for one of those companies maybe both <a href="http://foss4g-na.org/registration/">you and your boss should attend</a> so they can understand the real value of open-source. You'll get to meet more of the community and perhaps learn about some tools you aren't already using.</p>
+
+<h2>Speaking</h2>
+
+<p><strong>Note: The Call for Speakers Ends on March 1st, so you better get your abstract in soon!</strong></p>
+
+<p>These types of conferences aren't just about attending, they are also about sharing. Are you are creating a new project, improving an old one or have an interest implementation? Share your knowledge with the rest of us. I'm going to submit something about HOT's work in Indonesia I just haven't figured out which angle I'm going to take. Â Teaching QGIS to community facilitators for poverty mapping? Using crowd-sourcing to create data for risk analysis? Or something else that will come to me 5 minutes before the submission deadline! Either way make sure to <a href="http://foss4g-na.org/abstract-submission/">get your submission in before March 1st</a>.</p>
+
+<p>See you there!</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Events of the Past/Future]]></title>
+    <link href="http://wonderchook.github.com/maploser/blog/2009/04/05/events-of-the-pastfuture/"/>
+    <updated>2009-04-05T17:34:23+08:00</updated>
+    <id>http://wonderchook.github.com/maploser/blog/2009/04/05/events-of-the-pastfuture</id>
+    <content type="html"><![CDATA[<p>I'm making an effort to go to more events lately, below are MapLoser approved events I have attended or will attend.</p>
+
+<p>This past week in addition to the OSM Baltimore Mapping party I also attended <a href="http://socialmatchbox.com/wp/">Social Matchbox DC,</a> which is a start-upÂ entrepreneurÂ type of event. Â When ever I'm around start-up types all I can think is "I need an idea I can be that passionate about." Â Of course sometimes to others it might appear as unbridledÂ enthusiasmÂ but if you don't believe in your idea who else is going to?</p>
+
+<p>As far as the future I'm signed up for all sorts of events. Â The one closest on the calender is <a href="http://barcamp.org/eDemocracyCamp2">eDemocracyCamp2</a> on April 19. Â I have never attended an unconference so I'm pretty excited about this one. Â E-democracy interests me as a citizen more than anything else, I can see mapping being useful to the process and hope I can be of help.</p>
+
+<p>Later on in the week I'm attending <a href="http://www.jsconf2009.com/">JSConf 2009</a> which some might say I'm abnormally excited about. Â JavaScript never really excited me until I started using JQuery and now it has become one of my favorite tasks at work. Â I'm hoping to build a better JavaScript game soon and since the creator of <a href="http://gamequery.onaluf.org/">gameQuery</a> is going to be there (correction: Selim Arsever will not be there but a gameQuery based <a href="http://www.harryguillermo.com/games/pacman/pacman.php">Pacman</a> game made by Harry Guillermo will be demo'd) , maybe I'll get some ideas. Â I'm really hoping that the secret topic involves the Processing port to JavaScript, but that is probably a long shot.</p>
+
+<p>Later in April brings <a href="http://www.safe.com/support/training/trainingcalendar.php">Safe Software's FME training</a> to Washington D.C. again. Â I will not be attending, but hopefully some coworkers will be. Â Personally I fly the FME flag high, especially after attending a training session. Â It helps you realize how robust their ETL tool is and in my case that I didn't need to be programming using FMEObjects to do certain tasks WorkBench already did.</p>
+
+<p>My first event in May is on the 2nd, <a href="http://www.bootstrapmaryland.com/">Bootstrap Maryland</a>. Â I have an assortment of business ideas and I'm hoping attending something like this will assist me inÂ solidifyingÂ them into one that could work. Â "I like iPhones, maps and Twitter," is just not a business plan. Â Nor does it mean that my best ideas have anything to do with that as well. Â Key I think is finding something to be passionate about.</p>
+
+<p>On May 14th I'm attending Â <a href="http://ignite-dc.com/">Ignite DC</a>. Â The basis of Ignite is there are 16 speakers and each is given five minutes to talk with 20 slides that automatically change. Â People speak on many varied topics relating to art, technology, business, etc... Â I've only watched videos online of previous Ignite events, but I did submit a proposal to speak. Â If it does get voted to be presented I'm going to have to practice imagining everyone in their underwear. Â That and staying on topic as the slides keepÂ whizzingÂ by.</p>
+
+<p>The following week I'm off to San Jose, California for <a href="http://en.oreilly.com/where2009/">Where 2.0</a> and WhereCamp. Â It was difficult to decide what workshops I wanted to attend at Where 2.0.</p>
+
+<p>The workshops I decided on are:</p>
+
+<ul>
+<li><p>GeoServer, GEOWebCache + OpenLayers</p></li>
+<li><p>Spatial Database Tips and Tricks</p></li>
+<li><p>Everything's Moving: Displaying Dynamic GeoData with Processing</p></li>
+<li><p>Stats on a Map: Spatial R</p></li>
+<li><p>Building Location-Aware Apps on the iPhone &amp; Android</p></li>
+</ul>
+
+
+<p>Following Where 2.0 is <a href="http://wherecamp.pbwiki.com/WhereCamp2009">WhereCamp</a> but all the details aren't entirely worked out yet. Â I'm going to wait a big longer on purchasing my flight so I don't miss any of it.</p>
+
+<p>I am already signed up for a couple events in June and July, but I'll update about those in another post.</p>
+]]></content>
+  </entry>
+  
+</feed>

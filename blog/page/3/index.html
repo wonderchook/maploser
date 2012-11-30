@@ -1,0 +1,634 @@
+
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>Kate Chapman - Maploser</title>
+  <meta name="author" content="Kate Chapman">
+
+  
+  <meta name="description" content="I never thought that I&#8217;d curse myself for encouraging people to add data to OpenStreetMap. Recently though I was regretting it a little because &hellip;">
+  
+
+  <!-- http://t.co/dKP3o1e -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <link rel="canonical" href="http://wonderchook.github.com/maploser/blog/page/3/">
+  <link href="/maploser/favicon.png" rel="icon">
+  <link href="/maploser/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <script src="/maploser/javascripts/modernizr-2.0.js"></script>
+  <script src="/maploser/javascripts/ender.js"></script>
+  <script src="/maploser/javascripts/octopress.js" type="text/javascript"></script>
+  <link href="/maploser/atom.xml" rel="alternate" title="Kate Chapman - Maploser" type="application/atom+xml">
+  <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
+<link href="http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+<link href="http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+
+  
+
+</head>
+
+<body   >
+  <header role="banner"><hgroup>
+  <h1><a href="/maploser/">Kate Chapman - Maploser</a></h1>
+  
+    <h2>On a quest to find out where.</h2>
+  
+</hgroup>
+
+</header>
+  <nav role="navigation"><ul class="subscription" data-subscription="rss">
+  <li><a href="/maploser/atom.xml" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
+  
+</ul>
+  
+<form action="http://google.com/search" method="get">
+  <fieldset role="search">
+    <input type="hidden" name="q" value="site:wonderchook.github.com/maploser" />
+    <input class="search" type="text" name="q" results="0" placeholder="Search"/>
+  </fieldset>
+</form>
+  
+<ul class="main-navigation">
+  <li><a href="/maploser/">Blog</a></li>
+  <li><a href="/maploser/blog/archives">Archives</a></li>
+</ul>
+
+</nav>
+  <div id="main">
+    <div id="content">
+      <div class="blog-index">
+  
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/maploser/blog/2010/10/18/importing-roads-in-afghanistan-for-openstreetmap/">Importing Roads in Afghanistan for OpenStreetMap</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2010-10-18T01:52:00+08:00" pubdate data-updated="true">Oct 18<span>th</span>, 2010</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>I never thought that I&#8217;d curse myself for encouraging people to add data to OpenStreetMap.  Recently though I was regretting it a little because I had the road data from <a href="http://www.aims.org.af/">Afghanistan Information Management Services</a>.  Through negotiation between AIMS and <a href="http://toddhuffman.pbworks.com/">Todd Huffman</a> they changed their data license to ODbL to allow import into OpenStreetMap.  We were also giving specific permission to import the data into OSM. There is a shortage of usable road data in the country for those who are non-military to use.  Being able to navigate quickly to the correct place can be a safety issue and allows for more effect reconstruction and development efforts.</p>
+
+<p>Since there was already a decent amount of mapping in Kabul and Jalalabad it was important during the import not to remove that data.  At least a portion of it was collected by GPS and was more up to date than the data being imported.  <a href="http://twitter.com/theaclay">Thea Clay</a> and I worked together on this process to breakup the data, convert it to OSM format and then manually verify it.  In order to accomplish this we first used Quantum GIS to slice all the roads by province.  I think took those files and utilized shp-to-osm in order to create OSM files.  After this one by one we pulled each of the files into JOSM to compare the data to that already available and determine which data to keep and which to import.  At times I also utilized Yahoo imagery and LandSat imagery to determine what was the appropriate action as well.  The issue of importing data when already existing information is there is a difficult problem.  Fortunately we were able to do this manually for a much larger country such as the United States this definitely wouldn&#8217;t be a two person job.</p>
+
+<p>The exact steps we used were:</p>
+
+<ol>
+<li>Downloaded Roads and Provinces for Afghanistan as Shapefiles</li>
+<li>Opened up datasets in Quantum GIS</li>
+<li>Vector -> Data Management Tools -> Join Attributes by Location</li>
+<li>Vector -> Data Management Tools -> Split Vector Layer</li>
+<li>Create rules file for <a href="http://wiki.openstreetmap.org/wiki/Shp-to-osm.jar">Shp-to-OSM</a></li>
+<li>Run each shapefile through Shp-to-OSM with rules file.</li>
+<li>Individually open each OSM file in JOSM, download the data in OSM to verify data does not exist.</li>
+<li>Usually see this error</li>
+</ol>
+
+
+<p><img src="http://farm5.static.flickr.com/4090/5027415677_1ccdcb2395_o.png" alt="" /></p>
+
+<ol>
+<li>Verify Data</li>
+<li>Merge import data into downloaded data</li>
+<li>Upload to OSM (sometimes here I had to resolve conflicts)</li>
+</ol>
+
+
+<p>Things to note is we created a <a href="http://openstreetmap.org/user/afgroadsimport">separate OSM user</a> for this import.  There was not data in many areas, but the areas that had been heavily edited required a lot of manual verification.</p>
+
+<p>I hope that having a freely available road dataset for Afghanistan will help people living and working there.  Maybe it will even encourage them to start adding their data to OpenStreetMap.</p>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/maploser/blog/2010/09/06/openstreetmap-in-the-first-month-after-the-haiti-quake/">OpenStreetMap in the First Month After the Haiti Quake</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2010-09-06T10:39:39+08:00" pubdate data-updated="true">Sep 6<span>th</span>, 2010</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>There is no question the collaboration of the OpenStreetMap community in the month following the earthquake in Haiti was amazing.  People from all over the world traced satellite imagery and imported data to create comprehensive street data for Port-au-Prince and the rest of the earthquake affected parts of the country.  After reading <a href="http://www.ethanzuckerman.com/blog/2010/09/02/crisis-commons-and-the-challenges-of-distributed-disaster-response/">this Ethan Zuckerman blog post</a>, I wanted to do some analysis of who exactly made the map. Was it primarily the already existing <a href="http://www.openstreetmap.org">OpenStreetMap</a> community?  Or was it those who didn&#8217;t want to just text message their ten dollars and actually wanted to do something to help and OpenStreetMap became a venue for that?  This new group would mostly individuals coming from <a href="http://crisiscommons.org/">CrisisCommons</a> during the many CrisisCamps that occurred during this time.  I&#8217;ve always stated that it was the already existing OpenStreetMap community that did the majority of the map, but I was going on gut instinct, not actual statistics and facts.</p>
+
+<p>What was lacking to provide facts and statistics was an analysis of the edits that occurred in the first month in Haiti.  Ian Dees was nice enough to download the daily edits from January 12th through Feburary 11th for me and put them in a SQLite database.  If you wish to do your own analysis that database is available <a href="http://www.maploser.com/edits.sqlite">here</a>.  I did all of my analysis in SQLite with queries, except for the graphs you see, which were created in OpenOffice.  It should also be noted that editing a node within the context of my analysis means either creating, deleting or changing a node.  A node for those not fluent in OSM terminology is essentially a point.  Multiple nodes strung together create lines and a series of nodes that connect back to each other create polygons.  So here is a somewhat belated but I believe necessary analysis.</p>
+
+<p>The first OSM users to edit in Haiti after the earthquake were <a href="http://www.openstreetmap.org/user/ikiya">ikiya</a> and <a href="http://www.openstreetmap.org/user/lyx">lyx</a>.  What I thought was striking is that they live on opposite sides of the world, one in Japan and the other in Germany.  They began editing at 9:00 GMT January 13th, 12 hours after the earthquake occurred.  Other than the first editors I also looked at information on the most edits from various perspectives.</p>
+
+<p>The most total editors in an hour was 41 which occurred on January 24th at 16:00 GMT,  8,531 nodes were edited that hour.  The most nodes ever edited in a single hour during this time was 39,523 by 28 people on Saturday, January 16th at 17:02:10 GMT.  Though it should be noted 33,000 of those nodes were the import of Haiti boundaries.  The next highest amount of node edits was at Wed, February 10th 2010 21:02:09 GMT with only 5 people editing a total of 25,098 nodes.  The individual who had the most edits who wasnâ€™t the Haiti_boundaries_import user was <a href="http://www.openstreetmap.org/user/rab">rab</a>.  Though these various leader boards of edits are interesting they do not answer my initial question.  Who made the majority of the contribution to the map?  Those who were already existing OpenStreetMap contributors or those that began editing OpenStreetMap specifically after the earthquake in Haiti.</p>
+
+<p>Of the top 40 editors in terms of number of nodes edited during the first month only 1 signed up after the earthquake, everyone else was already an OSM user before.  Total editors during this time period was 605, though it should be noted a handful were bots and imports.  The total editors who signed up after the quake was 230 and they edited 206,682 nodes for an average of 244 nodes edited per user.  Of those 65,390 were by the <a href="http://www.openstreetmap.org/user/Haiti_boundaries_import">Haiti_boundaries_import</a> user.  The contributors who signed up before the earthquake contributed edits to 1,215,510 nodes for an average of 267 nodes edited each.  The total number of nodes edited during this first month as 1,422,205.  The top 10 contributors edited 471,520 of these nodes.  On the other end of the spectrum were those that edited a single node, 183 accounts total.  Of those 183 there were 52 that signed up after the earthquake and 130 before.</p>
+
+<p>To better display the various breakdowns of edits by day I created a series of line graphs.  Each graph contains values by all editors, editors who signed up before the earthquake and editors who signed up after the earthquake.  The line labeled &#8220;Column B&#8221; is always all editors, &#8220;Column C&#8221; those that signed up afterward the earthquake and &#8220;Column D&#8221; those that signed up before the earthquake.</p>
+
+<p>[caption id=&#8221;&#8221; align=&#8221;aligncenter&#8221; width=&#8221;597&#8221; caption=&#8221;Total Nodes Edited per Day&#8221;]<img src="http://farm5.static.flickr.com/4130/4962791275_dab2906600_o.png" alt="Total Nodes Edited per Day" />[/caption]</p>
+
+<p>[caption id=&#8221;&#8221; align=&#8221;aligncenter&#8221; width=&#8221;623&#8221; caption=&#8221;Average Nodes Edited per User By Day&#8221;]<img src="http://farm5.static.flickr.com/4133/4962784755_a61a964928_o.png" alt="Average Nodes Edited per User By Day" />[/caption]</p>
+
+<p>[caption id=&#8221;&#8221; align=&#8221;aligncenter&#8221; width=&#8221;601&#8221; caption=&#8221;Total Users Editing per Day&#8221;]<img src="http://farm5.static.flickr.com/4087/4963374550_e7562f8d95_o.png" alt="Total Users Editing per Day" />[/caption]</p>
+
+<p>From looking at different breakdowns of the edits that occurred in the month after the earthquake in Haiti one can see that the majority of the data edited came from the already existing OpenStreetMap Community.  85% of nodes edited in Haiti during this month were by those with already existing OpenStreetMap accounts.  Not only were the majority of the nodes, but also the majority of editors, a total of 375.  The new contributors did make a contribution to OpenStreetMap during this time, but the vast majority of edits were by those already using OSM.</p>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/maploser/blog/2010/06/14/humanitarian-openstreetmap-team-mission-3-to-haiti-day-1/">Humanitarian OpenStreetMap Team Mission 3 to Haiti - Day 1</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2010-06-14T17:41:02+08:00" pubdate data-updated="true">Jun 14<span>th</span>, 2010</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>Today I&#8217;m off on a 2 and a half week trip with the <a href="http://wiki.openstreetmap.org/wiki/Humanitarian_OSM_Team">Humanitarian OpenStreetMap Team</a> in Haiti. After the earthquake in January OpenStreetMap proved to be an invaluable basemap of Haiti.  Initially all of the edits were occurring remotely from all over the world.  The community within OSM created various extracts of the data used by GIS Analysts, USARS teams and many others working on the ground and from afar.  The amazing collaboration during that time has been captured in various blog posts and<a href="http://www.youtube.com/watch?v=fJvR84UX5RI"> conference talks.
+</a>
+Now that actions have switched from immediate emergency to rebuilding and cleanup the goals of the Humanitarian OpenStreetMap team have changed some as well.  Our focus is on capacity building and training those working on the ground.  Through intensive all day training sessions we lead groups from data collection with GPS and Walking Papers to editing within JOSM (Java OpenStreetMap Editor).  Following up on two previous missions that included mapping within Port-au-Prince and Jacmel our intent is to continue moving outward into other cities within Haiti.  Now that hurricane season is upon us building this mapping capacity is more important than ever.</p>
+
+<p>Preparation for our trip proved intensive.  There were vaccines to obtain, equipment to procure and training materials to create and review.  I was primarily responsible for creating more H.O.T. Kits as we call them.  A H.O.T. Kit is a pelican case containing a printer/scanner, a laptop, GPS units, batteries and an external hard drive for data.  Currently there are already two such kits in Haiti left behind from previous missions, but as we expand into other areas the need for more kits was clear.  The kits are left behind in country after the H.O.T. Team leaves to continued editing and collection of OpenStreetMap data can happen.  There was no additional budget for more kits for this mission. Fortunately the community once again proved amazing, I was able to raise <a href="http://hot.openstreetmap.org/weblog/?page_id=13">$1000.00 for GPS units</a> and ESRI donated laptops.</p>
+
+<p>The Humanitarian OpenStreetMap Team wouldn&#8217;t be anything without the people.  We are following up on the amazing groundwork laid by <a href="http://dbsgeo.com/">Dane Springmeyer</a>,<a href="http://developmentseed.org/team/robert-soden"> Robert Soden</a> and Nicolas Chavent on two previous missions.  This mission includes the amazing guidance of Nicolas Chavent bringing his invaluable experience from the previous two missions as well as three new actors including myself, <a href="http://toddhuffman.pbworks.com/">Todd Huffman</a> and <a href="http://ellermann.net/">Trevor Ellermann</a>.  Everyone brings their own unique experiences and skills to the team.  Nicolas and his key GIS and humanitarian experience, myself with my experience in mapping in a variety of field conditions with many types of data.  Todd&#8217;s creativity solving problems in unique ways in difficult environments and Trevor&#8217;s technical skills in system administration and programming.</p>
+
+<p>Naturally the most compelling reason I felt to join this mission was to help.   Having the opportunity to assist in a more hands on way than I have previously is a privilege.  The secondary but more personally compelling reason I felt to go to Haiti is to see the land I&#8217;ve spent the past months intensively mapping, discussing and coordinating data around.  The only comparable effort I was involved in was during Katrina five years ago.  I didn&#8217;t actually visit New Orleans until a month ago, even five years later to experience the land I spent so much time looking at above was a learning experience.  You learn so much more about imagery interpretation and data analysis by actually being in the environment you are analyzing.  I hope that my trip will enable me to be even more effective in the future in other response efforts.</p>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/maploser/blog/2010/02/10/talking-mappingdc-at-ignite-dc/">Talking MappingDC at Ignite DC</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2010-02-10T23:54:55+08:00" pubdate data-updated="true">Feb 10<span>th</span>, 2010</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>Back in October I spoke at <a href="http://www.ignite-dc.com">Ignite DC #2</a> about <a href="http://mappingdc.org">MappingDC</a> and <a href="http://www.osm.org">OpenStreetMap</a>. Â An Ignite event structure is 16 speakers who each speak for 5 minutes with auto-rotating slides.  This was my first time participating in Ignite as a speaker and it was great to talk about mapping.  Since my talk MappingDC has continued to have mapping parties and work on importing <a href="http://dcgis.dc.gov/dcgis/site/default.asp">DC GIS</a> data.</p>
+
+<p>The next <a href="http://ignitedc3.eventbrite.com/">Ignite DC is on February 18th</a>, there are only sponsorship tickets left. If you are lucky enough to already have a ticket I&#8217;ll see you there.</p>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/maploser/blog/2010/01/23/crisiscampcrisiscommons-movement/">CrisisCamp/CrisisCommons Movement</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2010-01-23T17:52:31+08:00" pubdate data-updated="true">Jan 23<span>rd</span>, 2010</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>Since the earthquake occurred in Haiti I&#8217;ve been fortunate to be involved with a tremendous group of people.  I&#8217;ve unfortunately been too busy working with that group to write about it at all.  Sitting on a plane has fortunately given me the opportunity to reflect and be able to blog about it.</p>
+
+<p>After the earthquake occurred in Haiti the following day there was an informal meeting.  It was a group of people getting together and saying &#8216;Well, what can we do?â€  It was decided to have another CrisisCamp, this time a hackathon.  That Wednesday we didn&#8217;t have a location, we just had set a date and time for that Saturday.  We had no idea how many people would show up nor where we were going to hold the event.  The following day there was an outpouring of offers of places to host it.  <a href="http://www.sunlightfoundation.com">The Sunlight Foundation</a> ended up being chosen, Sunlight already has experience with large scale hackathons which helped event run smoothly.</p>
+
+<p>Before the crowd showed up project managers were chosen for each project.  <a href="http://sunlightfoundation.com/people/cjohnson/">Clay Johnson</a> from the <a href="http://www.sunlightlabs.com/">Sunlight Labs</a> was going to be the main leader to which all the other project managers would report.  People starting showing up and there was a kickoff meeting, people were all assigned to projects and began work.  I was the project leader for the geospatial group with Katie Filbert another <a href="http://www.mappingdc.org">MappingDC</a> member.  We ended up being a group of about 30 people varying from geospatial programmers like myself to regular MappingDC contributors to people who had laptop and wanted to help.  Jumpstart Labs even handed out all the computers that they had available to people as well.  Our group was so large we were moved offsite to another office to work.</p>
+
+<p>The group began by learning how to digitize satellite imagery and add it to <a href="http://www.osm.org">OpenStreetMap</a>.  Our focus was roads, since a lot of the areas outside Port-au-Prince still had not been covered.  I&#8217;m not sure how much data we really contributed that day.  The mass of people made the network somewhat slow and there were varying learning curves in the group.  The GIS people were fairly resourceful and ended up downloading imagery locally and using QGIS with its OSM plugin to edit.  I have no statistics if the people we trained have continued to edit, but I hope that is the case.  So many people want to help and OpenStreetMap is a map for everyone.</p>
+
+<p>All the contributors to the hackathon got back together at the end of the day to report the status of their projects.  You can see those projects on the front of <a href="http://www.crisiscommons.org">CrisisCommons</a>.  CrisisCommons itself was transformed from a blank page into a professional looking website at the hackathon.  The event really shows what can happen when people with focus and a desire to help can do when they get together.  Key also was strong leadership as well, Clay wrote a blog post about <a href="http://sunlightlabs.com/blog/2010/how-manage-large-volunteer-hackathons/">leading large volunteer hackathons</a> which describes what he did that was key for us.</p>
+
+<p>Since last Saturday I&#8217;ve continued to work on creating, sharing and obtaining data for those helping in Haiti.  Thanks to gentle pressure from Noel Dickover and <a href="http://www.highearthorbit.com">Andrew Turner</a> I was  motivated to make a video showing the basics of the training I gave in digitizing roads.  To help with the push to map the camps that have formed in Haiti I also made a second video as well.  In the amazing collaboration that has been throughout CrisisCommons and CrisisCamp <a href="http://yoavlurie.com/">Yoav Lurie</a> even made a website <a href="http://www.imaphaiti.com">iMapHaiti</a> with both the training videos and other getting started materials for OpenStreetMap.</p>
+
+<p>There are CrisisCamps occuring all of the multiple countries this weekend and I can&#8217;t wait to see what comes out of the effort.  The past week has been both saddening due to all the loss of life, but also thrilling to see how people have come together.  The best part of CrisisCommons is I don&#8217;t think this is just about this disaster.  This will be about making crisis response better in the future.</p>
+
+<p>Want to get involved?  Go to <a href="http://www.crisiscommons.org">CrisisCommons</a> to get started.</p>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/maploser/blog/2009/12/01/update-from-google-map-on-my-problem/">Update From Google Map on My Problem</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2009-12-01T06:10:29+08:00" pubdate data-updated="true">Dec 1<span>st</span>, 2009</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>Today I received notification that the problem I reported on Google Maps was corrected.Â  You can now route through White&#8217;s Ferry between Leesburg and Martinsburg, MD.Â  Below is the response I received:</p>
+
+<p>Google Maps has been updated to correct the problem you reported. You can see the update here, and if you still see a problem, please tell us more about the issue:
+<a href="http://maps.google.com/?daddr=Leesburg%2C+VA&amp;geocode=Cf60Ojnhi4TLFY7bVAIdL3lg-w&amp;dirflg&amp;saddr=Martinsburg%2C+MD&amp;f=d&amp;sll=39.11954%2C-77.563648&amp;sspn=0.073249%2C0.143509&amp;ie=UTF8&amp;ll=39.268942%2C-77.494125&amp;spn=0.292374%2C0.574036&amp;z=11&amp;skstate=action:update$fid:-4854195850146862328$location:39.15456%2C-77.52159$issue_class:rmi.other$description:It%20does%20not%20appear%20that%20you%20have%20White%27s%20Ferry%20available%20for%20routing.%20%20Between%20Leesburg%2CVA%20and%20Martinsburg%2C%20MD%20this%20is%20the%20most%20direct%20and%20fastest%20route.">Link to view and/or reopen issue</a></p>
+
+<p>_Report history
+Problem ID: BCA2-6E97-C9D2-2B08</p>
+
+<p>Your report:_ It does not appear that you have White&#8217;s Ferry available for routing. Between Leesburg,VA and Martinsburg, MD this is the most direct and fastest route.</p>
+
+<p>&#8211;
+Thanks for your help,
+The Google Maps team</p>
+
+<p>Quite a bit longer than the one month turn around stated in Google&#8217;s October 10th email, but better late than never.  So enjoy a <a href="http://en.wikipedia.org/wiki/White%27s_Ferry">little bit of history</a> next time you have to travel between Virginia and Maryland.</p>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/maploser/blog/2009/10/15/layar-for-the-iphone/">Layar for the iPhone</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2009-10-15T03:38:05+08:00" pubdate data-updated="true">Oct 15<span>th</span>, 2009</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>Today <a href="http://layar.com/">Layar</a> became available for the iPhone.Â  Previous to this Layar was the only application that made me truly jealous of those that had Android devices.Â  Described as a &#8220;Layar Reality Browser&#8221; I think that it is a major step in transferring augmented reality from a toy into a useful tool.Â  Utilizing GPS and compass it overlays information on top of reality, allowing you to point your phone in a direction and get different types of information depending on the layer selected.</p>
+
+<p>Previous to today the augmented reality applications available in the App Store for the iPhone were pretty simplistic.Â  These applications also followed the typical pattern within the App Store of provide as few features as you possibly can for 99 cents and hope that you can sell multiple very similar applications.Â  This was accomplished in augmented reality by providing access to only one dataset usually.Â  Most of these applications appear to implement <a href="http://github.com/zac/iphonearkit/">ARkit</a> which is an Open Source Library for Augmented Reality, <a href="http://www.youtube.com/watch?v=xtCC3mjxnuk">this video</a> is a fairly good representation of this toolkit.Â  Nothing against ARkit itself, it is great that someone developed it, it is available  and open source.Â  I think the intent should be for people to expand upon and improve it, not just slap their data in there are sell it for whatever they can get.</p>
+
+<p>Now with Layar available this really changes things, it is smoother than a default ARkit implementation.Â  It also allows developers to create layers instead of creating simple applications around their data, similar to what can be done with KML in Google Earth.Â  The data and the application are seperated which allows for greater data sharing.</p>
+
+<p>Instead of being responsible for the entire application developers just have to define what the information looks like and provide a feed to the data.</p>
+
+<p>[caption id=&#8221;&#8221; align=&#8221;aligncenter&#8221; width=&#8221;554&#8221; caption=&#8221;Layar Service Architecture Diagram&#8221;]<img src="http://layar.com/wp-content/uploads/2009/07/layar-service-archtecture-blog-and-pressrelease.png" alt="Layar Service Architecture Diagram" />[/caption]</p>
+
+<p>According to <a href="http://layar.com/layers/">their site </a>currently 155 layers are available and both Layar and the layers are free.Â  My first question when I started looking at Layar&#8217;s site was &#8220;what is the business model, how do they intend to make money?&#8221;Â  According to the FAQs: &#8220;We foresee several possible sources of income for Layar. Current sources include: integration fees, licensing fees, sponsoring and hosting/maintenance fees. In the near future there will also be opportunities with premium content layers and advertising.&#8221;Â  I&#8217;ll be interested to see how that works, but as far as the pure technology this is a great step forward for AR.</p>
+
+<p>If you don&#8217;t have a device that can utilize Layar I suggest you get one, otherwise here is a glimpse of what it is capable.</p>
+
+<p>[caption id=&#8221;&#8221; align=&#8221;aligncenter&#8221; width=&#8221;560&#8221; caption=&#8221;Layar Demonstration Video&#8221;]
+[/caption]</p>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/maploser/blog/2009/10/11/update-to-my-google-maps-error-report/">Update to My Google Maps Error Report</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2009-10-11T05:17:14+08:00" pubdate data-updated="true">Oct 11<span>th</span>, 2009</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>I received notification from Google today that I was right. Â We&#8217;ll see when the update actually occurs:</p>
+
+<p>Hi Kate,
+Your Google Maps problem report has been reviewed, and you were right! We&#8217;ll update the map within a month and email you when you can see the change.</p>
+
+<p><em>Report history
+Problem ID: 0xbca26e97c9d22b08</em></p>
+
+<p>_ _</p>
+
+<p><em>Your report:</em> It does not appear that you have White&#8217;s Ferry available for routing. Between Leesburg,VA and Martinsburg, MD this is the most direct and fastest route.</p>
+
+<p>&#8211;
+Thanks for your help,
+The Google Maps team</p>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/maploser/blog/2009/10/08/routing-with-the-new-google-maps-data/">Routing With the New Google Maps Data</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2009-10-08T18:19:19+08:00" pubdate data-updated="true">Oct 8<span>th</span>, 2009</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>I spent some time look around Google Maps since they stopped using Teleatlas in the United States this week. Â Essentially I poked around looking for errors that are usually in the street vendor data. Â Mostly these are minor errors such as a single line segment misspelled. Â  The problems usually appear to have originated with the original <a href="http://www.census.gov/geo/www/tiger/">TIGER</a> street data and never been repaired.</p>
+
+<p>For the areas I&#8217;m familiar with the data looks good. Â There has been lots of conjecture as to where all the data was sourced. Â I suspect at least in L<a href="http://www.loudoun.gov/">oudoun County</a> where I live the source is the local government, that is unless the occasional segment errors were fixed by Google. Â The one error I did find was an edge case within the routing.</p>
+
+<p><a href="http://en.wikipedia.org/wiki/White's_Ferry">White&#8217;s Ferry</a> is a small ferry line just north of Leesburg, Virginia. Â White&#8217;s Ferry is supposed to be the late cable operated ferry on the East Coast, for a little historic background and to see it in action <a href="http://www.lonelyplanet.tv/Clip.aspx?key=88A4A0F712356205">Lonely Planet </a>has a good video clip. Â It is the fastest way across the Potomac to rural Maryland on the otherside. Â When I lived in Leesburg I occasionally used it when traveling to suburban Maryland such as Rockville because it took the same amount of time and didn&#8217;t require any driving on the Beltway. Â I&#8217;m fairly sure that previously if you routed it would take you across White&#8217;s Ferry. Â I ran the route through a couple routing websites to compare results.</p>
+
+<p><a href="http://maps.google.com/maps?daddr=Leesburg,+VA&amp;geocode=Cf60Ojnhi4TLFY7bVAIdL3lg-w&amp;dirflg=&amp;saddr=Martinsburg,+mD&amp;f=d&amp;sll=39.138449,-77.533092&amp;sspn=0.073229,0.143509&amp;ie=UTF8&amp;z=11">On Google</a> it takes you up and around across a more northern bridge which is a much slower route in this situation. Â <a href="http://www.bing.com/maps/default.aspx?v=2&amp;FORM=LMLTCP&amp;cp=39.140241~-77.521509&amp;style=r&amp;lvl=13&amp;tilt=-90&amp;dir=0&amp;alt=-1000&amp;phx=0&amp;phy=0&amp;phscl=1&amp;rtp=pos.39.1156700536566_-77.5653001063996_Leesburg%2C%20VA__~pos.39.1646404240942_-77.4777188717115_Martinsburg%2C%20MD__&amp;rtop=0~0~0&amp;encType=1">Bing Maps</a> routes through the ferry, as does <a href="http://www.mapquest.com/mq/9-zOU3Tf0sSbXnO_D2">MapQuest</a>. Â <a href="http://maps.yahoo.com/#mvt=m&amp;lat=39.195525&amp;lon=-77.494765&amp;zoom=12&amp;q1=Leesburg%2C%20VA&amp;q2=Martinsburg%2C%20MD">Yahoo</a> goes up and around across the bridge the same way Google does. Â Potentially Yahoo could be a routing engine problem because their tiles say they are sourcing <a href="http://www.navteq.com/">NAVTEQ</a> data and on NAVTEQ&#8217;s site you can successfully route from Leesburg to Martinsburg across the ferry (note: Â I could not figure out an easy way to link directly to the NAVTEQ route here).</p>
+
+<p>I checked other ferry lines and it appears Google can do the multi-modal routing, but the ferry information is just missing for White&#8217;s Ferry. Â As an experiment I have reported the missing ferry and requested notification when it is fixed. Â You can be sure that I&#8217;ll report back here when I get a response.</p>
+
+<p>While performing this exercise I checked OpenStreetMap to make sure the ferry was already available on <a href="http://www.openstreetmap.org/?lat=39.15324&amp;lon=-77.51475&amp;zoom=15&amp;layers=B000FTF">the map there</a>. Â Routing doesn&#8217;t work so well in the routing service I used it took an even longer route to go been <a href="http://yournavigation.org/?flat=39.115667&amp;flon=-77.564144&amp;tlat=39.160803&amp;tlon=-77.513161&amp;v=motorcar&amp;fast=1&amp;layer=mapnik">Leesburg and Martinsburg</a>. At least with YourNavigation.org you can export the route data to GPX and use it in whatever device you like. Â If I&#8217;m going to use my local knowledge to repair map data I want it back to use however I like. Â You can report bugs in the Google map data, but you can&#8217;t export it to GPX like you can with the OpenStreetMap data.</p>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/maploser/blog/2009/10/07/action-script-on-the-iphone-good-news-for-geonerds/">Action Script on the iPhone Good News for GeoNerds?</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2009-10-07T04:23:14+08:00" pubdate data-updated="true">Oct 7<span>th</span>, 2009</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>I&#8217;m somewhat interested to see what comes out of <a href="http://labs.adobe.com/technologies/flashcs5/appsfor_iphone/">Adobe&#8217;s announcement</a> this week of the ability to build iPhone applications with ActionScript. Â This isn&#8217;t actual Flash support on the iPhone but somewhat intriguing anyway. Â There are many businesses that utilize Flash for the mapping portion of their site such as <a href="http://www.umapper.com/">UMapper</a> and my employer&#8217;s site <a href="http://www.geocommons.com">GeoCommons</a>, Google Maps even has a <a href="http://code.google.com/apis/maps/documentation/flash/">Flash API</a>. Â My favorite project that utilizes Flash isÂ <a href="http://www.cartogrammar.com/flash/piano/Piano.html">Ohio is a Piano</a>.</p>
+
+<p>By allowing developers to write applications in ActionScript will allow those already mapping in Flash today to build iPhone Apps more quickly and easily. Â Potentially those developers may have already existing components they can now utilize in their iPhone applications as well.</p>
+
+<p>I will be interested to see how well compiling ActionScript down to native iPhone code works, but I believe we will see increased compelling iPhone mapping applications to come with this new option.</p>
+</div>
+  
+  
+
+
+    </article>
+  
+  <div class="pagination">
+    
+      <a class="prev" href="/maploser/blog/page/4/">&larr; Older</a>
+    
+    <a href="/maploser/blog/archives">Blog Archives</a>
+    
+    <a class="next" href="/maploser/blog/page/2/">Newer &rarr;</a>
+    
+  </div>
+</div>
+<aside class="sidebar">
+  
+    <section>
+  <h1>Recent Posts</h1>
+  <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/maploser/blog/2012/05/01/my-shuttleworth-application/">My Shuttleworth Application</a>
+      </li>
+    
+      <li class="post">
+        <a href="/maploser/blog/2012/03/30/all-i-want-for-openstreetmap-is-simple/">All I Want for OpenStreetMap is Simple.</a>
+      </li>
+    
+      <li class="post">
+        <a href="/maploser/blog/2012/03/23/democratizing-spatial/">Democratizing Spatial</a>
+      </li>
+    
+      <li class="post">
+        <a href="/maploser/blog/2012/03/18/crowd-funding-satellite-imagery/">Crowd funding Satellite Imagery</a>
+      </li>
+    
+      <li class="post">
+        <a href="/maploser/blog/2012/03/04/odbl-what-the-heck-can-you-do-with-it/">ODbL, What the Heck Can You Do with It?</a>
+      </li>
+    
+  </ul>
+</section>
+
+
+
+
+
+
+  
+</aside>
+
+    </div>
+  </div>
+  <footer role="contentinfo"><p>
+  Copyright &copy; 2012 - Kate Chapman -
+  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
+</p>
+
+</footer>
+  
+
+
+
+
+
+
+
+  <script type="text/javascript">
+    (function(){
+      var twitterWidgets = document.createElement('script');
+      twitterWidgets.type = 'text/javascript';
+      twitterWidgets.async = true;
+      twitterWidgets.src = 'http://platform.twitter.com/widgets.js';
+      document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
+    })();
+  </script>
+
+
+
+
+
+</body>
+</html>

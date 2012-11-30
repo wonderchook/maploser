@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: GIS Programming | Kate Chapman - Maploser]]></title>
+  <link href="http://wonderchook.github.com/maploser/blog/categories/gis-programming/atom.xml" rel="self"/>
+  <link href="http://wonderchook.github.com/maploser/"/>
+  <updated>2012-11-30T16:01:26+08:00</updated>
+  <id>http://wonderchook.github.com/maploser/</id>
+  <author>
+    <name><![CDATA[Kate Chapman]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Twitter/Latitude Location Updater]]></title>
+    <link href="http://wonderchook.github.com/maploser/blog/2009/05/05/twitterlatitude-location-updater/"/>
+    <updated>2009-05-05T06:15:46+08:00</updated>
+    <id>http://wonderchook.github.com/maploser/blog/2009/05/05/twitterlatitude-location-updater</id>
+    <content type="html"><![CDATA[<p>Today Google opened up the <a href="http://www.google.com/latitude/apps/badge">Latitude</a> feed so you can get your Latitude location in a KML or JSON feed. Â I have been working on a longer term project to create a Twitter updater service but to play with the Latitude feed I wrote a quick Ruby script. Â With the json and twitter gems it was barely any work at all. Â </p>
+
+<p>The steps are essentially grab your Latitude info in JSON, extract out the latitude and longitude, authenticate with Twitter and then update your location in your profile. Â The magic code is below. Â  To make it work with your Twitter and Latitude accounts just substitute your Latitude feed URL and insert your Twitter username/password pair. Â You can look-up the appropriate URL <a href="http://www.google.com/latitude/apps/badge">here</a>.</p>
+
+<p>For the time being I'm just going to run a cron job on my desktop but eventually I will set-up a service where people can register to have their profiles updated. Â I don't think I'll just stick to Latitude, I'd like to use some other services as well.</p>
+
+<pre><code>require 'net/http'
+require 'uri'
+require 'rubygems'
+require 'json'
+require 'twitter'
+
+url = URI.parse('http://www.google.com')
+  latloc = Net::HTTP.start(url.host, url.port) {|http|
+    http.get('/latitude/apps/badge/api?user=youruserid&amp;type=json')
+}
+data = latloc.body
+json = JSON.parse(data)
+feature = json['features'][0]['geometry']['coordinates']
+where = Â feature[1].to_s &lt;&lt; ' ' &lt;&lt; feature[0].to_s
+httpauth = Twitter::HTTPAuth.new('username', 'password')
+base = Twitter::Base.new(httpauth)
+base.update_profile('location=' + where)
+</code></pre>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Map Projections: A Working Manual Available Online]]></title>
+    <link href="http://wonderchook.github.com/maploser/blog/2009/04/15/map-projections-a-working-manual-available-online/"/>
+    <updated>2009-04-15T04:15:47+08:00</updated>
+    <id>http://wonderchook.github.com/maploser/blog/2009/04/15/map-projections-a-working-manual-available-online</id>
+    <content type="html"><![CDATA[<p>When I was on my quest to find <a href="http://pubs.er.usgs.gov/usgspubs/pp/pp1395">Map Projections: A Working Manual</a>Â I felt lucky to find a copy of it in my coworker's office. Â A month later I discovered another coworker also had a copy of it. Â Now I have discovered it is available online from the USGS in PDF. Â Unfortunately it appears to be a scanned of a copy of the book from 1987 and not searchable, but this is far better than not having access to the book at all. Â </p>
+
+<p>So if you wish to follow along with my previous post about converting <a href="http://www.maploser.com/?p=56">coordinates to Miller</a>Â you can easily by downloading the reference materials from the USGS.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Gecoding Fact or Fiction?]]></title>
+    <link href="http://wonderchook.github.com/maploser/blog/2009/04/08/gecoding-fact-or-fiction/"/>
+    <updated>2009-04-08T05:36:52+08:00</updated>
+    <id>http://wonderchook.github.com/maploser/blog/2009/04/08/gecoding-fact-or-fiction</id>
+    <content type="html"><![CDATA[<p>This week the <a href="http://www.latimes.com/news/local/la-me-geocoding-errors5-2009apr05,1,6184660.story">L.A. Times reported</a> a geocoding glitch that displayed crimes that could not be mapped defaulting close to city hall. To GIS industry folks something like this happening may not be a surprise.Â  According to Wikipedia "<strong>Geocoding</strong> is the process of finding associated <a href="http://en.wikipedia.org/wiki/Geographic_coordinates">geographic coordinates</a> (often expressed as <a href="http://en.wikipedia.org/wiki/Latitude">latitude</a> and <a href="http://en.wikipedia.org/wiki/Longitude">longitude</a>) from other geographic data, such as <a href="http://en.wikipedia.org/wiki/Street_address">street addresses</a>, or <a href="http://en.wikipedia.org/wiki/Zip_codes">zip codes</a> (<a href="http://en.wikipedia.org/wiki/Postal_codes">postal codes</a>). "Â  To take that to a more generic level you could really say "earth" and put a dot on a map and call that geocoding.Â  Whenever data is placed on a map a certain level of skepticism is required.</p>
+
+<p>Though it is true that placing data accurately on a map is an import part of GIS, but I think there is an equally as important aspect.Â  That aspect is if the application is not going to provide only street level geocoding or better then the application needs to notify the user.Â  I entered â€œ123 Somewhere that I made up Los Angeles, 90001â€ into multiple online mapping application and records the results.
+<a href="http://maps.live.com">
+Virtual Earth</a> defaults this address to ZIP code centroid and does state â€œThis was not an exact match for your location. â€œÂ  Though it does not specify how it is coded.</p>
+
+<p><img src="http://www.maploser.com/uploads/2009/04/picture-2.png" alt="Virtual Earth geocode result." /></p>
+
+<p><a href="http://maps.google.com">Google Maps</a> states it was unable to locate the address and asks if you would like a map of that ZIP code.</p>
+
+<p><img src="http://www.maploser.com/uploads/2009/04/picture-5.png" alt="Google Maps" /><a href="http://maps.yahoo.com"></a></p>
+
+<p><a href="http://maps.yahoo.com">Yahoo Maps</a> offers up â€œFirestone Park, CA 90001â€ instead.
+<img src="http://www.maploser.com/uploads/2009/04/picture-6.png" alt="Yahoo Maps" /></p>
+
+<p><a href="http://www.mapquest.com">MapQuest</a> states â€œWe did not find an exact match for your search, but we found a similar location.â€</p>
+
+<p><img src="http://www.maploser.com/uploads/2009/04/picture-7.png" alt="MapQuest" /></p>
+
+<p>Even <a href="http://mappoint.msn.com">MapPoint</a> with its Web 1.0 interface states it could only find â€œthe following close match.â€</p>
+
+<p><img src="http://www.maploser.com/uploads/2009/04/picture-9.png" alt="MapPoint" /></p>
+
+<p><a href="http://www.maps.com/AddressFinderNow.aspx">Maps.com</a> just zooms to the ZIP centroid and only gives a suggestion that it did not geocode to address when moused over, which would be unfortunate if one utilized their site for driving directions.</p>
+
+<p><img src="http://www.maploser.com/uploads/2009/04/picture-11.png" alt="Maps" /></p>
+
+<p><a href="http://yellowpages.superpages.com/directions.jsp">Superpages </a>defaults to ZIP centroid and it does only list the ZIP code in the address box, but unfortunately I don't think that is clear enough to the user that an essentially an error occurred by the address not being matched.</p>
+
+<p><img src="http://www.maploser.com/uploads/2009/04/picture-10.png" alt="Yellow Pages" /></p>
+
+<p>Yellowpages just changes the address text box to the ZIP code, zooms to the centroid and gives no indication of a problem.</p>
+
+<p><img src="http://www.maploser.com/uploads/2009/04/picture-12.png" alt="Yellowpages" /></p>
+
+<p>To build a trust worthy mapping site there are two aspects, the first is utilizing the most accurate geocoding methodology possible, second is notifying the user of how the location was determined.Â  Without indicating an error the user is not giving a chance to correct the address or determine they can not place a location accurately enough.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Converting Unprojected Bounding Box to the Miller Projection]]></title>
+    <link href="http://wonderchook.github.com/maploser/blog/2009/03/16/converting-unprojected-bounding-box-to-the-miller-projection/"/>
+    <updated>2009-03-16T03:05:47+08:00</updated>
+    <id>http://wonderchook.github.com/maploser/blog/2009/03/16/converting-unprojected-bounding-box-to-the-miller-projection</id>
+    <content type="html"><![CDATA[<p>Where I work we frequently use bounding boxes to add maps to reports.  Originally all of our base information was in Latitude/Longitude, this didn't provide a very pleasing map.  At some point an effort was made to switch everything to the <a href="http://en.wikipedia.org/wiki/Miller_cylindrical_projection">Miller Projection</a>, which is a modification of the <a href="http://en.wikipedia.org/wiki/Mercator_projection">Mercator Projection</a>Â .  The flaw being that it appears to me that almost nobody uses the Miller projection.  <a href="http://msdn.microsoft.com/en-us/library/bb259689.aspx">Virtual Earth</a>Â and Google Maps for example use Mercator.</p>
+
+<p>At one point I ran into the issue that I needed to pass a bounding box to a map being displayed in Miller.  We have bounding boxes for our commonly used polygon types stored in a generalized format for quick access.  Rather than also store Miller Coordinates I decided to create a function to convert.  Little did I know figuring out how to convert would be so difficult.  After extensive googling the advice that made the most sense said find â€œMap Projections a Working Manualâ€ which is U.S. Geological Survey Professional Paper 1395 by Snyder, it was published in 1987.  I was fortunate that a coworker had a copy of it.</p>
+
+<p>In the working manual 6 whole pages are dedicated to Miller, which is at least significantly more than the Wikipedia entry.  I personally have never been that great at math so I quickly turned to the numeric examples in Appendix A on pages 287-288.</p>
+
+<p>The first part that is important is the givens:</p>
+
+<p>-Radius of sphere
+-Central meridian
+-Point:  (in Lat/Long)</p>
+
+<p>The hardest part from here was translating everything into C#.  Which I have shown below.  I have included my bounding box class just for clarity.</p>
+
+<pre><code>public BBox ConvertBoxToMiller(BBox box)
+    {
+        BBox MillerBox = new BBox();
+        int radius = 6378140;
+        MillerBox.maxLon = radius * box.maxLon &amp; Math.PI/180;
+        MillerBox.minLon = radius * box.minLon &amp; Math.PI/180;
+        Miller.maxLat = radius * Math.Log(Math.Tan(45/57.2957795 + .4 * box.maxLat/57/2957795))/.8;
+            Miller.minLat = radius * Math.Log(Math.Tan(45/57.2957795 + .4 * box.minLat/57/2957795))/.8;
+        return MillerBox;
+    }
+
+public class BBox
+{
+double minLat;
+double minLon;
+double maxLat;
+double maxLon;
+public double minLat{
+    get
+    {
+    return minLat;
+    }
+    set
+    {
+    minLat = value;
+
+    }
+}
+public double maxLat{
+    get
+    {
+    return maxLat;
+    }
+    set
+    {
+    maxLat = value;
+
+    }
+}
+public double minLon{
+    get
+    {
+    return minLon;
+    }
+    set
+    {
+    minLon = value;
+
+    }
+}
+public double maxLon{
+    get
+    {
+    return maxLon;
+    }
+    set
+    {
+    maxLon = value;
+
+    }
+}
+}
+</code></pre>
+
+<p>Â </p>
+
+<p>Â Next I will show how to go the other direction.  A project I ran into shortly afterwards when we needed to do some reporting on some log files.</p>
+]]></content>
+  </entry>
+  
+</feed>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: CrisisCommons | Kate Chapman - Maploser]]></title>
+  <link href="http://wonderchook.github.com/maploser/blog/categories/crisiscommons/atom.xml" rel="self"/>
+  <link href="http://wonderchook.github.com/maploser/"/>
+  <updated>2012-11-30T16:01:26+08:00</updated>
+  <id>http://wonderchook.github.com/maploser/</id>
+  <author>
+    <name><![CDATA[Kate Chapman]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[CrisisCamp/CrisisCommons Movement]]></title>
+    <link href="http://wonderchook.github.com/maploser/blog/2010/01/23/crisiscampcrisiscommons-movement/"/>
+    <updated>2010-01-23T17:52:31+08:00</updated>
+    <id>http://wonderchook.github.com/maploser/blog/2010/01/23/crisiscampcrisiscommons-movement</id>
+    <content type="html"><![CDATA[<p>Since the earthquake occurred in Haiti I've been fortunate to be involved with a tremendous group of people.  I've unfortunately been too busy working with that group to write about it at all.  Sitting on a plane has fortunately given me the opportunity to reflect and be able to blog about it.</p>
+
+<p>After the earthquake occurred in Haiti the following day there was an informal meeting.  It was a group of people getting together and saying 'Well, what can we do?â€  It was decided to have another CrisisCamp, this time a hackathon.  That Wednesday we didn't have a location, we just had set a date and time for that Saturday.  We had no idea how many people would show up nor where we were going to hold the event.  The following day there was an outpouring of offers of places to host it.  <a href="http://www.sunlightfoundation.com">The Sunlight Foundation</a> ended up being chosen, Sunlight already has experience with large scale hackathons which helped event run smoothly.</p>
+
+<p>Before the crowd showed up project managers were chosen for each project.  <a href="http://sunlightfoundation.com/people/cjohnson/">Clay Johnson</a> from the <a href="http://www.sunlightlabs.com/">Sunlight Labs</a> was going to be the main leader to which all the other project managers would report.  People starting showing up and there was a kickoff meeting, people were all assigned to projects and began work.  I was the project leader for the geospatial group with Katie Filbert another <a href="http://www.mappingdc.org">MappingDC</a> member.  We ended up being a group of about 30 people varying from geospatial programmers like myself to regular MappingDC contributors to people who had laptop and wanted to help.  Jumpstart Labs even handed out all the computers that they had available to people as well.  Our group was so large we were moved offsite to another office to work.</p>
+
+<p>The group began by learning how to digitize satellite imagery and add it to <a href="http://www.osm.org">OpenStreetMap</a>.  Our focus was roads, since a lot of the areas outside Port-au-Prince still had not been covered.  I'm not sure how much data we really contributed that day.  The mass of people made the network somewhat slow and there were varying learning curves in the group.  The GIS people were fairly resourceful and ended up downloading imagery locally and using QGIS with its OSM plugin to edit.  I have no statistics if the people we trained have continued to edit, but I hope that is the case.  So many people want to help and OpenStreetMap is a map for everyone.</p>
+
+<p>All the contributors to the hackathon got back together at the end of the day to report the status of their projects.  You can see those projects on the front of <a href="http://www.crisiscommons.org">CrisisCommons</a>.  CrisisCommons itself was transformed from a blank page into a professional looking website at the hackathon.  The event really shows what can happen when people with focus and a desire to help can do when they get together.  Key also was strong leadership as well, Clay wrote a blog post about <a href="http://sunlightlabs.com/blog/2010/how-manage-large-volunteer-hackathons/">leading large volunteer hackathons</a> which describes what he did that was key for us.</p>
+
+<p>Since last Saturday I've continued to work on creating, sharing and obtaining data for those helping in Haiti.  Thanks to gentle pressure from Noel Dickover and <a href="http://www.highearthorbit.com">Andrew Turner</a> I was  motivated to make a video showing the basics of the training I gave in digitizing roads.  To help with the push to map the camps that have formed in Haiti I also made a second video as well.  In the amazing collaboration that has been throughout CrisisCommons and CrisisCamp <a href="http://yoavlurie.com/">Yoav Lurie</a> even made a website <a href="http://www.imaphaiti.com">iMapHaiti</a> with both the training videos and other getting started materials for OpenStreetMap.</p>
+
+<p>There are CrisisCamps occuring all of the multiple countries this weekend and I can't wait to see what comes out of the effort.  The past week has been both saddening due to all the loss of life, but also thrilling to see how people have come together.  The best part of CrisisCommons is I don't think this is just about this disaster.  This will be about making crisis response better in the future.</p>
+
+<p>Want to get involved?  Go to <a href="http://www.crisiscommons.org">CrisisCommons</a> to get started.</p>
+]]></content>
+  </entry>
+  
+</feed>

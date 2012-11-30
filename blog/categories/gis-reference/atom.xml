@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: GIS Reference | Kate Chapman - Maploser]]></title>
+  <link href="http://wonderchook.github.com/maploser/blog/categories/gis-reference/atom.xml" rel="self"/>
+  <link href="http://wonderchook.github.com/maploser/"/>
+  <updated>2012-11-30T16:01:26+08:00</updated>
+  <id>http://wonderchook.github.com/maploser/</id>
+  <author>
+    <name><![CDATA[Kate Chapman]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Imagery Processing...Lessons Learned?]]></title>
+    <link href="http://wonderchook.github.com/maploser/blog/2011/12/11/imagery-processing-lessons-learned/"/>
+    <updated>2011-12-11T11:25:05+08:00</updated>
+    <id>http://wonderchook.github.com/maploser/blog/2011/12/11/imagery-processing-lessons-learned</id>
+    <content type="html"><![CDATA[<p><strong>Confession: </strong>When I studed Geography at George Mason University I only took one class that had anything to do with imagery of any type.  Focused around manual interpretation of imagery mostly though we did use ERDAS Imagine once, for a lab.</p>
+
+<p>I could have taken more classes on remote sensing, but I didn't.  My focus was more on cartography and statistical analysis.</p>
+
+<p>Anyway, recently <a href="http://hot.openstreetmap.org">HOT</a> bought some imagery. I naively thought that I could just run it through gdal2tiles.py and go skipping down the road to digitizing.  Well, I was wrong.</p>
+
+<p>I received a lot of advice on what to do with the imagery.  For example changing it from 16 bit to 8 bit.  Which I tried, oddly it worked on one image and not the other.  This turns out was just dumb luck that the stretch was almost right when you did that.  Other suggestions involved reordering the bands and things such as that.  I tried a bunch of different things, none of them worked.</p>
+
+<p>I did discover that if I applied a standard deviation stretch to the imagery in QGIS then it looked right.  There wasn't a way to save this stretch though directly to the GeoTIFF. I did a bunch of searching to see if there was a manual way to do this and I came across this post on using <a href="http://www.osgeo.org/pipermail/gdal-dev/2011-June/029004.html">VRTs to add the minimum and maximum of the bands</a>.</p>
+
+<p>So here is my pretty manual way of doing things.  Yes I could have done some automation but I figured it was just a couple images.</p>
+
+<p>First I download the image and open it in QGIS.  Then I right clicked on the layer and selected properties.  In the properties dialog I selected "use standard deviation" and he "apply."  The image should now look like natural color.</p>
+
+<p><img src="http://www.maploser.com/wp-content/uploads/2011/12/standard_dev.png" alt="Properties Panel QGIS" /></p>
+
+<p>Next I copied the Red, Green and Blue min/max values. Â Now with the correct values the key is to feed them in GDAL correctly. Here you are building a VRT or Virtual Format. Â So the actual processing doesn't take place, you are describing it though.</p>
+
+<p>First step is to stretch each band individually:</p>
+
+<p>gdal_translate -b 1 -scale min max -ot Byte -of VRT your_image.tif 1.vrt</p>
+
+<p>gdal_translate -b 2 -scale min max -ot Byte -of VRT your_image.tif 2.vrt</p>
+
+<p>gdal_translate -b 3 -scale min max -ot Byte -of VRT your_image.tif 3.vrt</p>
+
+<p>Next put the bands back together (virtually):</p>
+
+<p>gdalbuildvrt -separate b123.vrt b1.vrt b2.vrt b3.vrt</p>
+
+<p>Now actually create your GeoTiff</p>
+
+<p>gdal_translate -of gtiff b123.vrt my_beautiful_tif.tif</p>
+
+<p>After that you can tile your tif or do anything else you might want to do with it. In my case I ran gdal2tiles.py</p>
+
+<p>gdal2tiles.py my_beautiful_tif.tif</p>
+
+<p>I suspect there may be a better way of doing things than this. Â Though after a lot of researching I didn't find one. Â So this is the process that works for me. Â Any suggestions? Â Please, please, please leave them in the comments!</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Map Projections: A Working Manual Available Online]]></title>
+    <link href="http://wonderchook.github.com/maploser/blog/2009/04/15/map-projections-a-working-manual-available-online/"/>
+    <updated>2009-04-15T04:15:47+08:00</updated>
+    <id>http://wonderchook.github.com/maploser/blog/2009/04/15/map-projections-a-working-manual-available-online</id>
+    <content type="html"><![CDATA[<p>When I was on my quest to find <a href="http://pubs.er.usgs.gov/usgspubs/pp/pp1395">Map Projections: A Working Manual</a>Â I felt lucky to find a copy of it in my coworker's office. Â A month later I discovered another coworker also had a copy of it. Â Now I have discovered it is available online from the USGS in PDF. Â Unfortunately it appears to be a scanned of a copy of the book from 1987 and not searchable, but this is far better than not having access to the book at all. Â </p>
+
+<p>So if you wish to follow along with my previous post about converting <a href="http://www.maploser.com/?p=56">coordinates to Miller</a>Â you can easily by downloading the reference materials from the USGS.</p>
+]]></content>
+  </entry>
+  
+</feed>

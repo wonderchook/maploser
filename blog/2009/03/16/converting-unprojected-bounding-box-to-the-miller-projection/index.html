@@ -1,0 +1,299 @@
+
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>Converting Unprojected Bounding Box to the Miller Projection - Kate Chapman - Maploser</title>
+  <meta name="author" content="Kate Chapman">
+
+  
+  <meta name="description" content="Where I work we frequently use bounding boxes to add maps to reports. Originally all of our base information was in Latitude/Longitude, this didn&# &hellip;">
+  
+
+  <!-- http://t.co/dKP3o1e -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <link rel="canonical" href="http://wonderchook.github.com/maploser/blog/2009/03/16/converting-unprojected-bounding-box-to-the-miller-projection/">
+  <link href="/maploser/favicon.png" rel="icon">
+  <link href="/maploser/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <script src="/maploser/javascripts/modernizr-2.0.js"></script>
+  <script src="/maploser/javascripts/ender.js"></script>
+  <script src="/maploser/javascripts/octopress.js" type="text/javascript"></script>
+  <link href="/maploser/atom.xml" rel="alternate" title="Kate Chapman - Maploser" type="application/atom+xml">
+  <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
+<link href="http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+<link href="http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+
+  
+
+</head>
+
+<body   >
+  <header role="banner"><hgroup>
+  <h1><a href="/maploser/">Kate Chapman - Maploser</a></h1>
+  
+    <h2>On a quest to find out where.</h2>
+  
+</hgroup>
+
+</header>
+  <nav role="navigation"><ul class="subscription" data-subscription="rss">
+  <li><a href="/maploser/atom.xml" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
+  
+</ul>
+  
+<form action="http://google.com/search" method="get">
+  <fieldset role="search">
+    <input type="hidden" name="q" value="site:wonderchook.github.com/maploser" />
+    <input class="search" type="text" name="q" results="0" placeholder="Search"/>
+  </fieldset>
+</form>
+  
+<ul class="main-navigation">
+  <li><a href="/maploser/">Blog</a></li>
+  <li><a href="/maploser/blog/archives">Archives</a></li>
+</ul>
+
+</nav>
+  <div id="main">
+    <div id="content">
+      <div>
+<article class="hentry" role="article">
+  
+  <header>
+    
+      <h1 class="entry-title">Converting Unprojected Bounding Box to the Miller Projection</h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2009-03-16T03:05:47+08:00" pubdate data-updated="true">Mar 16<span>th</span>, 2009</time>
+        
+      </p>
+    
+  </header>
+
+
+<div class="entry-content"><p>Where I work we frequently use bounding boxes to add maps to reports.  Originally all of our base information was in Latitude/Longitude, this didn&#8217;t provide a very pleasing map.  At some point an effort was made to switch everything to the <a href="http://en.wikipedia.org/wiki/Miller_cylindrical_projection">Miller Projection</a>, which is a modification of the <a href="http://en.wikipedia.org/wiki/Mercator_projection">Mercator Projection</a>Â .  The flaw being that it appears to me that almost nobody uses the Miller projection.  <a href="http://msdn.microsoft.com/en-us/library/bb259689.aspx">Virtual Earth</a>Â and Google Maps for example use Mercator.</p>
+
+<p>At one point I ran into the issue that I needed to pass a bounding box to a map being displayed in Miller.  We have bounding boxes for our commonly used polygon types stored in a generalized format for quick access.  Rather than also store Miller Coordinates I decided to create a function to convert.  Little did I know figuring out how to convert would be so difficult.  After extensive googling the advice that made the most sense said find â€œMap Projections a Working Manualâ€ which is U.S. Geological Survey Professional Paper 1395 by Snyder, it was published in 1987.  I was fortunate that a coworker had a copy of it.</p>
+
+<p>In the working manual 6 whole pages are dedicated to Miller, which is at least significantly more than the Wikipedia entry.  I personally have never been that great at math so I quickly turned to the numeric examples in Appendix A on pages 287-288.</p>
+
+<p>The first part that is important is the givens:</p>
+
+<p>-Radius of sphere
+-Central meridian
+-Point:  (in Lat/Long)</p>
+
+<p>The hardest part from here was translating everything into C#.  Which I have shown below.  I have included my bounding box class just for clarity.</p>
+
+<pre><code>public BBox ConvertBoxToMiller(BBox box)
+    {
+        BBox MillerBox = new BBox();
+        int radius = 6378140;
+        MillerBox.maxLon = radius * box.maxLon &amp; Math.PI/180;
+        MillerBox.minLon = radius * box.minLon &amp; Math.PI/180;
+        Miller.maxLat = radius * Math.Log(Math.Tan(45/57.2957795 + .4 * box.maxLat/57/2957795))/.8;
+            Miller.minLat = radius * Math.Log(Math.Tan(45/57.2957795 + .4 * box.minLat/57/2957795))/.8;
+        return MillerBox;
+    }
+
+public class BBox
+{
+double minLat;
+double minLon;
+double maxLat;
+double maxLon;
+public double minLat{
+    get
+    {
+    return minLat;
+    }
+    set
+    {
+    minLat = value;
+
+    }
+}
+public double maxLat{
+    get
+    {
+    return maxLat;
+    }
+    set
+    {
+    maxLat = value;
+
+    }
+}
+public double minLon{
+    get
+    {
+    return minLon;
+    }
+    set
+    {
+    minLon = value;
+
+    }
+}
+public double maxLon{
+    get
+    {
+    return maxLon;
+    }
+    set
+    {
+    maxLon = value;
+
+    }
+}
+}
+</code></pre>
+
+<p>Â </p>
+
+<p>Â Next I will show how to go the other direction.  A project I ran into shortly afterwards when we needed to do some reporting on some log files.</p>
+</div>
+
+
+  <footer>
+    <p class="meta">
+      
+  
+
+<span class="byline author vcard">Posted by <span class="fn">Kate Chapman</span></span>
+
+      
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2009-03-16T03:05:47+08:00" pubdate data-updated="true">Mar 16<span>th</span>, 2009</time>
+      
+
+<span class="categories">
+  
+    <a class='category' href='/maploser/blog/categories/gis-programming/'>GIS Programming</a>
+  
+</span>
+
+
+    </p>
+    
+      <div class="sharing">
+  
+  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://wonderchook.github.com/maploser/blog/2009/03/16/converting-unprojected-bounding-box-to-the-miller-projection/" data-via="" data-counturl="http://wonderchook.github.com/maploser/blog/2009/03/16/converting-unprojected-bounding-box-to-the-miller-projection/" >Tweet</a>
+  
+  
+  
+</div>
+
+    
+    <p class="meta">
+      
+        <a class="basic-alignment left" href="/maploser/blog/2009/02/18/mapping-of-the-recovery/" title="Previous Post: Mapping of the Recovery">&laquo; Mapping of the Recovery</a>
+      
+      
+        <a class="basic-alignment right" href="/maploser/blog/2009/04/05/baltimore-osm-party/" title="Next Post: Baltimore OSM Party">Baltimore OSM Party &raquo;</a>
+      
+    </p>
+  </footer>
+</article>
+
+</div>
+
+<aside class="sidebar">
+  
+    <section>
+  <h1>Recent Posts</h1>
+  <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/maploser/blog/2012/05/01/my-shuttleworth-application/">My Shuttleworth Application</a>
+      </li>
+    
+      <li class="post">
+        <a href="/maploser/blog/2012/03/30/all-i-want-for-openstreetmap-is-simple/">All I Want for OpenStreetMap is Simple.</a>
+      </li>
+    
+      <li class="post">
+        <a href="/maploser/blog/2012/03/23/democratizing-spatial/">Democratizing Spatial</a>
+      </li>
+    
+      <li class="post">
+        <a href="/maploser/blog/2012/03/18/crowd-funding-satellite-imagery/">Crowd funding Satellite Imagery</a>
+      </li>
+    
+      <li class="post">
+        <a href="/maploser/blog/2012/03/04/odbl-what-the-heck-can-you-do-with-it/">ODbL, What the Heck Can You Do with It?</a>
+      </li>
+    
+  </ul>
+</section>
+
+
+
+
+
+
+  
+</aside>
+
+
+    </div>
+  </div>
+  <footer role="contentinfo"><p>
+  Copyright &copy; 2012 - Kate Chapman -
+  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
+</p>
+
+</footer>
+  
+
+
+
+
+
+
+
+  <script type="text/javascript">
+    (function(){
+      var twitterWidgets = document.createElement('script');
+      twitterWidgets.type = 'text/javascript';
+      twitterWidgets.async = true;
+      twitterWidgets.src = 'http://platform.twitter.com/widgets.js';
+      document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
+    })();
+  </script>
+
+
+
+
+
+</body>
+</html>

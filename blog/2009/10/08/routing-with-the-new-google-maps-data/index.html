@@ -1,0 +1,229 @@
+
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>Routing with the new Google Maps Data - Kate Chapman - Maploser</title>
+  <meta name="author" content="Kate Chapman">
+
+  
+  <meta name="description" content="I spent some time look around Google Maps since they stopped using Teleatlas in the United States this week. Â Essentially I poked around looking for &hellip;">
+  
+
+  <!-- http://t.co/dKP3o1e -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <link rel="canonical" href="http://wonderchook.github.com/maploser/blog/2009/10/08/routing-with-the-new-google-maps-data/">
+  <link href="/maploser/favicon.png" rel="icon">
+  <link href="/maploser/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <script src="/maploser/javascripts/modernizr-2.0.js"></script>
+  <script src="/maploser/javascripts/ender.js"></script>
+  <script src="/maploser/javascripts/octopress.js" type="text/javascript"></script>
+  <link href="/maploser/atom.xml" rel="alternate" title="Kate Chapman - Maploser" type="application/atom+xml">
+  <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
+<link href="http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+<link href="http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+
+  
+
+</head>
+
+<body   >
+  <header role="banner"><hgroup>
+  <h1><a href="/maploser/">Kate Chapman - Maploser</a></h1>
+  
+    <h2>On a quest to find out where.</h2>
+  
+</hgroup>
+
+</header>
+  <nav role="navigation"><ul class="subscription" data-subscription="rss">
+  <li><a href="/maploser/atom.xml" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
+  
+</ul>
+  
+<form action="http://google.com/search" method="get">
+  <fieldset role="search">
+    <input type="hidden" name="q" value="site:wonderchook.github.com/maploser" />
+    <input class="search" type="text" name="q" results="0" placeholder="Search"/>
+  </fieldset>
+</form>
+  
+<ul class="main-navigation">
+  <li><a href="/maploser/">Blog</a></li>
+  <li><a href="/maploser/blog/archives">Archives</a></li>
+</ul>
+
+</nav>
+  <div id="main">
+    <div id="content">
+      <div>
+<article class="hentry" role="article">
+  
+  <header>
+    
+      <h1 class="entry-title">Routing With the New Google Maps Data</h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2009-10-08T18:19:19+08:00" pubdate data-updated="true">Oct 8<span>th</span>, 2009</time>
+        
+      </p>
+    
+  </header>
+
+
+<div class="entry-content"><p>I spent some time look around Google Maps since they stopped using Teleatlas in the United States this week. Â Essentially I poked around looking for errors that are usually in the street vendor data. Â Mostly these are minor errors such as a single line segment misspelled. Â  The problems usually appear to have originated with the original <a href="http://www.census.gov/geo/www/tiger/">TIGER</a> street data and never been repaired.</p>
+
+<p>For the areas I&#8217;m familiar with the data looks good. Â There has been lots of conjecture as to where all the data was sourced. Â I suspect at least in L<a href="http://www.loudoun.gov/">oudoun County</a> where I live the source is the local government, that is unless the occasional segment errors were fixed by Google. Â The one error I did find was an edge case within the routing.</p>
+
+<p><a href="http://en.wikipedia.org/wiki/White's_Ferry">White&#8217;s Ferry</a> is a small ferry line just north of Leesburg, Virginia. Â White&#8217;s Ferry is supposed to be the late cable operated ferry on the East Coast, for a little historic background and to see it in action <a href="http://www.lonelyplanet.tv/Clip.aspx?key=88A4A0F712356205">Lonely Planet </a>has a good video clip. Â It is the fastest way across the Potomac to rural Maryland on the otherside. Â When I lived in Leesburg I occasionally used it when traveling to suburban Maryland such as Rockville because it took the same amount of time and didn&#8217;t require any driving on the Beltway. Â I&#8217;m fairly sure that previously if you routed it would take you across White&#8217;s Ferry. Â I ran the route through a couple routing websites to compare results.</p>
+
+<p><a href="http://maps.google.com/maps?daddr=Leesburg,+VA&amp;geocode=Cf60Ojnhi4TLFY7bVAIdL3lg-w&amp;dirflg=&amp;saddr=Martinsburg,+mD&amp;f=d&amp;sll=39.138449,-77.533092&amp;sspn=0.073229,0.143509&amp;ie=UTF8&amp;z=11">On Google</a> it takes you up and around across a more northern bridge which is a much slower route in this situation. Â <a href="http://www.bing.com/maps/default.aspx?v=2&amp;FORM=LMLTCP&amp;cp=39.140241~-77.521509&amp;style=r&amp;lvl=13&amp;tilt=-90&amp;dir=0&amp;alt=-1000&amp;phx=0&amp;phy=0&amp;phscl=1&amp;rtp=pos.39.1156700536566_-77.5653001063996_Leesburg%2C%20VA__~pos.39.1646404240942_-77.4777188717115_Martinsburg%2C%20MD__&amp;rtop=0~0~0&amp;encType=1">Bing Maps</a> routes through the ferry, as does <a href="http://www.mapquest.com/mq/9-zOU3Tf0sSbXnO_D2">MapQuest</a>. Â <a href="http://maps.yahoo.com/#mvt=m&amp;lat=39.195525&amp;lon=-77.494765&amp;zoom=12&amp;q1=Leesburg%2C%20VA&amp;q2=Martinsburg%2C%20MD">Yahoo</a> goes up and around across the bridge the same way Google does. Â Potentially Yahoo could be a routing engine problem because their tiles say they are sourcing <a href="http://www.navteq.com/">NAVTEQ</a> data and on NAVTEQ&#8217;s site you can successfully route from Leesburg to Martinsburg across the ferry (note: Â I could not figure out an easy way to link directly to the NAVTEQ route here).</p>
+
+<p>I checked other ferry lines and it appears Google can do the multi-modal routing, but the ferry information is just missing for White&#8217;s Ferry. Â As an experiment I have reported the missing ferry and requested notification when it is fixed. Â You can be sure that I&#8217;ll report back here when I get a response.</p>
+
+<p>While performing this exercise I checked OpenStreetMap to make sure the ferry was already available on <a href="http://www.openstreetmap.org/?lat=39.15324&amp;lon=-77.51475&amp;zoom=15&amp;layers=B000FTF">the map there</a>. Â Routing doesn&#8217;t work so well in the routing service I used it took an even longer route to go been <a href="http://yournavigation.org/?flat=39.115667&amp;flon=-77.564144&amp;tlat=39.160803&amp;tlon=-77.513161&amp;v=motorcar&amp;fast=1&amp;layer=mapnik">Leesburg and Martinsburg</a>. At least with YourNavigation.org you can export the route data to GPX and use it in whatever device you like. Â If I&#8217;m going to use my local knowledge to repair map data I want it back to use however I like. Â You can report bugs in the Google map data, but you can&#8217;t export it to GPX like you can with the OpenStreetMap data.</p>
+</div>
+
+
+  <footer>
+    <p class="meta">
+      
+  
+
+<span class="byline author vcard">Posted by <span class="fn">Kate Chapman</span></span>
+
+      
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2009-10-08T18:19:19+08:00" pubdate data-updated="true">Oct 8<span>th</span>, 2009</time>
+      
+
+<span class="categories">
+  
+    <a class='category' href='/maploser/blog/categories/map-commentary/'>Map Commentary</a>, <a class='category' href='/maploser/blog/categories/osm/'>OSM</a>, <a class='category' href='/maploser/blog/categories/routing/'>routing</a>
+  
+</span>
+
+
+    </p>
+    
+      <div class="sharing">
+  
+  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://wonderchook.github.com/maploser/blog/2009/10/08/routing-with-the-new-google-maps-data/" data-via="" data-counturl="http://wonderchook.github.com/maploser/blog/2009/10/08/routing-with-the-new-google-maps-data/" >Tweet</a>
+  
+  
+  
+</div>
+
+    
+    <p class="meta">
+      
+        <a class="basic-alignment left" href="/maploser/blog/2009/10/07/action-script-on-the-iphone-good-news-for-geonerds/" title="Previous Post: Action Script on the iPhone Good News for GeoNerds?">&laquo; Action Script on the iPhone Good News for GeoNerds?</a>
+      
+      
+        <a class="basic-alignment right" href="/maploser/blog/2009/10/11/update-to-my-google-maps-error-report/" title="Next Post: Update to my Google Maps Error Report">Update to my Google Maps Error Report &raquo;</a>
+      
+    </p>
+  </footer>
+</article>
+
+</div>
+
+<aside class="sidebar">
+  
+    <section>
+  <h1>Recent Posts</h1>
+  <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/maploser/blog/2012/05/01/my-shuttleworth-application/">My Shuttleworth Application</a>
+      </li>
+    
+      <li class="post">
+        <a href="/maploser/blog/2012/03/30/all-i-want-for-openstreetmap-is-simple/">All I Want for OpenStreetMap is Simple.</a>
+      </li>
+    
+      <li class="post">
+        <a href="/maploser/blog/2012/03/23/democratizing-spatial/">Democratizing Spatial</a>
+      </li>
+    
+      <li class="post">
+        <a href="/maploser/blog/2012/03/18/crowd-funding-satellite-imagery/">Crowd funding Satellite Imagery</a>
+      </li>
+    
+      <li class="post">
+        <a href="/maploser/blog/2012/03/04/odbl-what-the-heck-can-you-do-with-it/">ODbL, What the Heck Can You Do with It?</a>
+      </li>
+    
+  </ul>
+</section>
+
+
+
+
+
+
+  
+</aside>
+
+
+    </div>
+  </div>
+  <footer role="contentinfo"><p>
+  Copyright &copy; 2012 - Kate Chapman -
+  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
+</p>
+
+</footer>
+  
+
+
+
+
+
+
+
+  <script type="text/javascript">
+    (function(){
+      var twitterWidgets = document.createElement('script');
+      twitterWidgets.type = 'text/javascript';
+      twitterWidgets.async = true;
+      twitterWidgets.src = 'http://platform.twitter.com/widgets.js';
+      document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
+    })();
+  </script>
+
+
+
+
+
+</body>
+</html>
