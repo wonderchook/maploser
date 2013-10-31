@@ -1,38 +1,38 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Category: MappingDC | Kate Chapman - Maploser]]></title>
-  <link href="http://maploser.com/blog/categories/mappingdc/atom.xml" rel="self"/>
-  <link href="http://maploser.com/"/>
-  <updated>2012-11-30T16:49:41+08:00</updated>
-  <id>http://maploser.com/</id>
-  <author>
-    <name><![CDATA[Kate Chapman]]></name>
-    
-  </author>
-  <generator uri="http://octopress.org/">Octopress</generator>
+ <title><![CDATA[Category: MappingDC | Kate Chapman - Maploser]]></title>
+ <link href="http://maploser.com/blog/categories/mappingdc/atom.xml" rel="self"/>
+ <link href="http://maploser.com/"/>
+ <updated>2012-11-30T16:49:41+08:00</updated>
+ <id>http://maploser.com/</id>
+ <author>
+ <name><![CDATA[Kate Chapman]]></name>
+ 
+ </author>
+ <generator uri="http://octopress.org/">Octopress</generator>
 
-  
-  <entry>
-    <title type="html"><![CDATA[Talking MappingDC at Ignite DC]]></title>
-    <link href="http://maploser.com/blog/2010/02/10/talking-mappingdc-at-ignite-dc/"/>
-    <updated>2010-02-10T23:54:55+08:00</updated>
-    <id>http://maploser.com/blog/2010/02/10/talking-mappingdc-at-ignite-dc</id>
-    <content type="html"><![CDATA[<p>Back in October I spoke at <a href="http://www.ignite-dc.com">Ignite DC #2</a> about <a href="http://mappingdc.org">MappingDC</a> and <a href="http://www.osm.org">OpenStreetMap</a>. Â An Ignite event structure is 16 speakers who each speak for 5 minutes with auto-rotating slides.  This was my first time participating in Ignite as a speaker and it was great to talk about mapping.  Since my talk MappingDC has continued to have mapping parties and work on importing <a href="http://dcgis.dc.gov/dcgis/site/default.asp">DC GIS</a> data.</p>
+ 
+ <entry>
+ <title type="html"><![CDATA[Talking MappingDC at Ignite DC]]></title>
+ <link href="http://maploser.com/blog/2010/02/10/talking-mappingdc-at-ignite-dc/"/>
+ <updated>2010-02-10T23:54:55+08:00</updated>
+ <id>http://maploser.com/blog/2010/02/10/talking-mappingdc-at-ignite-dc</id>
+ <content type="html"><![CDATA[<p>Back in October I spoke at <a href="http://www.ignite-dc.com">Ignite DC #2</a> about <a href="http://mappingdc.org">MappingDC</a> and <a href="http://www.osm.org">OpenStreetMap</a>.  An Ignite event structure is 16 speakers who each speak for 5 minutes with auto-rotating slides. This was my first time participating in Ignite as a speaker and it was great to talk about mapping. Since my talk MappingDC has continued to have mapping parties and work on importing <a href="http://dcgis.dc.gov/dcgis/site/default.asp">DC GIS</a> data.</p>
 
 <p>The next <a href="http://ignitedc3.eventbrite.com/">Ignite DC is on February 18th</a>, there are only sponsorship tickets left. If you are lucky enough to already have a ticket I'll see you there.</p>
 ]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[MappingDC OSM Editing Tips and Tricks]]></title>
-    <link href="http://maploser.com/blog/2009/09/22/mappingdc-osm-editing-tips-and-tricks/"/>
-    <updated>2009-09-22T02:54:19+08:00</updated>
-    <id>http://maploser.com/blog/2009/09/22/mappingdc-osm-editing-tips-and-tricks</id>
-    <content type="html"><![CDATA[<p>On Wednesday this week we are having the first edition of "OSM Editing Tips and Tricks" for <a href="http://groups.google.com/group/mappingdc">MappingDC</a>.  Every time I get together with other <a href="http://www.openstreetmap.com">OpenStreetMap</a> contributors I learn something that makes it easier to edit/add data to OSM. Â The last time I edited together in a room with others was at <a href="http://www.wherecamp5280.org/">WhereCamp5280</a>. Â Mostly then I learned short-cut keys for Potlatch and I had for some reason missed how to add tags that were not in the short-cuts such as "building=yes" from Potlatch. Â Up until that point I had been digitizing off the Yahoo Imagery and then going into JOSM to clean things up. Â This method sounds totally inefficient now.</p>
+ </entry>
+ 
+ <entry>
+ <title type="html"><![CDATA[MappingDC OSM Editing Tips and Tricks]]></title>
+ <link href="http://maploser.com/blog/2009/09/22/mappingdc-osm-editing-tips-and-tricks/"/>
+ <updated>2009-09-22T02:54:19+08:00</updated>
+ <id>http://maploser.com/blog/2009/09/22/mappingdc-osm-editing-tips-and-tricks</id>
+ <content type="html"><![CDATA[<p>On Wednesday this week we are having the first edition of "OSM Editing Tips and Tricks" for <a href="http://groups.google.com/group/mappingdc">MappingDC</a>. Every time I get together with other <a href="http://www.openstreetmap.com">OpenStreetMap</a> contributors I learn something that makes it easier to edit/add data to OSM.  The last time I edited together in a room with others was at <a href="http://www.wherecamp5280.org/">WhereCamp5280</a>.  Mostly then I learned short-cut keys for Potlatch and I had for some reason missed how to add tags that were not in the short-cuts such as "building=yes" from Potlatch.  Up until that point I had been digitizing off the Yahoo Imagery and then going into JOSM to clean things up.  This method sounds totally inefficient now.</p>
 
-<p>We are meeting at <a href="http://www.hacdc.org">HacDC</a> which is at <a href="http://www.openstreetmap.org/?lat=38.933486&amp;lon=-77.035943&amp;zoom=18&amp;layers=B000FTF">1525 Newton St NW, Washington DC 20010</a> at 7pm. Â Hope to see you there.</p>
+<p>We are meeting at <a href="http://www.hacdc.org">HacDC</a> which is at <a href="http://www.openstreetmap.org/?lat=38.933486&amp;lon=-77.035943&amp;zoom=18&amp;layers=B000FTF">1525 Newton St NW, Washington DC 20010</a> at 7pm.  Hope to see you there.</p>
 ]]></content>
-  </entry>
-  
+ </entry>
+ 
 </feed>

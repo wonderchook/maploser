@@ -1,31 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Category: Wave | Kate Chapman - Maploser]]></title>
-  <link href="http://maploser.com/blog/categories/wave/atom.xml" rel="self"/>
-  <link href="http://maploser.com/"/>
-  <updated>2012-11-30T16:49:41+08:00</updated>
-  <id>http://maploser.com/</id>
-  <author>
-    <name><![CDATA[Kate Chapman]]></name>
-    
-  </author>
-  <generator uri="http://octopress.org/">Octopress</generator>
+ <title><![CDATA[Category: Wave | Kate Chapman - Maploser]]></title>
+ <link href="http://maploser.com/blog/categories/wave/atom.xml" rel="self"/>
+ <link href="http://maploser.com/"/>
+ <updated>2012-11-30T16:49:41+08:00</updated>
+ <id>http://maploser.com/</id>
+ <author>
+ <name><![CDATA[Kate Chapman]]></name>
+ 
+ </author>
+ <generator uri="http://octopress.org/">Octopress</generator>
 
-  
-  <entry>
-    <title type="html"><![CDATA[GeoNerds in the Wave]]></title>
-    <link href="http://maploser.com/blog/2009/10/01/geonerds-in-the-wave/"/>
-    <updated>2009-10-01T08:04:30+08:00</updated>
-    <id>http://maploser.com/blog/2009/10/01/geonerds-in-the-wave</id>
-    <content type="html"><![CDATA[<p>Yesterday Google released Wave to <a href="http://googleblog.blogspot.com/2009/09/surfs-up-wednesday-google-wave-update.html">100,000 people to preview</a>. Â Previously I had sandbox access, but was looking forward to widerspread release so I would have more people to play with in the waves.</p>
+ 
+ <entry>
+ <title type="html"><![CDATA[GeoNerds in the Wave]]></title>
+ <link href="http://maploser.com/blog/2009/10/01/geonerds-in-the-wave/"/>
+ <updated>2009-10-01T08:04:30+08:00</updated>
+ <id>http://maploser.com/blog/2009/10/01/geonerds-in-the-wave</id>
+ <content type="html"><![CDATA[<p>Yesterday Google released Wave to <a href="http://googleblog.blogspot.com/2009/09/surfs-up-wednesday-google-wave-update.html">100,000 people to preview</a>.  Previously I had sandbox access, but was looking forward to widerspread release so I would have more people to play with in the waves.</p>
 
 <p>This first thing I did was to create a public geonerd wave.</p>
 
-<p><img src="http://www.maploser.com/wp-content/uploads/2009/10/GeoNerd_Wave1.jpg" alt="GeoNerd_Wave" /></p>
+<p><img src=" http://maploser.com/images/old-ml/2009/10/GeoNerd_Wave1.jpg" alt="GeoNerd_Wave" /></p>
 
-<p>At the time of this screenshot you can see I'm a little lonely. Â Once you have access "with:public tag:geonerd" is the search you need to find it. Â Please add/edit as you see fit. Â I've started with "you might be a geonerd if....."</p>
+<p>At the time of this screenshot you can see I'm a little lonely.  Once you have access "with:public tag:geonerd" is the search you need to find it.  Please add/edit as you see fit.  I've started with "you might be a geonerd if....."</p>
 ]]></content>
-  </entry>
-  
+ </entry>
+ 
 </feed>

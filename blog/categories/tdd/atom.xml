@@ -1,33 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Category: TDD | Kate Chapman - Maploser]]></title>
-  <link href="http://maploser.com/blog/categories/tdd/atom.xml" rel="self"/>
-  <link href="http://maploser.com/"/>
-  <updated>2012-11-30T16:49:41+08:00</updated>
-  <id>http://maploser.com/</id>
-  <author>
-    <name><![CDATA[Kate Chapman]]></name>
-    
-  </author>
-  <generator uri="http://octopress.org/">Octopress</generator>
+ <title><![CDATA[Category: TDD | Kate Chapman - Maploser]]></title>
+ <link href="http://maploser.com/blog/categories/tdd/atom.xml" rel="self"/>
+ <link href="http://maploser.com/"/>
+ <updated>2012-11-30T16:49:41+08:00</updated>
+ <id>http://maploser.com/</id>
+ <author>
+ <name><![CDATA[Kate Chapman]]></name>
+ 
+ </author>
+ <generator uri="http://octopress.org/">Octopress</generator>
 
-  
-  <entry>
-    <title type="html"><![CDATA[Further Adventures in Rails Testing]]></title>
-    <link href="http://maploser.com/blog/2009/09/27/further-adventures-in-rails-testinghudsonmicr/"/>
-    <updated>2009-09-27T20:21:54+08:00</updated>
-    <id>http://maploser.com/blog/2009/09/27/further-adventures-in-rails-testinghudsonmicr</id>
-    <content type="html"><![CDATA[<p>Yesterday I went to "<a href="http://www.meetup.com/rubyhacknight/calendar/11340056/">Hack Day 'Effective Testing for Rails Projects'</a>" at <a href="http://www.viget.com/">Viget Labs</a> in Falls Church. Â After Ruby DCamp I decided I was severely lacking in testing skills as a developer and I'm trying to do something to remedy that. Â With the promise of "building a simple Rails application and a pair-programming environment" as well as "demonstrating effective testing techniques" I was sold.</p>
+ 
+ <entry>
+ <title type="html"><![CDATA[Further Adventures in Rails Testing]]></title>
+ <link href="http://maploser.com/blog/2009/09/27/further-adventures-in-rails-testinghudsonmicr/"/>
+ <updated>2009-09-27T20:21:54+08:00</updated>
+ <id>http://maploser.com/blog/2009/09/27/further-adventures-in-rails-testinghudsonmicr</id>
+ <content type="html"><![CDATA[<p>Yesterday I went to "<a href="http://www.meetup.com/rubyhacknight/calendar/11340056/">Hack Day 'Effective Testing for Rails Projects'</a>" at <a href="http://www.viget.com/">Viget Labs</a> in Falls Church.  After Ruby DCamp I decided I was severely lacking in testing skills as a developer and I'm trying to do something to remedy that.  With the promise of "building a simple Rails application and a pair-programming environment" as well as "demonstrating effective testing techniques" I was sold.</p>
 
-<p>I come from a Quality Assurance background so I am used to testing software as it is written. Â Just in the past week have I felt like I am beginning to grasp testing software while it is written. Â The live coding at Hack Day helped further that. Â  The example application we used was "<a href="http://github.com/mig/outtolunch">Out To Lunch</a>," which is a simple app that utilizes the <a href="http://www.yelp.com/developers/documentation">Yelp API</a> to search for locations to eat and then will tell you where to eat lunch each day.</p>
+<p>I come from a Quality Assurance background so I am used to testing software as it is written.  Just in the past week have I felt like I am beginning to grasp testing software while it is written.  The live coding at Hack Day helped further that.   The example application we used was "<a href="http://github.com/mig/outtolunch">Out To Lunch</a>," which is a simple app that utilizes the <a href="http://www.yelp.com/developers/documentation">Yelp API</a> to search for locations to eat and then will tell you where to eat lunch each day.</p>
 
-<p>The session was lead by <a href="http://www.viget.com/about/team/preagan">Patrick Reagan</a> and <a href="http://www.viget.com/about/team/mswasey">Matt Swasey</a>, who did "Ping Pong Pairing" a type of paired programming I'd never seen before. Â In ping pong pairing one developer writes a single test and then runs it and it fails. Â Then the 2nd programmer writes code to make the test pass. Â After that the first programmer writes another test and so on. Â I'm a little bit competitive in nature and I think this would be a great way to pair. Â Patrick and Matt each had their own keyboard and mouse and think that helps make the switching in this case go more smoothly.</p>
+<p>The session was lead by <a href="http://www.viget.com/about/team/preagan">Patrick Reagan</a> and <a href="http://www.viget.com/about/team/mswasey">Matt Swasey</a>, who did "Ping Pong Pairing" a type of paired programming I'd never seen before.  In ping pong pairing one developer writes a single test and then runs it and it fails.  Then the 2nd programmer writes code to make the test pass.  After that the first programmer writes another test and so on.  I'm a little bit competitive in nature and I think this would be a great way to pair.  Patrick and Matt each had their own keyboard and mouse and think that helps make the switching in this case go more smoothly.</p>
 
-<p>We started with the Out to Lunch application from the beginning initially writing a test that asserted "should be able to accept a zip code" in the YelpSearcher class. Â From there the code was written to accept the ZIP code and so on. Â It was interesting to watch people work together and troubleshoot. Â Since I'm fairly new to Ruby on Rails just watching people programming in it teaches me new techniques. Â I also got some term definitions further straight in my head such as stub "a dummy object that will return whatever you want." Â I had never thought about when and where I should be using stubs in my testing before but now it really makes sense for unit tests, since you would want to break the code down to the simplest action possible.</p>
+<p>We started with the Out to Lunch application from the beginning initially writing a test that asserted "should be able to accept a zip code" in the YelpSearcher class.  From there the code was written to accept the ZIP code and so on.  It was interesting to watch people work together and troubleshoot.  Since I'm fairly new to Ruby on Rails just watching people programming in it teaches me new techniques.  I also got some term definitions further straight in my head such as stub "a dummy object that will return whatever you want."  I had never thought about when and where I should be using stubs in my testing before but now it really makes sense for unit tests, since you would want to break the code down to the simplest action possible.</p>
 
 <p>I learned a ton in the three hour class and will be checking out <a href="http://www.meetup.com/rubyhacknight/">Ruby Hack Night</a> soon.</p>
 ]]></content>
-  </entry>
-  
+ </entry>
+ 
 </feed>

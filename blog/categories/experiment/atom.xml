@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Category: experiment | Kate Chapman - Maploser]]></title>
-  <link href="http://maploser.com/blog/categories/experiment/atom.xml" rel="self"/>
-  <link href="http://maploser.com/"/>
-  <updated>2012-11-30T16:49:41+08:00</updated>
-  <id>http://maploser.com/</id>
-  <author>
-    <name><![CDATA[Kate Chapman]]></name>
-    
-  </author>
-  <generator uri="http://octopress.org/">Octopress</generator>
+ <title><![CDATA[Category: experiment | Kate Chapman - Maploser]]></title>
+ <link href="http://maploser.com/blog/categories/experiment/atom.xml" rel="self"/>
+ <link href="http://maploser.com/"/>
+ <updated>2012-11-30T16:49:41+08:00</updated>
+ <id>http://maploser.com/</id>
+ <author>
+ <name><![CDATA[Kate Chapman]]></name>
+ 
+ </author>
+ <generator uri="http://octopress.org/">Octopress</generator>
 
-  
-  <entry>
-    <title type="html"><![CDATA[#pwyw for #geonerd Help, the Pay What You Want Experiment]]></title>
-    <link href="http://maploser.com/blog/2012/02/21/pwyw-for-geonerd-help-the-pay-what-you-want-experiment/"/>
-    <updated>2012-02-21T15:52:02+08:00</updated>
-    <id>http://maploser.com/blog/2012/02/21/pwyw-for-geonerd-help-the-pay-what-you-want-experiment</id>
-    <content type="html"><![CDATA[<p>I've begun blogging at wonderchook.com for anything non-geo related. Today I announced a "pay what you want" experiment. The idea is you can schedule my time to help with something and if you appreciate the help you can "pay what you want." The reason for the experiment is I have my flexibility in my schedule since I consult for the <a href="http://hot.openstreetmap.org">Humanitarian OpenStreetMap Team</a>, so I have time to test out wacky ideas.</p>
+ 
+ <entry>
+ <title type="html"><![CDATA[#pwyw for #geonerd Help, the Pay What You Want Experiment]]></title>
+ <link href="http://maploser.com/blog/2012/02/21/pwyw-for-geonerd-help-the-pay-what-you-want-experiment/"/>
+ <updated>2012-02-21T15:52:02+08:00</updated>
+ <id>http://maploser.com/blog/2012/02/21/pwyw-for-geonerd-help-the-pay-what-you-want-experiment</id>
+ <content type="html"><![CDATA[<p>I've begun blogging at wonderchook.com for anything non-geo related. Today I announced a "pay what you want" experiment. The idea is you can schedule my time to help with something and if you appreciate the help you can "pay what you want." The reason for the experiment is I have my flexibility in my schedule since I consult for the <a href="http://hot.openstreetmap.org">Humanitarian OpenStreetMap Team</a>, so I have time to test out wacky ideas.</p>
 
 <h2>The Experiment</h2>
 
@@ -26,12 +26,12 @@
 <li><p>I will publish office hours a week in advance</p></li>
 <li><p>You can go sign-up for slots, including a description and how I will contact you. I'm open to any means of communication as long as they are free.</p></li>
 <li><p>At the slotted time we will begin working on your problem. If it is a problem where it is be worked on asynchronously then I will work on it during the time-slot. If it is something that more requires discussion it will occur during the reserved time.</p></li>
-<li><p>If you areÂ satisfiedÂ with the help and would like to pay for it then you can pay me through Paypal, send me a gift, trade anything that seems appropriate to you.</p></li>
+<li><p>If you are satisfied with the help and would like to pay for it then you can pay me through Paypal, send me a gift, trade anything that seems appropriate to you.</p></li>
 </ol>
 
 
 <p>There is <a href="http://wonderchook.com/2012/02/pay-what-you-want-for-peer-help/">more background on my idea around this experiment</a> on my general blog. And you can <a href="https://www.google.com/calendar/b/0/selfsched?sstoken=UUNpSnV1b2VNVWQ4fGRlZmF1bHR8M2Q1YTQ4MWI5OWQzZTVlZjA4NzRjNjYzZDAyZmNmYTc">reserve time</a> through Google's Appointment feature in Calendar.</p>
 ]]></content>
-  </entry>
-  
+ </entry>
+ 
 </feed>

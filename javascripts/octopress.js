@@ -1,128 +1,128 @@
 function getNav() {
-  var mobileNav = $('nav[role=navigation] fieldset[role=search]').after('<fieldset class="mobile-nav"></fieldset>').next().append('<select></select>');
-  mobileNav.children('select').append('<option value="">Navigate&hellip;</option>');
-  $('ul[role=main-navigation]').addClass('main-navigation');
-  $('ul.main-navigation a').each(function(link) {
-    mobileNav.children('select').append('<option value="'+link.href+'">&raquo; '+link.text+'</option>');
-  });
-  $('ul.subscription a').each(function(link) {
-    mobileNav.children('select').append('<option value="'+link.href+'">&raquo; '+link.text+'</option>');
-  });
-  mobileNav.children('select').bind('change', function(event) {
-    if (event.target.value) { window.location.href = event.target.value; }
-  });
+ var mobileNav = $('nav[role=navigation] fieldset[role=search]').after('<fieldset class="mobile-nav"></fieldset>').next().append('<select></select>');
+ mobileNav.children('select').append('<option value="">Navigate&hellip;</option>');
+ $('ul[role=main-navigation]').addClass('main-navigation');
+ $('ul.main-navigation a').each(function(link) {
+ mobileNav.children('select').append('<option value="'+link.href+'">&raquo; '+link.text+'</option>');
+ });
+ $('ul.subscription a').each(function(link) {
+ mobileNav.children('select').append('<option value="'+link.href+'">&raquo; '+link.text+'</option>');
+ });
+ mobileNav.children('select').bind('change', function(event) {
+ if (event.target.value) { window.location.href = event.target.value; }
+ });
 }
 
 function addSidebarToggler() {
-  if(!$('body').hasClass('sidebar-footer')) {
-    $('#content').append('<span class="toggle-sidebar"></span>');
-    $('.toggle-sidebar').bind('click', function(e) {
-      e.preventDefault();
-      if ($('body').hasClass('collapse-sidebar')) {
-        $('body').removeClass('collapse-sidebar');
-      } else {
-        $('body').addClass('collapse-sidebar');
-      }
-    });
-  }
-  var sections = $('aside.sidebar > section');
-  if (sections.length > 1) {
-    sections.each(function(section, index){
-      if ((sections.length >= 3) && index % 3 === 0) {
-        $(section).addClass("first");
-      }
-      var count = ((index +1) % 2) ? "odd" : "even";
-      $(section).addClass(count);
-    });
-  }
-  if (sections.length >= 3){ $('aside.sidebar').addClass('thirds'); }
+ if(!$('body').hasClass('sidebar-footer')) {
+ $('#content').append('<span class="toggle-sidebar"></span>');
+ $('.toggle-sidebar').bind('click', function(e) {
+ e.preventDefault();
+ if ($('body').hasClass('collapse-sidebar')) {
+  $('body').removeClass('collapse-sidebar');
+ } else {
+  $('body').addClass('collapse-sidebar');
+ }
+ });
+ }
+ var sections = $('aside.sidebar > section');
+ if (sections.length > 1) {
+ sections.each(function(section, index){
+ if ((sections.length >= 3) && index % 3 === 0) {
+  $(section).addClass("first");
+ }
+ var count = ((index +1) % 2) ? "odd" : "even";
+ $(section).addClass(count);
+ });
+ }
+ if (sections.length >= 3){ $('aside.sidebar').addClass('thirds'); }
 }
 
 function testFeatures() {
-  var features = ['maskImage'];
-  $(features).map(function(feature) {
-    if (Modernizr.testAllProps(feature)) {
-      $('html').addClass(feature);
-    } else {
-      $('html').addClass('no-'+feature);
-    }
-  });
-  if ("placeholder" in document.createElement("input")) {
-    $('html').addClass('placeholder');
-  } else {
-    $('html').addClass('no-placeholder');
-  }
+ var features = ['maskImage'];
+ $(features).map(function(feature) {
+ if (Modernizr.testAllProps(feature)) {
+ $('html').addClass(feature);
+ } else {
+ $('html').addClass('no-'+feature);
+ }
+ });
+ if ("placeholder" in document.createElement("input")) {
+ $('html').addClass('placeholder');
+ } else {
+ $('html').addClass('no-placeholder');
+ }
 }
 
 function addCodeLineNumbers() {
-  if (navigator.appName === 'Microsoft Internet Explorer') { return; }
-  $('div.gist-highlight').each(function(code) {
-    var tableStart = '<table><tbody><tr><td class="gutter">',
-        lineNumbers = '<pre class="line-numbers">',
-        tableMiddle = '</pre></td><td class="code">',
-        tableEnd = '</td></tr></tbody></table>',
-        count = $('.line', code).length;
-    for (var i=1;i<=count; i++) {
-      lineNumbers += '<span class="line-number">'+i+'</span>\n';
-    }
-    var table = tableStart + lineNumbers + tableMiddle + '<pre>'+$('pre', code).html()+'</pre>' + tableEnd;
-    $(code).html(table);
-  });
+ if (navigator.appName === 'Microsoft Internet Explorer') { return; }
+ $('div.gist-highlight').each(function(code) {
+ var tableStart = '<table><tbody><tr><td class="gutter">',
+  lineNumbers = '<pre class="line-numbers">',
+  tableMiddle = '</pre></td><td class="code">',
+  tableEnd = '</td></tr></tbody></table>',
+  count = $('.line', code).length;
+ for (var i=1;i<=count; i++) {
+ lineNumbers += '<span class="line-number">'+i+'</span>\n';
+ }
+ var table = tableStart + lineNumbers + tableMiddle + '<pre>'+$('pre', code).html()+'</pre>' + tableEnd;
+ $(code).html(table);
+ });
 }
 
 function flashVideoFallback(){
-  var flashplayerlocation = "/assets/jwplayer/player.swf",
-      flashplayerskin = "/assets/jwplayer/glow/glow.xml";
-  $('video').each(function(video){
-    video = $(video);
-    if (!Modernizr.video.h264 && swfobject.getFlashPlayerVersion() || window.location.hash.indexOf("flash-test") !== -1){
-      video.children('source[src$=mp4]').first().map(function(source){
-        var src = $(source).attr('src'),
-            id = 'video_'+Math.round(1 + Math.random()*(100000)),
-            width = video.attr('width'),
-            height = parseInt(video.attr('height'), 10) + 30;
-            video.after('<div class="flash-video"><div><div id='+id+'>');
-        swfobject.embedSWF(flashplayerlocation, id, width, height + 30, "9.0.0",
-          { file : src, image : video.attr('poster'), skin : flashplayerskin } ,
-          { movie : src, wmode : "opaque", allowfullscreen : "true" }
-        );
-      });
-      video.remove();
-    }
-  });
+ var flashplayerlocation = "/assets/jwplayer/player.swf",
+ flashplayerskin = "/assets/jwplayer/glow/glow.xml";
+ $('video').each(function(video){
+ video = $(video);
+ if (!Modernizr.video.h264 && swfobject.getFlashPlayerVersion() || window.location.hash.indexOf("flash-test") !== -1){
+ video.children('source[src$=mp4]').first().map(function(source){
+  var src = $(source).attr('src'),
+  id = 'video_'+Math.round(1 + Math.random()*(100000)),
+  width = video.attr('width'),
+  height = parseInt(video.attr('height'), 10) + 30;
+  video.after('<div class="flash-video"><div><div id='+id+'>');
+  swfobject.embedSWF(flashplayerlocation, id, width, height + 30, "9.0.0",
+  { file : src, image : video.attr('poster'), skin : flashplayerskin } ,
+  { movie : src, wmode : "opaque", allowfullscreen : "true" }
+  );
+ });
+ video.remove();
+ }
+ });
 }
 
 function wrapFlashVideos() {
-  $('object').each(function(object) {
-    object = $(object);
-    if ( $('param[name=movie]', object).length ) {
-      var wrapper = object.before('<div class="flash-video"><div>').previous();
-      $(wrapper).children().append(object);
-    }
-  });
-  $('iframe[src*=vimeo],iframe[src*=youtube]').each(function(iframe) {
-    iframe = $(iframe);
-    var wrapper = iframe.before('<div class="flash-video"><div>').previous();
-    $(wrapper).children().append(iframe);
-  });
+ $('object').each(function(object) {
+ object = $(object);
+ if ( $('param[name=movie]', object).length ) {
+ var wrapper = object.before('<div class="flash-video"><div>').previous();
+ $(wrapper).children().append(object);
+ }
+ });
+ $('iframe[src*=vimeo],iframe[src*=youtube]').each(function(iframe) {
+ iframe = $(iframe);
+ var wrapper = iframe.before('<div class="flash-video"><div>').previous();
+ $(wrapper).children().append(iframe);
+ });
 }
 
 function renderDeliciousLinks(items) {
-  var output = "<ul>";
-  for (var i=0,l=items.length; i<l; i++) {
-    output += '<li><a href="' + items[i].u + '" title="Tags: ' + (items[i].t == "" ? "" : items[i].t.join(', ')) + '">' + items[i].d + '</a></li>';
-  }
-  output += "</ul>";
-  $('#delicious').html(output);
+ var output = "<ul>";
+ for (var i=0,l=items.length; i<l; i++) {
+ output += '<li><a href="' + items[i].u + '" title="Tags: ' + (items[i].t == "" ? "" : items[i].t.join(', ')) + '">' + items[i].d + '</a></li>';
+ }
+ output += "</ul>";
+ $('#delicious').html(output);
 }
 
 $.domReady(function() {
-  testFeatures();
-  wrapFlashVideos();
-  flashVideoFallback();
-  addCodeLineNumbers();
-  getNav();
-  addSidebarToggler();
+ testFeatures();
+ wrapFlashVideos();
+ flashVideoFallback();
+ addCodeLineNumbers();
+ getNav();
+ addSidebarToggler();
 });
 
 // iOS scaling bug fix
@@ -130,25 +130,25 @@ $.domReady(function() {
 // By @mathias, @cheeaun and @jdalton
 // Source url: https://gist.github.com/901295
 (function(doc) {
-  var addEvent = 'addEventListener',
-      type = 'gesturestart',
-      qsa = 'querySelectorAll',
-      scales = [1, 1],
-      meta = qsa in doc ? doc[qsa]('meta[name=viewport]') : [];
-  function fix() {
-    meta.content = 'width=device-width,minimum-scale=' + scales[0] + ',maximum-scale=' + scales[1];
-    doc.removeEventListener(type, fix, true);
-  }
-  if ((meta = meta[meta.length - 1]) && addEvent in doc) {
-    fix();
-    scales = [0.25, 1.6];
-    doc[addEvent](type, fix, true);
-  }
+ var addEvent = 'addEventListener',
+ type = 'gesturestart',
+ qsa = 'querySelectorAll',
+ scales = [1, 1],
+ meta = qsa in doc ? doc[qsa]('meta[name=viewport]') : [];
+ function fix() {
+ meta.content = 'width=device-width,minimum-scale=' + scales[0] + ',maximum-scale=' + scales[1];
+ doc.removeEventListener(type, fix, true);
+ }
+ if ((meta = meta[meta.length - 1]) && addEvent in doc) {
+ fix();
+ scales = [0.25, 1.6];
+ doc[addEvent](type, fix, true);
+ }
 }(document));
 
 /*!	SWFObject v2.2 modified by Brandon Mathis to contain only what is necessary to dynamically embed flash objects
-  * Uncompressed source in javascripts/libs/swfobject-dynamic.js
-  * <http://code.google.com/p/swfobject/>
+ * Uncompressed source in javascripts/libs/swfobject-dynamic.js
+ * <http://code.google.com/p/swfobject/>
 	released under the MIT License <http://www.opensource.org/licenses/mit-license.php>
 */
 var swfobject=function(){function s(a,b,d){var q,k=n(d);if(g.wk&&g.wk<312)return q;if(k){if(typeof a.id==l)a.id=d;if(g.ie&&g.win){var e="",c;for(c in a)if(a[c]!=Object.prototype[c])c.toLowerCase()=="data"?b.movie=a[c]:c.toLowerCase()=="styleclass"?e+=' class="'+a[c]+'"':c.toLowerCase()!="classid"&&(e+=" "+c+'="'+a[c]+'"');c="";for(var f in b)b[f]!=Object.prototype[f]&&(c+='<param name="'+f+'" value="'+b[f]+'" />');k.outerHTML='<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000"'+e+">"+c+

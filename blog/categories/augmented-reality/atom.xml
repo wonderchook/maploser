@@ -1,40 +1,40 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Category: augmented reality | Kate Chapman - Maploser]]></title>
-  <link href="http://maploser.com/blog/categories/augmented-reality/atom.xml" rel="self"/>
-  <link href="http://maploser.com/"/>
-  <updated>2012-11-30T16:49:41+08:00</updated>
-  <id>http://maploser.com/</id>
-  <author>
-    <name><![CDATA[Kate Chapman]]></name>
-    
-  </author>
-  <generator uri="http://octopress.org/">Octopress</generator>
+ <title><![CDATA[Category: augmented reality | Kate Chapman - Maploser]]></title>
+ <link href="http://maploser.com/blog/categories/augmented-reality/atom.xml" rel="self"/>
+ <link href="http://maploser.com/"/>
+ <updated>2012-11-30T16:49:41+08:00</updated>
+ <id>http://maploser.com/</id>
+ <author>
+ <name><![CDATA[Kate Chapman]]></name>
+ 
+ </author>
+ <generator uri="http://octopress.org/">Octopress</generator>
 
-  
-  <entry>
-    <title type="html"><![CDATA[Layar for the iPhone]]></title>
-    <link href="http://maploser.com/blog/2009/10/15/layar-for-the-iphone/"/>
-    <updated>2009-10-15T03:38:05+08:00</updated>
-    <id>http://maploser.com/blog/2009/10/15/layar-for-the-iphone</id>
-    <content type="html"><![CDATA[<p>Today <a href="http://layar.com/">Layar</a> became available for the iPhone.Â  Previous to this Layar was the only application that made me truly jealous of those that had Android devices.Â  Described as a "Layar Reality Browser" I think that it is a major step in transferring augmented reality from a toy into a useful tool.Â  Utilizing GPS and compass it overlays information on top of reality, allowing you to point your phone in a direction and get different types of information depending on the layer selected.</p>
+ 
+ <entry>
+ <title type="html"><![CDATA[Layar for the iPhone]]></title>
+ <link href="http://maploser.com/blog/2009/10/15/layar-for-the-iphone/"/>
+ <updated>2009-10-15T03:38:05+08:00</updated>
+ <id>http://maploser.com/blog/2009/10/15/layar-for-the-iphone</id>
+ <content type="html"><![CDATA[<p>Today <a href="http://layar.com/">Layar</a> became available for the iPhone.  Previous to this Layar was the only application that made me truly jealous of those that had Android devices.  Described as a "Layar Reality Browser" I think that it is a major step in transferring augmented reality from a toy into a useful tool.  Utilizing GPS and compass it overlays information on top of reality, allowing you to point your phone in a direction and get different types of information depending on the layer selected.</p>
 
-<p>Previous to today the augmented reality applications available in the App Store for the iPhone were pretty simplistic.Â  These applications also followed the typical pattern within the App Store of provide as few features as you possibly can for 99 cents and hope that you can sell multiple very similar applications.Â  This was accomplished in augmented reality by providing access to only one dataset usually.Â  Most of these applications appear to implement <a href="http://github.com/zac/iphonearkit/">ARkit</a> which is an Open Source Library for Augmented Reality, <a href="http://www.youtube.com/watch?v=xtCC3mjxnuk">this video</a> is a fairly good representation of this toolkit.Â  Nothing against ARkit itself, it is great that someone developed it, it is available  and open source.Â  I think the intent should be for people to expand upon and improve it, not just slap their data in there are sell it for whatever they can get.</p>
+<p>Previous to today the augmented reality applications available in the App Store for the iPhone were pretty simplistic.  These applications also followed the typical pattern within the App Store of provide as few features as you possibly can for 99 cents and hope that you can sell multiple very similar applications.  This was accomplished in augmented reality by providing access to only one dataset usually.  Most of these applications appear to implement <a href="http://github.com/zac/iphonearkit/">ARkit</a> which is an Open Source Library for Augmented Reality, <a href="http://www.youtube.com/watch?v=xtCC3mjxnuk">this video</a> is a fairly good representation of this toolkit.  Nothing against ARkit itself, it is great that someone developed it, it is available and open source.  I think the intent should be for people to expand upon and improve it, not just slap their data in there are sell it for whatever they can get.</p>
 
-<p>Now with Layar available this really changes things, it is smoother than a default ARkit implementation.Â  It also allows developers to create layers instead of creating simple applications around their data, similar to what can be done with KML in Google Earth.Â  The data and the application are seperated which allows for greater data sharing.</p>
+<p>Now with Layar available this really changes things, it is smoother than a default ARkit implementation.  It also allows developers to create layers instead of creating simple applications around their data, similar to what can be done with KML in Google Earth.  The data and the application are seperated which allows for greater data sharing.</p>
 
 <p>Instead of being responsible for the entire application developers just have to define what the information looks like and provide a feed to the data.</p>
 
 <p>[caption id="" align="aligncenter" width="554" caption="Layar Service Architecture Diagram"]<img src="http://layar.com/wp-content/uploads/2009/07/layar-service-archtecture-blog-and-pressrelease.png" alt="Layar Service Architecture Diagram" />[/caption]</p>
 
-<p>According to <a href="http://layar.com/layers/">their site </a>currently 155 layers are available and both Layar and the layers are free.Â  My first question when I started looking at Layar's site was "what is the business model, how do they intend to make money?"Â  According to the FAQs: "We foresee several possible sources of income for Layar. Current sources include: integration fees, licensing fees, sponsoring and hosting/maintenance fees. In the near future there will also be opportunities with premium content layers and advertising."Â  I'll be interested to see how that works, but as far as the pure technology this is a great step forward for AR.</p>
+<p>According to <a href="http://layar.com/layers/">their site </a>currently 155 layers are available and both Layar and the layers are free.  My first question when I started looking at Layar's site was "what is the business model, how do they intend to make money?"  According to the FAQs: "We foresee several possible sources of income for Layar. Current sources include: integration fees, licensing fees, sponsoring and hosting/maintenance fees. In the near future there will also be opportunities with premium content layers and advertising."  I'll be interested to see how that works, but as far as the pure technology this is a great step forward for AR.</p>
 
 <p>If you don't have a device that can utilize Layar I suggest you get one, otherwise here is a glimpse of what it is capable.</p>
 
 <p>[caption id="" align="aligncenter" width="560" caption="Layar Demonstration Video"]
 [/caption]</p>
 ]]></content>
-  </entry>
-  
+ </entry>
+ 
 </feed>

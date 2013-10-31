@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Kate Chapman - Maploser]]></title>
-  <link href="http://maploser.com/atom.xml" rel="self"/>
-  <link href="http://maploser.com/"/>
-  <updated>2012-11-30T16:49:41+08:00</updated>
-  <id>http://maploser.com/</id>
-  <author>
-    <name><![CDATA[Kate Chapman]]></name>
-    
-  </author>
-  <generator uri="http://octopress.org/">Octopress</generator>
+ <title><![CDATA[Kate Chapman - Maploser]]></title>
+ <link href="http://maploser.com/atom.xml" rel="self"/>
+ <link href="http://maploser.com/"/>
+ <updated>2012-11-30T16:49:41+08:00</updated>
+ <id>http://maploser.com/</id>
+ <author>
+ <name><![CDATA[Kate Chapman]]></name>
+ 
+ </author>
+ <generator uri="http://octopress.org/">Octopress</generator>
 
-  
-  <entry>
-    <title type="html"><![CDATA[My Shuttleworth Application]]></title>
-    <link href="http://maploser.com/blog/2012/05/01/my-shuttleworth-application/"/>
-    <updated>2012-05-01T12:17:15+08:00</updated>
-    <id>http://maploser.com/blog/2012/05/01/my-shuttleworth-application</id>
-    <content type="html"><![CDATA[<p>The <a href="http://www.shuttleworthfoundation.org/">Shuttleworth Foundation</a> provides one year grants to individuals so they can focus fully on a project for one year. Â This focus allows those individuals to move their projects forward and make significant progress. Â I am applying for a fellowship, as well as continuing to follow my personal guideline of posting everything openly whenever possible. The application process requires submission of a video, <a href="http://www.maploser.com/wp-content/uploads/2012/05/kate_chapman-resume.pdf">a CV</a> and to answer 4 questions about how things are currently and what one wants to do to create change. Find the answers to the questions and the video below, I&#8217;ve also uploaded a <a href="http://www.maploser.com/wp-content/uploads/2012/05/kate_chapman-resume.pdf">PDF copy of my resume</a>.</p>
+ 
+ <entry>
+ <title type="html"><![CDATA[My Shuttleworth Application]]></title>
+ <link href="http://maploser.com/blog/2012/05/01/my-shuttleworth-application/"/>
+ <updated>2012-05-01T12:17:15+08:00</updated>
+ <id>http://maploser.com/blog/2012/05/01/my-shuttleworth-application</id>
+ <content type="html"><![CDATA[<p>The <a href="http://www.shuttleworthfoundation.org/">Shuttleworth Foundation</a> provides one year grants to individuals so they can focus fully on a project for one year.  This focus allows those individuals to move their projects forward and make significant progress.  I am applying for a fellowship, as well as continuing to follow my personal guideline of posting everything openly whenever possible. The application process requires submission of a video, <a href=" http://maploser.com/images/old-ml/2012/05/kate_chapman-resume.pdf">a CV</a> and to answer 4 questions about how things are currently and what one wants to do to create change. Find the answers to the questions and the video below, I&#8217;ve also uploaded a <a href=" http://maploser.com/images/old-ml/2012/05/kate_chapman-resume.pdf">PDF copy of my resume</a>.</p>
 
 <p>The hard thing about posting this openly for me was the video. It is the first video of its kind that I&#8217;ve ever made completely on my own.</p>
 
@@ -26,11 +26,11 @@
 
 <h3>Describe the world as it is. (a description of the status quo and context in which you will be working)</h3>
 
-<p>OpenStreetMap was started with the goal of &#8220;Free editable map of the entire world<a href="http://wiki.openstreetmap.org/wiki/About">(1)</a>.&#8221; Progress continues to this goal, but this is not without challenges. Currently there are over 600,000 OpenStreetMap accounts, but the majority of people that make an account donâ€™t actually edit. This highlights basic usability issues with the software, which are even more prevalent in some culturally diverse regions. Additionally very few women ever contribute to the OpenStreetMap community.</p>
+<p>OpenStreetMap was started with the goal of &#8220;Free editable map of the entire world<a href="http://wiki.openstreetmap.org/wiki/About">(1)</a>.&#8221; Progress continues to this goal, but this is not without challenges. Currently there are over 600,000 OpenStreetMap accounts, but the majority of people that make an account don€™t actually edit. This highlights basic usability issues with the software, which are even more prevalent in some culturally diverse regions. Additionally very few women ever contribute to the OpenStreetMap community.</p>
 
 <p>A few major barriers within the OpenStreetMap community are arcane communication methods which are only friendly to technical people, the loud hostile voices of a few towards organizational change and cultural barriers that almost require fluency in English to really participate in the greater community. I believe these issues are what leads to new contributors leaving before they really got started and not very many women participating in OpenStreetMap.</p>
 
-<p>The two main editors in OpenStreetMap are called JOSM and Potlatch2. JOSM is a desktop application and Potlatch2 is a Web based application, which appears when one clicks â€œeditâ€ on the OpenStreetMap.org website. Both allow powerful geographic editing, but each has its own usability issues. Over the past year the Humanitarian OpenStreetMap Team has been working to create an OpenStreetMap community in Indonesia. When interns in that project were translating JOSM into Bahasa Indonesia one of them began laughing, the reason? They had to spend quite a bit of time researching the phrase â€œOrthogonalize Shape,â€ to translate it. These are final year students in a geography department that are fluent in Indonesian and English, translation of geographic software should be a relatively easy task for them. The majority of the features in JOSM and Potlatch2 are only used by a small amount of users; they manage to clutter the system and make it impossible for beginners to get started.</p>
+<p>The two main editors in OpenStreetMap are called JOSM and Potlatch2. JOSM is a desktop application and Potlatch2 is a Web based application, which appears when one clicks €œedit€ on the OpenStreetMap.org website. Both allow powerful geographic editing, but each has its own usability issues. Over the past year the Humanitarian OpenStreetMap Team has been working to create an OpenStreetMap community in Indonesia. When interns in that project were translating JOSM into Bahasa Indonesia one of them began laughing, the reason? They had to spend quite a bit of time researching the phrase €œOrthogonalize Shape,€ to translate it. These are final year students in a geography department that are fluent in Indonesian and English, translation of geographic software should be a relatively easy task for them. The majority of the features in JOSM and Potlatch2 are only used by a small amount of users; they manage to clutter the system and make it impossible for beginners to get started.</p>
 
 <p>Fostering change in the OpenStreetMap community will be difficult. It is a large, highly technical community which operates in an informal manner and decentralized manner. My experience with the OpenStreetMap community over the past 3 years will be required to help with adoption of change. Though it will not be easy, I believe these difficult changes will be necessary to truly create a free map.</p>
 
@@ -97,65 +97,65 @@
 
 <p>I hope my application is useful to others looking to apply and hopefully I&#8217;ll be reporting back here with good news!</p>
 ]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[All I Want for OpenStreetMap is Simple.]]></title>
-    <link href="http://maploser.com/blog/2012/03/30/all-i-want-for-openstreetmap-is-simple/"/>
-    <updated>2012-03-30T03:32:36+08:00</updated>
-    <id>http://maploser.com/blog/2012/03/30/all-i-want-for-openstreetmap-is-simple</id>
-    <content type="html"><![CDATA[<p>When I heard DevelopmentSeed put in a proposal for the Knight News Challenge to make <a href="http://newschallenge.tumblr.com/post/19450699629/new-contribution-tools-for-openstreetmap">simple contribution tools for OpenStreetMap</a> I was elated. I&#8217;ve long admired DevSeed for their beautiful maps and innovative uses of new technology. Â They are already well involved in OpenStreetMap through support of Mapnik, attendance at development sprints and use of OpenStreetMap information in MapBox. I think there is a real opportunity here to improve the ability of average people to contribute to and utilize OpenStreetMap. Â What is the key? Â Make the tools simple and the cycle to use the data just as easy as contributing.</p>
+ </entry>
+ 
+ <entry>
+ <title type="html"><![CDATA[All I Want for OpenStreetMap is Simple.]]></title>
+ <link href="http://maploser.com/blog/2012/03/30/all-i-want-for-openstreetmap-is-simple/"/>
+ <updated>2012-03-30T03:32:36+08:00</updated>
+ <id>http://maploser.com/blog/2012/03/30/all-i-want-for-openstreetmap-is-simple</id>
+ <content type="html"><![CDATA[<p>When I heard DevelopmentSeed put in a proposal for the Knight News Challenge to make <a href="http://newschallenge.tumblr.com/post/19450699629/new-contribution-tools-for-openstreetmap">simple contribution tools for OpenStreetMap</a> I was elated. I&#8217;ve long admired DevSeed for their beautiful maps and innovative uses of new technology.  They are already well involved in OpenStreetMap through support of Mapnik, attendance at development sprints and use of OpenStreetMap information in MapBox. I think there is a real opportunity here to improve the ability of average people to contribute to and utilize OpenStreetMap.  What is the key?  Make the tools simple and the cycle to use the data just as easy as contributing.</p>
 
 <p>The Humanitarian OpenStreetMap Team probably spends more time than any other group in OpenStreetMap teaching the technology to non-technical users. Our work in Haiti and Indonesia has been with local people who are not programmers, nor GIS analysts. It can be a real struggle to ensure people can both enter data easily as well as utilize the information they have input. There are many great tools that help with this process, but it is far from smooth. Let&#8217;s look at the entire OpenStreetMap contribution cycle.</p>
 
 <h2>Gathering Data</h2>
 
-<p>I would say collecting data in the field is probably the easiest part of OpenStreetMap. Â GPS units are relatively easy to use for example. Â The menus on the Garmin Etrex units that HOT usually use do have some odd menus, but for the most part people are just pushing the button to mark a way point. Â Though if I take a break from collecting data for a couple weeks I can never seem to find the menu item to delete those way points. Â This problem is not too difficult though and most people get used to the workflow.</p>
+<p>I would say collecting data in the field is probably the easiest part of OpenStreetMap.  GPS units are relatively easy to use for example.  The menus on the Garmin Etrex units that HOT usually use do have some odd menus, but for the most part people are just pushing the button to mark a way point.  Though if I take a break from collecting data for a couple weeks I can never seem to find the menu item to delete those way points.  This problem is not too difficult though and most people get used to the workflow.</p>
 
-<p>Walking Papers by far is the biggest improvement in field data collection in years. Â My first job in mapping was creating field maps for mosquito control technicians. Â If I had Walking Papers back then it would have been magical. I was constantly getting paper maps back with corrections on them, it is just natural for people to draw on maps to denote new features. I think in data collection OpenStreetMap is in a good place, the real areas for improvement are editing and data usage.</p>
+<p>Walking Papers by far is the biggest improvement in field data collection in years.  My first job in mapping was creating field maps for mosquito control technicians.  If I had Walking Papers back then it would have been magical. I was constantly getting paper maps back with corrections on them, it is just natural for people to draw on maps to denote new features. I think in data collection OpenStreetMap is in a good place, the real areas for improvement are editing and data usage.</p>
 
 <h2>Entering Data</h2>
 
-<p>I mean no slight to the developers of OpenStreetMap editing tools with my critique here. Potlatch2 and JOSM are both tools that I frequently use, but I am a programmer with a Geography Degree. Â How many people with my background are there on earth? Â By percentage probably not many.</p>
+<p>I mean no slight to the developers of OpenStreetMap editing tools with my critique here. Potlatch2 and JOSM are both tools that I frequently use, but I am a programmer with a Geography Degree.  How many people with my background are there on earth?  By percentage probably not many.</p>
 
-<p>The biggest flaw with either of these tools is they try to allow you to do everything. Â Most people however don&#8217;t need to do everything. In an average workshop that I lead key goals are to map roads, add some points of interest and map houses. We never touch relations, I don&#8217;t explain what a changeset is and someone help us if there is a conflict (which there always is). Â Usually we are using JOSM, Potlatch2 has come a long way in helping make the data entry process easier. Â Dragging icons over to the map to add them is far more natural than drawing an object and then clicking through a menu to define it as is done in JOSM.</p>
+<p>The biggest flaw with either of these tools is they try to allow you to do everything.  Most people however don&#8217;t need to do everything. In an average workshop that I lead key goals are to map roads, add some points of interest and map houses. We never touch relations, I don&#8217;t explain what a changeset is and someone help us if there is a conflict (which there always is).  Usually we are using JOSM, Potlatch2 has come a long way in helping make the data entry process easier.  Dragging icons over to the map to add them is far more natural than drawing an object and then clicking through a menu to define it as is done in JOSM.</p>
 
-<p><a href="http://www.maploser.com/wp-content/uploads/2012/03/Selection_012.png"><img src="http://www.maploser.com/wp-content/uploads/2012/03/Selection_012-152x300.png" alt="" /></a></p>
+<p><a href=" http://maploser.com/images/old-ml/2012/03/Selection_012.png"><img src=" http://maploser.com/images/old-ml/2012/03/Selection_012-152x300.png" alt="" /></a></p>
 
-<p>Though the simple and advanced mode in Potlatch2 is a bit confusing and if you want to get the history of an item it is hard to find the right button. For example on the left is the advanced screen, can you guess where you would click to get the history of the selected item? Did you guess 30176850? Probably not. I think it is fair to say that looking at the object history is an advanced task, I don&#8217;t often go over it in the first workshop unless the hands on portion leads us there. Â I don&#8217;t think however that it is obvious to click on the unique identifier to go to that page.</p>
+<p>Though the simple and advanced mode in Potlatch2 is a bit confusing and if you want to get the history of an item it is hard to find the right button. For example on the left is the advanced screen, can you guess where you would click to get the history of the selected item? Did you guess 30176850? Probably not. I think it is fair to say that looking at the object history is an advanced task, I don&#8217;t often go over it in the first workshop unless the hands on portion leads us there.  I don&#8217;t think however that it is obvious to click on the unique identifier to go to that page.</p>
 
 <p>One other minor complaint would be that some of the buttons &#8220;look more button like.&#8221; It isn&#8217;t completely clear here to tab between the Simple and Advanced screens for example and to delete a tag you click on an &#8220;x&#8221; button but to add you click on the word &#8220;Add.&#8221; Using icons would make this more usable for those that don&#8217;t have a version of Potlatch2 translated into their native language.</p>
 
-<p>Overall I really like how Potlatch2 has made editing much more simple. Â If it worked offline we would consider teaching it instead of JOSM to beginners. It is a huge improvement over Potlatch2 and the team developing it has much to be proud. I think however there are ways to get even more simple.</p>
+<p>Overall I really like how Potlatch2 has made editing much more simple.  If it worked offline we would consider teaching it instead of JOSM to beginners. It is a huge improvement over Potlatch2 and the team developing it has much to be proud. I think however there are ways to get even more simple.</p>
 
 <h2></h2>
 
 <h2>Using Data</h2>
 
-<p>The biggest gap in OpenStreetMap is using the data. HOT has attempted to bridge that by teachingÂ <a href="http://qgis.org/">QuantumÂ GIS</a>, which has made huge strides in the past year in becoming an easy to use complete Desktop GIS. Â That is just it though, you shouldn&#8217;t have to use Desktop GIS just to make a map. <a href="http://mapbox.com">MapBox</a> has greatly improved the accessibility of making web maps, but sometimes you just want to print. Speeding up the cycle of data usage would also assist. Â The most frequent way we suggest people access the data is to download it from <a href="http://download.geofabrik.de/">GeoFabrik</a>, which is a great free service. The only thing lacking is speed, there is great joy in adding information and seeing it show up on the OpenStreetMap website virtually instantly, but some disappointment when you have to wait a day to be able to use it in specifically the way you want. There are ways to get around this, but they do require someone technical to set them up.</p>
+<p>The biggest gap in OpenStreetMap is using the data. HOT has attempted to bridge that by teaching <a href="http://qgis.org/">Quantum GIS</a>, which has made huge strides in the past year in becoming an easy to use complete Desktop GIS.  That is just it though, you shouldn&#8217;t have to use Desktop GIS just to make a map. <a href="http://mapbox.com">MapBox</a> has greatly improved the accessibility of making web maps, but sometimes you just want to print. Speeding up the cycle of data usage would also assist.  The most frequent way we suggest people access the data is to download it from <a href="http://download.geofabrik.de/">GeoFabrik</a>, which is a great free service. The only thing lacking is speed, there is great joy in adding information and seeing it show up on the OpenStreetMap website virtually instantly, but some disappointment when you have to wait a day to be able to use it in specifically the way you want. There are ways to get around this, but they do require someone technical to set them up.</p>
 
 <h2>Simple Language</h2>
 
-<p>Normally when I post publicly about OpenStreetMap I make it a point to try to avoid the language of OpenStreetMap. It is a language people can use but is not immediately accessible to most people. My favorite example of obscure language in tools is when my interns <a href="http://whateverisaid.wordpress.com/">Emir Hartato</a> and <a href="http://twitter.com/justva">Vasanthi</a> were translating JOSM into Bahasa Indonesia and got to &#8220;OrthogonalizeÂ Shape.&#8221; Think about it, does the average person know what that means? Â What about using language like straighten corners or something? By the way &#8220;Orthogonalize Shape&#8221; is &#8220;Ortogonalisasi Bentuk&#8221; in Bahasa Indonesia in case you were wondering.</p>
+<p>Normally when I post publicly about OpenStreetMap I make it a point to try to avoid the language of OpenStreetMap. It is a language people can use but is not immediately accessible to most people. My favorite example of obscure language in tools is when my interns <a href="http://whateverisaid.wordpress.com/">Emir Hartato</a> and <a href="http://twitter.com/justva">Vasanthi</a> were translating JOSM into Bahasa Indonesia and got to &#8220;Orthogonalize Shape.&#8221; Think about it, does the average person know what that means?  What about using language like straighten corners or something? By the way &#8220;Orthogonalize Shape&#8221; is &#8220;Ortogonalisasi Bentuk&#8221; in Bahasa Indonesia in case you were wondering.</p>
 
 <h2>What Do I Want?</h2>
 
-<p>So far I&#8217;ve pointed on flaws in OpenStreetMap, but what is my point? What do I really want? Â Simple tools and simple language for the average person. If a person fluent in two languages has to stop and really think about how to translate something, then it is probably too complicated. Let&#8217;s concentrate on making work flows for the 90% of use cases that utilize the 10% of existing functionality, not try to cover every piece of possible functionality.</p>
+<p>So far I&#8217;ve pointed on flaws in OpenStreetMap, but what is my point? What do I really want?  Simple tools and simple language for the average person. If a person fluent in two languages has to stop and really think about how to translate something, then it is probably too complicated. Let&#8217;s concentrate on making work flows for the 90% of use cases that utilize the 10% of existing functionality, not try to cover every piece of possible functionality.</p>
 
-<p>Rather than thinking about tasks by functions let&#8217;s think about them by themes. Â Groups that are interested in mapping for disaster preparedness, groups that want to map the green spaces in their community, people that want to share a great hiking route with everyone. Â In starting with the use-cases the needed functionality will become obvious.</p>
+<p>Rather than thinking about tasks by functions let&#8217;s think about them by themes.  Groups that are interested in mapping for disaster preparedness, groups that want to map the green spaces in their community, people that want to share a great hiking route with everyone.  In starting with the use-cases the needed functionality will become obvious.</p>
 
-<p>More than anything, let&#8217;s make sure when someone puts data in they can use it. Â Easily, without a struggle.</p>
+<p>More than anything, let&#8217;s make sure when someone puts data in they can use it.  Easily, without a struggle.</p>
 ]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Democratizing Spatial]]></title>
-    <link href="http://maploser.com/blog/2012/03/23/democratizing-spatial/"/>
-    <updated>2012-03-23T19:02:53+08:00</updated>
-    <id>http://maploser.com/blog/2012/03/23/democratizing-spatial</id>
-    <content type="html"><![CDATA[<p><em>note: this post was written as my position paper for the<a href="http://vespucci.org/programme"> 2012 VespucciÂ InstituteÂ </a>. It seemed a shame to bother writing something and just a couple people read it</em></p>
+ </entry>
+ 
+ <entry>
+ <title type="html"><![CDATA[Democratizing Spatial]]></title>
+ <link href="http://maploser.com/blog/2012/03/23/democratizing-spatial/"/>
+ <updated>2012-03-23T19:02:53+08:00</updated>
+ <id>http://maploser.com/blog/2012/03/23/democratizing-spatial</id>
+ <content type="html"><![CDATA[<p><em>note: this post was written as my position paper for the<a href="http://vespucci.org/programme"> 2012 Vespucci Institute </a>. It seemed a shame to bother writing something and just a couple people read it</em></p>
 
-<p>The power of providing spatial information to inform decision makers is without question. I believe the real question is â€œWho are decision makers?â€ I believe simply â€œeveryone.â€</p>
+<p>The power of providing spatial information to inform decision makers is without question. I believe the real question is €œWho are decision makers?€ I believe simply €œeveryone.€</p>
 
 <p>Everyday people make decisions:</p>
 
@@ -176,36 +176,36 @@
 </ul>
 
 
-<p>Not everyone had access to the data and tools to make these decisions. Over the past year Iâ€™ve been working in Indonesia on a project to utilize OpenStreetMap to collect information on where people live for risk modeling. Â A big portion of the task has involved finding people already doing mapping and helping them do it openly and digitally. Â This has been the most exciting portion of the project because it has allowed me to work with community facilitators in Eastern Indonesia performing poverty mapping.</p>
+<p>Not everyone had access to the data and tools to make these decisions. Over the past year I€™ve been working in Indonesia on a project to utilize OpenStreetMap to collect information on where people live for risk modeling.  A big portion of the task has involved finding people already doing mapping and helping them do it openly and digitally.  This has been the most exciting portion of the project because it has allowed me to work with community facilitators in Eastern Indonesia performing poverty mapping.</p>
 
-<p>The <a href="http://www.access-indo.or.id/">Australian Community Development and Civil Society Strengthening Scheme (ACCESS)</a> is an initiative between the Australia and Indonesia governments to strengthen civil society by helping create demand for better governance. Â A portion of the project involves development of poverty maps so villages can see and discuss their situations. These maps are typically either handmade or created using CorelDraw with no geospatial aspect. Â In July 2011 the <a href="http://hot.openstreetmap.org">Humanitarian OpenStreetMap Team </a>(HOT) began teaching OpenStreetMap to the community facilitators to assist in their poverty mapping. Â Eventually software was built to split the OpenStreetMap public information from the private poverty information and GIS software was used to make poverty maps. Now the community can quickly have different types of maps without the long process of redrawing and recoloring everything manually. Â Instead they configure different themes in their GIS maps and can show them quickly.</p>
+<p>The <a href="http://www.access-indo.or.id/">Australian Community Development and Civil Society Strengthening Scheme (ACCESS)</a> is an initiative between the Australia and Indonesia governments to strengthen civil society by helping create demand for better governance.  A portion of the project involves development of poverty maps so villages can see and discuss their situations. These maps are typically either handmade or created using CorelDraw with no geospatial aspect.  In July 2011 the <a href="http://hot.openstreetmap.org">Humanitarian OpenStreetMap Team </a>(HOT) began teaching OpenStreetMap to the community facilitators to assist in their poverty mapping.  Eventually software was built to split the OpenStreetMap public information from the private poverty information and GIS software was used to make poverty maps. Now the community can quickly have different types of maps without the long process of redrawing and recoloring everything manually.  Instead they configure different themes in their GIS maps and can show them quickly.</p>
 
-<p>The power of bringing geographic analysis to rural Indonesia to the people making decisions at a local level is huge. It reduces the time to update the maps and because of the flexibility of the data allows other uses. For example one of the groups trained mapped all of the local government projects and then made a dashboard for the local government so they could look at project costs. Another group has a plan to map all 90 villages in their regency, so far theyâ€™ve completed 11. What is amazing is all of the data that can be open is available in OpenStreetMap. Â This allows other groups such as the National Disaster Agency of Indonesia (BNPB) to take that information and run exposure models when performing contingency plans.</p>
+<p>The power of bringing geographic analysis to rural Indonesia to the people making decisions at a local level is huge. It reduces the time to update the maps and because of the flexibility of the data allows other uses. For example one of the groups trained mapped all of the local government projects and then made a dashboard for the local government so they could look at project costs. Another group has a plan to map all 90 villages in their regency, so far they€™ve completed 11. What is amazing is all of the data that can be open is available in OpenStreetMap.  This allows other groups such as the National Disaster Agency of Indonesia (BNPB) to take that information and run exposure models when performing contingency plans.</p>
 
-<p>When this project began it would have been impossible to determine all the possibilities. Through the use of Volunteered Geographic Information, simple GIS and cartography groups are empowered to make better decisions. Â When more people are empowered it is difficult to determine what all the positive externalities are that will happen. That is why I believe it is so important to enable geographic decision by those who need it, which is everyone.</p>
+<p>When this project began it would have been impossible to determine all the possibilities. Through the use of Volunteered Geographic Information, simple GIS and cartography groups are empowered to make better decisions.  When more people are empowered it is difficult to determine what all the positive externalities are that will happen. That is why I believe it is so important to enable geographic decision by those who need it, which is everyone.</p>
 ]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Crowd funding Satellite Imagery]]></title>
-    <link href="http://maploser.com/blog/2012/03/18/crowd-funding-satellite-imagery/"/>
-    <updated>2012-03-18T03:59:22+08:00</updated>
-    <id>http://maploser.com/blog/2012/03/18/crowd-funding-satellite-imagery</id>
-    <content type="html"><![CDATA[<p>I have discussed the need for <a href="http://www.maploser.com/2011/07/06/imagery-pre-disaster-lets-do-better/">access to satellite information</a>Â for <a href="http://www.maploser.com/2010/11/16/openstreetmap-and-crisis-response-why-it-is-sometimes-about-the-license/">crisis response often</a>. When there is a large scale disaster imagery tends to become available relatively quickly, but in cases of smaller events or mapping for preparedness this is not always the case. In my work in Indonesia over the past year we have been fortunate to be able to purchase imagery of <a href="http://tasks.hotosm.org/job/9">Padang City</a>Â (OpenStreetMap login required)Â and additionally Microsoft has updated much of the imagery available through Bing Maps. This access has been enabled by the purchasing power of large organizations, AusAID and Microsoft respectively. Work continues to use similarly sized organizations to increase access in other areas, but the process is slow and there is no guarantee imagery will be available everywhere, every time. Yet. Currently theÂ digitizationÂ of the imagery is performed by the crowd, what about enabling them to assist in the purchase?</p>
+ </entry>
+ 
+ <entry>
+ <title type="html"><![CDATA[Crowd funding Satellite Imagery]]></title>
+ <link href="http://maploser.com/blog/2012/03/18/crowd-funding-satellite-imagery/"/>
+ <updated>2012-03-18T03:59:22+08:00</updated>
+ <id>http://maploser.com/blog/2012/03/18/crowd-funding-satellite-imagery</id>
+ <content type="html"><![CDATA[<p>I have discussed the need for <a href="http://www.maploser.com/2011/07/06/imagery-pre-disaster-lets-do-better/">access to satellite information</a> for <a href="http://www.maploser.com/2010/11/16/openstreetmap-and-crisis-response-why-it-is-sometimes-about-the-license/">crisis response often</a>. When there is a large scale disaster imagery tends to become available relatively quickly, but in cases of smaller events or mapping for preparedness this is not always the case. In my work in Indonesia over the past year we have been fortunate to be able to purchase imagery of <a href="http://tasks.hotosm.org/job/9">Padang City</a> (OpenStreetMap login required) and additionally Microsoft has updated much of the imagery available through Bing Maps. This access has been enabled by the purchasing power of large organizations, AusAID and Microsoft respectively. Work continues to use similarly sized organizations to increase access in other areas, but the process is slow and there is no guarantee imagery will be available everywhere, every time. Yet. Currently the digitization of the imagery is performed by the crowd, what about enabling them to assist in the purchase?</p>
 
 <h2>Lack of Physical or Financial Access</h2>
 
-<p>The<a href="http://publiclaboratory.org/"> PublicÂ Laboratory for Open Science and Technology</a> (PLOTS)Â has done much to enable the crowd-sourcing of inexpensive imagery. Unfortunately many times when crisis mapping occurs access to collect this type of imagery is impossible or extremely dangerous. Imagine flying a balloon in Syria today in order to collect information, the risks would be suicidal. Â In other cases the physical terrain of the area may make it very difficult to access, but a small group may not have the financial means to purchase imagery by other means.</p>
+<p>The<a href="http://publiclaboratory.org/"> Public Laboratory for Open Science and Technology</a> (PLOTS) has done much to enable the crowd-sourcing of inexpensive imagery. Unfortunately many times when crisis mapping occurs access to collect this type of imagery is impossible or extremely dangerous. Imagine flying a balloon in Syria today in order to collect information, the risks would be suicidal.  In other cases the physical terrain of the area may make it very difficult to access, but a small group may not have the financial means to purchase imagery by other means.</p>
 
 <h2>Enabling Collective Purchasing Power</h2>
 
 <p>Currently the <a href="http://hot.openstreetmap.org">Humanitarian OpenStreetMap Team</a> utilizes a tool the <a href="http://tasks.hotosm.org/">Tasking Manager</a> to coordinate digitization and verification of imagery analysis. What if this tool could also be utilized to feed into the purchase process of imagery. Individuals could choose to adopt squares and volunteer to pay for them, this would be an all or nothing proposition, if all the squares were pledge the project would go forward, otherwise it would not. This crowd-funding model would be very similar to <a href="http://www.kickstarter.com/">Kickstarter</a>, but perhaps instead of rewards pledgers could adopt squares to digitize once the imagery was purchased.</p>
 
-<p><a href="http://www.maploser.com/wp-content/uploads/2012/03/padang_sized.png"><img src="http://www.maploser.com/wp-content/uploads/2012/03/padang_sized.png" alt="" /></a></p>
+<p><a href=" http://maploser.com/images/old-ml/2012/03/padang_sized.png"><img src=" http://maploser.com/images/old-ml/2012/03/padang_sized.png" alt="" /></a></p>
 
-<p>The image above is the overview map from the Tasking Manager of the task for Padang City. Â It gives a quick overview of Total number of jobs, how many jobs are done, how many are validated and how many are currently being worked on. Â What if there was an overview of squares that were funded? Â The same as when someone takes a job to complete they could either select a random job or a specific one by clicking on the map. Â The entire community would be able to see quickly if an area was near being available for purchase.</p>
+<p>The image above is the overview map from the Tasking Manager of the task for Padang City.  It gives a quick overview of Total number of jobs, how many jobs are done, how many are validated and how many are currently being worked on.  What if there was an overview of squares that were funded?  The same as when someone takes a job to complete they could either select a random job or a specific one by clicking on the map.  The entire community would be able to see quickly if an area was near being available for purchase.</p>
 
-<p>In Kickstarter it is possible for projects to collect more than they ask for initially. Â If people were adopting specific squares I don&#8217;t see this being possible, but perhaps if you selected a random square they would not be assigned to the end. Â That way it would be possible for more squares to be purchased than exist. Â Sponsors of the imagery fundraising drive could decide on specific things that would happen in these cases (ahead of time to encourage the crowd), possible ideas would be:</p>
+<p>In Kickstarter it is possible for projects to collect more than they ask for initially.  If people were adopting specific squares I don&#8217;t see this being possible, but perhaps if you selected a random square they would not be assigned to the end.  That way it would be possible for more squares to be purchased than exist.  Sponsors of the imagery fundraising drive could decide on specific things that would happen in these cases (ahead of time to encourage the crowd), possible ideas would be:</p>
 
 <ul>
 <li><p>purchase of GPS units to create a bank for people living in those areas</p></li>
@@ -216,28 +216,28 @@
 
 <h2>Can We Expand Access to Imagery?</h2>
 
-<p>I will continue to advocate for expansion of access to imagery. <a href="https://twitter.com/#!/schuyler">Schuyler Erle</a>Â has previously stated that access to imagery in times of crisis is vital almost like water for mapping in response (Schuyler sorry I couldn&#8217;t find an exact quote). I fully agree with this assessment. I will continue to work with governments and large organizations with purchasing power that can help enable the crowd to respond. Â If imagery is as vital as water though, I think we also have to take matters into our own hands as pursue every avenue possible.</p>
+<p>I will continue to advocate for expansion of access to imagery. <a href="https://twitter.com/#!/schuyler">Schuyler Erle</a> has previously stated that access to imagery in times of crisis is vital almost like water for mapping in response (Schuyler sorry I couldn&#8217;t find an exact quote). I fully agree with this assessment. I will continue to work with governments and large organizations with purchasing power that can help enable the crowd to respond.  If imagery is as vital as water though, I think we also have to take matters into our own hands as pursue every avenue possible.</p>
 ]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[ODbL, What the Heck Can You Do with It?]]></title>
-    <link href="http://maploser.com/blog/2012/03/04/odbl-what-the-heck-can-you-do-with-it/"/>
-    <updated>2012-03-04T04:01:30+08:00</updated>
-    <id>http://maploser.com/blog/2012/03/04/odbl-what-the-heck-can-you-do-with-it</id>
-    <content type="html"><![CDATA[<p><em>disclaimer: I am not a lawyer, I&#8217;ve never pretended to be a lawyer and I&#8217;m not qualified to give legal advice. This is myÂ interpretationÂ of what the ODbL license means for usage in OpenStreetMap and what I am going to follow unless someone tells me otherwise.</em></p>
+ </entry>
+ 
+ <entry>
+ <title type="html"><![CDATA[ODbL, What the Heck Can You Do with It?]]></title>
+ <link href="http://maploser.com/blog/2012/03/04/odbl-what-the-heck-can-you-do-with-it/"/>
+ <updated>2012-03-04T04:01:30+08:00</updated>
+ <id>http://maploser.com/blog/2012/03/04/odbl-what-the-heck-can-you-do-with-it</id>
+ <content type="html"><![CDATA[<p><em>disclaimer: I am not a lawyer, I&#8217;ve never pretended to be a lawyer and I&#8217;m not qualified to give legal advice. This is my interpretation of what the ODbL license means for usage in OpenStreetMap and what I am going to follow unless someone tells me otherwise.</em></p>
 
 <h2>Background</h2>
 
-<p>Though my work at the <a href="http://hot.openstreetmap.org/">Humanitarian OpenStreetMap Team</a>Â I am often asked questions about the <a href="http://www.openstreetmap.org/">OpenStreetMap</a> license, which is in process to switch from <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA 2.0</a> to <a href="http://opendatacommons.org/licenses/odbl/1.0/">ODbL 1.0</a>. The <a href="http://www.osmfoundation.org/wiki/License/Why_CC_BY-SA_is_Unsuitable">OpenStreetMap Foundation</a> has written much about the reason for the switch, so I&#8217;m not going to go deeply into that other than CC-BY-SA does not work for data globally. The reason for this blog post though is when I haven&#8217;t been deep in licensing for a while I tend to forget details, perhaps you have the same issue. Â This is for both of us to have a summary. The information below is specifically related to the OpenStreetMap project, there has been much community discussion and guidelines produced leading up to the license change. The usefulness of this information for other projects may vary.</p>
+<p>Though my work at the <a href="http://hot.openstreetmap.org/">Humanitarian OpenStreetMap Team</a> I am often asked questions about the <a href="http://www.openstreetmap.org/">OpenStreetMap</a> license, which is in process to switch from <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA 2.0</a> to <a href="http://opendatacommons.org/licenses/odbl/1.0/">ODbL 1.0</a>. The <a href="http://www.osmfoundation.org/wiki/License/Why_CC_BY-SA_is_Unsuitable">OpenStreetMap Foundation</a> has written much about the reason for the switch, so I&#8217;m not going to go deeply into that other than CC-BY-SA does not work for data globally. The reason for this blog post though is when I haven&#8217;t been deep in licensing for a while I tend to forget details, perhaps you have the same issue.  This is for both of us to have a summary. The information below is specifically related to the OpenStreetMap project, there has been much community discussion and guidelines produced leading up to the license change. The usefulness of this information for other projects may vary.</p>
 
-<p><em>note: OpenStreetMap is switching fully to ODbL on April 1st, so these guidelines will best apply after that date. Â They are however useful for planning now.</em></p>
+<p><em>note: OpenStreetMap is switching fully to ODbL on April 1st, so these guidelines will best apply after that date.  They are however useful for planning now.</em></p>
 
 <h2>Summary</h2>
 
-<p>The basic premise of ODbL is that the license provides that anyone can use the released data for commercial or non-commercial use. This is providing that you give attribution and if you improve the database you release the resulting database under ODbL or a similarÂ compatibleÂ license.</p>
+<p>The basic premise of ODbL is that the license provides that anyone can use the released data for commercial or non-commercial use. This is providing that you give attribution and if you improve the database you release the resulting database under ODbL or a similar compatible license.</p>
 
-<p>Part of ODbL is also the licensing of the data in the database, which requires the D<a href="http://opendatacommons.org/licenses/dbcl/">atabase Contents License</a>Â or DbCL. I&#8217;m not going into this in this post other than to state it is the licensing of the content in the database. Additionally OpenStreetMap is adding contributor terms with the license change, this isÂ separateÂ from the license though will make it easier in the future to change or upgrade the license as needed.</p>
+<p>Part of ODbL is also the licensing of the data in the database, which requires the D<a href="http://opendatacommons.org/licenses/dbcl/">atabase Contents License</a> or DbCL. I&#8217;m not going into this in this post other than to state it is the licensing of the content in the database. Additionally OpenStreetMap is adding contributor terms with the license change, this is separate from the license though will make it easier in the future to change or upgrade the license as needed.</p>
 
 <h2>Important Terms</h2>
 
@@ -248,7 +248,7 @@
 <li><p>Derivative Database</p></li>
 <li><p>Produced Work</p></li>
 <li><p>Extraction</p></li>
-<li><p>Substantial: Refers to the data and the amount/quality of the data. In the OpenStreetMap wiki there are guidelines as to what is <em>Insubstantial</em>Â in reference to the OpenStreetMap project.</p></li>
+<li><p>Substantial: Refers to the data and the amount/quality of the data. In the OpenStreetMap wiki there are guidelines as to what is <em>Insubstantial</em> in reference to the OpenStreetMap project.</p></li>
 </ul>
 
 
@@ -258,8 +258,8 @@
 
 <ul>
 <li><p>Insubstantial: Less than 100 Features. More than 100 Features if the extraction is non-systematic and clearly based on your own qualitative criteria. The features relate to an area of up to 1,000 inhabitants. (7)</p></li>
-<li><p>Trivial Transformations: Situations where a derived database is created but releasing it doesn&#8217;t really add value and the size of the database could possibly make it difficult to release. Â Examples are rendering databases, routing databases and geocoding databases.</p></li>
-<li><p>Metadata Layers: Situations where other data is linked to OpenStreetMap data. For example a case where data e.g.Â restaurantÂ reviews is linked to the OpenStreetMap data by IDs.</p></li>
+<li><p>Trivial Transformations: Situations where a derived database is created but releasing it doesn&#8217;t really add value and the size of the database could possibly make it difficult to release.  Examples are rendering databases, routing databases and geocoding databases.</p></li>
+<li><p>Metadata Layers: Situations where other data is linked to OpenStreetMap data. For example a case where data e.g. restaurant reviews is linked to the OpenStreetMap data by IDs.</p></li>
 <li><p>Indexing: A situation where the data is indexed for example by a search engine.</p></li>
 </ul>
 
@@ -276,37 +276,37 @@
 
 <h4>Creating a Map Image</h4>
 
-<p>If you create a map rendering (image) from the OpenStreetMap data you are free to distribute this <em>produced work </em>as you see fit. Â The only requirements are you must attribute OpenStreetMap. The license on the <em>produced work </em>can be anything you want<em>. Â </em>So if I wanted to create a map for my newsletter showing a park that was well mapped in OpenStreetMap I&#8217;m allowed to do that. I can license the picture with whatever license I want.</p>
+<p>If you create a map rendering (image) from the OpenStreetMap data you are free to distribute this <em>produced work </em>as you see fit.  The only requirements are you must attribute OpenStreetMap. The license on the <em>produced work </em>can be anything you want<em>.  </em>So if I wanted to create a map for my newsletter showing a park that was well mapped in OpenStreetMap I&#8217;m allowed to do that. I can license the picture with whatever license I want.</p>
 
-<p>Often cartographers take a rendered image and then manually make improvements to it. Â Usually this includes things like fixing label positioning, but may also include fixing errors. The resulting work of the artist can be released under any license they want as with the automated rendering, but the improvements for example the fixing errors must be released. It is suggested that the easiest way to do this maybe to <a href="http://wiki.openstreetmap.org/wiki/Open_Data_License/Use_Cases#Using_OSM_data_for_the_production_of_a_hand-made_map">simply add the fixes back into OpenStreetMap</a>.</p>
+<p>Often cartographers take a rendered image and then manually make improvements to it.  Usually this includes things like fixing label positioning, but may also include fixing errors. The resulting work of the artist can be released under any license they want as with the automated rendering, but the improvements for example the fixing errors must be released. It is suggested that the easiest way to do this maybe to <a href="http://wiki.openstreetmap.org/wiki/Open_Data_License/Use_Cases#Using_OSM_data_for_the_production_of_a_hand-made_map">simply add the fixes back into OpenStreetMap</a>.</p>
 
 <h4>Using the OpenStreetMap Data for Geocoding</h4>
 
-<p>You have created a geocoder that using OpenStreetMap data by itself. Part of the process of geocoding is first indexing the data. There is a resultingÂ <em>derivedÂ work </em>in this case which is the geocoding database. Â According to the ODbL license <a href="http://wiki.openstreetmap.org/wiki/Open_Data_License/Trivial_Transformations_-_Guideline">either the resulting database, the modifications or the algorithm should be provided</a>.</p>
+<p>You have created a geocoder that using OpenStreetMap data by itself. Part of the process of geocoding is first indexing the data. There is a resulting <em>derived work </em>in this case which is the geocoding database.  According to the ODbL license <a href="http://wiki.openstreetmap.org/wiki/Open_Data_License/Trivial_Transformations_-_Guideline">either the resulting database, the modifications or the algorithm should be provided</a>.</p>
 
 <p><em>note: there is some disagreement about if these is how far OpenStreetMap would want to take this idea, but currently the interpretation of the license.</em></p>
 
 <h4>Search Engine Indexes OpenStreetMap Data</h4>
 
-<p>You have a search engine which crawls all the OpenStreetMap data. When a user searches for a specificÂ restaurantÂ on your search engine it provides a link to that restaurant on the OpenStreetMap website. This is considered <em><a href="http://wiki.openstreetmap.org/wiki/Open_Data_License/Indexing_-_Guideline">fair use</a></em>Â in the OpenStreetMap community guidelines, this is because it indexing the OpenStreetMap webpages and these are <em>produced works</em>.</p>
+<p>You have a search engine which crawls all the OpenStreetMap data. When a user searches for a specific restaurant on your search engine it provides a link to that restaurant on the OpenStreetMap website. This is considered <em><a href="http://wiki.openstreetmap.org/wiki/Open_Data_License/Indexing_-_Guideline">fair use</a></em> in the OpenStreetMap community guidelines, this is because it indexing the OpenStreetMap webpages and these are <em>produced works</em>.</p>
 
 <h3>Use of OpenStreetMap Data with Other Data</h3>
 
 <h4>Geocoding Using OpenStreetMap</h4>
 
-<p>AnÂ organizationÂ has a list of members and wants to geocode that list to create a map. The resulting geocoded address is a <em>derived database</em>, but at what point do they need to release under a compatible license? In this situation the guideline of what isÂ <em>substantial</em>(<a href="http://wiki.openstreetmap.org/wiki/Open_Data_License/Substantial_-_Guideline">7</a>)Â comes into effect. According to the community guidelines if more than 100 records were in the database it would need to be released under ODbL.</p>
+<p>An organization has a list of members and wants to geocode that list to create a map. The resulting geocoded address is a <em>derived database</em>, but at what point do they need to release under a compatible license? In this situation the guideline of what is <em>substantial</em>(<a href="http://wiki.openstreetmap.org/wiki/Open_Data_License/Substantial_-_Guideline">7</a>) comes into effect. According to the community guidelines if more than 100 records were in the database it would need to be released under ODbL.</p>
 
 <h4>Improving Another Dataset</h4>
 
-<p>Let&#8217;s say you took the extract OpenStreetMap database and extracted all theÂ restaurants. Â You then manually went through all theÂ restaurantÂ to verify their locations and corrected those that were incorrect. Â You then used thisÂ <em>derivedÂ database </em>to make an internal presentation to your marketing department. In this case you did make aÂ <em>derivedÂ database</em>, but neither distributed the database or the produced work. Â It is unnecessary to then release the data under ODbL.</p>
+<p>Let&#8217;s say you took the extract OpenStreetMap database and extracted all the restaurants.  You then manually went through all the restaurant to verify their locations and corrected those that were incorrect.  You then used this <em>derived database </em>to make an internal presentation to your marketing department. In this case you did make a <em>derived database</em>, but neither distributed the database or the produced work.  It is unnecessary to then release the data under ODbL.</p>
 
-<p>After your presentation your boss came to you and said they wanted to use the information from your presentation in a product helping other marketers analyzeÂ restaurantÂ locations. This would be distributed to all of your customers. Â In this case your <em>produced work </em>or perhaps yourÂ <em>derivedÂ database </em>depending on the type of product are being distributed so you would need to release the information ODbL.</p>
+<p>After your presentation your boss came to you and said they wanted to use the information from your presentation in a product helping other marketers analyze restaurant locations. This would be distributed to all of your customers.  In this case your <em>produced work </em>or perhaps your <em>derived database </em>depending on the type of product are being distributed so you would need to release the information ODbL.</p>
 
 <h4>You reference IDs to the database from another database</h4>
 
-<p>The example from the OpenStreetMap wiki is you have a site that collects restaurant reviews and you link those toÂ restaurantsÂ mapped in OpenStreetMap by the ID(<a href="http://wiki.openstreetmap.org/wiki/Open_Data_License/Metadata_Layers_-_Guideline">10</a>). It is stated &#8220;The &#8220;Fairhurst Doctrine&#8221; (previously discussed on theÂ <a href="http://lists.openstreetmap.org/pipermail/legal-talk/2009-October/002881.html">mailing list</a>) solves this by saying that any mapping of machine-produced primary keys (e.g: OSM node IDs to review IDs), as it doesn&#8217;t &#8220;represent &#8230; significant investment&#8221;, doesn&#8217;t meet the definition of &#8220;Substantial&#8221;, therefore is not a Derivative Database.&#8221;</p>
+<p>The example from the OpenStreetMap wiki is you have a site that collects restaurant reviews and you link those to restaurants mapped in OpenStreetMap by the ID(<a href="http://wiki.openstreetmap.org/wiki/Open_Data_License/Metadata_Layers_-_Guideline">10</a>). It is stated &#8220;The &#8220;Fairhurst Doctrine&#8221; (previously discussed on the <a href="http://lists.openstreetmap.org/pipermail/legal-talk/2009-October/002881.html">mailing list</a>) solves this by saying that any mapping of machine-produced primary keys (e.g: OSM node IDs to review IDs), as it doesn&#8217;t &#8220;represent &#8230; significant investment&#8221;, doesn&#8217;t meet the definition of &#8220;Substantial&#8221;, therefore is not a Derivative Database.&#8221;</p>
 
-<p>My personal example of this is through some work that the <a href="http://hot.openstreetmap.org/">Humanitarian OpenStreetMap Team</a> has done in Indonesia. We&#8217;ve been working with community facilitators to help them map poverty. Â Building information goes directly into OpenStreetMap and the poverty information goes into aÂ separateÂ database linked by the OpenStreetMap ID. Originally this was done by typing the OSM ID directly into Excel, now there is an application that links the two. Â When someone wants to make a poverty map they download the OpenStreetMap data as a Shapefile and link it to their spreadsheet. When we built this system my understanding was that there was not issue because the data was not going to be distributed. Â The issue being that poverty data is private information and it isn&#8217;t fair to expect people to make it public. Â According to the &#8220;Fairhurst Doctrine&#8221; it appears that we would be okay to distribute it to other groups without having to release it ODbL.</p>
+<p>My personal example of this is through some work that the <a href="http://hot.openstreetmap.org/">Humanitarian OpenStreetMap Team</a> has done in Indonesia. We&#8217;ve been working with community facilitators to help them map poverty.  Building information goes directly into OpenStreetMap and the poverty information goes into a separate database linked by the OpenStreetMap ID. Originally this was done by typing the OSM ID directly into Excel, now there is an application that links the two.  When someone wants to make a poverty map they download the OpenStreetMap data as a Shapefile and link it to their spreadsheet. When we built this system my understanding was that there was not issue because the data was not going to be distributed.  The issue being that poverty data is private information and it isn&#8217;t fair to expect people to make it public.  According to the &#8220;Fairhurst Doctrine&#8221; it appears that we would be okay to distribute it to other groups without having to release it ODbL.</p>
 
 <h2>References</h2>
 
@@ -326,16 +326,16 @@
 </ol>
 
 ]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[FOSS4G-NA Join Us, Contribute, Submit a Talk]]></title>
-    <link href="http://maploser.com/blog/2012/02/27/foss4g-na-join-us-contribute-submit-a-talk/"/>
-    <updated>2012-02-27T10:54:02+08:00</updated>
-    <id>http://maploser.com/blog/2012/02/27/foss4g-na-join-us-contribute-submit-a-talk</id>
-    <content type="html"><![CDATA[<p><img src="http://www.maploser.com/wp-content/uploads/2012/02/FOSS4G-NA-1.png" alt="FOSS4G NA 1" /></p>
+ </entry>
+ 
+ <entry>
+ <title type="html"><![CDATA[FOSS4G-NA Join Us, Contribute, Submit a Talk]]></title>
+ <link href="http://maploser.com/blog/2012/02/27/foss4g-na-join-us-contribute-submit-a-talk/"/>
+ <updated>2012-02-27T10:54:02+08:00</updated>
+ <id>http://maploser.com/blog/2012/02/27/foss4g-na-join-us-contribute-submit-a-talk</id>
+ <content type="html"><![CDATA[<p><img src=" http://maploser.com/images/old-ml/2012/02/FOSS4G-NA-1.png" alt="FOSS4G NA 1" /></p>
 
-<p>There are many events in the Washington D.C. area related to geo. One is coming up which is sure to be educational and fun,Â <a href="http://foss4g-na.org/">FOSS4G North America</a>. FOSS4G-NAÂ is taking place April 10th-12th at the Walter E. Washington Convention Center in Washington D.C.Â Confession I&#8217;m on the program committee, but I&#8217;m not just saying you should go because of that. FOSS4G this year was in the United States in Denver, Colorado, it was the first year I attended and I both learned a lot and met others in the community I didn&#8217;t yet know. If you didn&#8217;t make it out to Denver you should definitely attend and if you did I doubt I have to convince you.</p>
+<p>There are many events in the Washington D.C. area related to geo. One is coming up which is sure to be educational and fun, <a href="http://foss4g-na.org/">FOSS4G North America</a>. FOSS4G-NA is taking place April 10th-12th at the Walter E. Washington Convention Center in Washington D.C. Confession I&#8217;m on the program committee, but I&#8217;m not just saying you should go because of that. FOSS4G this year was in the United States in Denver, Colorado, it was the first year I attended and I both learned a lot and met others in the community I didn&#8217;t yet know. If you didn&#8217;t make it out to Denver you should definitely attend and if you did I doubt I have to convince you.</p>
 
 <h2>Attending</h2>
 
@@ -345,18 +345,18 @@
 
 <p><strong>Note: The Call for Speakers Ends on March 1st, so you better get your abstract in soon!</strong></p>
 
-<p>These types of conferences aren&#8217;t just about attending, they are also about sharing. Are you are creating a new project, improving an old one or have an interest implementation? Share your knowledge with the rest of us. I&#8217;m going to submit something about HOT&#8217;s work in Indonesia I just haven&#8217;t figured out which angle I&#8217;m going to take. Â Teaching QGIS to community facilitators for poverty mapping? Using crowd-sourcing to create data for risk analysis? Or something else that will come to me 5 minutes before the submission deadline! Either way make sure to <a href="http://foss4g-na.org/abstract-submission/">get your submission in before March 1st</a>.</p>
+<p>These types of conferences aren&#8217;t just about attending, they are also about sharing. Are you are creating a new project, improving an old one or have an interest implementation? Share your knowledge with the rest of us. I&#8217;m going to submit something about HOT&#8217;s work in Indonesia I just haven&#8217;t figured out which angle I&#8217;m going to take.  Teaching QGIS to community facilitators for poverty mapping? Using crowd-sourcing to create data for risk analysis? Or something else that will come to me 5 minutes before the submission deadline! Either way make sure to <a href="http://foss4g-na.org/abstract-submission/">get your submission in before March 1st</a>.</p>
 
 <p>See you there!</p>
 ]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[#pwyw for #geonerd Help, the Pay What You Want Experiment]]></title>
-    <link href="http://maploser.com/blog/2012/02/21/pwyw-for-geonerd-help-the-pay-what-you-want-experiment/"/>
-    <updated>2012-02-21T15:52:02+08:00</updated>
-    <id>http://maploser.com/blog/2012/02/21/pwyw-for-geonerd-help-the-pay-what-you-want-experiment</id>
-    <content type="html"><![CDATA[<p>I&#8217;ve begun blogging at wonderchook.com for anything non-geo related. Today I announced a &#8220;pay what you want&#8221; experiment. The idea is you can schedule my time to help with something and if you appreciate the help you can &#8220;pay what you want.&#8221; The reason for the experiment is I have my flexibility in my schedule since I consult for the <a href="http://hot.openstreetmap.org">Humanitarian OpenStreetMap Team</a>, so I have time to test out wacky ideas.</p>
+ </entry>
+ 
+ <entry>
+ <title type="html"><![CDATA[#pwyw for #geonerd Help, the Pay What You Want Experiment]]></title>
+ <link href="http://maploser.com/blog/2012/02/21/pwyw-for-geonerd-help-the-pay-what-you-want-experiment/"/>
+ <updated>2012-02-21T15:52:02+08:00</updated>
+ <id>http://maploser.com/blog/2012/02/21/pwyw-for-geonerd-help-the-pay-what-you-want-experiment</id>
+ <content type="html"><![CDATA[<p>I&#8217;ve begun blogging at wonderchook.com for anything non-geo related. Today I announced a &#8220;pay what you want&#8221; experiment. The idea is you can schedule my time to help with something and if you appreciate the help you can &#8220;pay what you want.&#8221; The reason for the experiment is I have my flexibility in my schedule since I consult for the <a href="http://hot.openstreetmap.org">Humanitarian OpenStreetMap Team</a>, so I have time to test out wacky ideas.</p>
 
 <h2>The Experiment</h2>
 
@@ -364,36 +364,36 @@
 <li><p>I will publish office hours a week in advance</p></li>
 <li><p>You can go sign-up for slots, including a description and how I will contact you. I&#8217;m open to any means of communication as long as they are free.</p></li>
 <li><p>At the slotted time we will begin working on your problem. If it is a problem where it is be worked on asynchronously then I will work on it during the time-slot. If it is something that more requires discussion it will occur during the reserved time.</p></li>
-<li><p>If you areÂ satisfiedÂ with the help and would like to pay for it then you can pay me through Paypal, send me a gift, trade anything that seems appropriate to you.</p></li>
+<li><p>If you are satisfied with the help and would like to pay for it then you can pay me through Paypal, send me a gift, trade anything that seems appropriate to you.</p></li>
 </ol>
 
 
 <p>There is <a href="http://wonderchook.com/2012/02/pay-what-you-want-for-peer-help/">more background on my idea around this experiment</a> on my general blog. And you can <a href="https://www.google.com/calendar/b/0/selfsched?sstoken=UUNpSnV1b2VNVWQ4fGRlZmF1bHR8M2Q1YTQ4MWI5OWQzZTVlZjA4NzRjNjYzZDAyZmNmYTc">reserve time</a> through Google&#8217;s Appointment feature in Calendar.</p>
 ]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Imagery Processing...Lessons Learned?]]></title>
-    <link href="http://maploser.com/blog/2011/12/11/imagery-processing-lessons-learned/"/>
-    <updated>2011-12-11T11:25:05+08:00</updated>
-    <id>http://maploser.com/blog/2011/12/11/imagery-processing-lessons-learned</id>
-    <content type="html"><![CDATA[<p><strong>Confession: </strong>When I studed Geography at George Mason University I only took one class that had anything to do with imagery of any type.  Focused around manual interpretation of imagery mostly though we did use ERDAS Imagine once, for a lab.</p>
+ </entry>
+ 
+ <entry>
+ <title type="html"><![CDATA[Imagery Processing...Lessons Learned?]]></title>
+ <link href="http://maploser.com/blog/2011/12/11/imagery-processing-lessons-learned/"/>
+ <updated>2011-12-11T11:25:05+08:00</updated>
+ <id>http://maploser.com/blog/2011/12/11/imagery-processing-lessons-learned</id>
+ <content type="html"><![CDATA[<p><strong>Confession: </strong>When I studed Geography at George Mason University I only took one class that had anything to do with imagery of any type. Focused around manual interpretation of imagery mostly though we did use ERDAS Imagine once, for a lab.</p>
 
-<p>I could have taken more classes on remote sensing, but I didn&#8217;t.  My focus was more on cartography and statistical analysis.</p>
+<p>I could have taken more classes on remote sensing, but I didn&#8217;t. My focus was more on cartography and statistical analysis.</p>
 
-<p>Anyway, recently <a href="http://hot.openstreetmap.org">HOT</a> bought some imagery. I naively thought that I could just run it through gdal2tiles.py and go skipping down the road to digitizing.  Well, I was wrong.</p>
+<p>Anyway, recently <a href="http://hot.openstreetmap.org">HOT</a> bought some imagery. I naively thought that I could just run it through gdal2tiles.py and go skipping down the road to digitizing. Well, I was wrong.</p>
 
-<p>I received a lot of advice on what to do with the imagery.  For example changing it from 16 bit to 8 bit.  Which I tried, oddly it worked on one image and not the other.  This turns out was just dumb luck that the stretch was almost right when you did that.  Other suggestions involved reordering the bands and things such as that.  I tried a bunch of different things, none of them worked.</p>
+<p>I received a lot of advice on what to do with the imagery. For example changing it from 16 bit to 8 bit. Which I tried, oddly it worked on one image and not the other. This turns out was just dumb luck that the stretch was almost right when you did that. Other suggestions involved reordering the bands and things such as that. I tried a bunch of different things, none of them worked.</p>
 
-<p>I did discover that if I applied a standard deviation stretch to the imagery in QGIS then it looked right.  There wasn&#8217;t a way to save this stretch though directly to the GeoTIFF. I did a bunch of searching to see if there was a manual way to do this and I came across this post on using <a href="http://www.osgeo.org/pipermail/gdal-dev/2011-June/029004.html">VRTs to add the minimum and maximum of the bands</a>.</p>
+<p>I did discover that if I applied a standard deviation stretch to the imagery in QGIS then it looked right. There wasn&#8217;t a way to save this stretch though directly to the GeoTIFF. I did a bunch of searching to see if there was a manual way to do this and I came across this post on using <a href="http://www.osgeo.org/pipermail/gdal-dev/2011-June/029004.html">VRTs to add the minimum and maximum of the bands</a>.</p>
 
-<p>So here is my pretty manual way of doing things.  Yes I could have done some automation but I figured it was just a couple images.</p>
+<p>So here is my pretty manual way of doing things. Yes I could have done some automation but I figured it was just a couple images.</p>
 
-<p>First I download the image and open it in QGIS.  Then I right clicked on the layer and selected properties.  In the properties dialog I selected &#8220;use standard deviation&#8221; and he &#8220;apply.&#8221;  The image should now look like natural color.</p>
+<p>First I download the image and open it in QGIS. Then I right clicked on the layer and selected properties. In the properties dialog I selected &#8220;use standard deviation&#8221; and he &#8220;apply.&#8221; The image should now look like natural color.</p>
 
-<p><img src="http://www.maploser.com/wp-content/uploads/2011/12/standard_dev.png" alt="Properties Panel QGIS" /></p>
+<p><img src=" http://maploser.com/images/old-ml/2011/12/standard_dev.png" alt="Properties Panel QGIS" /></p>
 
-<p>Next I copied the Red, Green and Blue min/max values. Â Now with the correct values the key is to feed them in GDAL correctly. Here you are building a VRT or Virtual Format. Â So the actual processing doesn&#8217;t take place, you are describing it though.</p>
+<p>Next I copied the Red, Green and Blue min/max values.  Now with the correct values the key is to feed them in GDAL correctly. Here you are building a VRT or Virtual Format.  So the actual processing doesn&#8217;t take place, you are describing it though.</p>
 
 <p>First step is to stretch each band individually:</p>
 
@@ -415,86 +415,86 @@
 
 <p>gdal2tiles.py my_beautiful_tif.tif</p>
 
-<p>I suspect there may be a better way of doing things than this. Â Though after a lot of researching I didn&#8217;t find one. Â So this is the process that works for me. Â Any suggestions? Â Please, please, please leave them in the comments!</p>
+<p>I suspect there may be a better way of doing things than this.  Though after a lot of researching I didn&#8217;t find one.  So this is the process that works for me.  Any suggestions?  Please, please, please leave them in the comments!</p>
 ]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Book Sprints for Humanitarian Response]]></title>
-    <link href="http://maploser.com/blog/2011/10/23/book-sprints-for-humanitarian-response/"/>
-    <updated>2011-10-23T02:52:56+08:00</updated>
-    <id>http://maploser.com/blog/2011/10/23/book-sprints-for-humanitarian-response</id>
-    <content type="html"><![CDATA[<p>Over the past week I&#8217;ve been at Google in Mountain View working on a book sprint for OpenStreetMap.  I had no idea when the week started that we were going to write a book in a week, nor that it was possible to do that.  I also wasn&#8217;t familiar with <a href="http://flossmanuals.net/">FLOSS Manuals</a> which operates under the premise that not only should software be open and free but the documentation should be as well.</p>
+ </entry>
+ 
+ <entry>
+ <title type="html"><![CDATA[Book Sprints for Humanitarian Response]]></title>
+ <link href="http://maploser.com/blog/2011/10/23/book-sprints-for-humanitarian-response/"/>
+ <updated>2011-10-23T02:52:56+08:00</updated>
+ <id>http://maploser.com/blog/2011/10/23/book-sprints-for-humanitarian-response</id>
+ <content type="html"><![CDATA[<p>Over the past week I&#8217;ve been at Google in Mountain View working on a book sprint for OpenStreetMap. I had no idea when the week started that we were going to write a book in a week, nor that it was possible to do that. I also wasn&#8217;t familiar with <a href="http://flossmanuals.net/">FLOSS Manuals</a> which operates under the premise that not only should software be open and free but the documentation should be as well.</p>
 
-<p>The premise of the week was to bring individuals from open-source projects together as well as others specializing in documentation in as well to help.  A combination of an unconference and then intensive documentation writing ensued.  The OpenStreetMap group included Ian Dees, Shaun McDonald and myself from the project.  We additionally had Anne Goldenberg, Anne Gentle, Tomi Toivio and NÃ³irÃ­n Plunkett.  Having so many people from outside OpenStreetMap was extremely valuable.  They were able to help us be far more clear about the materials and see past assumptions we may have made about topics.  At the end we had a published book, which <a href="http://www.lulu.com/product/paperback/openstreetmap/18173430">can be purchased from Lulu.com</a>. Having a completed work at the end of the sprint was a great feeling.  Often after hackathons that is missing for me and it ends up feeling like we just flogged ourselves with some code for a set period of time.</p>
+<p>The premise of the week was to bring individuals from open-source projects together as well as others specializing in documentation in as well to help. A combination of an unconference and then intensive documentation writing ensued. The OpenStreetMap group included Ian Dees, Shaun McDonald and myself from the project. We additionally had Anne Goldenberg, Anne Gentle, Tomi Toivio and NÃ³irÃ­n Plunkett. Having so many people from outside OpenStreetMap was extremely valuable. They were able to help us be far more clear about the materials and see past assumptions we may have made about topics. At the end we had a published book, which <a href="http://www.lulu.com/product/paperback/openstreetmap/18173430">can be purchased from Lulu.com</a>. Having a completed work at the end of the sprint was a great feeling. Often after hackathons that is missing for me and it ends up feeling like we just flogged ourselves with some code for a set period of time.</p>
 
-<p>In going through this process I started to think about other topics that could benefit from this type of approach.  I started thinking about the topics that we go over repeatedly within the Humanitarian Open-Source, CrisisMappers and Volunteer Technology Communities (for lack of a better name).  I really think the community could benefit from a generic guide to issues within the humanitarian technology realm.  Topics such as standards, licensing and workflows could be documented.  It is impossible to say what exactly the book would cover, because that is determined as part of the book sprint process.  What I am proposing though is that it would be greatly beneficial to gather for this process.</p>
+<p>In going through this process I started to think about other topics that could benefit from this type of approach. I started thinking about the topics that we go over repeatedly within the Humanitarian Open-Source, CrisisMappers and Volunteer Technology Communities (for lack of a better name). I really think the community could benefit from a generic guide to issues within the humanitarian technology realm. Topics such as standards, licensing and workflows could be documented. It is impossible to say what exactly the book would cover, because that is determined as part of the book sprint process. What I am proposing though is that it would be greatly beneficial to gather for this process.</p>
 
-<p>Typically a book sprint would happen over roughly a week time with five to ten individuals with different experience on the topic.  I&#8217;m proposing the same thing. Let&#8217;s plan a book sprint and figure out how to make it happen.  The idea would be to gather about ten people with different experience, everything from technologists to humanitarian responders to specialists in documentation.  This group would get together for an intensive week long book sprint, the goal being to create a manual of the basics of humanitarian technology.  Topics that come to mind for me are data licensing, standards, security, privacy and workflows.  I&#8217;m only one individual and I&#8217;m sure topics would change and mold to the importance decided on by the group.  The point though would be to create a resource useful within our community.</p>
+<p>Typically a book sprint would happen over roughly a week time with five to ten individuals with different experience on the topic. I&#8217;m proposing the same thing. Let&#8217;s plan a book sprint and figure out how to make it happen. The idea would be to gather about ten people with different experience, everything from technologists to humanitarian responders to specialists in documentation. This group would get together for an intensive week long book sprint, the goal being to create a manual of the basics of humanitarian technology. Topics that come to mind for me are data licensing, standards, security, privacy and workflows. I&#8217;m only one individual and I&#8217;m sure topics would change and mold to the importance decided on by the group. The point though would be to create a resource useful within our community.</p>
 
-<p>Does this sound interesting to you?  Contact me in the comments or by email and let&#8217;s make it happen!</p>
+<p>Does this sound interesting to you? Contact me in the comments or by email and let&#8217;s make it happen!</p>
 ]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Imagery Pre-disaster Let's Do Better]]></title>
-    <link href="http://maploser.com/blog/2011/07/06/imagery-pre-disaster-lets-do-better/"/>
-    <updated>2011-07-06T23:57:20+08:00</updated>
-    <id>http://maploser.com/blog/2011/07/06/imagery-pre-disaster-lets-do-better</id>
-    <content type="html"><![CDATA[<p>This week is the first expert meeting regarding Space Based Technology and Crowd-Sourcing being hosted by UN-SPIDER.  I am not attending, but from the Twitter stream (#spidercrowd) it appears there has been a lively discussion on using satellite information and crowd-sourcing for disaster response.  What I believe is often missing from these types of conversations is preparedness.  Maybe it is presumptuous of me to discuss preparedness when imagery isn&#8217;t available freely every time for every disaster.</p>
+ </entry>
+ 
+ <entry>
+ <title type="html"><![CDATA[Imagery Pre-disaster Let's Do Better]]></title>
+ <link href="http://maploser.com/blog/2011/07/06/imagery-pre-disaster-lets-do-better/"/>
+ <updated>2011-07-06T23:57:20+08:00</updated>
+ <id>http://maploser.com/blog/2011/07/06/imagery-pre-disaster-lets-do-better</id>
+ <content type="html"><![CDATA[<p>This week is the first expert meeting regarding Space Based Technology and Crowd-Sourcing being hosted by UN-SPIDER. I am not attending, but from the Twitter stream (#spidercrowd) it appears there has been a lively discussion on using satellite information and crowd-sourcing for disaster response. What I believe is often missing from these types of conversations is preparedness. Maybe it is presumptuous of me to discuss preparedness when imagery isn&#8217;t available freely every time for every disaster.</p>
 
-<p>I&#8217;m typing this email from Padang, Indonesia in Western Sumatra.  Yesterday I hosted a workshop at the <a href="http://www.unand.ac.id/">University of Andalas</a> to teach them about OpenStreetMap as part of the Humanitarian OpenStreetMap Team&#8217;s project in Indonesia.  This is the fifth workshop I&#8217;ve done at a University in Indonesia. Things went well, much like all of the other workshops I&#8217;ve given.  Students were excited and picked up the tools very quickly.  The one difference?  Available imagery.</p>
+<p>I&#8217;m typing this email from Padang, Indonesia in Western Sumatra. Yesterday I hosted a workshop at the <a href="http://www.unand.ac.id/">University of Andalas</a> to teach them about OpenStreetMap as part of the Humanitarian OpenStreetMap Team&#8217;s project in Indonesia. This is the fifth workshop I&#8217;ve done at a University in Indonesia. Things went well, much like all of the other workshops I&#8217;ve given. Students were excited and picked up the tools very quickly. The one difference? Available imagery.</p>
 
-<p>This region of Indonesia is especially vulnerable to earthquakes and tsunamis, the last major earthquake in <a href="http://en.wikipedia.org/wiki/2009_Sumatra_earthquakes">Padang was in 2009</a>.  In preparing for this workshop series I investigated each area we were going to be working to check for available imagery.  For those not familiar OpenStreetMap is allowed to use Bing&#8217;s imagery to trace information, this is one of the major sources of imagery for OpenStreetMap.  In checking I looked at Jakarta, Bandung, Yogyakarta and Surabaya.  All four of these cities had really night, half-meter or so imagery.  In Padang?  It appears to just be Landsat.  I think this highlights the need for imagery to be available beforehand though.  If something major happened here I think it is likely imagery would become freely available.  Though creating a detailed map through crowd-sourcing?  That would take a week or two and be a huge effort from people that don&#8217;t know the area as well as locals.  So why not map ahead of time?  Imagine the power if after an event the map just had to be updated, instead of created?</p>
+<p>This region of Indonesia is especially vulnerable to earthquakes and tsunamis, the last major earthquake in <a href="http://en.wikipedia.org/wiki/2009_Sumatra_earthquakes">Padang was in 2009</a>. In preparing for this workshop series I investigated each area we were going to be working to check for available imagery. For those not familiar OpenStreetMap is allowed to use Bing&#8217;s imagery to trace information, this is one of the major sources of imagery for OpenStreetMap. In checking I looked at Jakarta, Bandung, Yogyakarta and Surabaya. All four of these cities had really night, half-meter or so imagery. In Padang? It appears to just be Landsat. I think this highlights the need for imagery to be available beforehand though. If something major happened here I think it is likely imagery would become freely available. Though creating a detailed map through crowd-sourcing? That would take a week or two and be a huge effort from people that don&#8217;t know the area as well as locals. So why not map ahead of time? Imagine the power if after an event the map just had to be updated, instead of created?</p>
 
-<p>There are many different ways imagery could be made available.  Providers could donate it, I&#8217;m not asking for the shot the day before, fancy brand new imagery.  What about imagery that is a year old or so?  People purchasing imagery are usually looking for something more recent, the older stuff isn&#8217;t as valuable.  An imagery fund could be created for preparedness.  What about doing a highschool style fundraiser where everyone purchases and adopts a square kilometer?  When purchasing imagery those doing the purchasing could negotiate for better terms on it.  For example sometimes you can add additional licensees without increasing the cost.  What if everyone purchasing imagery at least asked if they could license the imagery also for OpenStreetMap to use to trace vectors?  Or an even more liberal license if possible.</p>
+<p>There are many different ways imagery could be made available. Providers could donate it, I&#8217;m not asking for the shot the day before, fancy brand new imagery. What about imagery that is a year old or so? People purchasing imagery are usually looking for something more recent, the older stuff isn&#8217;t as valuable. An imagery fund could be created for preparedness. What about doing a highschool style fundraiser where everyone purchases and adopts a square kilometer? When purchasing imagery those doing the purchasing could negotiate for better terms on it. For example sometimes you can add additional licensees without increasing the cost. What if everyone purchasing imagery at least asked if they could license the imagery also for OpenStreetMap to use to trace vectors? Or an even more liberal license if possible.</p>
 
-<p>I&#8217;m interested to hear what others think about this and if there are other ideas.  Also don&#8217;t worry specifically about HOT&#8217;s project in Padang, we were fortunate to be able to purchase imagery.  As I suggested about licensing above, we also made sure to extend the license to the government and our partners.</p>
+<p>I&#8217;m interested to hear what others think about this and if there are other ideas. Also don&#8217;t worry specifically about HOT&#8217;s project in Padang, we were fortunate to be able to purchase imagery. As I suggested about licensing above, we also made sure to extend the license to the government and our partners.</p>
 ]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Off to Join the Circus!]]></title>
-    <link href="http://maploser.com/blog/2011/06/27/off-to-join-the-circus/"/>
-    <updated>2011-06-27T13:09:58+08:00</updated>
-    <id>http://maploser.com/blog/2011/06/27/off-to-join-the-circus</id>
-    <content type="html"><![CDATA[<p>Well not really off to join the circus, most of you probably already know about my employment change. I&#8217;m now working for the <a href="http://hot.openstreetmap.org">Humanitarian OpenStreetMap Team</a>.  I always referred to working on OpenStreetMap projects full-time as &#8220;running off to join the OpenStreetMap.&#8221;   That isn&#8217;t to say people haven&#8217;t done it previous, I think it is just is something many would love to do and few have figured out how to.  Much like joining the circus, though you trade in your clown nose for a GPS.  Or at least it can take a bit of a leap of faith in someways.</p>
+ </entry>
+ 
+ <entry>
+ <title type="html"><![CDATA[Off to Join the Circus!]]></title>
+ <link href="http://maploser.com/blog/2011/06/27/off-to-join-the-circus/"/>
+ <updated>2011-06-27T13:09:58+08:00</updated>
+ <id>http://maploser.com/blog/2011/06/27/off-to-join-the-circus</id>
+ <content type="html"><![CDATA[<p>Well not really off to join the circus, most of you probably already know about my employment change. I&#8217;m now working for the <a href="http://hot.openstreetmap.org">Humanitarian OpenStreetMap Team</a>. I always referred to working on OpenStreetMap projects full-time as &#8220;running off to join the OpenStreetMap.&#8221; That isn&#8217;t to say people haven&#8217;t done it previous, I think it is just is something many would love to do and few have figured out how to. Much like joining the circus, though you trade in your clown nose for a GPS. Or at least it can take a bit of a leap of faith in someways.</p>
 
-<p>Anyway I ended my full-time employment at GeoIQ on May 16th and began transitioning over to working for HOT.   I loved working for GeoIQ, my coworkers were wonderful and I really believe in the technology that was being built.  However last year after going to Haiti and working remotely on other projects HOT was helping on, I really found a calling.  Working on things for HOT is yet to have felt like work and I hope it never does.  After the transitioning my real first day of only working for HOT was about June 15th.  That day I attended a meeting in New York City with other members from the Volunteer Technical Communities and the United Nations (OCHA to be specific).  I thought this was a good kick-off to my new position, because it is one of my goals for myself.  To be able to help coordinate with large organizations and other tech response groups so we can all be more effective.   I also hope to do some fundraising for HOT so we can coordinate better when disasters do happen.  There is a need to have infrastructure, software to better assist with mapping as well as individuals to help coordinate.  This items don&#8217;t always translate into the need for funding, but I think there are going to be situations where it will.</p>
+<p>Anyway I ended my full-time employment at GeoIQ on May 16th and began transitioning over to working for HOT. I loved working for GeoIQ, my coworkers were wonderful and I really believe in the technology that was being built. However last year after going to Haiti and working remotely on other projects HOT was helping on, I really found a calling. Working on things for HOT is yet to have felt like work and I hope it never does. After the transitioning my real first day of only working for HOT was about June 15th. That day I attended a meeting in New York City with other members from the Volunteer Technical Communities and the United Nations (OCHA to be specific). I thought this was a good kick-off to my new position, because it is one of my goals for myself. To be able to help coordinate with large organizations and other tech response groups so we can all be more effective. I also hope to do some fundraising for HOT so we can coordinate better when disasters do happen. There is a need to have infrastructure, software to better assist with mapping as well as individuals to help coordinate. This items don&#8217;t always translate into the need for funding, but I think there are going to be situations where it will.</p>
 
-<p>A couple days later that week I switched to the other role I want to play as well.  Coordinate projects and doing field work when possible.  On June 17th I left the United States to return to Indonesia.  Here I&#8217;m working on a pilot project to use OpenStreetMap to help collect information to be fed into risk models.  Myself and Jeff Haack are here and mainly focused on giving workshops on using OpenStreetMap, setting up simple tools to allow people to use the data and coordinate between the interested organizations.  At the end of the three months we&#8217;ll look at how things went and determine with our partners if the pilot can turn into a project for all of Indonesia.  Saying all of Indonesia sounds scary, since it is 17,000 islands and many diverse people.  Though so far everyone we&#8217;ve worked with has been enthusiastic and quick to pick-up the tools as well, so I&#8217;m excited to see if it can work.  I think if things keep going the way they have so far it will.</p>
+<p>A couple days later that week I switched to the other role I want to play as well. Coordinate projects and doing field work when possible. On June 17th I left the United States to return to Indonesia. Here I&#8217;m working on a pilot project to use OpenStreetMap to help collect information to be fed into risk models. Myself and Jeff Haack are here and mainly focused on giving workshops on using OpenStreetMap, setting up simple tools to allow people to use the data and coordinate between the interested organizations. At the end of the three months we&#8217;ll look at how things went and determine with our partners if the pilot can turn into a project for all of Indonesia. Saying all of Indonesia sounds scary, since it is 17,000 islands and many diverse people. Though so far everyone we&#8217;ve worked with has been enthusiastic and quick to pick-up the tools as well, so I&#8217;m excited to see if it can work. I think if things keep going the way they have so far it will.</p>
 
-<p>So I will be in Indonesia until mid-August, but after that I&#8217;ll be a bit all over the place.  If I happen to coincide with where you are maybe we can meet-up.  As always the best way to keep up with me is on <a href="http://twitter.com/wonderchook">Twitter</a> and hopefully I&#8217;ll keep up the <a href="http://twitter.com/hotosm">HOT Twitter Account</a> better as well.</p>
+<p>So I will be in Indonesia until mid-August, but after that I&#8217;ll be a bit all over the place. If I happen to coincide with where you are maybe we can meet-up. As always the best way to keep up with me is on <a href="http://twitter.com/wonderchook">Twitter</a> and hopefully I&#8217;ll keep up the <a href="http://twitter.com/hotosm">HOT Twitter Account</a> better as well.</p>
 ]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[WhereCampDC Videos are Up!]]></title>
-    <link href="http://maploser.com/blog/2011/06/24/wherecampdc-videos-are-up/"/>
-    <updated>2011-06-24T12:11:19+08:00</updated>
-    <id>http://maploser.com/blog/2011/06/24/wherecampdc-videos-are-up</id>
-    <content type="html"><![CDATA[<p>Though I was involved in the planning of <a href="http://www.wherecampdc.org/">WhereCampDC</a>, I missed the actual event for the most part. Â Instead I spent the week in Fiesole, Italy at the <a href="http://vespucci.org/">VespucciÂ Institute</a> (I&#8217;m sure all of you are now crying for me that missed WhereCampDC). Â At least there is <a href="http://www.wherecampdc.org/2011/04/friday-ignite-spatial/">video taken of the Ignite Spatial talks held at National Geographic</a>.</p>
+ </entry>
+ 
+ <entry>
+ <title type="html"><![CDATA[WhereCampDC Videos are Up!]]></title>
+ <link href="http://maploser.com/blog/2011/06/24/wherecampdc-videos-are-up/"/>
+ <updated>2011-06-24T12:11:19+08:00</updated>
+ <id>http://maploser.com/blog/2011/06/24/wherecampdc-videos-are-up</id>
+ <content type="html"><![CDATA[<p>Though I was involved in the planning of <a href="http://www.wherecampdc.org/">WhereCampDC</a>, I missed the actual event for the most part.  Instead I spent the week in Fiesole, Italy at the <a href="http://vespucci.org/">Vespucci Institute</a> (I&#8217;m sure all of you are now crying for me that missed WhereCampDC).  At least there is <a href="http://www.wherecampdc.org/2011/04/friday-ignite-spatial/">video taken of the Ignite Spatial talks held at National Geographic</a>.</p>
 
-<p>The combination of the strong geo community in DC plus a great crowd traveling in for the event made the talks really exceptional. Â I was really excited to see<a href="http://sproke.blogspot.com/"> Sophia Parafina&#8217;s</a> talk &#8220;WMS is Dead.&#8221; Just the title stirs up controversy among the geonerds, controversy is always a good aspect to an ignite talk.</p>
+<p>The combination of the strong geo community in DC plus a great crowd traveling in for the event made the talks really exceptional.  I was really excited to see<a href="http://sproke.blogspot.com/"> Sophia Parafina&#8217;s</a> talk &#8220;WMS is Dead.&#8221; Just the title stirs up controversy among the geonerds, controversy is always a good aspect to an ignite talk.</p>
 
 <p>No matter what realm of the geospatial world you come from I think there is something to be learned from her talk.</p>
 
-<p><a href="http://twitter.com/#!/jatorre">Javier de la Torre</a> took a different approach to his talk and just showed a really great project. Â I&#8217;m always surprised when someone hasn&#8217;t heard of <a href="http://www.oldweather.org/">Old Weather</a>, it is my favorite crowd-sourcing project (well other than OpenStreetMap;)). Â The only good source of weather data from 100 years or more ago is ships&#8217; logs. Â Old Weather makes it fun to transcribe that information and yes you can become the captain of a ship!</p>
+<p><a href="http://twitter.com/#!/jatorre">Javier de la Torre</a> took a different approach to his talk and just showed a really great project.  I&#8217;m always surprised when someone hasn&#8217;t heard of <a href="http://www.oldweather.org/">Old Weather</a>, it is my favorite crowd-sourcing project (well other than OpenStreetMap;)).  The only good source of weather data from 100 years or more ago is ships&#8217; logs.  Old Weather makes it fun to transcribe that information and yes you can become the captain of a ship!</p>
 
 <p>All the talks are <a href="http://www.wherecampdc.org/2011/04/friday-ignite-spatial/">listed on the WhereCampDC website</a>, I suggest if you missed the event like I did you check them out.</p>
 ]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Disaster 2.0, Innovation in the Disaster Response Space]]></title>
-    <link href="http://maploser.com/blog/2011/03/29/disaster-2-0-innovation-in-the-disaster-response-space/"/>
-    <updated>2011-03-29T03:23:12+08:00</updated>
-    <id>http://maploser.com/blog/2011/03/29/disaster-2-0-innovation-in-the-disaster-response-space</id>
-    <content type="html"><![CDATA[<p>Today the United Nations released their report &#8220;Disaster Relief 2.0: The Future of Information Sharing in Humanitarian Emergencies.&#8221; Â Two members of the <a href="http://hot.openstreetmap.org">Humanitarian OpenStreetMap Team</a> were interviewed for this report, myself and Nicolas Chavent. Â  Also of course many other from friend and partner organizations were interviewed as well.</p>
+ </entry>
+ 
+ <entry>
+ <title type="html"><![CDATA[Disaster 2.0, Innovation in the Disaster Response Space]]></title>
+ <link href="http://maploser.com/blog/2011/03/29/disaster-2-0-innovation-in-the-disaster-response-space/"/>
+ <updated>2011-03-29T03:23:12+08:00</updated>
+ <id>http://maploser.com/blog/2011/03/29/disaster-2-0-innovation-in-the-disaster-response-space</id>
+ <content type="html"><![CDATA[<p>Today the United Nations released their report &#8220;Disaster Relief 2.0: The Future of Information Sharing in Humanitarian Emergencies.&#8221;  Two members of the <a href="http://hot.openstreetmap.org">Humanitarian OpenStreetMap Team</a> were interviewed for this report, myself and Nicolas Chavent.   Also of course many other from friend and partner organizations were interviewed as well.</p>
 
-<p>For anyone interested in open data or new methods of crisis response I recommend you read the <a href="http://issuu.com/unfoundation/docs/disaster_relief20_report">whole report</a>. Â For others, well a seventy-two page report might seem like a bit much so what might be key is the <a href="http://www.unfoundation.org/assets/pdf/disaster-relief-2-findings-1.pdf">recommendations</a>. Â Key is the idea that information communities (called V&amp;TC in the report) came together after the earthquake in Haiti to help. Â Much of this revolved around the sharing and collection of data. Â The value of this type of activity to make a difference was clearly shown. Â The real question though is how do you make this happen again? Â And how can this fit into a framework that makes sense from the perspective of the large organizations as well as the informal communities.</p>
+<p>For anyone interested in open data or new methods of crisis response I recommend you read the <a href="http://issuu.com/unfoundation/docs/disaster_relief20_report">whole report</a>.  For others, well a seventy-two page report might seem like a bit much so what might be key is the <a href="http://www.unfoundation.org/assets/pdf/disaster-relief-2-findings-1.pdf">recommendations</a>.  Key is the idea that information communities (called V&amp;TC in the report) came together after the earthquake in Haiti to help.  Much of this revolved around the sharing and collection of data.  The value of this type of activity to make a difference was clearly shown.  The real question though is how do you make this happen again?  And how can this fit into a framework that makes sense from the perspective of the large organizations as well as the informal communities.</p>
 
-<p>The recommendations suggest a method so that the V&amp;TCs and the traditional humanitarian system can work together.  This includes 5 parts:</p>
+<p>The recommendations suggest a method so that the V&amp;TCs and the traditional humanitarian system can work together. This includes 5 parts:</p>
 
 <p>&#8220;1. A neutral forum to surface areas of agreement and conflict between international humanitarian system and the V&amp;TCs.
 2. An innovation space where new tools and practices can be explored as experiments, allowing for the failures that are a necessary component of learning new ways of working.
@@ -502,20 +502,20 @@
 4. A research and training consortium to evaluate the work in the field and to train humanitarians and V&amp;TCs alike in the best practices for information management in a humanitarian context.
 5. A clear operational interface that outlines ways of collaborating before and during emergencies, with agreed procedures for communication, shared standards for data exchange and an understanding of roles, priorities and capabilities&#8221;</p>
 
-<p>One of the key differences between technologists experimenting within the humanitarian response space versus a traditional technology start-up is the cost of failure. Â Remember in the early days of Â Twitter when things went down all the time? Â Or other technologies that didn&#8217;t work quite right? Â Well, usually the risk is to shareholders, in crisis response this failure can translate to lives. Â  Â Hence the recommendation of a neutral space, an experimental zone, a deployment team and a way to communicate successes and failures back. Â In some ways this is taking what people were already doing in informal ways and giving it formal pathways.</p>
+<p>One of the key differences between technologists experimenting within the humanitarian response space versus a traditional technology start-up is the cost of failure.  Remember in the early days of  Twitter when things went down all the time?  Or other technologies that didn&#8217;t work quite right?  Well, usually the risk is to shareholders, in crisis response this failure can translate to lives.    Hence the recommendation of a neutral space, an experimental zone, a deployment team and a way to communicate successes and failures back.  In some ways this is taking what people were already doing in informal ways and giving it formal pathways.</p>
 
-<p>I think much as new technologies replace old in the start-up space there will still be innovation from outside within the crisis response space. Â If the innovation space is working in anÂ optimumÂ setting it will be able to operationalize these techniques coming up outside the formal structures. Â Though I suspect some will still slip through, since when there is an emergency people will use what is simple, they know and what works. Â No matter what I think if these recommendations are adopted it will be a step forward in bringing the formal and informal groups together.</p>
+<p>I think much as new technologies replace old in the start-up space there will still be innovation from outside within the crisis response space.  If the innovation space is working in an optimum setting it will be able to operationalize these techniques coming up outside the formal structures.  Though I suspect some will still slip through, since when there is an emergency people will use what is simple, they know and what works.  No matter what I think if these recommendations are adopted it will be a step forward in bringing the formal and informal groups together.</p>
 ]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Quick Japan Editing Stats for OpenStreetMap]]></title>
-    <link href="http://maploser.com/blog/2011/03/17/quick-japan-editing-stats-for-openstreetmap/"/>
-    <updated>2011-03-17T05:37:13+08:00</updated>
-    <id>http://maploser.com/blog/2011/03/17/quick-japan-editing-stats-for-openstreetmap</id>
-    <content type="html"><![CDATA[<p>I was putting together some really quick editing stats about Japan post earthquake/tsunami. Â I realized I should probably share them with the larger community rather than keep them to myself.</p>
+ </entry>
+ 
+ <entry>
+ <title type="html"><![CDATA[Quick Japan Editing Stats for OpenStreetMap]]></title>
+ <link href="http://maploser.com/blog/2011/03/17/quick-japan-editing-stats-for-openstreetmap/"/>
+ <updated>2011-03-17T05:37:13+08:00</updated>
+ <id>http://maploser.com/blog/2011/03/17/quick-japan-editing-stats-for-openstreetmap</id>
+ <content type="html"><![CDATA[<p>I was putting together some really quick editing stats about Japan post earthquake/tsunami.  I realized I should probably share them with the larger community rather than keep them to myself.</p>
 
-<p>218 different individuals have editing in Japan in OpenStreetMap. Â Those editors have edited 389,431 nodes (this includes adding/removing/changing) . Â This has all happened through 1,409 editing sessions.</p>
+<p>218 different individuals have editing in Japan in OpenStreetMap.  Those editors have edited 389,431 nodes (this includes adding/removing/changing) .  This has all happened through 1,409 editing sessions.</p>
 
 <p>Keep it up everyone!</p>
 
@@ -525,90 +525,90 @@
 
 <p>Starting at 00:00 2011-03-10 going to 03:00 2011-03-16.</p>
 ]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Authoritating Data - What Makes Some Data Authoritative?]]></title>
-    <link href="http://maploser.com/blog/2011/02/16/authoritating-data/"/>
-    <updated>2011-02-16T05:01:24+08:00</updated>
-    <id>http://maploser.com/blog/2011/02/16/authoritating-data</id>
-    <content type="html"><![CDATA[<p>As I <a href="http://blog.fortiusone.com/2011/02/14/our-trip-to-redlands-gis-week/">wrote about</a> in the <a href="http://fortiusone.com/">FortiusOne</a> blog, last week was <a href="http://redlandsgisweek.org/">Redlands GIS Week</a>. Â My post there concentrated more on the future of crowd-sourced geographic data in crisis response and ways to more quickly turn that data into information. Â That is something that I&#8217;ve spent quite of bit of time thinking about through my work on <a href="http://geocommons.com/">GeoCommon</a>s, as well as my work with the <a href="http://hot.openstreetmap.org/weblog/">Humanitarian OpenStreetMap Team</a>. Â I spent so much time thinking about enabling crowd-sourcing of information and teaching people to edit in <a href="http://www.openstreetmap.org/">OpenStreetMap</a> that something I&#8217;ve never thought much about is the stamping of data to make it authoritative. Â During a break-out group at GIS Week we were supposed to discuss &#8216;the Issues with VGI.&#8221; Â Nothing really new to me as far as issues came out of the discussion, one realization did occur was I have previously made data authoritative or authoritating it as I have started saying tongue in cheek.</p>
+ </entry>
+ 
+ <entry>
+ <title type="html"><![CDATA[Authoritating Data - What Makes Some Data Authoritative?]]></title>
+ <link href="http://maploser.com/blog/2011/02/16/authoritating-data/"/>
+ <updated>2011-02-16T05:01:24+08:00</updated>
+ <id>http://maploser.com/blog/2011/02/16/authoritating-data</id>
+ <content type="html"><![CDATA[<p>As I <a href="http://blog.fortiusone.com/2011/02/14/our-trip-to-redlands-gis-week/">wrote about</a> in the <a href="http://fortiusone.com/">FortiusOne</a> blog, last week was <a href="http://redlandsgisweek.org/">Redlands GIS Week</a>.  My post there concentrated more on the future of crowd-sourced geographic data in crisis response and ways to more quickly turn that data into information.  That is something that I&#8217;ve spent quite of bit of time thinking about through my work on <a href="http://geocommons.com/">GeoCommon</a>s, as well as my work with the <a href="http://hot.openstreetmap.org/weblog/">Humanitarian OpenStreetMap Team</a>.  I spent so much time thinking about enabling crowd-sourcing of information and teaching people to edit in <a href="http://www.openstreetmap.org/">OpenStreetMap</a> that something I&#8217;ve never thought much about is the stamping of data to make it authoritative.  During a break-out group at GIS Week we were supposed to discuss &#8216;the Issues with VGI.&#8221;  Nothing really new to me as far as issues came out of the discussion, one realization did occur was I have previously made data authoritative or authoritating it as I have started saying tongue in cheek.</p>
 
-<p>I think part of the reason I&#8217;ve never really thought about this is that to me data is either authoritative or it is not, but that isn&#8217;t what determines how I use it. Â One of the previous jobs I had was doing data quality assurance, during that time I found many errors in that is considered authoritative data. Â Because of this previous job I have a lot of experience evaluating data. Â Everyone should do some evaluation of data before they use it, but it really depends on the type and the source how much they actually need to do. Â In thinking about this evaluation I began to think about the process of when we &#8220;qa&#8217;d&#8221; data before it was delivered to customers. Â Essentially that QA process was making dataÂ authoritative. Â What we were actually doing to create the data was not much different from the crowd-source efforts of many groups today though.</p>
+<p>I think part of the reason I&#8217;ve never really thought about this is that to me data is either authoritative or it is not, but that isn&#8217;t what determines how I use it.  One of the previous jobs I had was doing data quality assurance, during that time I found many errors in that is considered authoritative data.  Because of this previous job I have a lot of experience evaluating data.  Everyone should do some evaluation of data before they use it, but it really depends on the type and the source how much they actually need to do.  In thinking about this evaluation I began to think about the process of when we &#8220;qa&#8217;d&#8221; data before it was delivered to customers.  Essentially that QA process was making data authoritative.  What we were actually doing to create the data was not much different from the crowd-source efforts of many groups today though.</p>
 
-<p>There was usually an expert in the field we were creating datasets for who would figure out what to be collected. Â The majority of the actual research though was done by interns or recent college grads. Â These people scoured the internet mostly, but wouldÂ occasionallyÂ call to confirm information. Â Once a new dataset was created or an old one updated it would go through a quality assurance process. Â Much of this was running automated tools to look for data that did not conform to what was expected. Â For example geocodes in the wrong state/zip, phone numbers of the wrong length and comparing the new data to old when possible. Â Then we would manually look for errors in the data. Â Once we decided information was &#8220;good enough&#8221; it would be pushed out to customers. Â This is the point where the data became &#8220;authoritative.&#8221; Â In the whole data creation process I estimate each dataset was touched between two and one hundred sets of hands. Â Two if the expert created the dataset by themselves and then one person tested it. Â One hundred if the dataset had been around through multiple updates that large groups of people worked on. Â If you compare this to the number of hands datasets from the CrisisMappers list, such as the recent mapping of polling stations in Sudan or the road data for OpenStreetMap the authoritativeÂ data hasn&#8217;t even been gone through as thoroughly as the non-authoritative data source. Â  Also if a mistake was found in the authoritative data source it would have to be updated and go through the whole quality assurance process again. Â What really is the difference between the two types of data in this case?</p>
+<p>There was usually an expert in the field we were creating datasets for who would figure out what to be collected.  The majority of the actual research though was done by interns or recent college grads.  These people scoured the internet mostly, but would occasionally call to confirm information.  Once a new dataset was created or an old one updated it would go through a quality assurance process.  Much of this was running automated tools to look for data that did not conform to what was expected.  For example geocodes in the wrong state/zip, phone numbers of the wrong length and comparing the new data to old when possible.  Then we would manually look for errors in the data.  Once we decided information was &#8220;good enough&#8221; it would be pushed out to customers.  This is the point where the data became &#8220;authoritative.&#8221;  In the whole data creation process I estimate each dataset was touched between two and one hundred sets of hands.  Two if the expert created the dataset by themselves and then one person tested it.  One hundred if the dataset had been around through multiple updates that large groups of people worked on.  If you compare this to the number of hands datasets from the CrisisMappers list, such as the recent mapping of polling stations in Sudan or the road data for OpenStreetMap the authoritative data hasn&#8217;t even been gone through as thoroughly as the non-authoritative data source.   Also if a mistake was found in the authoritative data source it would have to be updated and go through the whole quality assurance process again.  What really is the difference between the two types of data in this case?</p>
 
-<p>To me, really just that a company put their name on the authoritative data. Â I suppose if you are a buyer of the data you would have some recourse if there was a problem with the information. Â You could probably ask for all or some portion of your money back, if things went really wrong you could sue. Â Though in my examples I believe the crowd-sourced information had been more reviewed, so perhaps the chance of having issue with it is less. I realize this comparison does not work in the case of all datasets, though it is something to think about when discrediting crowd-sourced data. From where did your authoritative data come?</p>
+<p>To me, really just that a company put their name on the authoritative data.  I suppose if you are a buyer of the data you would have some recourse if there was a problem with the information.  You could probably ask for all or some portion of your money back, if things went really wrong you could sue.  Though in my examples I believe the crowd-sourced information had been more reviewed, so perhaps the chance of having issue with it is less. I realize this comparison does not work in the case of all datasets, though it is something to think about when discrediting crowd-sourced data. From where did your authoritative data come?</p>
 ]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Visiting the University of Texas Map Room]]></title>
-    <link href="http://maploser.com/blog/2010/12/30/visiting-university-of-texas-map-room/"/>
-    <updated>2010-12-30T18:26:57+08:00</updated>
-    <id>http://maploser.com/blog/2010/12/30/visiting-university-of-texas-map-room</id>
-    <content type="html"><![CDATA[<p>This week, I&#8217;m visiting my GeoGlitterDomination partner <a href="http://twitter.com/theaclay">Thea Clay</a> in Texas. We&#8217;ve been doing a variety of Texas related things such as eating barbecue and touring the Alamo.  It goes without saying that we&#8217;ve also been mapping as we go.  One thing we did that was both Texas and geonerd, was we visited the <a href="http://www.lib.utexas.edu/maps/">University of Texas Map Room</a>.  In the basement of one of libraries there is a huge paper map collection.  Rows and rows of maps ranging from world maps to maps of individual cities.  Many of these maps have been scanned and made available online, but it was awesome to see the original paper maps.  There were old Russian maps of Afghanistan from the early 80s, world maps from all types of snapshots in time and a collection of rows and rows of USGS topomaps to highlight a couple favorites.</p>
+ </entry>
+ 
+ <entry>
+ <title type="html"><![CDATA[Visiting the University of Texas Map Room]]></title>
+ <link href="http://maploser.com/blog/2010/12/30/visiting-university-of-texas-map-room/"/>
+ <updated>2010-12-30T18:26:57+08:00</updated>
+ <id>http://maploser.com/blog/2010/12/30/visiting-university-of-texas-map-room</id>
+ <content type="html"><![CDATA[<p>This week, I&#8217;m visiting my GeoGlitterDomination partner <a href="http://twitter.com/theaclay">Thea Clay</a> in Texas. We&#8217;ve been doing a variety of Texas related things such as eating barbecue and touring the Alamo. It goes without saying that we&#8217;ve also been mapping as we go. One thing we did that was both Texas and geonerd, was we visited the <a href="http://www.lib.utexas.edu/maps/">University of Texas Map Room</a>. In the basement of one of libraries there is a huge paper map collection. Rows and rows of maps ranging from world maps to maps of individual cities. Many of these maps have been scanned and made available online, but it was awesome to see the original paper maps. There were old Russian maps of Afghanistan from the early 80s, world maps from all types of snapshots in time and a collection of rows and rows of USGS topomaps to highlight a couple favorites.</p>
 
-<p>One of the things I made sure to look at was the maps of Haiti there.  We looked through the original paper copies of the old U.S. Defense Mapping Agency maps which were used to add the original road names to <a href="http://www.openstreetmap.org">OpenStreetMap</a> immediately after the earthquake.  At the time we used the scanned maps which are still available <a href="http://www.lib.utexas.edu/maps/haiti.html">here</a>, but within all the rows of drawers in the map room were the originals.  Another map in the drawer I found to be interesting was a Texaco road map from the 1970s of Haiti which marked all the major roads as well as the Texaco stations there.  The library <a href="http://www.lib.utexas.edu/maps/faq.html#4.html">can&#8217;t scan copyrighted maps</a> which is why you don&#8217;t see this map online (I did snap a picture of it).</p>
+<p>One of the things I made sure to look at was the maps of Haiti there. We looked through the original paper copies of the old U.S. Defense Mapping Agency maps which were used to add the original road names to <a href="http://www.openstreetmap.org">OpenStreetMap</a> immediately after the earthquake. At the time we used the scanned maps which are still available <a href="http://www.lib.utexas.edu/maps/haiti.html">here</a>, but within all the rows of drawers in the map room were the originals. Another map in the drawer I found to be interesting was a Texaco road map from the 1970s of Haiti which marked all the major roads as well as the Texaco stations there. The library <a href="http://www.lib.utexas.edu/maps/faq.html#4.html">can&#8217;t scan copyrighted maps</a> which is why you don&#8217;t see this map online (I did snap a picture of it).</p>
 
 <p>[caption id=&#8221;&#8221; align=&#8221;aligncenter&#8221; width=&#8221;645&#8221; caption=&#8221;70s Map of Haiti from Texaco&#8221;]<a href="http://www.flickr.com/photos/35700286@N03/5307131898/sizes/o/"><img src="http://farm6.static.flickr.com/5084/5307131898_f43732c157_b_d.jpg" alt="70s Map of Haiti from Texaco" /></a>[/caption]</p>
 
-<p>Unfortunately the library was closing so we were a bit rushed (one of the reason I neglected to get a photo of the actual map room).  Though if you are a geonerd and find yourself in Austin this is a stop I highly recommend.</p>
+<p>Unfortunately the library was closing so we were a bit rushed (one of the reason I neglected to get a photo of the actual map room). Though if you are a geonerd and find yourself in Austin this is a stop I highly recommend.</p>
 ]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[State of the Map in the U.S. This Year]]></title>
-    <link href="http://maploser.com/blog/2010/12/14/state-of-the-map-in-the-u-s-this-year/"/>
-    <updated>2010-12-14T02:12:16+08:00</updated>
-    <id>http://maploser.com/blog/2010/12/14/state-of-the-map-in-the-u-s-this-year</id>
-    <content type="html"><![CDATA[<p>This year I had the privilege of both attending my first <a href="http://stateofthemap.org/">State of the Map Conference</a> and hosting the first <a href="http://www.sotm.us/">State of the Map U.S. Conference</a>. For those unaware State of the Map is the annual meeting of the OpenStreetMap Community.  This year it took place in Girona, Spain over three days.  The first day is a business day and the second two are community days.  Big announcements this year on the business day included Mapquest stating they had a million dollar budget to increase mapping in the United States and Bing maps making OpenStreetMap tiles an option in their system.  What I was most excited about was the opportunity for HOT to meet together in person for the first time.  Who knows what excitement the following year will bring.</p>
+ </entry>
+ 
+ <entry>
+ <title type="html"><![CDATA[State of the Map in the U.S. This Year]]></title>
+ <link href="http://maploser.com/blog/2010/12/14/state-of-the-map-in-the-u-s-this-year/"/>
+ <updated>2010-12-14T02:12:16+08:00</updated>
+ <id>http://maploser.com/blog/2010/12/14/state-of-the-map-in-the-u-s-this-year</id>
+ <content type="html"><![CDATA[<p>This year I had the privilege of both attending my first <a href="http://stateofthemap.org/">State of the Map Conference</a> and hosting the first <a href="http://www.sotm.us/">State of the Map U.S. Conference</a>. For those unaware State of the Map is the annual meeting of the OpenStreetMap Community. This year it took place in Girona, Spain over three days. The first day is a business day and the second two are community days. Big announcements this year on the business day included Mapquest stating they had a million dollar budget to increase mapping in the United States and Bing maps making OpenStreetMap tiles an option in their system. What I was most excited about was the opportunity for HOT to meet together in person for the first time. Who knows what excitement the following year will bring.</p>
 
-<p>For this coming year I get the best of both worlds since the big State of the Map is taking place in Denver, Colorado.  We aren&#8217;t going to do a U.S. State of the Map since two conferences in one year seems like a bit much.  The event is September 9th-11th and it promises to be an awesome event.  It is abutting <a href="http://2011.foss4g.org/">FOSS4G</a> as well, which means there will be a full week of various types of geonerding.   This is a great opportunity for those who have participated in OpenStreetMap in North America.   The cost of traveling to Europe has been prohibitive for many in the past, so hopefully this will get more of us together as well as joining us more closely with the rest of the larger OpenStreetMap community.</p>
+<p>For this coming year I get the best of both worlds since the big State of the Map is taking place in Denver, Colorado. We aren&#8217;t going to do a U.S. State of the Map since two conferences in one year seems like a bit much. The event is September 9th-11th and it promises to be an awesome event. It is abutting <a href="http://2011.foss4g.org/">FOSS4G</a> as well, which means there will be a full week of various types of geonerding. This is a great opportunity for those who have participated in OpenStreetMap in North America. The cost of traveling to Europe has been prohibitive for many in the past, so hopefully this will get more of us together as well as joining us more closely with the rest of the larger OpenStreetMap community.</p>
 
-<p>One project the U.S. Chapter of OpenStreetMap has been talking about for the past couple months is the <a href="http://wiki.openstreetmap.org/wiki/GeoBus">GeoBus</a> project.  The goal is to travel the U.S. by car/bus/truck or really any sort of vehicle we can get our hands on mapping the whole way.  Right now there has been an initial trip to North Carolina for mapping and one in Leigh High Valley in Pennsylvania.  We are hoping to do additional trips throughout the next year.  I think since State of the Map is in the United States the perfect way to get there is by driving.  My minimum plan is to take my own car and head out to Denver.  Though if there are others interested we can come up with another plan since it only comfortably seats two or three people.  I want to make sure to leave plenty of time was well so that we can map lots of interesting landmarks along the way.</p>
+<p>One project the U.S. Chapter of OpenStreetMap has been talking about for the past couple months is the <a href="http://wiki.openstreetmap.org/wiki/GeoBus">GeoBus</a> project. The goal is to travel the U.S. by car/bus/truck or really any sort of vehicle we can get our hands on mapping the whole way. Right now there has been an initial trip to North Carolina for mapping and one in Leigh High Valley in Pennsylvania. We are hoping to do additional trips throughout the next year. I think since State of the Map is in the United States the perfect way to get there is by driving. My minimum plan is to take my own car and head out to Denver. Though if there are others interested we can come up with another plan since it only comfortably seats two or three people. I want to make sure to leave plenty of time was well so that we can map lots of interesting landmarks along the way.</p>
 ]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[WhereCamp5280 Here We Come!]]></title>
-    <link href="http://maploser.com/blog/2010/11/18/wherecamp5280-here-we-come/"/>
-    <updated>2010-11-18T17:47:35+08:00</updated>
-    <id>http://maploser.com/blog/2010/11/18/wherecamp5280-here-we-come</id>
-    <content type="html"><![CDATA[<p>On Monday night some of FortiusOne was having drinks with <a href="http://geothought.blogspot.com/">Peter Batty</a>, we were sad to be missing WhereCamp5280 this week though.  However in a last minute flash of geonerd brilliance <a href="http://highearthorbit.com/">Andrew Turner</a> booked himself and I last minute flights to Denver for <a href="http://www.wherecamp5280.org">WhereCamp5280</a>.  The second year of this unconference of all things location and geo I&#8217;m excited to see what sessions people propose this year.  Last year there were talks on everything from <a href="http://couchdb.apache.org/">CouchDB</a> by my now coworker <a href="http://twitter.com/cwhelm">Chris Helm</a> to <a href="http://www.openstreetmap.org">OpenStreetMap</a> to traditional GIS.  This year there appears to be many more people coming from out of town so I expect even more excitement.  Supermayor coconspirators <a href="http://www.mweisman.com/">Michael Wiseman</a> and <a href="http://www.spatiallyadjusted.com/">James Fee</a> as well as fellow <a href="https://twitter.com/timeline/search?q=geoglitterdomination">GeoGlitterDomination</a> expert <a href="http://twitter.com/theaclay">Thea Clay</a> are attending just to name a few.</p>
+ </entry>
+ 
+ <entry>
+ <title type="html"><![CDATA[WhereCamp5280 Here We Come!]]></title>
+ <link href="http://maploser.com/blog/2010/11/18/wherecamp5280-here-we-come/"/>
+ <updated>2010-11-18T17:47:35+08:00</updated>
+ <id>http://maploser.com/blog/2010/11/18/wherecamp5280-here-we-come</id>
+ <content type="html"><![CDATA[<p>On Monday night some of FortiusOne was having drinks with <a href="http://geothought.blogspot.com/">Peter Batty</a>, we were sad to be missing WhereCamp5280 this week though. However in a last minute flash of geonerd brilliance <a href="http://highearthorbit.com/">Andrew Turner</a> booked himself and I last minute flights to Denver for <a href="http://www.wherecamp5280.org">WhereCamp5280</a>. The second year of this unconference of all things location and geo I&#8217;m excited to see what sessions people propose this year. Last year there were talks on everything from <a href="http://couchdb.apache.org/">CouchDB</a> by my now coworker <a href="http://twitter.com/cwhelm">Chris Helm</a> to <a href="http://www.openstreetmap.org">OpenStreetMap</a> to traditional GIS. This year there appears to be many more people coming from out of town so I expect even more excitement. Supermayor coconspirators <a href="http://www.mweisman.com/">Michael Wiseman</a> and <a href="http://www.spatiallyadjusted.com/">James Fee</a> as well as fellow <a href="https://twitter.com/timeline/search?q=geoglitterdomination">GeoGlitterDomination</a> expert <a href="http://twitter.com/theaclay">Thea Clay</a> are attending just to name a few.</p>
 
-<p>Things kick off with a <a href="http://wc5280hack.pbworks.com/w/page/31710459/WhereCamp-5280-Unofficial-Programmers-meetup">hackday today</a>. I&#8217;m hoping to continue work on pushing more social media streams into GeoCommons for temporal analysis, though if previous events are any indication it is entirely possible someone will have a shiny other project I&#8217;ll get distracted by.  Tomorrow is the regular unconference which I expect a similar mix of academic geography, open source and traditional GIS, though perhaps with a bit more neogeography mixed in this year.  I won&#8217;t be attending the Saturday event but there is <a href="http://www.meetup.com/OSM-Colorado/calendar/14925674/">ski mapping party</a> as well.   Overall I&#8217;m excited for a fun couple of days of geohacking and discussion!</p>
+<p>Things kick off with a <a href="http://wc5280hack.pbworks.com/w/page/31710459/WhereCamp-5280-Unofficial-Programmers-meetup">hackday today</a>. I&#8217;m hoping to continue work on pushing more social media streams into GeoCommons for temporal analysis, though if previous events are any indication it is entirely possible someone will have a shiny other project I&#8217;ll get distracted by. Tomorrow is the regular unconference which I expect a similar mix of academic geography, open source and traditional GIS, though perhaps with a bit more neogeography mixed in this year. I won&#8217;t be attending the Saturday event but there is <a href="http://www.meetup.com/OSM-Colorado/calendar/14925674/">ski mapping party</a> as well. Overall I&#8217;m excited for a fun couple of days of geohacking and discussion!</p>
 ]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Talk: Humanitarian OpenStreetMap Team in Haiti]]></title>
-    <link href="http://maploser.com/blog/2010/11/18/talk-humanitarian-openstreetmap-team-in-haiti/"/>
-    <updated>2010-11-18T05:37:47+08:00</updated>
-    <id>http://maploser.com/blog/2010/11/18/talk-humanitarian-openstreetmap-team-in-haiti</id>
-    <content type="html"><![CDATA[<p>Back in the beginning of October I attended the <a href="http://www.crisismappers.net/page/iccm-2010-haiti-and-beyond">International Conference on Crisis Mapping</a>.  The first day of the event was open to the public and included many ignite talks on a variety of topics related to crisis response.  I gave a talk titled &#8220;Humanitarian OpenStreetMap Team in Haiti: from Crisis to Capacity Building.&#8221;  I highlighted how HOT has been working to transfer the maintenance of the Haiti portion of the map to Haiti as well as some ways the data is currently being used.</p>
+ </entry>
+ 
+ <entry>
+ <title type="html"><![CDATA[Talk: Humanitarian OpenStreetMap Team in Haiti]]></title>
+ <link href="http://maploser.com/blog/2010/11/18/talk-humanitarian-openstreetmap-team-in-haiti/"/>
+ <updated>2010-11-18T05:37:47+08:00</updated>
+ <id>http://maploser.com/blog/2010/11/18/talk-humanitarian-openstreetmap-team-in-haiti</id>
+ <content type="html"><![CDATA[<p>Back in the beginning of October I attended the <a href="http://www.crisismappers.net/page/iccm-2010-haiti-and-beyond">International Conference on Crisis Mapping</a>. The first day of the event was open to the public and included many ignite talks on a variety of topics related to crisis response. I gave a talk titled &#8220;Humanitarian OpenStreetMap Team in Haiti: from Crisis to Capacity Building.&#8221; I highlighted how HOT has been working to transfer the maintenance of the Haiti portion of the map to Haiti as well as some ways the data is currently being used.</p>
 
 <p>See for yourself:</p>
 ]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[OpenStreetMap and Crisis Response Why it is Often About the License]]></title>
-    <link href="http://maploser.com/blog/2010/11/17/openstreetmap-and-crisis-response-why-it-is-sometimes-about-the-license/"/>
-    <updated>2010-11-17T03:11:52+08:00</updated>
-    <id>http://maploser.com/blog/2010/11/17/openstreetmap-and-crisis-response-why-it-is-sometimes-about-the-license</id>
-    <content type="html"><![CDATA[<p>I had the privilege of being on a panel at Civil Society 2.0 organized by the State Department a couple weeks ago.  The event got me thinking further about the relationship between OpenStreetMap and crisis response, I didn&#8217;t manage to organize my thoughts into a blog post until now though.</p>
+ </entry>
+ 
+ <entry>
+ <title type="html"><![CDATA[OpenStreetMap and Crisis Response Why it is Often About the License]]></title>
+ <link href="http://maploser.com/blog/2010/11/17/openstreetmap-and-crisis-response-why-it-is-sometimes-about-the-license/"/>
+ <updated>2010-11-17T03:11:52+08:00</updated>
+ <id>http://maploser.com/blog/2010/11/17/openstreetmap-and-crisis-response-why-it-is-sometimes-about-the-license</id>
+ <content type="html"><![CDATA[<p>I had the privilege of being on a panel at Civil Society 2.0 organized by the State Department a couple weeks ago. The event got me thinking further about the relationship between OpenStreetMap and crisis response, I didn&#8217;t manage to organize my thoughts into a blog post until now though.</p>
 
-<p>OpenStreetMap and other crowdsourcing groups such as <a href="http://ushahidi.com/">Ushahidi</a> and <a href="http://crisiscommons.org/">CrisisCommons</a> got a lot of attention this year after the earthquake in Haiti.  OpenStreetMap has a different goal than these other groups, the goal can be summed as &#8220;create a free map of the entire world&#8221;.  That aim though is key, it isn&#8217;t &#8220;to create a free map for crisis response&#8221; or to &#8220;support humanitarian work with a free map.&#8221;  This difference in ambition can sometimes cause confusion between those joining the OSM community because they want to help with crisis response.</p>
+<p>OpenStreetMap and other crowdsourcing groups such as <a href="http://ushahidi.com/">Ushahidi</a> and <a href="http://crisiscommons.org/">CrisisCommons</a> got a lot of attention this year after the earthquake in Haiti. OpenStreetMap has a different goal than these other groups, the goal can be summed as &#8220;create a free map of the entire world&#8221;. That aim though is key, it isn&#8217;t &#8220;to create a free map for crisis response&#8221; or to &#8220;support humanitarian work with a free map.&#8221; This difference in ambition can sometimes cause confusion between those joining the OSM community because they want to help with crisis response.</p>
 
-<p>Haiti was different from other disasters, both because of the scale and how the disaster happened in an instant.  It was different then other events this year as far as OpenStreetMap is concerned as well.  The initial major difference was the availability of free imagery that could be used to trace information.  A second factor was information being reported from the ground from people actually using the map.  Imagery available for the floods in Pakistan as well as the tropical storm in the Philippines was not as detailed or prolific.  There has been frustration from some people that the response when asking OpenStreetMap for help in these situations is &#8220;what is the license on the data and imagery you already have?&#8221;  I can understand how this question is sometimes met with shock, people are displaced, injured and dying, all you can ask about is data licenses?</p>
+<p>Haiti was different from other disasters, both because of the scale and how the disaster happened in an instant. It was different then other events this year as far as OpenStreetMap is concerned as well. The initial major difference was the availability of free imagery that could be used to trace information. A second factor was information being reported from the ground from people actually using the map. Imagery available for the floods in Pakistan as well as the tropical storm in the Philippines was not as detailed or prolific. There has been frustration from some people that the response when asking OpenStreetMap for help in these situations is &#8220;what is the license on the data and imagery you already have?&#8221; I can understand how this question is sometimes met with shock, people are displaced, injured and dying, all you can ask about is data licenses?</p>
 
-<p>The OpenStreetMap community really rallied around helping Haiti.  People edited data, others created map products and even others processed imagery to be used by all.  I reviewed the statistics on what types of contributors performed the editing in a <a href="http://www.maploser.com/?p=279">previous blog post</a> and came to the conclusion is was mostly already contributing members.  Those contributors are the same people who work on other projects within the community and after the initial need for creation of the map of Haiti they went back to the projects they previous worked on.  It is the returning to their previous projects which I think becomes key in the &#8220;why can&#8217;t you just break the license?&#8221; question.  Once the OpenStreetMap data has broken licenses and the &#8220;freeness&#8221; of the data comes into question that great community around it starts to break down.  If you can&#8217;t use the data for whatever purpose you desire then there is not much incentive to contribute data.  If OpenStreetMap loses that community that was able to switch from their routine projects to help in Haiti then it ceases to be useful for crisis response.  If it loses its thousands of contributors that have created maps of areas were they aren&#8217;t others then it also ceases to be useful for crisis response.  It would be difficult to have a organization that only wanted to create map data for crisis response, you would likely have spotty coverage only where disasters had previously occurred or in extremely high risk areas.</p>
+<p>The OpenStreetMap community really rallied around helping Haiti. People edited data, others created map products and even others processed imagery to be used by all. I reviewed the statistics on what types of contributors performed the editing in a <a href="http://www.maploser.com/?p=279">previous blog post</a> and came to the conclusion is was mostly already contributing members. Those contributors are the same people who work on other projects within the community and after the initial need for creation of the map of Haiti they went back to the projects they previous worked on. It is the returning to their previous projects which I think becomes key in the &#8220;why can&#8217;t you just break the license?&#8221; question. Once the OpenStreetMap data has broken licenses and the &#8220;freeness&#8221; of the data comes into question that great community around it starts to break down. If you can&#8217;t use the data for whatever purpose you desire then there is not much incentive to contribute data. If OpenStreetMap loses that community that was able to switch from their routine projects to help in Haiti then it ceases to be useful for crisis response. If it loses its thousands of contributors that have created maps of areas were they aren&#8217;t others then it also ceases to be useful for crisis response. It would be difficult to have a organization that only wanted to create map data for crisis response, you would likely have spotty coverage only where disasters had previously occurred or in extremely high risk areas.</p>
 
-<p>My response when asked why OpenStreetMap can&#8217;t make an exception to its license for crisis response from now on is going to be &#8220;Why can&#8217;t others make exceptions to their license for crisis response?&#8221;  The key sticking point between many data and satellite providers and OpenStreetMap is that OSM allows the data to be used commercially.  This commercial use is what allows companies such as <a href="http://fortiusone.com">FortiusOne</a>, <a href="http://mapquest.com">Mapquest</a>, <a href="http://www.geofabrik.de/">GeoFabrik</a>, <a href="http://www.geofabrik.de/">Cloudmade</a> and many others to build services and tools utilizing the data.  Those tools built before a disaster for commercial use, then become very useful when needed by the response community.  Examples include my employer FortiusOne making maps and data available on <a href="http://geocommons.com">GeoCommons</a> and GeoFabrik creating different types of <a href="http://labs.geofabrik.de/haiti/">data downloads for Haiti</a> which are still in use on the ground there today.</p>
+<p>My response when asked why OpenStreetMap can&#8217;t make an exception to its license for crisis response from now on is going to be &#8220;Why can&#8217;t others make exceptions to their license for crisis response?&#8221; The key sticking point between many data and satellite providers and OpenStreetMap is that OSM allows the data to be used commercially. This commercial use is what allows companies such as <a href="http://fortiusone.com">FortiusOne</a>, <a href="http://mapquest.com">Mapquest</a>, <a href="http://www.geofabrik.de/">GeoFabrik</a>, <a href="http://www.geofabrik.de/">Cloudmade</a> and many others to build services and tools utilizing the data. Those tools built before a disaster for commercial use, then become very useful when needed by the response community. Examples include my employer FortiusOne making maps and data available on <a href="http://geocommons.com">GeoCommons</a> and GeoFabrik creating different types of <a href="http://labs.geofabrik.de/haiti/">data downloads for Haiti</a> which are still in use on the ground there today.</p>
 
-<p>The <a href="http://hot.openstreetmap.org/weblog/">Humanitarian OpenStreetMap Team</a> with organizations to have imagery and other data be available for crisis response.  These are usually large organizations who haven&#8217;t dealt with a community such as OpenStreetMap before though, so this will take some time.</p>
+<p>The <a href="http://hot.openstreetmap.org/weblog/">Humanitarian OpenStreetMap Team</a> with organizations to have imagery and other data be available for crisis response. These are usually large organizations who haven&#8217;t dealt with a community such as OpenStreetMap before though, so this will take some time.</p>
 ]]></content>
-  </entry>
-  
+ </entry>
+ 
 </feed>

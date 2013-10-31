@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Category: Map Commentary | Kate Chapman - Maploser]]></title>
-  <link href="http://maploser.com/blog/categories/map-commentary/atom.xml" rel="self"/>
-  <link href="http://maploser.com/"/>
-  <updated>2012-11-30T16:49:41+08:00</updated>
-  <id>http://maploser.com/</id>
-  <author>
-    <name><![CDATA[Kate Chapman]]></name>
-    
-  </author>
-  <generator uri="http://octopress.org/">Octopress</generator>
+ <title><![CDATA[Category: Map Commentary | Kate Chapman - Maploser]]></title>
+ <link href="http://maploser.com/blog/categories/map-commentary/atom.xml" rel="self"/>
+ <link href="http://maploser.com/"/>
+ <updated>2012-11-30T16:49:41+08:00</updated>
+ <id>http://maploser.com/</id>
+ <author>
+ <name><![CDATA[Kate Chapman]]></name>
+ 
+ </author>
+ <generator uri="http://octopress.org/">Octopress</generator>
 
-  
-  <entry>
-    <title type="html"><![CDATA[Update from Google Map on my Problem]]></title>
-    <link href="http://maploser.com/blog/2009/12/01/update-from-google-map-on-my-problem/"/>
-    <updated>2009-12-01T06:10:29+08:00</updated>
-    <id>http://maploser.com/blog/2009/12/01/update-from-google-map-on-my-problem</id>
-    <content type="html"><![CDATA[<p>Today I received notification that the problem I reported on Google Maps was corrected.Â  You can now route through White's Ferry between Leesburg and Martinsburg, MD.Â  Below is the response I received:</p>
+ 
+ <entry>
+ <title type="html"><![CDATA[Update from Google Map on my Problem]]></title>
+ <link href="http://maploser.com/blog/2009/12/01/update-from-google-map-on-my-problem/"/>
+ <updated>2009-12-01T06:10:29+08:00</updated>
+ <id>http://maploser.com/blog/2009/12/01/update-from-google-map-on-my-problem</id>
+ <content type="html"><![CDATA[<p>Today I received notification that the problem I reported on Google Maps was corrected.  You can now route through White's Ferry between Leesburg and Martinsburg, MD.  Below is the response I received:</p>
 
 <p>Google Maps has been updated to correct the problem you reported. You can see the update here, and if you still see a problem, please tell us more about the issue:
 <a href="http://maps.google.com/?daddr=Leesburg%2C+VA&amp;geocode=Cf60Ojnhi4TLFY7bVAIdL3lg-w&amp;dirflg&amp;saddr=Martinsburg%2C+MD&amp;f=d&amp;sll=39.11954%2C-77.563648&amp;sspn=0.073249%2C0.143509&amp;ie=UTF8&amp;ll=39.268942%2C-77.494125&amp;spn=0.292374%2C0.574036&amp;z=11&amp;skstate=action:update$fid:-4854195850146862328$location:39.15456%2C-77.52159$issue_class:rmi.other$description:It%20does%20not%20appear%20that%20you%20have%20White%27s%20Ferry%20available%20for%20routing.%20%20Between%20Leesburg%2CVA%20and%20Martinsburg%2C%20MD%20this%20is%20the%20most%20direct%20and%20fastest%20route.">Link to view and/or reopen issue</a></p>
@@ -32,39 +32,39 @@ Problem ID: BCA2-6E97-C9D2-2B08</p>
 Thanks for your help,
 The Google Maps team</p>
 
-<p>Quite a bit longer than the one month turn around stated in Google's October 10th email, but better late than never.  So enjoy a <a href="http://en.wikipedia.org/wiki/White%27s_Ferry">little bit of history</a> next time you have to travel between Virginia and Maryland.</p>
+<p>Quite a bit longer than the one month turn around stated in Google's October 10th email, but better late than never. So enjoy a <a href="http://en.wikipedia.org/wiki/White%27s_Ferry">little bit of history</a> next time you have to travel between Virginia and Maryland.</p>
 ]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Routing with the new Google Maps Data]]></title>
-    <link href="http://maploser.com/blog/2009/10/08/routing-with-the-new-google-maps-data/"/>
-    <updated>2009-10-08T18:19:19+08:00</updated>
-    <id>http://maploser.com/blog/2009/10/08/routing-with-the-new-google-maps-data</id>
-    <content type="html"><![CDATA[<p>I spent some time look around Google Maps since they stopped using Teleatlas in the United States this week. Â Essentially I poked around looking for errors that are usually in the street vendor data. Â Mostly these are minor errors such as a single line segment misspelled. Â  The problems usually appear to have originated with the original <a href="http://www.census.gov/geo/www/tiger/">TIGER</a> street data and never been repaired.</p>
+ </entry>
+ 
+ <entry>
+ <title type="html"><![CDATA[Routing with the new Google Maps Data]]></title>
+ <link href="http://maploser.com/blog/2009/10/08/routing-with-the-new-google-maps-data/"/>
+ <updated>2009-10-08T18:19:19+08:00</updated>
+ <id>http://maploser.com/blog/2009/10/08/routing-with-the-new-google-maps-data</id>
+ <content type="html"><![CDATA[<p>I spent some time look around Google Maps since they stopped using Teleatlas in the United States this week.  Essentially I poked around looking for errors that are usually in the street vendor data.  Mostly these are minor errors such as a single line segment misspelled.   The problems usually appear to have originated with the original <a href="http://www.census.gov/geo/www/tiger/">TIGER</a> street data and never been repaired.</p>
 
-<p>For the areas I'm familiar with the data looks good. Â There has been lots of conjecture as to where all the data was sourced. Â I suspect at least in L<a href="http://www.loudoun.gov/">oudoun County</a> where I live the source is the local government, that is unless the occasional segment errors were fixed by Google. Â The one error I did find was an edge case within the routing.</p>
+<p>For the areas I'm familiar with the data looks good.  There has been lots of conjecture as to where all the data was sourced.  I suspect at least in L<a href="http://www.loudoun.gov/">oudoun County</a> where I live the source is the local government, that is unless the occasional segment errors were fixed by Google.  The one error I did find was an edge case within the routing.</p>
 
-<p><a href="http://en.wikipedia.org/wiki/White's_Ferry">White's Ferry</a> is a small ferry line just north of Leesburg, Virginia. Â White's Ferry is supposed to be the late cable operated ferry on the East Coast, for a little historic background and to see it in action <a href="http://www.lonelyplanet.tv/Clip.aspx?key=88A4A0F712356205">Lonely Planet </a>has a good video clip. Â It is the fastest way across the Potomac to rural Maryland on the otherside. Â When I lived in Leesburg I occasionally used it when traveling to suburban Maryland such as Rockville because it took the same amount of time and didn't require any driving on the Beltway. Â I'm fairly sure that previously if you routed it would take you across White's Ferry. Â I ran the route through a couple routing websites to compare results.</p>
+<p><a href="http://en.wikipedia.org/wiki/White's_Ferry">White's Ferry</a> is a small ferry line just north of Leesburg, Virginia.  White's Ferry is supposed to be the late cable operated ferry on the East Coast, for a little historic background and to see it in action <a href="http://www.lonelyplanet.tv/Clip.aspx?key=88A4A0F712356205">Lonely Planet </a>has a good video clip.  It is the fastest way across the Potomac to rural Maryland on the otherside.  When I lived in Leesburg I occasionally used it when traveling to suburban Maryland such as Rockville because it took the same amount of time and didn't require any driving on the Beltway.  I'm fairly sure that previously if you routed it would take you across White's Ferry.  I ran the route through a couple routing websites to compare results.</p>
 
-<p><a href="http://maps.google.com/maps?daddr=Leesburg,+VA&amp;geocode=Cf60Ojnhi4TLFY7bVAIdL3lg-w&amp;dirflg=&amp;saddr=Martinsburg,+mD&amp;f=d&amp;sll=39.138449,-77.533092&amp;sspn=0.073229,0.143509&amp;ie=UTF8&amp;z=11">On Google</a> it takes you up and around across a more northern bridge which is a much slower route in this situation. Â <a href="http://www.bing.com/maps/default.aspx?v=2&amp;FORM=LMLTCP&amp;cp=39.140241~-77.521509&amp;style=r&amp;lvl=13&amp;tilt=-90&amp;dir=0&amp;alt=-1000&amp;phx=0&amp;phy=0&amp;phscl=1&amp;rtp=pos.39.1156700536566_-77.5653001063996_Leesburg%2C%20VA__~pos.39.1646404240942_-77.4777188717115_Martinsburg%2C%20MD__&amp;rtop=0~0~0&amp;encType=1">Bing Maps</a> routes through the ferry, as does <a href="http://www.mapquest.com/mq/9-zOU3Tf0sSbXnO_D2">MapQuest</a>. Â <a href="http://maps.yahoo.com/#mvt=m&amp;lat=39.195525&amp;lon=-77.494765&amp;zoom=12&amp;q1=Leesburg%2C%20VA&amp;q2=Martinsburg%2C%20MD">Yahoo</a> goes up and around across the bridge the same way Google does. Â Potentially Yahoo could be a routing engine problem because their tiles say they are sourcing <a href="http://www.navteq.com/">NAVTEQ</a> data and on NAVTEQ's site you can successfully route from Leesburg to Martinsburg across the ferry (note: Â I could not figure out an easy way to link directly to the NAVTEQ route here).</p>
+<p><a href="http://maps.google.com/maps?daddr=Leesburg,+VA&amp;geocode=Cf60Ojnhi4TLFY7bVAIdL3lg-w&amp;dirflg=&amp;saddr=Martinsburg,+mD&amp;f=d&amp;sll=39.138449,-77.533092&amp;sspn=0.073229,0.143509&amp;ie=UTF8&amp;z=11">On Google</a> it takes you up and around across a more northern bridge which is a much slower route in this situation.  <a href="http://www.bing.com/maps/default.aspx?v=2&amp;FORM=LMLTCP&amp;cp=39.140241~-77.521509&amp;style=r&amp;lvl=13&amp;tilt=-90&amp;dir=0&amp;alt=-1000&amp;phx=0&amp;phy=0&amp;phscl=1&amp;rtp=pos.39.1156700536566_-77.5653001063996_Leesburg%2C%20VA__~pos.39.1646404240942_-77.4777188717115_Martinsburg%2C%20MD__&amp;rtop=0~0~0&amp;encType=1">Bing Maps</a> routes through the ferry, as does <a href="http://www.mapquest.com/mq/9-zOU3Tf0sSbXnO_D2">MapQuest</a>.  <a href="http://maps.yahoo.com/#mvt=m&amp;lat=39.195525&amp;lon=-77.494765&amp;zoom=12&amp;q1=Leesburg%2C%20VA&amp;q2=Martinsburg%2C%20MD">Yahoo</a> goes up and around across the bridge the same way Google does.  Potentially Yahoo could be a routing engine problem because their tiles say they are sourcing <a href="http://www.navteq.com/">NAVTEQ</a> data and on NAVTEQ's site you can successfully route from Leesburg to Martinsburg across the ferry (note:  I could not figure out an easy way to link directly to the NAVTEQ route here).</p>
 
-<p>I checked other ferry lines and it appears Google can do the multi-modal routing, but the ferry information is just missing for White's Ferry. Â As an experiment I have reported the missing ferry and requested notification when it is fixed. Â You can be sure that I'll report back here when I get a response.</p>
+<p>I checked other ferry lines and it appears Google can do the multi-modal routing, but the ferry information is just missing for White's Ferry.  As an experiment I have reported the missing ferry and requested notification when it is fixed.  You can be sure that I'll report back here when I get a response.</p>
 
-<p>While performing this exercise I checked OpenStreetMap to make sure the ferry was already available on <a href="http://www.openstreetmap.org/?lat=39.15324&amp;lon=-77.51475&amp;zoom=15&amp;layers=B000FTF">the map there</a>. Â Routing doesn't work so well in the routing service I used it took an even longer route to go been <a href="http://yournavigation.org/?flat=39.115667&amp;flon=-77.564144&amp;tlat=39.160803&amp;tlon=-77.513161&amp;v=motorcar&amp;fast=1&amp;layer=mapnik">Leesburg and Martinsburg</a>. At least with YourNavigation.org you can export the route data to GPX and use it in whatever device you like. Â If I'm going to use my local knowledge to repair map data I want it back to use however I like. Â You can report bugs in the Google map data, but you can't export it to GPX like you can with the OpenStreetMap data.</p>
+<p>While performing this exercise I checked OpenStreetMap to make sure the ferry was already available on <a href="http://www.openstreetmap.org/?lat=39.15324&amp;lon=-77.51475&amp;zoom=15&amp;layers=B000FTF">the map there</a>.  Routing doesn't work so well in the routing service I used it took an even longer route to go been <a href="http://yournavigation.org/?flat=39.115667&amp;flon=-77.564144&amp;tlat=39.160803&amp;tlon=-77.513161&amp;v=motorcar&amp;fast=1&amp;layer=mapnik">Leesburg and Martinsburg</a>. At least with YourNavigation.org you can export the route data to GPX and use it in whatever device you like.  If I'm going to use my local knowledge to repair map data I want it back to use however I like.  You can report bugs in the Google map data, but you can't export it to GPX like you can with the OpenStreetMap data.</p>
 ]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Gecoding Fact or Fiction?]]></title>
-    <link href="http://maploser.com/blog/2009/04/08/gecoding-fact-or-fiction/"/>
-    <updated>2009-04-08T05:36:52+08:00</updated>
-    <id>http://maploser.com/blog/2009/04/08/gecoding-fact-or-fiction</id>
-    <content type="html"><![CDATA[<p>This week the <a href="http://www.latimes.com/news/local/la-me-geocoding-errors5-2009apr05,1,6184660.story">L.A. Times reported</a> a geocoding glitch that displayed crimes that could not be mapped defaulting close to city hall. To GIS industry folks something like this happening may not be a surprise.Â  According to Wikipedia "<strong>Geocoding</strong> is the process of finding associated <a href="http://en.wikipedia.org/wiki/Geographic_coordinates">geographic coordinates</a> (often expressed as <a href="http://en.wikipedia.org/wiki/Latitude">latitude</a> and <a href="http://en.wikipedia.org/wiki/Longitude">longitude</a>) from other geographic data, such as <a href="http://en.wikipedia.org/wiki/Street_address">street addresses</a>, or <a href="http://en.wikipedia.org/wiki/Zip_codes">zip codes</a> (<a href="http://en.wikipedia.org/wiki/Postal_codes">postal codes</a>). "Â  To take that to a more generic level you could really say "earth" and put a dot on a map and call that geocoding.Â  Whenever data is placed on a map a certain level of skepticism is required.</p>
+ </entry>
+ 
+ <entry>
+ <title type="html"><![CDATA[Gecoding Fact or Fiction?]]></title>
+ <link href="http://maploser.com/blog/2009/04/08/gecoding-fact-or-fiction/"/>
+ <updated>2009-04-08T05:36:52+08:00</updated>
+ <id>http://maploser.com/blog/2009/04/08/gecoding-fact-or-fiction</id>
+ <content type="html"><![CDATA[<p>This week the <a href="http://www.latimes.com/news/local/la-me-geocoding-errors5-2009apr05,1,6184660.story">L.A. Times reported</a> a geocoding glitch that displayed crimes that could not be mapped defaulting close to city hall. To GIS industry folks something like this happening may not be a surprise.  According to Wikipedia "<strong>Geocoding</strong> is the process of finding associated <a href="http://en.wikipedia.org/wiki/Geographic_coordinates">geographic coordinates</a> (often expressed as <a href="http://en.wikipedia.org/wiki/Latitude">latitude</a> and <a href="http://en.wikipedia.org/wiki/Longitude">longitude</a>) from other geographic data, such as <a href="http://en.wikipedia.org/wiki/Street_address">street addresses</a>, or <a href="http://en.wikipedia.org/wiki/Zip_codes">zip codes</a> (<a href="http://en.wikipedia.org/wiki/Postal_codes">postal codes</a>). "  To take that to a more generic level you could really say "earth" and put a dot on a map and call that geocoding.  Whenever data is placed on a map a certain level of skepticism is required.</p>
 
-<p>Though it is true that placing data accurately on a map is an import part of GIS, but I think there is an equally as important aspect.Â  That aspect is if the application is not going to provide only street level geocoding or better then the application needs to notify the user.Â  I entered â€œ123 Somewhere that I made up Los Angeles, 90001â€ into multiple online mapping application and records the results.
+<p>Though it is true that placing data accurately on a map is an import part of GIS, but I think there is an equally as important aspect.  That aspect is if the application is not going to provide only street level geocoding or better then the application needs to notify the user.  I entered €œ123 Somewhere that I made up Los Angeles, 90001€ into multiple online mapping application and records the results.
 <a href="http://maps.live.com">
-Virtual Earth</a> defaults this address to ZIP code centroid and does state â€œThis was not an exact match for your location. â€œÂ  Though it does not specify how it is coded.</p>
+Virtual Earth</a> defaults this address to ZIP code centroid and does state €œThis was not an exact match for your location. €œ  Though it does not specify how it is coded.</p>
 
 <p><img src="http://www.maploser.com/uploads/2009/04/picture-2.png" alt="Virtual Earth geocode result." /></p>
 
@@ -72,14 +72,14 @@ Virtual Earth</a> defaults this address to ZIP code centroid and does state â�
 
 <p><img src="http://www.maploser.com/uploads/2009/04/picture-5.png" alt="Google Maps" /><a href="http://maps.yahoo.com"></a></p>
 
-<p><a href="http://maps.yahoo.com">Yahoo Maps</a> offers up â€œFirestone Park, CA 90001â€ instead.
+<p><a href="http://maps.yahoo.com">Yahoo Maps</a> offers up €œFirestone Park, CA 90001€ instead.
 <img src="http://www.maploser.com/uploads/2009/04/picture-6.png" alt="Yahoo Maps" /></p>
 
-<p><a href="http://www.mapquest.com">MapQuest</a> states â€œWe did not find an exact match for your search, but we found a similar location.â€</p>
+<p><a href="http://www.mapquest.com">MapQuest</a> states €œWe did not find an exact match for your search, but we found a similar location.€</p>
 
 <p><img src="http://www.maploser.com/uploads/2009/04/picture-7.png" alt="MapQuest" /></p>
 
-<p>Even <a href="http://mappoint.msn.com">MapPoint</a> with its Web 1.0 interface states it could only find â€œthe following close match.â€</p>
+<p>Even <a href="http://mappoint.msn.com">MapPoint</a> with its Web 1.0 interface states it could only find €œthe following close match.€</p>
 
 <p><img src="http://www.maploser.com/uploads/2009/04/picture-9.png" alt="MapPoint" /></p>
 
@@ -95,38 +95,38 @@ Virtual Earth</a> defaults this address to ZIP code centroid and does state â�
 
 <p><img src="http://www.maploser.com/uploads/2009/04/picture-12.png" alt="Yellowpages" /></p>
 
-<p>To build a trust worthy mapping site there are two aspects, the first is utilizing the most accurate geocoding methodology possible, second is notifying the user of how the location was determined.Â  Without indicating an error the user is not giving a chance to correct the address or determine they can not place a location accurately enough.</p>
+<p>To build a trust worthy mapping site there are two aspects, the first is utilizing the most accurate geocoding methodology possible, second is notifying the user of how the location was determined.  Without indicating an error the user is not giving a chance to correct the address or determine they can not place a location accurately enough.</p>
 ]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Mapping of the Recovery]]></title>
-    <link href="http://maploser.com/blog/2009/02/18/mapping-of-the-recovery/"/>
-    <updated>2009-02-18T07:35:27+08:00</updated>
-    <id>http://maploser.com/blog/2009/02/18/mapping-of-the-recovery</id>
-    <content type="html"><![CDATA[<p>While visiting <a href="http://www.recovery.gov">Recovery.gov</a> I noticed there was a thematic map displaying Estimated Job Creation. The <a href="http://www.recovery.gov/?q=content/estimated-job-effect">Estimated Job Effect</a> map looks like a fairly innocuous map. Until I point out that the U.S. Government has outsourced this map to <a href="http://www.fusioncharts.com/maps/">India</a>. I find it somewhat ironic that the U.S. government has outsourced the display of estimated job growth in the U.S. due to the stimulus. Perhaps there should be a tiny map of India added to account for the $499 roughly that would have been spent on the licensing of Fusion Maps.</p>
+ </entry>
+ 
+ <entry>
+ <title type="html"><![CDATA[Mapping of the Recovery]]></title>
+ <link href="http://maploser.com/blog/2009/02/18/mapping-of-the-recovery/"/>
+ <updated>2009-02-18T07:35:27+08:00</updated>
+ <id>http://maploser.com/blog/2009/02/18/mapping-of-the-recovery</id>
+ <content type="html"><![CDATA[<p>While visiting <a href="http://www.recovery.gov">Recovery.gov</a> I noticed there was a thematic map displaying Estimated Job Creation. The <a href="http://www.recovery.gov/?q=content/estimated-job-effect">Estimated Job Effect</a> map looks like a fairly innocuous map. Until I point out that the U.S. Government has outsourced this map to <a href="http://www.fusioncharts.com/maps/">India</a>. I find it somewhat ironic that the U.S. government has outsourced the display of estimated job growth in the U.S. due to the stimulus. Perhaps there should be a tiny map of India added to account for the $499 roughly that would have been spent on the licensing of Fusion Maps.</p>
 
 <p>Proof is in the page source here:</p>
 
 <pre><code> &lt;script src="customcode/MyFCPHPClassCharts/FusionMaps/FusionMaps.js" language="JavaScript"&gt;&lt;/script&gt;
-      &lt;table cellpadding="0" width="100%" cellspacing="0" border="0"&gt;
-        &lt;tr&gt;
-          &lt;td valign="top"&gt;&lt;div id=""&gt;&lt;/div&gt;
-              &lt;div id=""&gt;
-                &lt;div align="center"&gt;
+ &lt;table cellpadding="0" width="100%" cellspacing="0" border="0"&gt;
+  &lt;tr&gt;
+  &lt;td valign="top"&gt;&lt;div id=""&gt;&lt;/div&gt;
+   &lt;div id=""&gt;
+   &lt;div align="center"&gt;
 
-    &lt;div align="center" id="USAMapDiv"&gt;
-    &lt;/div&gt;
-    &lt;script type="text/javascript"&gt;
-        //Instantiate the Maps
-    var Maps_USAMap = new FusionMaps("customcode/MyFCPHPClassCharts/FusionMaps/FCMap_USA.swf", "USAMap", "650", "480", "0", "1");
-    //Provide entire XML data using dataXML method
+ &lt;div align="center" id="USAMapDiv"&gt;
+ &lt;/div&gt;
+ &lt;script type="text/javascript"&gt;
+  //Instantiate the Maps
+ var Maps_USAMap = new FusionMaps("customcode/MyFCPHPClassCharts/FusionMaps/FCMap_USA.swf", "USAMap", "650", "480", "0", "1");
+ //Provide entire XML data using dataXML method
 
-Â 
-Â 
+ 
+ 
 </code></pre>
 
-<p>Â </p>
+<p> </p>
 
 <p>It isn't as if there are not options that are U.S. based. In a Google Search for "Flash Maps" this was on the front page.
 <a href="http://www.flashmaps.com">Flashmaps</a></p>
@@ -135,6 +135,6 @@ Virtual Earth</a> defaults this address to ZIP code centroid and does state â�
 
 <p>::Steps Off Soap Box::</p>
 ]]></content>
-  </entry>
-  
+ </entry>
+ 
 </feed>

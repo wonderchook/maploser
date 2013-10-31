@@ -1,26 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Category: Geo-art | Kate Chapman - Maploser]]></title>
-  <link href="http://maploser.com/blog/categories/geo-art/atom.xml" rel="self"/>
-  <link href="http://maploser.com/"/>
-  <updated>2012-11-30T16:49:41+08:00</updated>
-  <id>http://maploser.com/</id>
-  <author>
-    <name><![CDATA[Kate Chapman]]></name>
-    
-  </author>
-  <generator uri="http://octopress.org/">Octopress</generator>
+ <title><![CDATA[Category: Geo-art | Kate Chapman - Maploser]]></title>
+ <link href="http://maploser.com/blog/categories/geo-art/atom.xml" rel="self"/>
+ <link href="http://maploser.com/"/>
+ <updated>2012-11-30T16:49:41+08:00</updated>
+ <id>http://maploser.com/</id>
+ <author>
+ <name><![CDATA[Kate Chapman]]></name>
+ 
+ </author>
+ <generator uri="http://octopress.org/">Octopress</generator>
 
-  
-  <entry>
-    <title type="html"><![CDATA[My Personal Map]]></title>
-    <link href="http://maploser.com/blog/2009/05/04/my-personal-map/"/>
-    <updated>2009-05-04T03:48:14+08:00</updated>
-    <id>http://maploser.com/blog/2009/05/04/my-personal-map</id>
-    <content type="html"><![CDATA[<p>As I got into my car today I began to input my friend's address so GPS and Google Maps could guide me there.Â  I've been to this individual's house countless times and really should know how to get there.Â  I decided I was going to navigate there without the GPS and if I got lost I could always look it up.</p>
+ 
+ <entry>
+ <title type="html"><![CDATA[My Personal Map]]></title>
+ <link href="http://maploser.com/blog/2009/05/04/my-personal-map/"/>
+ <updated>2009-05-04T03:48:14+08:00</updated>
+ <id>http://maploser.com/blog/2009/05/04/my-personal-map</id>
+ <content type="html"><![CDATA[<p>As I got into my car today I began to input my friend's address so GPS and Google Maps could guide me there.  I've been to this individual's house countless times and really should know how to get there.  I decided I was going to navigate there without the GPS and if I got lost I could always look it up.</p>
 
-<p>While driving without the GPS I started to think about if using navigation tools all the times actually makes it harder for us to navigate without them.Â  Personally I have no sense of direction, if I don't look at a map of an area I never form a mental map.Â  Unfortunately that means there are many situations where I can get from Point A to Point B to Point C, but if need to go from Point A to Point C there is no hope.Â  I've lived in the Northern Virginia area for the better part of 18 years and worked as a cartographer/GIS Programmer/GPS Technician for a roughly 8 years of it.Â  I figured I have a fairly good mental map.Â  To test this I decided to make a hand drawn map of my location.Â  Drawing a map of my area was inspired by the <a href="http://www.handmaps.org/">Hand Drawn Map Association</a>.</p>
+<p>While driving without the GPS I started to think about if using navigation tools all the times actually makes it harder for us to navigate without them.  Personally I have no sense of direction, if I don't look at a map of an area I never form a mental map.  Unfortunately that means there are many situations where I can get from Point A to Point B to Point C, but if need to go from Point A to Point C there is no hope.  I've lived in the Northern Virginia area for the better part of 18 years and worked as a cartographer/GIS Programmer/GPS Technician for a roughly 8 years of it.  I figured I have a fairly good mental map.  To test this I decided to make a hand drawn map of my location.  Drawing a map of my area was inspired by the <a href="http://www.handmaps.org/">Hand Drawn Map Association</a>.</p>
 
 <p>I'm pretty impressed with my maps, but there are definitely some flaws due to the unerasable nature of markers. I realize it would be difficult for most people other than myself to point out these flaws.</p>
 
@@ -35,8 +35,8 @@
 
 <p>Anyway enough talk of me hand drawing my map here it is:</p>
 
-<p><a href="http://www.maploser.com/wp-content/uploads/2009/05/mindmap.jpg"><img src="http://www.maploser.com/uploads/2009/05/mindmap.jpg" alt="My Personal Map" /></a></p>
+<p><a href=" http://maploser.com/images/old-ml/2009/05/mindmap.jpg"><img src="http://www.maploser.com/uploads/2009/05/mindmap.jpg" alt="My Personal Map" /></a></p>
 ]]></content>
-  </entry>
-  
+ </entry>
+ 
 </feed>

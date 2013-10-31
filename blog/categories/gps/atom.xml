@@ -1,47 +1,47 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Category: GPS | Kate Chapman - Maploser]]></title>
-  <link href="http://maploser.com/blog/categories/gps/atom.xml" rel="self"/>
-  <link href="http://maploser.com/"/>
-  <updated>2012-11-30T16:49:41+08:00</updated>
-  <id>http://maploser.com/</id>
-  <author>
-    <name><![CDATA[Kate Chapman]]></name>
-    
-  </author>
-  <generator uri="http://octopress.org/">Octopress</generator>
+ <title><![CDATA[Category: GPS | Kate Chapman - Maploser]]></title>
+ <link href="http://maploser.com/blog/categories/gps/atom.xml" rel="self"/>
+ <link href="http://maploser.com/"/>
+ <updated>2012-11-30T16:49:41+08:00</updated>
+ <id>http://maploser.com/</id>
+ <author>
+ <name><![CDATA[Kate Chapman]]></name>
+ 
+ </author>
+ <generator uri="http://octopress.org/">Octopress</generator>
 
-  
-  <entry>
-    <title type="html"><![CDATA[Mapping the Zoo!]]></title>
-    <link href="http://maploser.com/blog/2009/09/05/mapping-the-zoo/"/>
-    <updated>2009-09-05T16:27:55+08:00</updated>
-    <id>http://maploser.com/blog/2009/09/05/mapping-the-zoo</id>
-    <content type="html"><![CDATA[<p>On September 12th <a href="http://groups.google.com/group/mappingdc">MappingDC</a> is going to join the <a href="http://www.openstreetmap.com">OpenStreetMap</a> meme of mapping zoos in great detail. Â A good example of this is the Dresden Zoo.</p>
+ 
+ <entry>
+ <title type="html"><![CDATA[Mapping the Zoo!]]></title>
+ <link href="http://maploser.com/blog/2009/09/05/mapping-the-zoo/"/>
+ <updated>2009-09-05T16:27:55+08:00</updated>
+ <id>http://maploser.com/blog/2009/09/05/mapping-the-zoo</id>
+ <content type="html"><![CDATA[<p>On September 12th <a href="http://groups.google.com/group/mappingdc">MappingDC</a> is going to join the <a href="http://www.openstreetmap.com">OpenStreetMap</a> meme of mapping zoos in great detail.  A good example of this is the Dresden Zoo.</p>
 
-<p>[caption id="attachment_145" align="aligncenter" width="368" caption="OpenStreetMap contributors and Wikimedia Commons"]<a href="http://upload.wikimedia.org/wikipedia/commons/2/2c/Dresden-Zoo-openstreetmap.png"><img src="http://www.maploser.com/wp-content/uploads/2009/09/Dresden-Zoo-openstreetmap-1024x558.png" alt="OpenStreetMap contributors and Wikimedia Commons" /></a>[/caption]</p>
+<p>[caption id="attachment_145" align="aligncenter" width="368" caption="OpenStreetMap contributors and Wikimedia Commons"]<a href="http://upload.wikimedia.org/wikipedia/commons/2/2c/Dresden-Zoo-openstreetmap.png"><img src=" http://maploser.com/images/old-ml/2009/09/Dresden-Zoo-openstreetmap-1024x558.png" alt="OpenStreetMap contributors and Wikimedia Commons" /></a>[/caption]</p>
 
-<p>Other well mapped zoos I found were inÂ <a href="http://wiki.openstreetmap.org/wiki/Zoo_Hannover">Hannover</a>,Â <a href="http://wiki.openstreetmap.org/wiki/Zoologischer_Garten_Berlin">Berlin</a>, <a href="http://wiki.openstreetmap.org/wiki/Zoo_Leipzig">Leipzig</a> and <a href="http://wiki.openstreetmap.org/wiki/Zoo_Frankfurt">Frankfurt</a>.</p>
+<p>Other well mapped zoos I found were in <a href="http://wiki.openstreetmap.org/wiki/Zoo_Hannover">Hannover</a>, <a href="http://wiki.openstreetmap.org/wiki/Zoologischer_Garten_Berlin">Berlin</a>, <a href="http://wiki.openstreetmap.org/wiki/Zoo_Leipzig">Leipzig</a> and <a href="http://wiki.openstreetmap.org/wiki/Zoo_Frankfurt">Frankfurt</a>.</p>
 
-<p>We plan to start by digitizing from the imagery available ahead of time and then utilizie GPS and <a href="http://www.walking-papers.org">Walking Papers</a> to then fill in gaps in the imagery and add detailed attributes. Â The intent of the event is to teach people about the OpenStreetMap project as well as have fun micro-mapping.</p>
+<p>We plan to start by digitizing from the imagery available ahead of time and then utilizie GPS and <a href="http://www.walking-papers.org">Walking Papers</a> to then fill in gaps in the imagery and add detailed attributes.  The intent of the event is to teach people about the OpenStreetMap project as well as have fun micro-mapping.</p>
 
-<p>Following our detailed data collection it appears we need to ensure the National Zoo has its own OpenStreetMap wiki page. Â Some MappingDC members also would like to do a customÂ cartographic rendering, who knows if we are detailed enough maybe some zoo routing. Â You never know when you might need the shortest route between the pandas and the lions.</p>
+<p>Following our detailed data collection it appears we need to ensure the National Zoo has its own OpenStreetMap wiki page.  Some MappingDC members also would like to do a custom cartographic rendering, who knows if we are detailed enough maybe some zoo routing.  You never know when you might need the shortest route between the pandas and the lions.</p>
 
-<p>If this sounds good to you join the <a href="http://groups.google.com/group/mappingdc">MappingDC</a> Google group or contact me directly. Â You don't need a GPS or any prior knowledge we can help with that.</p>
+<p>If this sounds good to you join the <a href="http://groups.google.com/group/mappingdc">MappingDC</a> Google group or contact me directly.  You don't need a GPS or any prior knowledge we can help with that.</p>
 
 <p>Updated: We are meeting at 10am at the <a href="http://www.openstreetmap.org/?lat=38.92954&amp;lon=-77.05363&amp;zoom=17&amp;layers=B000FTF">Starbucks across from the Connecticut Ave Zoo Entrance</a>. (3000 Connecticut Ave NW Washington, DC 20008)</p>
 ]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[D.C. OpenStreetMap Mapping Party]]></title>
-    <link href="http://maploser.com/blog/2009/06/06/dc-openstreetmap-mapping-party/"/>
-    <updated>2009-06-06T14:46:40+08:00</updated>
-    <id>http://maploser.com/blog/2009/06/06/dc-openstreetmap-mapping-party</id>
-    <content type="html"><![CDATA[<p>One of the projects I contribute to is the OpenStreetMap project.Â  OSM is similar to Wikipedia but is for geographic data, it is editable by anyone and can be used with attribution by anyone.Â  One of the ways that people are introduced to OpenStreetMap is through mapping parties and I am helping organize one on June 20th in Washington D.C.</p>
+ </entry>
+ 
+ <entry>
+ <title type="html"><![CDATA[D.C. OpenStreetMap Mapping Party]]></title>
+ <link href="http://maploser.com/blog/2009/06/06/dc-openstreetmap-mapping-party/"/>
+ <updated>2009-06-06T14:46:40+08:00</updated>
+ <id>http://maploser.com/blog/2009/06/06/dc-openstreetmap-mapping-party</id>
+ <content type="html"><![CDATA[<p>One of the projects I contribute to is the OpenStreetMap project.  OSM is similar to Wikipedia but is for geographic data, it is editable by anyone and can be used with attribution by anyone.  One of the ways that people are introduced to OpenStreetMap is through mapping parties and I am helping organize one on June 20th in Washington D.C.</p>
 
-<p>The event will start at 9 a.m. And wrap up around 4 p.m.Â  Feel free to stop by at anytime, some people will stay all day but it isn't required.Â  We are meeting at <a href="http://www.hacdc.org/">HacDC</a> (1525 Newton St NW, Washington DC 20010)Â  Russ Nelson from <a href="http://www.cloudmade.com">CloudMade</a> will be there and give some background on the project as well as provide GPS units so you can collect data.Â  Everyone will go off and map and return to learn how to edit and upload data.Â  We also will be trying out <a href="http://walking-papers.org/">Walking Papers </a> which allows you to print out a map displaying OSM data and bring it with you into the field.Â  The idea being then that you mark-up the map and when you come back the map is scanned and can be overlayed for digitzing in Potlatch an OpenStreetMap online editor.Â  A printer and scanner will be provided for those that want to try this approach.</p>
+<p>The event will start at 9 a.m. And wrap up around 4 p.m.  Feel free to stop by at anytime, some people will stay all day but it isn't required.  We are meeting at <a href="http://www.hacdc.org/">HacDC</a> (1525 Newton St NW, Washington DC 20010)  Russ Nelson from <a href="http://www.cloudmade.com">CloudMade</a> will be there and give some background on the project as well as provide GPS units so you can collect data.  Everyone will go off and map and return to learn how to edit and upload data.  We also will be trying out <a href="http://walking-papers.org/">Walking Papers </a> which allows you to print out a map displaying OSM data and bring it with you into the field.  The idea being then that you mark-up the map and when you come back the map is scanned and can be overlayed for digitzing in Potlatch an OpenStreetMap online editor.  A printer and scanner will be provided for those that want to try this approach.</p>
 
 <p>For more information:<a href="http://www.osm.org"></a></p>
 
@@ -49,55 +49,55 @@
 <a href="http://community.cloudmade.com/event/custom/generic/show/202">Mapping Party Invitiation</a>
 <a href="http://www.hacdc.org/">HacDC</a></p>
 ]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Using a Columbus v900 as a tethered GPS with OSX]]></title>
-    <link href="http://maploser.com/blog/2009/05/17/using-columbus-v900-a-tethered-gps-with-osx/"/>
-    <updated>2009-05-17T05:38:56+08:00</updated>
-    <id>http://maploser.com/blog/2009/05/17/using-columbus-v900-a-tethered-gps-with-osx</id>
-    <content type="html"><![CDATA[<p>At the Baltimore <a href="http://www.openstreetmap.org/">OpenStreetMap</a> Mapping party Russ from CloudMade showed us a small GPS the Columbus v900.  <a href="http://community.cloudmade.com/blog/2009/03/16/columbus-v-900-review/">Here</a> is a link to his review of the device. Â  I had been using my iPhone to contribute to OSM, but found it problematic if I need to do something else with my phone while I was mapping. Â I ordered the v900, liking the low price and the many features.  Up until this point I've mostly used the way point feature, but intended to eventually hook it up to my laptop.</p>
+ </entry>
+ 
+ <entry>
+ <title type="html"><![CDATA[Using a Columbus v900 as a tethered GPS with OSX]]></title>
+ <link href="http://maploser.com/blog/2009/05/17/using-columbus-v900-a-tethered-gps-with-osx/"/>
+ <updated>2009-05-17T05:38:56+08:00</updated>
+ <id>http://maploser.com/blog/2009/05/17/using-columbus-v900-a-tethered-gps-with-osx</id>
+ <content type="html"><![CDATA[<p>At the Baltimore <a href="http://www.openstreetmap.org/">OpenStreetMap</a> Mapping party Russ from CloudMade showed us a small GPS the Columbus v900. <a href="http://community.cloudmade.com/blog/2009/03/16/columbus-v-900-review/">Here</a> is a link to his review of the device.   I had been using my iPhone to contribute to OSM, but found it problematic if I need to do something else with my phone while I was mapping.  I ordered the v900, liking the low price and the many features. Up until this point I've mostly used the way point feature, but intended to eventually hook it up to my laptop.</p>
 
-<p>Hooking the device up to my laptop running OSX was relatively easy.  To make things work you need to download <a href="http://www.grandhighwizard.net/gps2gex.html">gps2ge</a> and <a href="http://www.grandhighwizard.net/gpsdx.html">GPSd</a>.   GPSd is an easy dmg install, you just have to follow the typical wizard install instructions.  Gps2ge is a tar file and to get it working you just have to unpack it and drag the file into your applications folder.</p>
+<p>Hooking the device up to my laptop running OSX was relatively easy. To make things work you need to download <a href="http://www.grandhighwizard.net/gps2gex.html">gps2ge</a> and <a href="http://www.grandhighwizard.net/gpsdx.html">GPSd</a>. GPSd is an easy dmg install, you just have to follow the typical wizard install instructions. Gps2ge is a tar file and to get it working you just have to unpack it and drag the file into your applications folder.</p>
 
-<p>The next step is to connect the GPS unit to your computer through Bluetooth.   Go to the Bluetooth setting under â€œHardwareâ€ in your System Preferences.  Make sure the unit's blue light is flashing if the unit is already on but the light is not flashing press the power button on the top of the device quickly.  It should beep and the blue light should begin flashing.     In the Bluetooth menu select â€œSet Up New Device...â€  which will launch the Bluetooth Setup Assistant.  Press continue and the next screen should ask you to â€œSelect Device Typeâ€ choose â€œAny Deviceâ€ and it will begin searching for devices.  I device called â€œColumbus GPSâ€ should appear in the menu you, select it and press continue.  Your computer will now collect information about the device when it is done press â€œContinue.â€ On the next screen it will ask for a passkey which is â€œ0000â€ at the time of this entry.  Enter the passkey and press â€œContinueâ€ this should complete your pairing and you can press â€œQuitâ€ to leave the â€œBluetooth Setup Assistant.â€</p>
+<p>The next step is to connect the GPS unit to your computer through Bluetooth. Go to the Bluetooth setting under €œHardware€ in your System Preferences. Make sure the unit's blue light is flashing if the unit is already on but the light is not flashing press the power button on the top of the device quickly. It should beep and the blue light should begin flashing.  In the Bluetooth menu select €œSet Up New Device...€ which will launch the Bluetooth Setup Assistant. Press continue and the next screen should ask you to €œSelect Device Type€ choose €œAny Device€ and it will begin searching for devices. I device called €œColumbus GPS€ should appear in the menu you, select it and press continue. Your computer will now collect information about the device when it is done press €œContinue.€ On the next screen it will ask for a passkey which is €œ0000€ at the time of this entry. Enter the passkey and press €œContinue€ this should complete your pairing and you can press €œQuit€ to leave the €œBluetooth Setup Assistant.€</p>
 
-<p>To test out the connection launch â€œgps2geâ€ and press â€œStart gps2ge.â€  You should begin seeing coordinates in the application window.</p>
+<p>To test out the connection launch €œgps2ge€ and press €œStart gps2ge.€ You should begin seeing coordinates in the application window.</p>
 
-<p>[caption id="attachment_112" align="aligncenter" width="456" caption="This is how the gps2ge displays the coordinates it is collecting.  "]<img src="http://www.maploser.com/uploads/2009/05/gps2ge.jpg" alt="This is how the gps2ge displays the coordinates it is collecting.  " />[/caption]</p>
+<p>[caption id="attachment_112" align="aligncenter" width="456" caption="This is how the gps2ge displays the coordinates it is collecting. "]<img src="http://www.maploser.com/uploads/2009/05/gps2ge.jpg" alt="This is how the gps2ge displays the coordinates it is collecting. " />[/caption]</p>
 
-<p>By default gps2ge saves its files in your tmp directory if you wish to save them somewhere else you just press the â€œSettingsâ€ button and then select â€œFilesâ€ and you can browse to another directory.</p>
+<p>By default gps2ge saves its files in your tmp directory if you wish to save them somewhere else you just press the €œSettings€ button and then select €œFiles€ and you can browse to another directory.</p>
 
 <p>[caption id="attachment_113" align="aligncenter" width="461" caption="File Settings screen of gps2ge"]<img src="http://www.maploser.com/uploads/2009/05/gpssettings.jpg" alt="File Settings screen of gps2ge" />[/caption]</p>
 
-<p>When you switch directories a Start/Stop of the tracking is required, but gps2ge will do it automatically.  By default it creates 4 files gps.kml, track.kml, pos.kml, track.txt.  If you want to view your current position open the GPS.kml file.  I used Google Earth to view my position for real time tracking you need Google Earth Pro, but if you were to select refresh on the GPS.kml file in Google Earth it will show your latest position.  Repeatedly hitting refresh would be annoying for real-time navigation but just to test out the v900 it works.</p>
+<p>When you switch directories a Start/Stop of the tracking is required, but gps2ge will do it automatically. By default it creates 4 files gps.kml, track.kml, pos.kml, track.txt. If you want to view your current position open the GPS.kml file. I used Google Earth to view my position for real time tracking you need Google Earth Pro, but if you were to select refresh on the GPS.kml file in Google Earth it will show your latest position. Repeatedly hitting refresh would be annoying for real-time navigation but just to test out the v900 it works.</p>
 
-<p>This is the first GPS I've used with a laptop since my days as a GPS Technician. Â It was relatively straight forward to set-up and to start mapping. Â I will do a more in depth review at some point after I've experimented with all the features.</p>
+<p>This is the first GPS I've used with a laptop since my days as a GPS Technician.  It was relatively straight forward to set-up and to start mapping.  I will do a more in depth review at some point after I've experimented with all the features.</p>
 ]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Baltimore OSM Party]]></title>
-    <link href="http://maploser.com/blog/2009/04/05/baltimore-osm-party/"/>
-    <updated>2009-04-05T03:07:23+08:00</updated>
-    <id>http://maploser.com/blog/2009/04/05/baltimore-osm-party</id>
-    <content type="html"><![CDATA[<p>Â Today I attended an <a href="http://www.openstreetmap.org">OpenStreetMap</a> party organized by <a href="http://www.cloudmade.com">CloudMade</a>.  I had previously contributed to OSM some, but I had never attended a mapping party.  It was great to meet other people who were interested as well as learn a little bit better how to use <a href="http://josm.openstreetmap.de/">JOSM</a> to edit.  Previously I had primarily utilized OpenStreetMap's web interface for editing, but JOSM seems to be the way to go.  It was much faster to edit locally rather than through the web, which isn't a surprise.  Previously I hadn't liked JOSM, but I just didn't have the workflow down.</p>
+ </entry>
+ 
+ <entry>
+ <title type="html"><![CDATA[Baltimore OSM Party]]></title>
+ <link href="http://maploser.com/blog/2009/04/05/baltimore-osm-party/"/>
+ <updated>2009-04-05T03:07:23+08:00</updated>
+ <id>http://maploser.com/blog/2009/04/05/baltimore-osm-party</id>
+ <content type="html"><![CDATA[<p> Today I attended an <a href="http://www.openstreetmap.org">OpenStreetMap</a> party organized by <a href="http://www.cloudmade.com">CloudMade</a>. I had previously contributed to OSM some, but I had never attended a mapping party. It was great to meet other people who were interested as well as learn a little bit better how to use <a href="http://josm.openstreetmap.de/">JOSM</a> to edit. Previously I had primarily utilized OpenStreetMap's web interface for editing, but JOSM seems to be the way to go. It was much faster to edit locally rather than through the web, which isn't a surprise. Previously I hadn't liked JOSM, but I just didn't have the workflow down.</p>
 
-<p>During my data collection I worked with a math teacher from the Baltimore area.  It was good to work with someone who was local because I would have had a hard time knowing where to start.  We were a great team, because she was familiar with the area and I was familiar with the use of GPS.
-Â </p>
+<p>During my data collection I worked with a math teacher from the Baltimore area. It was good to work with someone who was local because I would have had a hard time knowing where to start. We were a great team, because she was familiar with the area and I was familiar with the use of GPS.
+ </p>
 
 <p>[caption id="attachment_65" align="aligncenter" width="448" caption="Starting point of data collection."]<img src="http://www.maploser.com/uploads/2009/04/img_0219.jpg" alt="Starting point of data collection." />[/caption]</p>
 
-<p>Â </p>
+<p> </p>
 
-<p>We started out at the Stieff Silver building and walked around the nearby neighborhood.  I don't feel like I have a great system down yet, but I was able to collect some data.  We ended up making a couple corrections to some streets and to add information for some points of interest.  One area we came to I still don't feel like I have figured out all the way.  There was a street sign that had Chestnut Ave and Field Street on it, but there was an arrow over Field Street pointing up a grassy hill.  I believe the dirt road at the top was Field Street, because there appears to be houses addressed to it but I'm still not absolutely sure.  I'm going to compare some aerial photography to the GPS trace and see if it provides some insight.  If you look in the center of the below photo the grassy area in the center is where the Field St sign appears to be pointing, very confusing.</p>
+<p>We started out at the Stieff Silver building and walked around the nearby neighborhood. I don't feel like I have a great system down yet, but I was able to collect some data. We ended up making a couple corrections to some streets and to add information for some points of interest. One area we came to I still don't feel like I have figured out all the way. There was a street sign that had Chestnut Ave and Field Street on it, but there was an arrow over Field Street pointing up a grassy hill. I believe the dirt road at the top was Field Street, because there appears to be houses addressed to it but I'm still not absolutely sure. I'm going to compare some aerial photography to the GPS trace and see if it provides some insight. If you look in the center of the below photo the grassy area in the center is where the Field St sign appears to be pointing, very confusing.</p>
 
 <p>[caption id="attachment_67" align="aligncenter" width="448" caption="In the center of the picture is the Chestnut/Field Street Sign beyond it is where the sign points."]<img src="http://www.maploser.com/uploads/2009/04/img_02182.jpg" alt="In the center of the picture is the Chestnut/Field Street Sign beyond it is where the sign points." />[/caption]</p>
 
-<p>Â </p>
+<p> </p>
 
-<p>Overall the OSM mapping party was my favorite event I've been to in a while.  It is great to meet different people and get to do something I love to do, map! Â  I believe I'm going to get a GPS with a voice recorder, that seems to be the easiest way to handle things.</p>
+<p>Overall the OSM mapping party was my favorite event I've been to in a while. It is great to meet different people and get to do something I love to do, map!   I believe I'm going to get a GPS with a voice recorder, that seems to be the easiest way to handle things.</p>
 ]]></content>
-  </entry>
-  
+ </entry>
+ 
 </feed>

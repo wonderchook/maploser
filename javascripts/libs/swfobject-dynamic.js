@@ -77,9 +77,9 @@ var swfobject = function() {
 
 	/* Detect the Flash Player version for non-Internet Explorer browsers
 		- Detecting the plug-in version via the object element is more precise than using the plugins collection item's description:
-		  a. Both release and build numbers can be detected
-		  b. Avoid wrong descriptions by corrupt installers provided by Adobe
-		  c. Avoid wrong descriptions by multiple Flash Player entries in the plugin Array, caused by incorrect browser imports
+		 a. Both release and build numbers can be detected
+		 b. Avoid wrong descriptions by corrupt installers provided by Adobe
+		 c. Avoid wrong descriptions by multiple Flash Player entries in the plugin Array, caused by incorrect browser imports
 		- Disadvantage of this method is that it depends on the availability of the DOM, while the plugins collection is immediately available
 	*/
 	function testPlayerVersion() {
@@ -224,39 +224,39 @@ var swfobject = function() {
 		embedSWF: function(swfUrlStr, replaceElemIdStr, widthStr, heightStr, swfVersionStr, flashvarsObj, parObj, attObj, callbackFn) {
 			var callbackObj = {success:false, id:replaceElemIdStr};
 			if (ua.w3 && !(ua.wk && ua.wk < 312) && swfUrlStr && replaceElemIdStr && widthStr && heightStr && swfVersionStr) {
-              widthStr += ""; // auto-convert to string
-              heightStr += "";
-              var att = {};
-              if (attObj && typeof attObj === OBJECT) {
-                for (var i in attObj) { // copy object to avoid the use of references, because web authors often reuse attObj for multiple SWFs
-                  att[i] = attObj[i];
-                }
-              }
-              att.data = swfUrlStr;
-              att.width = widthStr;
-              att.height = heightStr;
-              var par = {};
-              if (parObj && typeof parObj === OBJECT) {
-                for (var j in parObj) { // copy object to avoid the use of references, because web authors often reuse parObj for multiple SWFs
-                  par[j] = parObj[j];
-                }
-              }
-              if (flashvarsObj && typeof flashvarsObj === OBJECT) {
-                for (var k in flashvarsObj) { // copy object to avoid the use of references, because web authors often reuse flashvarsObj for multiple SWFs
-                  if (typeof par.flashvars != UNDEF) {
-                    par.flashvars += "&" + k + "=" + flashvarsObj[k];
-                  }
-                  else {
-                    par.flashvars = k + "=" + flashvarsObj[k];
-                  }
-                }
-              }
-              if (hasPlayerVersion(swfVersionStr)) { // create SWF
-                var obj = createSWF(att, par, replaceElemIdStr);
-                callbackObj.success = true;
-                callbackObj.ref = obj;
-              }
-              if (callbackFn) { callbackFn(callbackObj); }
+   widthStr += ""; // auto-convert to string
+   heightStr += "";
+   var att = {};
+   if (attObj && typeof attObj === OBJECT) {
+   for (var i in attObj) { // copy object to avoid the use of references, because web authors often reuse attObj for multiple SWFs
+   att[i] = attObj[i];
+   }
+   }
+   att.data = swfUrlStr;
+   att.width = widthStr;
+   att.height = heightStr;
+   var par = {};
+   if (parObj && typeof parObj === OBJECT) {
+   for (var j in parObj) { // copy object to avoid the use of references, because web authors often reuse parObj for multiple SWFs
+   par[j] = parObj[j];
+   }
+   }
+   if (flashvarsObj && typeof flashvarsObj === OBJECT) {
+   for (var k in flashvarsObj) { // copy object to avoid the use of references, because web authors often reuse flashvarsObj for multiple SWFs
+   if (typeof par.flashvars != UNDEF) {
+    par.flashvars += "&" + k + "=" + flashvarsObj[k];
+   }
+   else {
+    par.flashvars = k + "=" + flashvarsObj[k];
+   }
+   }
+   }
+   if (hasPlayerVersion(swfVersionStr)) { // create SWF
+   var obj = createSWF(att, par, replaceElemIdStr);
+   callbackObj.success = true;
+   callbackObj.ref = obj;
+   }
+   if (callbackFn) { callbackFn(callbackObj); }
 			}
 			else if (callbackFn) { callbackFn(callbackObj);	}
 		},

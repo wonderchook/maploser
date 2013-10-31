@@ -4,74 +4,74 @@
 <!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
-  <meta charset="utf-8">
-  <title>Further Adventures in Rails Testing - Kate Chapman - Maploser</title>
-  <meta name="author" content="Kate Chapman">
+ <meta charset="utf-8">
+ <title>Further Adventures in Rails Testing - Kate Chapman - Maploser</title>
+ <meta name="author" content="Kate Chapman">
 
-  
-  <meta name="description" content="Yesterday I went to &#8221;Hack Day &#8216;Effective Testing for Rails Projects&#8217;&#8221; at Viget Labs in Falls Church. Â After Ruby DCamp I &hellip;">
-  
+ 
+ <meta name="description" content="Yesterday I went to &#8221;Hack Day &#8216;Effective Testing for Rails Projects&#8217;&#8221; at Viget Labs in Falls Church.  After Ruby DCamp I &hellip;">
+ 
 
-  <!-- http://t.co/dKP3o1e -->
-  <meta name="HandheldFriendly" content="True">
-  <meta name="MobileOptimized" content="320">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+ <!-- http://t.co/dKP3o1e -->
+ <meta name="HandheldFriendly" content="True">
+ <meta name="MobileOptimized" content="320">
+ <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  
-  <link rel="canonical" href="http://maploser.com/blog/2009/09/27/further-adventures-in-rails-testinghudsonmicr/">
-  <link href="/maploser/favicon.png" rel="icon">
-  <link href="/maploser/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
-  <script src="/maploser/javascripts/modernizr-2.0.js"></script>
-  <script src="/maploser/javascripts/ender.js"></script>
-  <script src="/maploser/javascripts/octopress.js" type="text/javascript"></script>
-  <link href="/maploser/atom.xml" rel="alternate" title="Kate Chapman - Maploser" type="application/atom+xml">
-  <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
+ 
+ <link rel="canonical" href="http://maploser.com/blog/2009/09/27/further-adventures-in-rails-testinghudsonmicr/">
+ <link href="/maploser/favicon.png" rel="icon">
+ <link href="/maploser/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+ <script src="/maploser/javascripts/modernizr-2.0.js"></script>
+ <script src="/maploser/javascripts/ender.js"></script>
+ <script src="/maploser/javascripts/octopress.js" type="text/javascript"></script>
+ <link href="/maploser/atom.xml" rel="alternate" title="Kate Chapman - Maploser" type="application/atom+xml">
+ <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
 <link href="http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
 <link href="http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
 
-  
+ 
 
 </head>
 
-<body   >
-  <header role="banner"><hgroup>
-  <h1><a href="/maploser/">Kate Chapman - Maploser</a></h1>
-  
-    <h2>On a quest to find out where.</h2>
-  
+<body >
+ <header role="banner"><hgroup>
+ <h1><a href="/maploser/">Kate Chapman - Maploser</a></h1>
+ 
+ <h2>On a quest to find out where.</h2>
+ 
 </hgroup>
 
 </header>
-  <nav role="navigation"><ul class="subscription" data-subscription="rss">
-  <li><a href="/maploser/atom.xml" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
-  
+ <nav role="navigation"><ul class="subscription" data-subscription="rss">
+ <li><a href="/maploser/atom.xml" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
+ 
 </ul>
-  
+ 
 <form action="http://google.com/search" method="get">
-  <fieldset role="search">
-    <input type="hidden" name="q" value="site:maploser.com" />
-    <input class="search" type="text" name="q" results="0" placeholder="Search"/>
-  </fieldset>
+ <fieldset role="search">
+ <input type="hidden" name="q" value="site:maploser.com" />
+ <input class="search" type="text" name="q" results="0" placeholder="Search"/>
+ </fieldset>
 </form>
-  
+ 
 <ul class="main-navigation">
-  <li><a href="/maploser/">Blog</a></li>
-  <li><a href="/maploser/blog/archives">Archives</a></li>
+ <li><a href="/maploser/">Blog</a></li>
+ <li><a href="/maploser/blog/archives">Archives</a></li>
 </ul>
 
 </nav>
-  <div id="main">
-    <div id="content">
-      <div>
+ <div id="main">
+ <div id="content">
+ <div>
 <article class="hentry" role="article">
+ 
+ <header>
+ 
+ <h1 class="entry-title">Further Adventures in Rails Testing</h1>
+ 
+ 
+ <p class="meta">
   
-  <header>
-    
-      <h1 class="entry-title">Further Adventures in Rails Testing</h1>
-    
-    
-      <p class="meta">
-        
 
 
 
@@ -80,36 +80,36 @@
 
 
 
-  
+ 
 
 
 <time datetime="2009-09-27T20:21:54+08:00" pubdate data-updated="true">Sep 27<span>th</span>, 2009</time>
-        
-      </p>
-    
-  </header>
+  
+ </p>
+ 
+ </header>
 
 
-<div class="entry-content"><p>Yesterday I went to &#8221;<a href="http://www.meetup.com/rubyhacknight/calendar/11340056/">Hack Day &#8216;Effective Testing for Rails Projects&#8217;</a>&#8221; at <a href="http://www.viget.com/">Viget Labs</a> in Falls Church. Â After Ruby DCamp I decided I was severely lacking in testing skills as a developer and I&#8217;m trying to do something to remedy that. Â With the promise of &#8220;building a simple Rails application and a pair-programming environment&#8221; as well as &#8220;demonstrating effective testing techniques&#8221; I was sold.</p>
+<div class="entry-content"><p>Yesterday I went to &#8221;<a href="http://www.meetup.com/rubyhacknight/calendar/11340056/">Hack Day &#8216;Effective Testing for Rails Projects&#8217;</a>&#8221; at <a href="http://www.viget.com/">Viget Labs</a> in Falls Church.  After Ruby DCamp I decided I was severely lacking in testing skills as a developer and I&#8217;m trying to do something to remedy that.  With the promise of &#8220;building a simple Rails application and a pair-programming environment&#8221; as well as &#8220;demonstrating effective testing techniques&#8221; I was sold.</p>
 
-<p>I come from a Quality Assurance background so I am used to testing software as it is written. Â Just in the past week have I felt like I am beginning to grasp testing software while it is written. Â The live coding at Hack Day helped further that. Â  The example application we used was &#8221;<a href="http://github.com/mig/outtolunch">Out To Lunch</a>,&#8221; which is a simple app that utilizes the <a href="http://www.yelp.com/developers/documentation">Yelp API</a> to search for locations to eat and then will tell you where to eat lunch each day.</p>
+<p>I come from a Quality Assurance background so I am used to testing software as it is written.  Just in the past week have I felt like I am beginning to grasp testing software while it is written.  The live coding at Hack Day helped further that.   The example application we used was &#8221;<a href="http://github.com/mig/outtolunch">Out To Lunch</a>,&#8221; which is a simple app that utilizes the <a href="http://www.yelp.com/developers/documentation">Yelp API</a> to search for locations to eat and then will tell you where to eat lunch each day.</p>
 
-<p>The session was lead by <a href="http://www.viget.com/about/team/preagan">Patrick Reagan</a> and <a href="http://www.viget.com/about/team/mswasey">Matt Swasey</a>, who did &#8220;Ping Pong Pairing&#8221; a type of paired programming I&#8217;d never seen before. Â In ping pong pairing one developer writes a single test and then runs it and it fails. Â Then the 2nd programmer writes code to make the test pass. Â After that the first programmer writes another test and so on. Â I&#8217;m a little bit competitive in nature and I think this would be a great way to pair. Â Patrick and Matt each had their own keyboard and mouse and think that helps make the switching in this case go more smoothly.</p>
+<p>The session was lead by <a href="http://www.viget.com/about/team/preagan">Patrick Reagan</a> and <a href="http://www.viget.com/about/team/mswasey">Matt Swasey</a>, who did &#8220;Ping Pong Pairing&#8221; a type of paired programming I&#8217;d never seen before.  In ping pong pairing one developer writes a single test and then runs it and it fails.  Then the 2nd programmer writes code to make the test pass.  After that the first programmer writes another test and so on.  I&#8217;m a little bit competitive in nature and I think this would be a great way to pair.  Patrick and Matt each had their own keyboard and mouse and think that helps make the switching in this case go more smoothly.</p>
 
-<p>We started with the Out to Lunch application from the beginning initially writing a test that asserted &#8220;should be able to accept a zip code&#8221; in the YelpSearcher class. Â From there the code was written to accept the ZIP code and so on. Â It was interesting to watch people work together and troubleshoot. Â Since I&#8217;m fairly new to Ruby on Rails just watching people programming in it teaches me new techniques. Â I also got some term definitions further straight in my head such as stub &#8220;a dummy object that will return whatever you want.&#8221; Â I had never thought about when and where I should be using stubs in my testing before but now it really makes sense for unit tests, since you would want to break the code down to the simplest action possible.</p>
+<p>We started with the Out to Lunch application from the beginning initially writing a test that asserted &#8220;should be able to accept a zip code&#8221; in the YelpSearcher class.  From there the code was written to accept the ZIP code and so on.  It was interesting to watch people work together and troubleshoot.  Since I&#8217;m fairly new to Ruby on Rails just watching people programming in it teaches me new techniques.  I also got some term definitions further straight in my head such as stub &#8220;a dummy object that will return whatever you want.&#8221;  I had never thought about when and where I should be using stubs in my testing before but now it really makes sense for unit tests, since you would want to break the code down to the simplest action possible.</p>
 
 <p>I learned a ton in the three hour class and will be checking out <a href="http://www.meetup.com/rubyhacknight/">Ruby Hack Night</a> soon.</p>
 </div>
 
 
-  <footer>
-    <p class="meta">
-      
-  
+ <footer>
+ <p class="meta">
+ 
+ 
 
 <span class="byline author vcard">Posted by <span class="fn">Kate Chapman</span></span>
 
-      
+ 
 
 
 
@@ -118,70 +118,70 @@
 
 
 
-  
+ 
 
 
 <time datetime="2009-09-27T20:21:54+08:00" pubdate data-updated="true">Sep 27<span>th</span>, 2009</time>
-      
+ 
 
 <span class="categories">
-  
-    <a class='category' href='/maploser/blog/categories/ruby/'>Ruby</a>, <a class='category' href='/maploser/blog/categories/tdd/'>TDD</a>
-  
+ 
+ <a class='category' href='/maploser/blog/categories/ruby/'>Ruby</a>, <a class='category' href='/maploser/blog/categories/tdd/'>TDD</a>
+ 
 </span>
 
 
-    </p>
-    
-      <div class="sharing">
-  
-  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://maploser.com/blog/2009/09/27/further-adventures-in-rails-testinghudsonmicr/" data-via="" data-counturl="http://maploser.com/blog/2009/09/27/further-adventures-in-rails-testinghudsonmicr/" >Tweet</a>
-  
-  
-  
+ </p>
+ 
+ <div class="sharing">
+ 
+ <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://maploser.com/blog/2009/09/27/further-adventures-in-rails-testinghudsonmicr/" data-via="" data-counturl="http://maploser.com/blog/2009/09/27/further-adventures-in-rails-testinghudsonmicr/" >Tweet</a>
+ 
+ 
+ 
 </div>
 
-    
-    <p class="meta">
-      
-        <a class="basic-alignment left" href="/maploser/blog/2009/09/22/mappingdc-osm-editing-tips-and-tricks/" title="Previous Post: MappingDC OSM Editing Tips and Tricks">&laquo; MappingDC OSM Editing Tips and Tricks</a>
-      
-      
-        <a class="basic-alignment right" href="/maploser/blog/2009/10/01/geonerds-in-the-wave/" title="Next Post: GeoNerds in the Wave">GeoNerds in the Wave &raquo;</a>
-      
-    </p>
-  </footer>
+ 
+ <p class="meta">
+ 
+  <a class="basic-alignment left" href="/maploser/blog/2009/09/22/mappingdc-osm-editing-tips-and-tricks/" title="Previous Post: MappingDC OSM Editing Tips and Tricks">&laquo; MappingDC OSM Editing Tips and Tricks</a>
+ 
+ 
+  <a class="basic-alignment right" href="/maploser/blog/2009/10/01/geonerds-in-the-wave/" title="Next Post: GeoNerds in the Wave">GeoNerds in the Wave &raquo;</a>
+ 
+ </p>
+ </footer>
 </article>
 
 </div>
 
 <aside class="sidebar">
-  
-    <section>
-  <h1>Recent Posts</h1>
-  <ul id="recent_posts">
-    
-      <li class="post">
-        <a href="/maploser/blog/2012/05/01/my-shuttleworth-application/">My Shuttleworth Application</a>
-      </li>
-    
-      <li class="post">
-        <a href="/maploser/blog/2012/03/30/all-i-want-for-openstreetmap-is-simple/">All I Want for OpenStreetMap is Simple.</a>
-      </li>
-    
-      <li class="post">
-        <a href="/maploser/blog/2012/03/23/democratizing-spatial/">Democratizing Spatial</a>
-      </li>
-    
-      <li class="post">
-        <a href="/maploser/blog/2012/03/18/crowd-funding-satellite-imagery/">Crowd funding Satellite Imagery</a>
-      </li>
-    
-      <li class="post">
-        <a href="/maploser/blog/2012/03/04/odbl-what-the-heck-can-you-do-with-it/">ODbL, What the Heck Can You Do with It?</a>
-      </li>
-    
-  </ul>
+ 
+ <section>
+ <h1>Recent Posts</h1>
+ <ul id="recent_posts">
+ 
+ <li class="post">
+  <a href="/maploser/blog/2012/05/01/my-shuttleworth-application/">My Shuttleworth Application</a>
+ </li>
+ 
+ <li class="post">
+  <a href="/maploser/blog/2012/03/30/all-i-want-for-openstreetmap-is-simple/">All I Want for OpenStreetMap is Simple.</a>
+ </li>
+ 
+ <li class="post">
+  <a href="/maploser/blog/2012/03/23/democratizing-spatial/">Democratizing Spatial</a>
+ </li>
+ 
+ <li class="post">
+  <a href="/maploser/blog/2012/03/18/crowd-funding-satellite-imagery/">Crowd funding Satellite Imagery</a>
+ </li>
+ 
+ <li class="post">
+  <a href="/maploser/blog/2012/03/04/odbl-what-the-heck-can-you-do-with-it/">ODbL, What the Heck Can You Do with It?</a>
+ </li>
+ 
+ </ul>
 </section>
 
 
@@ -189,19 +189,19 @@
 
 
 
-  
+ 
 </aside>
 
 
-    </div>
-  </div>
-  <footer role="contentinfo"><p>
-  Copyright &copy; 2012 - Kate Chapman -
-  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
+ </div>
+ </div>
+ <footer role="contentinfo"><p>
+ Copyright &copy; 2012 - Kate Chapman -
+ <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
 </p>
 
 </footer>
-  
+ 
 
 
 
@@ -209,15 +209,15 @@
 
 
 
-  <script type="text/javascript">
-    (function(){
-      var twitterWidgets = document.createElement('script');
-      twitterWidgets.type = 'text/javascript';
-      twitterWidgets.async = true;
-      twitterWidgets.src = 'http://platform.twitter.com/widgets.js';
-      document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
-    })();
-  </script>
+ <script type="text/javascript">
+ (function(){
+ var twitterWidgets = document.createElement('script');
+ twitterWidgets.type = 'text/javascript';
+ twitterWidgets.async = true;
+ twitterWidgets.src = 'http://platform.twitter.com/widgets.js';
+ document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
+ })();
+ </script>
 
 
 

@@ -1,26 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Category: spatial analysis | Kate Chapman - Maploser]]></title>
-  <link href="http://maploser.com/blog/categories/spatial-analysis/atom.xml" rel="self"/>
-  <link href="http://maploser.com/"/>
-  <updated>2012-11-30T16:49:41+08:00</updated>
-  <id>http://maploser.com/</id>
-  <author>
-    <name><![CDATA[Kate Chapman]]></name>
-    
-  </author>
-  <generator uri="http://octopress.org/">Octopress</generator>
+ <title><![CDATA[Category: spatial analysis | Kate Chapman - Maploser]]></title>
+ <link href="http://maploser.com/blog/categories/spatial-analysis/atom.xml" rel="self"/>
+ <link href="http://maploser.com/"/>
+ <updated>2012-11-30T16:49:41+08:00</updated>
+ <id>http://maploser.com/</id>
+ <author>
+ <name><![CDATA[Kate Chapman]]></name>
+ 
+ </author>
+ <generator uri="http://octopress.org/">Octopress</generator>
 
-  
-  <entry>
-    <title type="html"><![CDATA[Democratizing Spatial]]></title>
-    <link href="http://maploser.com/blog/2012/03/23/democratizing-spatial/"/>
-    <updated>2012-03-23T19:02:53+08:00</updated>
-    <id>http://maploser.com/blog/2012/03/23/democratizing-spatial</id>
-    <content type="html"><![CDATA[<p><em>note: this post was written as my position paper for the<a href="http://vespucci.org/programme"> 2012 VespucciÂ InstituteÂ </a>. It seemed a shame to bother writing something and just a couple people read it</em></p>
+ 
+ <entry>
+ <title type="html"><![CDATA[Democratizing Spatial]]></title>
+ <link href="http://maploser.com/blog/2012/03/23/democratizing-spatial/"/>
+ <updated>2012-03-23T19:02:53+08:00</updated>
+ <id>http://maploser.com/blog/2012/03/23/democratizing-spatial</id>
+ <content type="html"><![CDATA[<p><em>note: this post was written as my position paper for the<a href="http://vespucci.org/programme"> 2012 Vespucci Institute </a>. It seemed a shame to bother writing something and just a couple people read it</em></p>
 
-<p>The power of providing spatial information to inform decision makers is without question. I believe the real question is â€œWho are decision makers?â€ I believe simply â€œeveryone.â€</p>
+<p>The power of providing spatial information to inform decision makers is without question. I believe the real question is €œWho are decision makers?€ I believe simply €œeveryone.€</p>
 
 <p>Everyday people make decisions:</p>
 
@@ -41,14 +41,14 @@
 </ul>
 
 
-<p>Not everyone had access to the data and tools to make these decisions. Over the past year Iâ€™ve been working in Indonesia on a project to utilize OpenStreetMap to collect information on where people live for risk modeling. Â A big portion of the task has involved finding people already doing mapping and helping them do it openly and digitally. Â This has been the most exciting portion of the project because it has allowed me to work with community facilitators in Eastern Indonesia performing poverty mapping.</p>
+<p>Not everyone had access to the data and tools to make these decisions. Over the past year I€™ve been working in Indonesia on a project to utilize OpenStreetMap to collect information on where people live for risk modeling.  A big portion of the task has involved finding people already doing mapping and helping them do it openly and digitally.  This has been the most exciting portion of the project because it has allowed me to work with community facilitators in Eastern Indonesia performing poverty mapping.</p>
 
-<p>The <a href="http://www.access-indo.or.id/">Australian Community Development and Civil Society Strengthening Scheme (ACCESS)</a> is an initiative between the Australia and Indonesia governments to strengthen civil society by helping create demand for better governance. Â A portion of the project involves development of poverty maps so villages can see and discuss their situations. These maps are typically either handmade or created using CorelDraw with no geospatial aspect. Â In July 2011 the <a href="http://hot.openstreetmap.org">Humanitarian OpenStreetMap Team </a>(HOT) began teaching OpenStreetMap to the community facilitators to assist in their poverty mapping. Â Eventually software was built to split the OpenStreetMap public information from the private poverty information and GIS software was used to make poverty maps. Now the community can quickly have different types of maps without the long process of redrawing and recoloring everything manually. Â Instead they configure different themes in their GIS maps and can show them quickly.</p>
+<p>The <a href="http://www.access-indo.or.id/">Australian Community Development and Civil Society Strengthening Scheme (ACCESS)</a> is an initiative between the Australia and Indonesia governments to strengthen civil society by helping create demand for better governance.  A portion of the project involves development of poverty maps so villages can see and discuss their situations. These maps are typically either handmade or created using CorelDraw with no geospatial aspect.  In July 2011 the <a href="http://hot.openstreetmap.org">Humanitarian OpenStreetMap Team </a>(HOT) began teaching OpenStreetMap to the community facilitators to assist in their poverty mapping.  Eventually software was built to split the OpenStreetMap public information from the private poverty information and GIS software was used to make poverty maps. Now the community can quickly have different types of maps without the long process of redrawing and recoloring everything manually.  Instead they configure different themes in their GIS maps and can show them quickly.</p>
 
-<p>The power of bringing geographic analysis to rural Indonesia to the people making decisions at a local level is huge. It reduces the time to update the maps and because of the flexibility of the data allows other uses. For example one of the groups trained mapped all of the local government projects and then made a dashboard for the local government so they could look at project costs. Another group has a plan to map all 90 villages in their regency, so far theyâ€™ve completed 11. What is amazing is all of the data that can be open is available in OpenStreetMap. Â This allows other groups such as the National Disaster Agency of Indonesia (BNPB) to take that information and run exposure models when performing contingency plans.</p>
+<p>The power of bringing geographic analysis to rural Indonesia to the people making decisions at a local level is huge. It reduces the time to update the maps and because of the flexibility of the data allows other uses. For example one of the groups trained mapped all of the local government projects and then made a dashboard for the local government so they could look at project costs. Another group has a plan to map all 90 villages in their regency, so far they€™ve completed 11. What is amazing is all of the data that can be open is available in OpenStreetMap.  This allows other groups such as the National Disaster Agency of Indonesia (BNPB) to take that information and run exposure models when performing contingency plans.</p>
 
-<p>When this project began it would have been impossible to determine all the possibilities. Through the use of Volunteered Geographic Information, simple GIS and cartography groups are empowered to make better decisions. Â When more people are empowered it is difficult to determine what all the positive externalities are that will happen. That is why I believe it is so important to enable geographic decision by those who need it, which is everyone.</p>
+<p>When this project began it would have been impossible to determine all the possibilities. Through the use of Volunteered Geographic Information, simple GIS and cartography groups are empowered to make better decisions.  When more people are empowered it is difficult to determine what all the positive externalities are that will happen. That is why I believe it is so important to enable geographic decision by those who need it, which is everyone.</p>
 ]]></content>
-  </entry>
-  
+ </entry>
+ 
 </feed>

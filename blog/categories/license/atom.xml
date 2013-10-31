@@ -1,36 +1,36 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Category: license | Kate Chapman - Maploser]]></title>
-  <link href="http://maploser.com/blog/categories/license/atom.xml" rel="self"/>
-  <link href="http://maploser.com/"/>
-  <updated>2012-11-30T16:49:41+08:00</updated>
-  <id>http://maploser.com/</id>
-  <author>
-    <name><![CDATA[Kate Chapman]]></name>
-    
-  </author>
-  <generator uri="http://octopress.org/">Octopress</generator>
+ <title><![CDATA[Category: license | Kate Chapman - Maploser]]></title>
+ <link href="http://maploser.com/blog/categories/license/atom.xml" rel="self"/>
+ <link href="http://maploser.com/"/>
+ <updated>2012-11-30T16:49:41+08:00</updated>
+ <id>http://maploser.com/</id>
+ <author>
+ <name><![CDATA[Kate Chapman]]></name>
+ 
+ </author>
+ <generator uri="http://octopress.org/">Octopress</generator>
 
-  
-  <entry>
-    <title type="html"><![CDATA[ODbL, What the Heck Can You Do with It?]]></title>
-    <link href="http://maploser.com/blog/2012/03/04/odbl-what-the-heck-can-you-do-with-it/"/>
-    <updated>2012-03-04T04:01:30+08:00</updated>
-    <id>http://maploser.com/blog/2012/03/04/odbl-what-the-heck-can-you-do-with-it</id>
-    <content type="html"><![CDATA[<p><em>disclaimer: I am not a lawyer, I've never pretended to be a lawyer and I'm not qualified to give legal advice. This is myÂ interpretationÂ of what the ODbL license means for usage in OpenStreetMap and what I am going to follow unless someone tells me otherwise.</em></p>
+ 
+ <entry>
+ <title type="html"><![CDATA[ODbL, What the Heck Can You Do with It?]]></title>
+ <link href="http://maploser.com/blog/2012/03/04/odbl-what-the-heck-can-you-do-with-it/"/>
+ <updated>2012-03-04T04:01:30+08:00</updated>
+ <id>http://maploser.com/blog/2012/03/04/odbl-what-the-heck-can-you-do-with-it</id>
+ <content type="html"><![CDATA[<p><em>disclaimer: I am not a lawyer, I've never pretended to be a lawyer and I'm not qualified to give legal advice. This is my interpretation of what the ODbL license means for usage in OpenStreetMap and what I am going to follow unless someone tells me otherwise.</em></p>
 
 <h2>Background</h2>
 
-<p>Though my work at the <a href="http://hot.openstreetmap.org/">Humanitarian OpenStreetMap Team</a>Â I am often asked questions about the <a href="http://www.openstreetmap.org/">OpenStreetMap</a> license, which is in process to switch from <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA 2.0</a> to <a href="http://opendatacommons.org/licenses/odbl/1.0/">ODbL 1.0</a>. The <a href="http://www.osmfoundation.org/wiki/License/Why_CC_BY-SA_is_Unsuitable">OpenStreetMap Foundation</a> has written much about the reason for the switch, so I'm not going to go deeply into that other than CC-BY-SA does not work for data globally. The reason for this blog post though is when I haven't been deep in licensing for a while I tend to forget details, perhaps you have the same issue. Â This is for both of us to have a summary. The information below is specifically related to the OpenStreetMap project, there has been much community discussion and guidelines produced leading up to the license change. The usefulness of this information for other projects may vary.</p>
+<p>Though my work at the <a href="http://hot.openstreetmap.org/">Humanitarian OpenStreetMap Team</a> I am often asked questions about the <a href="http://www.openstreetmap.org/">OpenStreetMap</a> license, which is in process to switch from <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA 2.0</a> to <a href="http://opendatacommons.org/licenses/odbl/1.0/">ODbL 1.0</a>. The <a href="http://www.osmfoundation.org/wiki/License/Why_CC_BY-SA_is_Unsuitable">OpenStreetMap Foundation</a> has written much about the reason for the switch, so I'm not going to go deeply into that other than CC-BY-SA does not work for data globally. The reason for this blog post though is when I haven't been deep in licensing for a while I tend to forget details, perhaps you have the same issue.  This is for both of us to have a summary. The information below is specifically related to the OpenStreetMap project, there has been much community discussion and guidelines produced leading up to the license change. The usefulness of this information for other projects may vary.</p>
 
-<p><em>note: OpenStreetMap is switching fully to ODbL on April 1st, so these guidelines will best apply after that date. Â They are however useful for planning now.</em></p>
+<p><em>note: OpenStreetMap is switching fully to ODbL on April 1st, so these guidelines will best apply after that date.  They are however useful for planning now.</em></p>
 
 <h2>Summary</h2>
 
-<p>The basic premise of ODbL is that the license provides that anyone can use the released data for commercial or non-commercial use. This is providing that you give attribution and if you improve the database you release the resulting database under ODbL or a similarÂ compatibleÂ license.</p>
+<p>The basic premise of ODbL is that the license provides that anyone can use the released data for commercial or non-commercial use. This is providing that you give attribution and if you improve the database you release the resulting database under ODbL or a similar compatible license.</p>
 
-<p>Part of ODbL is also the licensing of the data in the database, which requires the D<a href="http://opendatacommons.org/licenses/dbcl/">atabase Contents License</a>Â or DbCL. I'm not going into this in this post other than to state it is the licensing of the content in the database. Additionally OpenStreetMap is adding contributor terms with the license change, this isÂ separateÂ from the license though will make it easier in the future to change or upgrade the license as needed.</p>
+<p>Part of ODbL is also the licensing of the data in the database, which requires the D<a href="http://opendatacommons.org/licenses/dbcl/">atabase Contents License</a> or DbCL. I'm not going into this in this post other than to state it is the licensing of the content in the database. Additionally OpenStreetMap is adding contributor terms with the license change, this is separate from the license though will make it easier in the future to change or upgrade the license as needed.</p>
 
 <h2>Important Terms</h2>
 
@@ -41,7 +41,7 @@
 <li><p>Derivative Database</p></li>
 <li><p>Produced Work</p></li>
 <li><p>Extraction</p></li>
-<li><p>Substantial: Refers to the data and the amount/quality of the data. In the OpenStreetMap wiki there are guidelines as to what is <em>Insubstantial</em>Â in reference to the OpenStreetMap project.</p></li>
+<li><p>Substantial: Refers to the data and the amount/quality of the data. In the OpenStreetMap wiki there are guidelines as to what is <em>Insubstantial</em> in reference to the OpenStreetMap project.</p></li>
 </ul>
 
 
@@ -51,8 +51,8 @@
 
 <ul>
 <li><p>Insubstantial: Less than 100 Features. More than 100 Features if the extraction is non-systematic and clearly based on your own qualitative criteria. The features relate to an area of up to 1,000 inhabitants. (7)</p></li>
-<li><p>Trivial Transformations: Situations where a derived database is created but releasing it doesn't really add value and the size of the database could possibly make it difficult to release. Â Examples are rendering databases, routing databases and geocoding databases.</p></li>
-<li><p>Metadata Layers: Situations where other data is linked to OpenStreetMap data. For example a case where data e.g.Â restaurantÂ reviews is linked to the OpenStreetMap data by IDs.</p></li>
+<li><p>Trivial Transformations: Situations where a derived database is created but releasing it doesn't really add value and the size of the database could possibly make it difficult to release.  Examples are rendering databases, routing databases and geocoding databases.</p></li>
+<li><p>Metadata Layers: Situations where other data is linked to OpenStreetMap data. For example a case where data e.g. restaurant reviews is linked to the OpenStreetMap data by IDs.</p></li>
 <li><p>Indexing: A situation where the data is indexed for example by a search engine.</p></li>
 </ul>
 
@@ -69,37 +69,37 @@
 
 <h4>Creating a Map Image</h4>
 
-<p>If you create a map rendering (image) from the OpenStreetMap data you are free to distribute this <em>produced work </em>as you see fit. Â The only requirements are you must attribute OpenStreetMap. The license on the <em>produced work </em>can be anything you want<em>. Â </em>So if I wanted to create a map for my newsletter showing a park that was well mapped in OpenStreetMap I'm allowed to do that. I can license the picture with whatever license I want.</p>
+<p>If you create a map rendering (image) from the OpenStreetMap data you are free to distribute this <em>produced work </em>as you see fit.  The only requirements are you must attribute OpenStreetMap. The license on the <em>produced work </em>can be anything you want<em>.  </em>So if I wanted to create a map for my newsletter showing a park that was well mapped in OpenStreetMap I'm allowed to do that. I can license the picture with whatever license I want.</p>
 
-<p>Often cartographers take a rendered image and then manually make improvements to it. Â Usually this includes things like fixing label positioning, but may also include fixing errors. The resulting work of the artist can be released under any license they want as with the automated rendering, but the improvements for example the fixing errors must be released. It is suggested that the easiest way to do this maybe to <a href="http://wiki.openstreetmap.org/wiki/Open_Data_License/Use_Cases#Using_OSM_data_for_the_production_of_a_hand-made_map">simply add the fixes back into OpenStreetMap</a>.</p>
+<p>Often cartographers take a rendered image and then manually make improvements to it.  Usually this includes things like fixing label positioning, but may also include fixing errors. The resulting work of the artist can be released under any license they want as with the automated rendering, but the improvements for example the fixing errors must be released. It is suggested that the easiest way to do this maybe to <a href="http://wiki.openstreetmap.org/wiki/Open_Data_License/Use_Cases#Using_OSM_data_for_the_production_of_a_hand-made_map">simply add the fixes back into OpenStreetMap</a>.</p>
 
 <h4>Using the OpenStreetMap Data for Geocoding</h4>
 
-<p>You have created a geocoder that using OpenStreetMap data by itself. Part of the process of geocoding is first indexing the data. There is a resultingÂ <em>derivedÂ work </em>in this case which is the geocoding database. Â According to the ODbL license <a href="http://wiki.openstreetmap.org/wiki/Open_Data_License/Trivial_Transformations_-_Guideline">either the resulting database, the modifications or the algorithm should be provided</a>.</p>
+<p>You have created a geocoder that using OpenStreetMap data by itself. Part of the process of geocoding is first indexing the data. There is a resulting <em>derived work </em>in this case which is the geocoding database.  According to the ODbL license <a href="http://wiki.openstreetmap.org/wiki/Open_Data_License/Trivial_Transformations_-_Guideline">either the resulting database, the modifications or the algorithm should be provided</a>.</p>
 
 <p><em>note: there is some disagreement about if these is how far OpenStreetMap would want to take this idea, but currently the interpretation of the license.</em></p>
 
 <h4>Search Engine Indexes OpenStreetMap Data</h4>
 
-<p>You have a search engine which crawls all the OpenStreetMap data. When a user searches for a specificÂ restaurantÂ on your search engine it provides a link to that restaurant on the OpenStreetMap website. This is considered <em><a href="http://wiki.openstreetmap.org/wiki/Open_Data_License/Indexing_-_Guideline">fair use</a></em>Â in the OpenStreetMap community guidelines, this is because it indexing the OpenStreetMap webpages and these are <em>produced works</em>.</p>
+<p>You have a search engine which crawls all the OpenStreetMap data. When a user searches for a specific restaurant on your search engine it provides a link to that restaurant on the OpenStreetMap website. This is considered <em><a href="http://wiki.openstreetmap.org/wiki/Open_Data_License/Indexing_-_Guideline">fair use</a></em> in the OpenStreetMap community guidelines, this is because it indexing the OpenStreetMap webpages and these are <em>produced works</em>.</p>
 
 <h3>Use of OpenStreetMap Data with Other Data</h3>
 
 <h4>Geocoding Using OpenStreetMap</h4>
 
-<p>AnÂ organizationÂ has a list of members and wants to geocode that list to create a map. The resulting geocoded address is a <em>derived database</em>, but at what point do they need to release under a compatible license? In this situation the guideline of what isÂ <em>substantial</em>(<a href="http://wiki.openstreetmap.org/wiki/Open_Data_License/Substantial_-_Guideline">7</a>)Â comes into effect. According to the community guidelines if more than 100 records were in the database it would need to be released under ODbL.</p>
+<p>An organization has a list of members and wants to geocode that list to create a map. The resulting geocoded address is a <em>derived database</em>, but at what point do they need to release under a compatible license? In this situation the guideline of what is <em>substantial</em>(<a href="http://wiki.openstreetmap.org/wiki/Open_Data_License/Substantial_-_Guideline">7</a>) comes into effect. According to the community guidelines if more than 100 records were in the database it would need to be released under ODbL.</p>
 
 <h4>Improving Another Dataset</h4>
 
-<p>Let's say you took the extract OpenStreetMap database and extracted all theÂ restaurants. Â You then manually went through all theÂ restaurantÂ to verify their locations and corrected those that were incorrect. Â You then used thisÂ <em>derivedÂ database </em>to make an internal presentation to your marketing department. In this case you did make aÂ <em>derivedÂ database</em>, but neither distributed the database or the produced work. Â It is unnecessary to then release the data under ODbL.</p>
+<p>Let's say you took the extract OpenStreetMap database and extracted all the restaurants.  You then manually went through all the restaurant to verify their locations and corrected those that were incorrect.  You then used this <em>derived database </em>to make an internal presentation to your marketing department. In this case you did make a <em>derived database</em>, but neither distributed the database or the produced work.  It is unnecessary to then release the data under ODbL.</p>
 
-<p>After your presentation your boss came to you and said they wanted to use the information from your presentation in a product helping other marketers analyzeÂ restaurantÂ locations. This would be distributed to all of your customers. Â In this case your <em>produced work </em>or perhaps yourÂ <em>derivedÂ database </em>depending on the type of product are being distributed so you would need to release the information ODbL.</p>
+<p>After your presentation your boss came to you and said they wanted to use the information from your presentation in a product helping other marketers analyze restaurant locations. This would be distributed to all of your customers.  In this case your <em>produced work </em>or perhaps your <em>derived database </em>depending on the type of product are being distributed so you would need to release the information ODbL.</p>
 
 <h4>You reference IDs to the database from another database</h4>
 
-<p>The example from the OpenStreetMap wiki is you have a site that collects restaurant reviews and you link those toÂ restaurantsÂ mapped in OpenStreetMap by the ID(<a href="http://wiki.openstreetmap.org/wiki/Open_Data_License/Metadata_Layers_-_Guideline">10</a>). It is stated "The "Fairhurst Doctrine" (previously discussed on theÂ <a href="http://lists.openstreetmap.org/pipermail/legal-talk/2009-October/002881.html">mailing list</a>) solves this by saying that any mapping of machine-produced primary keys (e.g: OSM node IDs to review IDs), as it doesn't "represent ... significant investment", doesn't meet the definition of "Substantial", therefore is not a Derivative Database."</p>
+<p>The example from the OpenStreetMap wiki is you have a site that collects restaurant reviews and you link those to restaurants mapped in OpenStreetMap by the ID(<a href="http://wiki.openstreetmap.org/wiki/Open_Data_License/Metadata_Layers_-_Guideline">10</a>). It is stated "The "Fairhurst Doctrine" (previously discussed on the <a href="http://lists.openstreetmap.org/pipermail/legal-talk/2009-October/002881.html">mailing list</a>) solves this by saying that any mapping of machine-produced primary keys (e.g: OSM node IDs to review IDs), as it doesn't "represent ... significant investment", doesn't meet the definition of "Substantial", therefore is not a Derivative Database."</p>
 
-<p>My personal example of this is through some work that the <a href="http://hot.openstreetmap.org/">Humanitarian OpenStreetMap Team</a> has done in Indonesia. We've been working with community facilitators to help them map poverty. Â Building information goes directly into OpenStreetMap and the poverty information goes into aÂ separateÂ database linked by the OpenStreetMap ID. Originally this was done by typing the OSM ID directly into Excel, now there is an application that links the two. Â When someone wants to make a poverty map they download the OpenStreetMap data as a Shapefile and link it to their spreadsheet. When we built this system my understanding was that there was not issue because the data was not going to be distributed. Â The issue being that poverty data is private information and it isn't fair to expect people to make it public. Â According to the "Fairhurst Doctrine" it appears that we would be okay to distribute it to other groups without having to release it ODbL.</p>
+<p>My personal example of this is through some work that the <a href="http://hot.openstreetmap.org/">Humanitarian OpenStreetMap Team</a> has done in Indonesia. We've been working with community facilitators to help them map poverty.  Building information goes directly into OpenStreetMap and the poverty information goes into a separate database linked by the OpenStreetMap ID. Originally this was done by typing the OSM ID directly into Excel, now there is an application that links the two.  When someone wants to make a poverty map they download the OpenStreetMap data as a Shapefile and link it to their spreadsheet. When we built this system my understanding was that there was not issue because the data was not going to be distributed.  The issue being that poverty data is private information and it isn't fair to expect people to make it public.  According to the "Fairhurst Doctrine" it appears that we would be okay to distribute it to other groups without having to release it ODbL.</p>
 
 <h2>References</h2>
 
@@ -119,23 +119,23 @@
 </ol>
 
 ]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Imagery Pre-disaster Let's Do Better]]></title>
-    <link href="http://maploser.com/blog/2011/07/06/imagery-pre-disaster-lets-do-better/"/>
-    <updated>2011-07-06T23:57:20+08:00</updated>
-    <id>http://maploser.com/blog/2011/07/06/imagery-pre-disaster-lets-do-better</id>
-    <content type="html"><![CDATA[<p>This week is the first expert meeting regarding Space Based Technology and Crowd-Sourcing being hosted by UN-SPIDER.  I am not attending, but from the Twitter stream (#spidercrowd) it appears there has been a lively discussion on using satellite information and crowd-sourcing for disaster response.  What I believe is often missing from these types of conversations is preparedness.  Maybe it is presumptuous of me to discuss preparedness when imagery isn't available freely every time for every disaster.</p>
+ </entry>
+ 
+ <entry>
+ <title type="html"><![CDATA[Imagery Pre-disaster Let's Do Better]]></title>
+ <link href="http://maploser.com/blog/2011/07/06/imagery-pre-disaster-lets-do-better/"/>
+ <updated>2011-07-06T23:57:20+08:00</updated>
+ <id>http://maploser.com/blog/2011/07/06/imagery-pre-disaster-lets-do-better</id>
+ <content type="html"><![CDATA[<p>This week is the first expert meeting regarding Space Based Technology and Crowd-Sourcing being hosted by UN-SPIDER. I am not attending, but from the Twitter stream (#spidercrowd) it appears there has been a lively discussion on using satellite information and crowd-sourcing for disaster response. What I believe is often missing from these types of conversations is preparedness. Maybe it is presumptuous of me to discuss preparedness when imagery isn't available freely every time for every disaster.</p>
 
-<p>I'm typing this email from Padang, Indonesia in Western Sumatra.  Yesterday I hosted a workshop at the <a href="http://www.unand.ac.id/">University of Andalas</a> to teach them about OpenStreetMap as part of the Humanitarian OpenStreetMap Team's project in Indonesia.  This is the fifth workshop I've done at a University in Indonesia. Things went well, much like all of the other workshops I've given.  Students were excited and picked up the tools very quickly.  The one difference?  Available imagery.</p>
+<p>I'm typing this email from Padang, Indonesia in Western Sumatra. Yesterday I hosted a workshop at the <a href="http://www.unand.ac.id/">University of Andalas</a> to teach them about OpenStreetMap as part of the Humanitarian OpenStreetMap Team's project in Indonesia. This is the fifth workshop I've done at a University in Indonesia. Things went well, much like all of the other workshops I've given. Students were excited and picked up the tools very quickly. The one difference? Available imagery.</p>
 
-<p>This region of Indonesia is especially vulnerable to earthquakes and tsunamis, the last major earthquake in <a href="http://en.wikipedia.org/wiki/2009_Sumatra_earthquakes">Padang was in 2009</a>.  In preparing for this workshop series I investigated each area we were going to be working to check for available imagery.  For those not familiar OpenStreetMap is allowed to use Bing's imagery to trace information, this is one of the major sources of imagery for OpenStreetMap.  In checking I looked at Jakarta, Bandung, Yogyakarta and Surabaya.  All four of these cities had really night, half-meter or so imagery.  In Padang?  It appears to just be Landsat.  I think this highlights the need for imagery to be available beforehand though.  If something major happened here I think it is likely imagery would become freely available.  Though creating a detailed map through crowd-sourcing?  That would take a week or two and be a huge effort from people that don't know the area as well as locals.  So why not map ahead of time?  Imagine the power if after an event the map just had to be updated, instead of created?</p>
+<p>This region of Indonesia is especially vulnerable to earthquakes and tsunamis, the last major earthquake in <a href="http://en.wikipedia.org/wiki/2009_Sumatra_earthquakes">Padang was in 2009</a>. In preparing for this workshop series I investigated each area we were going to be working to check for available imagery. For those not familiar OpenStreetMap is allowed to use Bing's imagery to trace information, this is one of the major sources of imagery for OpenStreetMap. In checking I looked at Jakarta, Bandung, Yogyakarta and Surabaya. All four of these cities had really night, half-meter or so imagery. In Padang? It appears to just be Landsat. I think this highlights the need for imagery to be available beforehand though. If something major happened here I think it is likely imagery would become freely available. Though creating a detailed map through crowd-sourcing? That would take a week or two and be a huge effort from people that don't know the area as well as locals. So why not map ahead of time? Imagine the power if after an event the map just had to be updated, instead of created?</p>
 
-<p>There are many different ways imagery could be made available.  Providers could donate it, I'm not asking for the shot the day before, fancy brand new imagery.  What about imagery that is a year old or so?  People purchasing imagery are usually looking for something more recent, the older stuff isn't as valuable.  An imagery fund could be created for preparedness.  What about doing a highschool style fundraiser where everyone purchases and adopts a square kilometer?  When purchasing imagery those doing the purchasing could negotiate for better terms on it.  For example sometimes you can add additional licensees without increasing the cost.  What if everyone purchasing imagery at least asked if they could license the imagery also for OpenStreetMap to use to trace vectors?  Or an even more liberal license if possible.</p>
+<p>There are many different ways imagery could be made available. Providers could donate it, I'm not asking for the shot the day before, fancy brand new imagery. What about imagery that is a year old or so? People purchasing imagery are usually looking for something more recent, the older stuff isn't as valuable. An imagery fund could be created for preparedness. What about doing a highschool style fundraiser where everyone purchases and adopts a square kilometer? When purchasing imagery those doing the purchasing could negotiate for better terms on it. For example sometimes you can add additional licensees without increasing the cost. What if everyone purchasing imagery at least asked if they could license the imagery also for OpenStreetMap to use to trace vectors? Or an even more liberal license if possible.</p>
 
-<p>I'm interested to hear what others think about this and if there are other ideas.  Also don't worry specifically about HOT's project in Padang, we were fortunate to be able to purchase imagery.  As I suggested about licensing above, we also made sure to extend the license to the government and our partners.</p>
+<p>I'm interested to hear what others think about this and if there are other ideas. Also don't worry specifically about HOT's project in Padang, we were fortunate to be able to purchase imagery. As I suggested about licensing above, we also made sure to extend the license to the government and our partners.</p>
 ]]></content>
-  </entry>
-  
+ </entry>
+ 
 </feed>

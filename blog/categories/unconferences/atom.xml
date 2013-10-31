@@ -1,71 +1,71 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Category: unconferences | Kate Chapman - Maploser]]></title>
-  <link href="http://maploser.com/blog/categories/unconferences/atom.xml" rel="self"/>
-  <link href="http://maploser.com/"/>
-  <updated>2012-11-30T16:49:41+08:00</updated>
-  <id>http://maploser.com/</id>
-  <author>
-    <name><![CDATA[Kate Chapman]]></name>
-    
-  </author>
-  <generator uri="http://octopress.org/">Octopress</generator>
+ <title><![CDATA[Category: unconferences | Kate Chapman - Maploser]]></title>
+ <link href="http://maploser.com/blog/categories/unconferences/atom.xml" rel="self"/>
+ <link href="http://maploser.com/"/>
+ <updated>2012-11-30T16:49:41+08:00</updated>
+ <id>http://maploser.com/</id>
+ <author>
+ <name><![CDATA[Kate Chapman]]></name>
+ 
+ </author>
+ <generator uri="http://octopress.org/">Octopress</generator>
 
-  
-  <entry>
-    <title type="html"><![CDATA[WhereCampDC Videos are Up!]]></title>
-    <link href="http://maploser.com/blog/2011/06/24/wherecampdc-videos-are-up/"/>
-    <updated>2011-06-24T12:11:19+08:00</updated>
-    <id>http://maploser.com/blog/2011/06/24/wherecampdc-videos-are-up</id>
-    <content type="html"><![CDATA[<p>Though I was involved in the planning of <a href="http://www.wherecampdc.org/">WhereCampDC</a>, I missed the actual event for the most part. Â Instead I spent the week in Fiesole, Italy at the <a href="http://vespucci.org/">VespucciÂ Institute</a> (I'm sure all of you are now crying for me that missed WhereCampDC). Â At least there is <a href="http://www.wherecampdc.org/2011/04/friday-ignite-spatial/">video taken of the Ignite Spatial talks held at National Geographic</a>.</p>
+ 
+ <entry>
+ <title type="html"><![CDATA[WhereCampDC Videos are Up!]]></title>
+ <link href="http://maploser.com/blog/2011/06/24/wherecampdc-videos-are-up/"/>
+ <updated>2011-06-24T12:11:19+08:00</updated>
+ <id>http://maploser.com/blog/2011/06/24/wherecampdc-videos-are-up</id>
+ <content type="html"><![CDATA[<p>Though I was involved in the planning of <a href="http://www.wherecampdc.org/">WhereCampDC</a>, I missed the actual event for the most part.  Instead I spent the week in Fiesole, Italy at the <a href="http://vespucci.org/">Vespucci Institute</a> (I'm sure all of you are now crying for me that missed WhereCampDC).  At least there is <a href="http://www.wherecampdc.org/2011/04/friday-ignite-spatial/">video taken of the Ignite Spatial talks held at National Geographic</a>.</p>
 
-<p>The combination of the strong geo community in DC plus a great crowd traveling in for the event made the talks really exceptional. Â I was really excited to see<a href="http://sproke.blogspot.com/"> Sophia Parafina's</a> talk "WMS is Dead." Just the title stirs up controversy among the geonerds, controversy is always a good aspect to an ignite talk.</p>
+<p>The combination of the strong geo community in DC plus a great crowd traveling in for the event made the talks really exceptional.  I was really excited to see<a href="http://sproke.blogspot.com/"> Sophia Parafina's</a> talk "WMS is Dead." Just the title stirs up controversy among the geonerds, controversy is always a good aspect to an ignite talk.</p>
 
 <p>No matter what realm of the geospatial world you come from I think there is something to be learned from her talk.</p>
 
-<p><a href="http://twitter.com/#!/jatorre">Javier de la Torre</a> took a different approach to his talk and just showed a really great project. Â I'm always surprised when someone hasn't heard of <a href="http://www.oldweather.org/">Old Weather</a>, it is my favorite crowd-sourcing project (well other than OpenStreetMap;)). Â The only good source of weather data from 100 years or more ago is ships' logs. Â Old Weather makes it fun to transcribe that information and yes you can become the captain of a ship!</p>
+<p><a href="http://twitter.com/#!/jatorre">Javier de la Torre</a> took a different approach to his talk and just showed a really great project.  I'm always surprised when someone hasn't heard of <a href="http://www.oldweather.org/">Old Weather</a>, it is my favorite crowd-sourcing project (well other than OpenStreetMap;)).  The only good source of weather data from 100 years or more ago is ships' logs.  Old Weather makes it fun to transcribe that information and yes you can become the captain of a ship!</p>
 
 <p>All the talks are <a href="http://www.wherecampdc.org/2011/04/friday-ignite-spatial/">listed on the WhereCampDC website</a>, I suggest if you missed the event like I did you check them out.</p>
 ]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[WhereCamp5280 Here We Come!]]></title>
-    <link href="http://maploser.com/blog/2010/11/18/wherecamp5280-here-we-come/"/>
-    <updated>2010-11-18T17:47:35+08:00</updated>
-    <id>http://maploser.com/blog/2010/11/18/wherecamp5280-here-we-come</id>
-    <content type="html"><![CDATA[<p>On Monday night some of FortiusOne was having drinks with <a href="http://geothought.blogspot.com/">Peter Batty</a>, we were sad to be missing WhereCamp5280 this week though.  However in a last minute flash of geonerd brilliance <a href="http://highearthorbit.com/">Andrew Turner</a> booked himself and I last minute flights to Denver for <a href="http://www.wherecamp5280.org">WhereCamp5280</a>.  The second year of this unconference of all things location and geo I'm excited to see what sessions people propose this year.  Last year there were talks on everything from <a href="http://couchdb.apache.org/">CouchDB</a> by my now coworker <a href="http://twitter.com/cwhelm">Chris Helm</a> to <a href="http://www.openstreetmap.org">OpenStreetMap</a> to traditional GIS.  This year there appears to be many more people coming from out of town so I expect even more excitement.  Supermayor coconspirators <a href="http://www.mweisman.com/">Michael Wiseman</a> and <a href="http://www.spatiallyadjusted.com/">James Fee</a> as well as fellow <a href="https://twitter.com/timeline/search?q=geoglitterdomination">GeoGlitterDomination</a> expert <a href="http://twitter.com/theaclay">Thea Clay</a> are attending just to name a few.</p>
+ </entry>
+ 
+ <entry>
+ <title type="html"><![CDATA[WhereCamp5280 Here We Come!]]></title>
+ <link href="http://maploser.com/blog/2010/11/18/wherecamp5280-here-we-come/"/>
+ <updated>2010-11-18T17:47:35+08:00</updated>
+ <id>http://maploser.com/blog/2010/11/18/wherecamp5280-here-we-come</id>
+ <content type="html"><![CDATA[<p>On Monday night some of FortiusOne was having drinks with <a href="http://geothought.blogspot.com/">Peter Batty</a>, we were sad to be missing WhereCamp5280 this week though. However in a last minute flash of geonerd brilliance <a href="http://highearthorbit.com/">Andrew Turner</a> booked himself and I last minute flights to Denver for <a href="http://www.wherecamp5280.org">WhereCamp5280</a>. The second year of this unconference of all things location and geo I'm excited to see what sessions people propose this year. Last year there were talks on everything from <a href="http://couchdb.apache.org/">CouchDB</a> by my now coworker <a href="http://twitter.com/cwhelm">Chris Helm</a> to <a href="http://www.openstreetmap.org">OpenStreetMap</a> to traditional GIS. This year there appears to be many more people coming from out of town so I expect even more excitement. Supermayor coconspirators <a href="http://www.mweisman.com/">Michael Wiseman</a> and <a href="http://www.spatiallyadjusted.com/">James Fee</a> as well as fellow <a href="https://twitter.com/timeline/search?q=geoglitterdomination">GeoGlitterDomination</a> expert <a href="http://twitter.com/theaclay">Thea Clay</a> are attending just to name a few.</p>
 
-<p>Things kick off with a <a href="http://wc5280hack.pbworks.com/w/page/31710459/WhereCamp-5280-Unofficial-Programmers-meetup">hackday today</a>. I'm hoping to continue work on pushing more social media streams into GeoCommons for temporal analysis, though if previous events are any indication it is entirely possible someone will have a shiny other project I'll get distracted by.  Tomorrow is the regular unconference which I expect a similar mix of academic geography, open source and traditional GIS, though perhaps with a bit more neogeography mixed in this year.  I won't be attending the Saturday event but there is <a href="http://www.meetup.com/OSM-Colorado/calendar/14925674/">ski mapping party</a> as well.   Overall I'm excited for a fun couple of days of geohacking and discussion!</p>
+<p>Things kick off with a <a href="http://wc5280hack.pbworks.com/w/page/31710459/WhereCamp-5280-Unofficial-Programmers-meetup">hackday today</a>. I'm hoping to continue work on pushing more social media streams into GeoCommons for temporal analysis, though if previous events are any indication it is entirely possible someone will have a shiny other project I'll get distracted by. Tomorrow is the regular unconference which I expect a similar mix of academic geography, open source and traditional GIS, though perhaps with a bit more neogeography mixed in this year. I won't be attending the Saturday event but there is <a href="http://www.meetup.com/OSM-Colorado/calendar/14925674/">ski mapping party</a> as well. Overall I'm excited for a fun couple of days of geohacking and discussion!</p>
 ]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[WhereCampPDX Locative Games Day]]></title>
-    <link href="http://maploser.com/blog/2009/10/06/wherecamppdx-locative-games-day/"/>
-    <updated>2009-10-06T05:43:05+08:00</updated>
-    <id>http://maploser.com/blog/2009/10/06/wherecamppdx-locative-games-day</id>
-    <content type="html"><![CDATA[<p>Sunday at <a href="http://www.wherecamppdx.org/">WhereCampPDX</a> was Locative Games. I played <a href="http://pacmanhattan.com/">PacManhattan</a> and did some geocaching. Â I had heard of PacManhattan before, but playing is believing. Â Essentially it is PacMan, but played in the real world with real people as both PacMan and the ghosts. Â All of the ghosts wore rain ponchos to look more ghostlike. Â Below is me playing Clyde.</p>
+ </entry>
+ 
+ <entry>
+ <title type="html"><![CDATA[WhereCampPDX Locative Games Day]]></title>
+ <link href="http://maploser.com/blog/2009/10/06/wherecamppdx-locative-games-day/"/>
+ <updated>2009-10-06T05:43:05+08:00</updated>
+ <id>http://maploser.com/blog/2009/10/06/wherecamppdx-locative-games-day</id>
+ <content type="html"><![CDATA[<p>Sunday at <a href="http://www.wherecamppdx.org/">WhereCampPDX</a> was Locative Games. I played <a href="http://pacmanhattan.com/">PacManhattan</a> and did some geocaching.  I had heard of PacManhattan before, but playing is believing.  Essentially it is PacMan, but played in the real world with real people as both PacMan and the ghosts.  All of the ghosts wore rain ponchos to look more ghostlike.  Below is me playing Clyde.</p>
 
 <p>[caption id="" align="aligncenter" width="614" caption="Image Courtesy of Spinnerin's Flickr Stream"]<a href="http://www.flickr.com/photos/ame/3983241192/"><img src="http://farm3.static.flickr.com/2582/3983241192_46ff8e3005_b.jpg" alt="Kate wearing a poncho playing Cylde the Ghost" /></a>[/caption]</p>
 
-<p>Apparently last year the game was played by calling back to homebase to update your position. Â This year there was an web application that updated everyone's location utilizes the javascript geolocation API in the phone. Â The game works the same as regular PacMan, but PacMan picks up virtual pellets which disappear from his screen as he passes them. Â There were some technical glitches with the iPhone updating location, but it was still a lot of fun.</p>
+<p>Apparently last year the game was played by calling back to homebase to update your position.  This year there was an web application that updated everyone's location utilizes the javascript geolocation API in the phone.  The game works the same as regular PacMan, but PacMan picks up virtual pellets which disappear from his screen as he passes them.  There were some technical glitches with the iPhone updating location, but it was still a lot of fun.</p>
 
-<p>The best part of the game was when we were walking to the starting corral. Â Everyone was wearing a poncho despite the perfect weather and staring down at their phone. Â We walked by a guy who tried to put his amusement into words, but just burst out laughing.</p>
+<p>The best part of the game was when we were walking to the starting corral.  Everyone was wearing a poncho despite the perfect weather and staring down at their phone.  We walked by a guy who tried to put his amusement into words, but just burst out laughing.</p>
 
-<p>In the afternoon we did some geocaching. Â Apparently standard geocaching latitude and longitude format is Degrees:Decimal Minutes, the iPhone applications most of us had didn't support that format. Â The two methods people used to make use of the points were either convert the locations to Decimal Degrees or download free iPhone apps until they found one that supported the format. Â My geocaching partner <a href="http://reidbeels.com/">Reid Beels</a> and I opted to download iPhone apps until we found one that would work. Â We settled on MotionX GPS Lite, which had an odd mix of features for a free app, I can only imagine what extra features the paid version has. Â The free version had multiple map views and even iPod controls within it. Â The one feature that was limited was that you could only save 3 waypoints. Â Once we resolved the location format issues we were on our way and managed to come in second place. Â For our efforts we won a compass, some <a href="http://www.geocaching.com/track/travelbugs.aspx">travel bug</a>s and a geocaching patch. Â A travel bug is something trackable that moved from cache to cache.</p>
+<p>In the afternoon we did some geocaching.  Apparently standard geocaching latitude and longitude format is Degrees:Decimal Minutes, the iPhone applications most of us had didn't support that format.  The two methods people used to make use of the points were either convert the locations to Decimal Degrees or download free iPhone apps until they found one that supported the format.  My geocaching partner <a href="http://reidbeels.com/">Reid Beels</a> and I opted to download iPhone apps until we found one that would work.  We settled on MotionX GPS Lite, which had an odd mix of features for a free app, I can only imagine what extra features the paid version has.  The free version had multiple map views and even iPod controls within it.  The one feature that was limited was that you could only save 3 waypoints.  Once we resolved the location format issues we were on our way and managed to come in second place.  For our efforts we won a compass, some <a href="http://www.geocaching.com/track/travelbugs.aspx">travel bug</a>s and a geocaching patch.  A travel bug is something trackable that moved from cache to cache.</p>
 
-<p>Location games were a great followup to the hacking and sessions of the day before. Â WhereCampPDX was one of the best unconferences I've ever attended. Â It was well organized without being too controlled with a great a mix of people. Thanks everyone who organized as well as attended, it was an enjoyable time.</p>
+<p>Location games were a great followup to the hacking and sessions of the day before.  WhereCampPDX was one of the best unconferences I've ever attended.  It was well organized without being too controlled with a great a mix of people. Thanks everyone who organized as well as attended, it was an enjoyable time.</p>
 ]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[WhereCampPDX Unconference Session Day Summary]]></title>
-    <link href="http://maploser.com/blog/2009/10/04/wherecamppdx-unconference-day-summary/"/>
-    <updated>2009-10-04T18:08:56+08:00</updated>
-    <id>http://maploser.com/blog/2009/10/04/wherecamppdx-unconference-day-summary</id>
-    <content type="html"><![CDATA[<p>Yesterday was the unconference session portion of <a href="http://www.wherecamppdx.org/">WhereCampPDX</a>. Â Meaning that there were sessions. Â I lead a discussion on <a href="http://www.osm.org">OpenStreetMap</a> in the United States. Â It was the first time people have worded questions to me in the form of "What does the OpenStreetMap think about...." Â Getting across the free flowing community was somewhat difficult to explain for some reason, even with the Wikipedia parallel. Â A lot of interesting ideas came out of the session though, such as new renders for people that live or spend a lot of time outside. Â A potential rending of places with external outlets, water and places to sleep for example. Â There was also some interest in getting a two way data flow between government and OSM. Â In Washington D.C. we have been discussing how that model could potentially work and it appears that other governments might forward once there are some sample models out there.</p>
+ </entry>
+ 
+ <entry>
+ <title type="html"><![CDATA[WhereCampPDX Unconference Session Day Summary]]></title>
+ <link href="http://maploser.com/blog/2009/10/04/wherecamppdx-unconference-day-summary/"/>
+ <updated>2009-10-04T18:08:56+08:00</updated>
+ <id>http://maploser.com/blog/2009/10/04/wherecamppdx-unconference-day-summary</id>
+ <content type="html"><![CDATA[<p>Yesterday was the unconference session portion of <a href="http://www.wherecamppdx.org/">WhereCampPDX</a>.  Meaning that there were sessions.  I lead a discussion on <a href="http://www.osm.org">OpenStreetMap</a> in the United States.  It was the first time people have worded questions to me in the form of "What does the OpenStreetMap think about...."  Getting across the free flowing community was somewhat difficult to explain for some reason, even with the Wikipedia parallel.  A lot of interesting ideas came out of the session though, such as new renders for people that live or spend a lot of time outside.  A potential rending of places with external outlets, water and places to sleep for example.  There was also some interest in getting a two way data flow between government and OSM.  In Washington D.C. we have been discussing how that model could potentially work and it appears that other governments might forward once there are some sample models out there.</p>
 
 <p>In addition to leading a session I also attended an assortment of sessions:</p>
 
@@ -78,29 +78,29 @@
 </ul>
 
 
-<p>All of these sessions were really enjoyable. Â Next week I think I'm going to give the "Utilizing Locative Technologies to Survive the Zombie Apocalypse" its own update, because I can't fit all the zombie goodness in this update. Â Geomena really got me thinking about small hardware to collect WiFi locations. Â I could potentially just stick a laptop in my car, but I think it would be even better to have something I could carry while on foot. Â Since the iPhone battery life is not that great and it can't have background processes I don't think it is the ideal tool. Â I was thinking perhaps an Android phone without having cellular service.</p>
+<p>All of these sessions were really enjoyable.  Next week I think I'm going to give the "Utilizing Locative Technologies to Survive the Zombie Apocalypse" its own update, because I can't fit all the zombie goodness in this update.  Geomena really got me thinking about small hardware to collect WiFi locations.  I could potentially just stick a laptop in my car, but I think it would be even better to have something I could carry while on foot.  Since the iPhone battery life is not that great and it can't have background processes I don't think it is the ideal tool.  I was thinking perhaps an Android phone without having cellular service.</p>
 
-<p>The Virtual Geocaching and Games was a fun session. Â As an <a href="http://xkcd.com">XKCD</a> fan and geonerd I was somewhat surprised I had never heard of <a href="http://wiki.xkcd.com/geohashing/Main_Page">geohashing</a>. Â Geohashing essentially calculates a random place for people to meet. Â The official meetups are 4pm every Saturday at you whole number Latitude and Longitude with the random calculator determining the decimal. Â Mine graticule would be 38,-77. Â <a href="http://wiki.xkcd.com/geohashing/Washington_%28West%29%2C_District_of_Columbia">Washington D.</a>C. seems somewhat quiet in the geohashing realm, but I'd like to try to do it one day.</p>
+<p>The Virtual Geocaching and Games was a fun session.  As an <a href="http://xkcd.com">XKCD</a> fan and geonerd I was somewhat surprised I had never heard of <a href="http://wiki.xkcd.com/geohashing/Main_Page">geohashing</a>.  Geohashing essentially calculates a random place for people to meet.  The official meetups are 4pm every Saturday at you whole number Latitude and Longitude with the random calculator determining the decimal.  Mine graticule would be 38,-77.  <a href="http://wiki.xkcd.com/geohashing/Washington_%28West%29%2C_District_of_Columbia">Washington D.</a>C. seems somewhat quiet in the geohashing realm, but I'd like to try to do it one day.</p>
 
-<p>The Strange Maps discussion was somewhat based on the <a href="http://strangemaps.wordpress.com/">Strange Maps Blog</a>. Â I think sessions where people just mention things they've seen revolving around a specific topic are always fun. Â I read Strange Maps but not every post and there were also some maps mentioned that were not in there. Â It was the session that people didn't want to end.</p>
+<p>The Strange Maps discussion was somewhat based on the <a href="http://strangemaps.wordpress.com/">Strange Maps Blog</a>.  I think sessions where people just mention things they've seen revolving around a specific topic are always fun.  I read Strange Maps but not every post and there were also some maps mentioned that were not in there.  It was the session that people didn't want to end.</p>
 
-<p>In addition to the sessions there was also a keynote and an unpanel. Â James Fee gave the keynote and discussed "<a href="http://www.slideshare.net/cageyjames/wherecamppdx-keynote">Data Interoperability in the GeoWeb</a>." Â He's always a geocrowd-pleaser and it was a good talk. Â What I took away from it was easy to access data for the Cybernun and Spatialite for the professionals. Â The unpanel was something I haven't experienced before, just a general discussion with a panel regarding various topics in geo. Â There were representatives from GIS, art, government and neocartography to stereotype a few. Â I took a short <a href="http://qik.com/video/3089412">Qik Video of the Unpanel</a>, which is a good glimpse of what it was about.</p>
+<p>In addition to the sessions there was also a keynote and an unpanel.  James Fee gave the keynote and discussed "<a href="http://www.slideshare.net/cageyjames/wherecamppdx-keynote">Data Interoperability in the GeoWeb</a>."  He's always a geocrowd-pleaser and it was a good talk.  What I took away from it was easy to access data for the Cybernun and Spatialite for the professionals.  The unpanel was something I haven't experienced before, just a general discussion with a panel regarding various topics in geo.  There were representatives from GIS, art, government and neocartography to stereotype a few.  I took a short <a href="http://qik.com/video/3089412">Qik Video of the Unpanel</a>, which is a good glimpse of what it was about.</p>
 
 <p>Today there are locative games which I'm excited about, being a new realm for me to play in the style of meet somewhere and play a locative game.</p>
 ]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Ruby DCamp Day Two]]></title>
-    <link href="http://maploser.com/blog/2009/09/20/ruby-dcamp-day-2/"/>
-    <updated>2009-09-20T16:59:46+08:00</updated>
-    <id>http://maploser.com/blog/2009/09/20/ruby-dcamp-day-2</id>
-    <content type="html"><![CDATA[<p>In the past I've had a history of only posting about the first day of a barcamp.Â  This is my attempt to buck that trend.</p>
+ </entry>
+ 
+ <entry>
+ <title type="html"><![CDATA[Ruby DCamp Day Two]]></title>
+ <link href="http://maploser.com/blog/2009/09/20/ruby-dcamp-day-2/"/>
+ <updated>2009-09-20T16:59:46+08:00</updated>
+ <id>http://maploser.com/blog/2009/09/20/ruby-dcamp-day-2</id>
+ <content type="html"><![CDATA[<p>In the past I've had a history of only posting about the first day of a barcamp.  This is my attempt to buck that trend.</p>
 
-<p>The second day of <a href="http://www.rubydcamp.org/">Ruby DCamp</a> was just as awesome as the first.Â  For visual proof of how great it was there is the <a href="http://www.flickr.com/search/?q=rubydcamp">rubydcamp tag on flickr</a>. There is something special about making an unconference truly self sustained, it takes the "hallway conversation" to the next level and it becomes the "stabbing meat with sticks to feed 30 people conversation."Â  That is what happens when you help make kabobs for lunch the second day.Â  I'm sure there were also great "drag the grill between the pavillion and the camp site conversations" and "carry enough firewood for the evening conversation."Â  These aren't normally geek conversation environments and I think it adds a great new dimension to the unconference.Â  Or in this case "Ruby Woodstock" as <a href="http://evan.tiggerpalace.com/">Evan Light</a> refered to it at some point.Â  I hope to see more barcamp's follow this trend.Â  Thanks to Evan and everyone who made Ruby DCamp a great experience.</p>
+<p>The second day of <a href="http://www.rubydcamp.org/">Ruby DCamp</a> was just as awesome as the first.  For visual proof of how great it was there is the <a href="http://www.flickr.com/search/?q=rubydcamp">rubydcamp tag on flickr</a>. There is something special about making an unconference truly self sustained, it takes the "hallway conversation" to the next level and it becomes the "stabbing meat with sticks to feed 30 people conversation."  That is what happens when you help make kabobs for lunch the second day.  I'm sure there were also great "drag the grill between the pavillion and the camp site conversations" and "carry enough firewood for the evening conversation."  These aren't normally geek conversation environments and I think it adds a great new dimension to the unconference.  Or in this case "Ruby Woodstock" as <a href="http://evan.tiggerpalace.com/">Evan Light</a> refered to it at some point.  I hope to see more barcamp's follow this trend.  Thanks to Evan and everyone who made Ruby DCamp a great experience.</p>
 
 <p>I'm still digesting the technical knowledge I've learned, but I'll share that at some point in my own geo-way here.</p>
 ]]></content>
-  </entry>
-  
+ </entry>
+ 
 </feed>

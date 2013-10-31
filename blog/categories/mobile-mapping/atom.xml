@@ -1,29 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Category: mobile mapping | Kate Chapman - Maploser]]></title>
-  <link href="http://maploser.com/blog/categories/mobile-mapping/atom.xml" rel="self"/>
-  <link href="http://maploser.com/"/>
-  <updated>2012-11-30T16:49:41+08:00</updated>
-  <id>http://maploser.com/</id>
-  <author>
-    <name><![CDATA[Kate Chapman]]></name>
-    
-  </author>
-  <generator uri="http://octopress.org/">Octopress</generator>
+ <title><![CDATA[Category: mobile mapping | Kate Chapman - Maploser]]></title>
+ <link href="http://maploser.com/blog/categories/mobile-mapping/atom.xml" rel="self"/>
+ <link href="http://maploser.com/"/>
+ <updated>2012-11-30T16:49:41+08:00</updated>
+ <id>http://maploser.com/</id>
+ <author>
+ <name><![CDATA[Kate Chapman]]></name>
+ 
+ </author>
+ <generator uri="http://octopress.org/">Octopress</generator>
 
-  
-  <entry>
-    <title type="html"><![CDATA[Action Script on the iPhone Good News for GeoNerds?]]></title>
-    <link href="http://maploser.com/blog/2009/10/07/action-script-on-the-iphone-good-news-for-geonerds/"/>
-    <updated>2009-10-07T04:23:14+08:00</updated>
-    <id>http://maploser.com/blog/2009/10/07/action-script-on-the-iphone-good-news-for-geonerds</id>
-    <content type="html"><![CDATA[<p>I'm somewhat interested to see what comes out of <a href="http://labs.adobe.com/technologies/flashcs5/appsfor_iphone/">Adobe's announcement</a> this week of the ability to build iPhone applications with ActionScript. Â This isn't actual Flash support on the iPhone but somewhat intriguing anyway. Â There are many businesses that utilize Flash for the mapping portion of their site such as <a href="http://www.umapper.com/">UMapper</a> and my employer's site <a href="http://www.geocommons.com">GeoCommons</a>, Google Maps even has a <a href="http://code.google.com/apis/maps/documentation/flash/">Flash API</a>. Â My favorite project that utilizes Flash isÂ <a href="http://www.cartogrammar.com/flash/piano/Piano.html">Ohio is a Piano</a>.</p>
+ 
+ <entry>
+ <title type="html"><![CDATA[Action Script on the iPhone Good News for GeoNerds?]]></title>
+ <link href="http://maploser.com/blog/2009/10/07/action-script-on-the-iphone-good-news-for-geonerds/"/>
+ <updated>2009-10-07T04:23:14+08:00</updated>
+ <id>http://maploser.com/blog/2009/10/07/action-script-on-the-iphone-good-news-for-geonerds</id>
+ <content type="html"><![CDATA[<p>I'm somewhat interested to see what comes out of <a href="http://labs.adobe.com/technologies/flashcs5/appsfor_iphone/">Adobe's announcement</a> this week of the ability to build iPhone applications with ActionScript.  This isn't actual Flash support on the iPhone but somewhat intriguing anyway.  There are many businesses that utilize Flash for the mapping portion of their site such as <a href="http://www.umapper.com/">UMapper</a> and my employer's site <a href="http://www.geocommons.com">GeoCommons</a>, Google Maps even has a <a href="http://code.google.com/apis/maps/documentation/flash/">Flash API</a>.  My favorite project that utilizes Flash is <a href="http://www.cartogrammar.com/flash/piano/Piano.html">Ohio is a Piano</a>.</p>
 
-<p>By allowing developers to write applications in ActionScript will allow those already mapping in Flash today to build iPhone Apps more quickly and easily. Â Potentially those developers may have already existing components they can now utilize in their iPhone applications as well.</p>
+<p>By allowing developers to write applications in ActionScript will allow those already mapping in Flash today to build iPhone Apps more quickly and easily.  Potentially those developers may have already existing components they can now utilize in their iPhone applications as well.</p>
 
 <p>I will be interested to see how well compiling ActionScript down to native iPhone code works, but I believe we will see increased compelling iPhone mapping applications to come with this new option.</p>
 ]]></content>
-  </entry>
-  
+ </entry>
+ 
 </feed>

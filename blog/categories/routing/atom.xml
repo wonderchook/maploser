@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Category: routing | Kate Chapman - Maploser]]></title>
-  <link href="http://maploser.com/blog/categories/routing/atom.xml" rel="self"/>
-  <link href="http://maploser.com/"/>
-  <updated>2012-11-30T16:49:41+08:00</updated>
-  <id>http://maploser.com/</id>
-  <author>
-    <name><![CDATA[Kate Chapman]]></name>
-    
-  </author>
-  <generator uri="http://octopress.org/">Octopress</generator>
+ <title><![CDATA[Category: routing | Kate Chapman - Maploser]]></title>
+ <link href="http://maploser.com/blog/categories/routing/atom.xml" rel="self"/>
+ <link href="http://maploser.com/"/>
+ <updated>2012-11-30T16:49:41+08:00</updated>
+ <id>http://maploser.com/</id>
+ <author>
+ <name><![CDATA[Kate Chapman]]></name>
+ 
+ </author>
+ <generator uri="http://octopress.org/">Octopress</generator>
 
-  
-  <entry>
-    <title type="html"><![CDATA[Update to my Google Maps Error Report]]></title>
-    <link href="http://maploser.com/blog/2009/10/11/update-to-my-google-maps-error-report/"/>
-    <updated>2009-10-11T05:17:14+08:00</updated>
-    <id>http://maploser.com/blog/2009/10/11/update-to-my-google-maps-error-report</id>
-    <content type="html"><![CDATA[<p>I received notification from Google today that I was right. Â We'll see when the update actually occurs:</p>
+ 
+ <entry>
+ <title type="html"><![CDATA[Update to my Google Maps Error Report]]></title>
+ <link href="http://maploser.com/blog/2009/10/11/update-to-my-google-maps-error-report/"/>
+ <updated>2009-10-11T05:17:14+08:00</updated>
+ <id>http://maploser.com/blog/2009/10/11/update-to-my-google-maps-error-report</id>
+ <content type="html"><![CDATA[<p>I received notification from Google today that I was right.  We'll see when the update actually occurs:</p>
 
 <p>Hi Kate,
 Your Google Maps problem report has been reviewed, and you were right! We'll update the map within a month and email you when you can see the change.</p>
@@ -34,25 +34,25 @@ Problem ID: 0xbca26e97c9d22b08</em></p>
 Thanks for your help,
 The Google Maps team</p>
 ]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Routing with the new Google Maps Data]]></title>
-    <link href="http://maploser.com/blog/2009/10/08/routing-with-the-new-google-maps-data/"/>
-    <updated>2009-10-08T18:19:19+08:00</updated>
-    <id>http://maploser.com/blog/2009/10/08/routing-with-the-new-google-maps-data</id>
-    <content type="html"><![CDATA[<p>I spent some time look around Google Maps since they stopped using Teleatlas in the United States this week. Â Essentially I poked around looking for errors that are usually in the street vendor data. Â Mostly these are minor errors such as a single line segment misspelled. Â  The problems usually appear to have originated with the original <a href="http://www.census.gov/geo/www/tiger/">TIGER</a> street data and never been repaired.</p>
+ </entry>
+ 
+ <entry>
+ <title type="html"><![CDATA[Routing with the new Google Maps Data]]></title>
+ <link href="http://maploser.com/blog/2009/10/08/routing-with-the-new-google-maps-data/"/>
+ <updated>2009-10-08T18:19:19+08:00</updated>
+ <id>http://maploser.com/blog/2009/10/08/routing-with-the-new-google-maps-data</id>
+ <content type="html"><![CDATA[<p>I spent some time look around Google Maps since they stopped using Teleatlas in the United States this week.  Essentially I poked around looking for errors that are usually in the street vendor data.  Mostly these are minor errors such as a single line segment misspelled.   The problems usually appear to have originated with the original <a href="http://www.census.gov/geo/www/tiger/">TIGER</a> street data and never been repaired.</p>
 
-<p>For the areas I'm familiar with the data looks good. Â There has been lots of conjecture as to where all the data was sourced. Â I suspect at least in L<a href="http://www.loudoun.gov/">oudoun County</a> where I live the source is the local government, that is unless the occasional segment errors were fixed by Google. Â The one error I did find was an edge case within the routing.</p>
+<p>For the areas I'm familiar with the data looks good.  There has been lots of conjecture as to where all the data was sourced.  I suspect at least in L<a href="http://www.loudoun.gov/">oudoun County</a> where I live the source is the local government, that is unless the occasional segment errors were fixed by Google.  The one error I did find was an edge case within the routing.</p>
 
-<p><a href="http://en.wikipedia.org/wiki/White's_Ferry">White's Ferry</a> is a small ferry line just north of Leesburg, Virginia. Â White's Ferry is supposed to be the late cable operated ferry on the East Coast, for a little historic background and to see it in action <a href="http://www.lonelyplanet.tv/Clip.aspx?key=88A4A0F712356205">Lonely Planet </a>has a good video clip. Â It is the fastest way across the Potomac to rural Maryland on the otherside. Â When I lived in Leesburg I occasionally used it when traveling to suburban Maryland such as Rockville because it took the same amount of time and didn't require any driving on the Beltway. Â I'm fairly sure that previously if you routed it would take you across White's Ferry. Â I ran the route through a couple routing websites to compare results.</p>
+<p><a href="http://en.wikipedia.org/wiki/White's_Ferry">White's Ferry</a> is a small ferry line just north of Leesburg, Virginia.  White's Ferry is supposed to be the late cable operated ferry on the East Coast, for a little historic background and to see it in action <a href="http://www.lonelyplanet.tv/Clip.aspx?key=88A4A0F712356205">Lonely Planet </a>has a good video clip.  It is the fastest way across the Potomac to rural Maryland on the otherside.  When I lived in Leesburg I occasionally used it when traveling to suburban Maryland such as Rockville because it took the same amount of time and didn't require any driving on the Beltway.  I'm fairly sure that previously if you routed it would take you across White's Ferry.  I ran the route through a couple routing websites to compare results.</p>
 
-<p><a href="http://maps.google.com/maps?daddr=Leesburg,+VA&amp;geocode=Cf60Ojnhi4TLFY7bVAIdL3lg-w&amp;dirflg=&amp;saddr=Martinsburg,+mD&amp;f=d&amp;sll=39.138449,-77.533092&amp;sspn=0.073229,0.143509&amp;ie=UTF8&amp;z=11">On Google</a> it takes you up and around across a more northern bridge which is a much slower route in this situation. Â <a href="http://www.bing.com/maps/default.aspx?v=2&amp;FORM=LMLTCP&amp;cp=39.140241~-77.521509&amp;style=r&amp;lvl=13&amp;tilt=-90&amp;dir=0&amp;alt=-1000&amp;phx=0&amp;phy=0&amp;phscl=1&amp;rtp=pos.39.1156700536566_-77.5653001063996_Leesburg%2C%20VA__~pos.39.1646404240942_-77.4777188717115_Martinsburg%2C%20MD__&amp;rtop=0~0~0&amp;encType=1">Bing Maps</a> routes through the ferry, as does <a href="http://www.mapquest.com/mq/9-zOU3Tf0sSbXnO_D2">MapQuest</a>. Â <a href="http://maps.yahoo.com/#mvt=m&amp;lat=39.195525&amp;lon=-77.494765&amp;zoom=12&amp;q1=Leesburg%2C%20VA&amp;q2=Martinsburg%2C%20MD">Yahoo</a> goes up and around across the bridge the same way Google does. Â Potentially Yahoo could be a routing engine problem because their tiles say they are sourcing <a href="http://www.navteq.com/">NAVTEQ</a> data and on NAVTEQ's site you can successfully route from Leesburg to Martinsburg across the ferry (note: Â I could not figure out an easy way to link directly to the NAVTEQ route here).</p>
+<p><a href="http://maps.google.com/maps?daddr=Leesburg,+VA&amp;geocode=Cf60Ojnhi4TLFY7bVAIdL3lg-w&amp;dirflg=&amp;saddr=Martinsburg,+mD&amp;f=d&amp;sll=39.138449,-77.533092&amp;sspn=0.073229,0.143509&amp;ie=UTF8&amp;z=11">On Google</a> it takes you up and around across a more northern bridge which is a much slower route in this situation.  <a href="http://www.bing.com/maps/default.aspx?v=2&amp;FORM=LMLTCP&amp;cp=39.140241~-77.521509&amp;style=r&amp;lvl=13&amp;tilt=-90&amp;dir=0&amp;alt=-1000&amp;phx=0&amp;phy=0&amp;phscl=1&amp;rtp=pos.39.1156700536566_-77.5653001063996_Leesburg%2C%20VA__~pos.39.1646404240942_-77.4777188717115_Martinsburg%2C%20MD__&amp;rtop=0~0~0&amp;encType=1">Bing Maps</a> routes through the ferry, as does <a href="http://www.mapquest.com/mq/9-zOU3Tf0sSbXnO_D2">MapQuest</a>.  <a href="http://maps.yahoo.com/#mvt=m&amp;lat=39.195525&amp;lon=-77.494765&amp;zoom=12&amp;q1=Leesburg%2C%20VA&amp;q2=Martinsburg%2C%20MD">Yahoo</a> goes up and around across the bridge the same way Google does.  Potentially Yahoo could be a routing engine problem because their tiles say they are sourcing <a href="http://www.navteq.com/">NAVTEQ</a> data and on NAVTEQ's site you can successfully route from Leesburg to Martinsburg across the ferry (note:  I could not figure out an easy way to link directly to the NAVTEQ route here).</p>
 
-<p>I checked other ferry lines and it appears Google can do the multi-modal routing, but the ferry information is just missing for White's Ferry. Â As an experiment I have reported the missing ferry and requested notification when it is fixed. Â You can be sure that I'll report back here when I get a response.</p>
+<p>I checked other ferry lines and it appears Google can do the multi-modal routing, but the ferry information is just missing for White's Ferry.  As an experiment I have reported the missing ferry and requested notification when it is fixed.  You can be sure that I'll report back here when I get a response.</p>
 
-<p>While performing this exercise I checked OpenStreetMap to make sure the ferry was already available on <a href="http://www.openstreetmap.org/?lat=39.15324&amp;lon=-77.51475&amp;zoom=15&amp;layers=B000FTF">the map there</a>. Â Routing doesn't work so well in the routing service I used it took an even longer route to go been <a href="http://yournavigation.org/?flat=39.115667&amp;flon=-77.564144&amp;tlat=39.160803&amp;tlon=-77.513161&amp;v=motorcar&amp;fast=1&amp;layer=mapnik">Leesburg and Martinsburg</a>. At least with YourNavigation.org you can export the route data to GPX and use it in whatever device you like. Â If I'm going to use my local knowledge to repair map data I want it back to use however I like. Â You can report bugs in the Google map data, but you can't export it to GPX like you can with the OpenStreetMap data.</p>
+<p>While performing this exercise I checked OpenStreetMap to make sure the ferry was already available on <a href="http://www.openstreetmap.org/?lat=39.15324&amp;lon=-77.51475&amp;zoom=15&amp;layers=B000FTF">the map there</a>.  Routing doesn't work so well in the routing service I used it took an even longer route to go been <a href="http://yournavigation.org/?flat=39.115667&amp;flon=-77.564144&amp;tlat=39.160803&amp;tlon=-77.513161&amp;v=motorcar&amp;fast=1&amp;layer=mapnik">Leesburg and Martinsburg</a>. At least with YourNavigation.org you can export the route data to GPX and use it in whatever device you like.  If I'm going to use my local knowledge to repair map data I want it back to use however I like.  You can report bugs in the Google map data, but you can't export it to GPX like you can with the OpenStreetMap data.</p>
 ]]></content>
-  </entry>
-  
+ </entry>
+ 
 </feed>
